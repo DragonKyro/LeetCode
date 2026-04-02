@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(conda activate:*)",
+      "Bash(pip list:*)",
+      "Bash(python scrape_leetcode.py)",
+      "Bash(python -c \"import json; d=json.load\\(open\\('scrape_checkpoint.json','r',encoding='utf-8'\\)\\); print\\(f'Checkpoint: {d[\\\\\"last_index\\\\\"]+1} problems processed, {len\\(d[\\\\\"problems\\\\\"]\\)} saved'\\)\")",
+      "Bash(python -c \"import json; d=json.load\\(open\\('scrape_checkpoint.json','r',encoding='utf-8'\\)\\); print\\(f'Progress: {d[\\\\\"last_index\\\\\"]+1}/3888 \\({\\(d[\\\\\"last_index\\\\\"]+1\\)*100//3888}%\\)'\\)\")",
+      "Bash(python -c ':*)"
+    ]
+  }
+}
