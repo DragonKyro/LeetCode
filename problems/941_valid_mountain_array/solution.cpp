@@ -1,0 +1,25 @@
+#include <vector>
+#include <string>
+#include <unordered_map>
+#include <unordered_set>
+#include <algorithm>
+#include <climits>
+#include <queue>
+#include <stack>
+#include <cmath>
+#include <numeric>
+#include <set>
+#include <map>
+using namespace std;
+
+class Solution {
+public:
+    bool validMountainArray(vector<int>& arr) {
+        int n = arr.size(), i = 0;
+        if (n < 3) return false;
+        while (i < n - 1 && arr[i] < arr[i + 1]) i++;
+        if (i == 0 || i == n - 1) return false;
+        while (i < n - 1 && arr[i] > arr[i + 1]) i++;
+        return i == n - 1;
+    }
+};

@@ -1,0 +1,23 @@
+#include <vector>
+#include <string>
+#include <unordered_map>
+#include <unordered_set>
+#include <algorithm>
+#include <climits>
+#include <queue>
+#include <stack>
+#include <cmath>
+#include <numeric>
+#include <set>
+#include <map>
+using namespace std;
+
+class Solution {
+public:
+    string complexNumberMultiply(string num1, string num2) {
+        int a, b, c, d;
+        sscanf(num1.c_str(), "%d+%di", &a, &b);
+        sscanf(num2.c_str(), "%d+%di", &c, &d);
+        return to_string(a*c - b*d) + "+" + to_string(a*d + b*c) + "i";
+    }
+};

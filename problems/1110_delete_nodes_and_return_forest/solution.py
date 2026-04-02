@@ -1,0 +1,18 @@
+from shared.python.data_structures import TreeNode
+
+
+class Solution:
+    def delNodes(self, root: TreeNode, to_delete: list[int]) -> list[TreeNode]:
+        to_delete_set = set(to_delete)
+        result = []
+        def dfs(node: TreeNode, is_root: bool) -> TreeNode:
+            if not node:
+                return None
+            deleted = node.val in to_delete_set
+            if is_root and not deleted:
+                result.append(node)
+            node.left = dfs(node.left, deleted)
+            node.right = dfs(node.right, deleted)
+            return None if deleted else node
+        dfs(root, True)
+        return result

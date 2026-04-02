@@ -7,7 +7,18 @@
       "Bash(python -c \"import json; d=json.load\\(open\\('scrape_checkpoint.json','r',encoding='utf-8'\\)\\); print\\(f'Checkpoint: {d[\\\\\"last_index\\\\\"]+1} problems processed, {len\\(d[\\\\\"problems\\\\\"]\\)} saved'\\)\")",
       "Bash(python -c \"import json; d=json.load\\(open\\('scrape_checkpoint.json','r',encoding='utf-8'\\)\\); print\\(f'Progress: {d[\\\\\"last_index\\\\\"]+1}/3888 \\({\\(d[\\\\\"last_index\\\\\"]+1\\)*100//3888}%\\)'\\)\")",
       "Bash(python -c ':*)",
-      "Bash(python generate_tests.py)"
+      "Bash(python generate_tests.py)",
+      "Bash(python fetch_snippets.py)",
+      "Bash(ls -la solutions_data/batch_1801*)",
+      "Bash(ls -la solutions_data/batch_901*)",
+      "Bash(ls -la solutions_data/batch_22* solutions_data/batch_14* solutions_data/batch_16* solutions_data/batch_12* solutions_data/batch_20* solutions_data/batch_25* solutions_data/batch_28* solutions_data/batch_31* solutions_data/batch_40*)",
+      "Bash(python write_solutions.py)",
+      "Bash(python test_runner/run_tests.py problems/1_two_sum --lang python -v)",
+      "Bash(python test_runner/run_tests.py problems/3_longest_substring_without_repeating_characters --lang python -v)",
+      "Bash(python test_runner/run_tests.py problems/53_maximum_subarray --lang python -v)",
+      "Bash(python test_runner/run_tests.py problems/70_climbing_stairs --lang python -v)",
+      "Bash(python test_runner/run_tests.py problems/121_best_time_to_buy_and_sell_stock --lang python -v)",
+      "Bash(python test_runner/run_tests.py all --lang python --fail-only)"
     ]
   }
 }

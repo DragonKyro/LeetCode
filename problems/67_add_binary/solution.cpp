@@ -1,0 +1,30 @@
+#include <vector>
+#include <string>
+#include <unordered_map>
+#include <unordered_set>
+#include <algorithm>
+#include <climits>
+#include <queue>
+#include <stack>
+#include <cmath>
+#include <numeric>
+#include <set>
+#include <map>
+using namespace std;
+
+class Solution {
+public:
+    string addBinary(string a, string b) {
+        string result;
+        int i = a.size() - 1, j = b.size() - 1, carry = 0;
+        while (i >= 0 || j >= 0 || carry) {
+            int sum = carry;
+            if (i >= 0) sum += a[i--] - '0';
+            if (j >= 0) sum += b[j--] - '0';
+            result += to_string(sum % 2);
+            carry = sum / 2;
+        }
+        reverse(result.begin(), result.end());
+        return result;
+    }
+};

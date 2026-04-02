@@ -24,3 +24,6 @@ Desktop.ini
 
 # Project-specific
 scrape_checkpoint.json
+snippets_checkpoint.json
+solutions_data/
+snippets.json
