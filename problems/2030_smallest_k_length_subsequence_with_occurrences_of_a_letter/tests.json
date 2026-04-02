@@ -1,0 +1,88 @@
+{
+  "problem_id": 2030,
+  "title": "Smallest K-Length Subsequence With Occurrences of a Letter",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/smallest-k-length-subsequence-with-occurrences-of-a-letter/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "leet",
+        "k": 3,
+        "letter": "e",
+        "repetition": 1
+      },
+      "expected": "eet",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "leetcode",
+        "k": 4,
+        "letter": "e",
+        "repetition": 2
+      },
+      "expected": "ecde",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "bb",
+        "k": 2,
+        "letter": "b",
+        "repetition": 2
+      },
+      "expected": "bb",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "l",
+        "k": 3,
+        "letter": "e",
+        "repetition": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "llll",
+        "k": 3,
+        "letter": "e",
+        "repetition": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "lmlm",
+        "k": 3,
+        "letter": "e",
+        "repetition": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "leel",
+        "k": 3,
+        "letter": "e",
+        "repetition": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "leet",
+        "k": 3,
+        "letter": "efef",
+        "repetition": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "problem_id": 3143,
+  "title": "Maximum Points Inside the Square",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-points-inside-the-square/",
+  "test_cases": [
+    {
+      "input": {
+        "points": [
+          [
+            2,
+            2
+          ],
+          [
+            -1,
+            -2
+          ],
+          [
+            -4,
+            4
+          ],
+          [
+            -3,
+            1
+          ],
+          [
+            3,
+            -3
+          ]
+        ],
+        "s": "abdca"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "points": [
+          [
+            1,
+            1
+          ],
+          [
+            -2,
+            -2
+          ],
+          [
+            -2,
+            2
+          ]
+        ],
+        "s": "abb"
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "points": [
+          [
+            1,
+            1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            2,
+            -2
+          ]
+        ],
+        "s": "ccd"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "points": [
+          [
+            2,
+            2
+          ],
+          [
+            -1,
+            -2
+          ],
+          [
+            -4,
+            4
+          ],
+          [
+            -3,
+            1
+          ],
+          [
+            3,
+            -3
+          ]
+        ],
+        "s": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "points": [
+          [
+            2,
+            2
+          ],
+          [
+            -1,
+            -2
+          ],
+          [
+            -4,
+            4
+          ],
+          [
+            -3,
+            1
+          ],
+          [
+            3,
+            -3
+          ]
+        ],
+        "s": "aaaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "points": [
+          [
+            2,
+            2
+          ],
+          [
+            -1,
+            -2
+          ],
+          [
+            -4,
+            4
+          ],
+          [
+            -3,
+            1
+          ],
+          [
+            3,
+            -3
+          ]
+        ],
+        "s": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "points": [
+          [
+            2,
+            2
+          ],
+          [
+            -1,
+            -2
+          ],
+          [
+            -4,
+            4
+          ],
+          [
+            -3,
+            1
+          ],
+          [
+            3,
+            -3
+          ]
+        ],
+        "s": "abba"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

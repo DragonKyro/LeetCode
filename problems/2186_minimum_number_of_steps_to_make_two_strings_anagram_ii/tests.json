@@ -1,0 +1,88 @@
+{
+  "problem_id": 2186,
+  "title": "Minimum Number of Steps to Make Two Strings Anagram II",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "leetcode",
+        "t": "coats"
+      },
+      "expected": 7,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "night",
+        "t": "thing"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "l",
+        "t": "coats"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "llllllll",
+        "t": "coats"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "lmlmlmlm",
+        "t": "coats"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "leetteel",
+        "t": "coats"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "leetcode",
+        "t": "c"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "leetcode",
+        "t": "ccccc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "leetcode",
+        "t": "cdcd"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "leetcode",
+        "t": "cooc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

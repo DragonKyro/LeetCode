@@ -1,0 +1,36 @@
+{
+  "problem_id": 3871,
+  "title": "Count Commas in Range II",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-commas-in-range-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 1002
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 998
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 1000000000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

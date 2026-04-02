@@ -1,0 +1,284 @@
+{
+  "problem_id": 2421,
+  "title": "Number of Good Paths",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/number-of-good-paths/",
+  "test_cases": [
+    {
+      "input": {
+        "vals": [
+          1,
+          3,
+          2,
+          1,
+          3
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ]
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "vals": [
+          1,
+          1,
+          2,
+          2,
+          3
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ]
+      },
+      "expected": 7,
+      "source": "example"
+    },
+    {
+      "input": {
+        "vals": [
+          1
+        ],
+        "edges": []
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "vals": [
+          1
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "vals": [
+          0,
+          100000
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "vals": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "vals": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "vals": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "vals": [
+          0,
+          0
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "vals": [
+          100000,
+          100000
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "problem_id": 2178,
+  "title": "Maximum Split of Positive Even Integers",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-split-of-positive-even-integers/",
+  "test_cases": [
+    {
+      "input": {
+        "finalSum": 12
+      },
+      "expected": [
+        2,
+        4,
+        6
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "finalSum": 7
+      },
+      "expected": [],
+      "source": "example"
+    },
+    {
+      "input": {
+        "finalSum": 28
+      },
+      "expected": [
+        6,
+        8,
+        2,
+        12
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "finalSum": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "finalSum": 10000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

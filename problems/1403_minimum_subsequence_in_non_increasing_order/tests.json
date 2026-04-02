@@ -1,0 +1,99 @@
+{
+  "problem_id": 1403,
+  "title": "Minimum Subsequence in Non-Increasing Order",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          4,
+          3,
+          10,
+          9,
+          8
+        ]
+      },
+      "expected": [
+        10,
+        9
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          4,
+          7,
+          6,
+          7
+        ]
+      },
+      "expected": [
+        7,
+        7,
+        6
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

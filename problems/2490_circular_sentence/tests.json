@@ -1,0 +1,57 @@
+{
+  "problem_id": 2490,
+  "title": "Circular Sentence",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/circular-sentence/",
+  "test_cases": [
+    {
+      "input": {
+        "sentence": "leetcode exercises sound delightful"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "sentence": "eetcode"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "sentence": "Leetcode is cool"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "sentence": "l"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "sentence": "lllllllllllllllllllllllllllllllllll"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "sentence": "lmlmlmlmlmlmlmlmlmlmlmlmlmlmlmlmlm"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "sentence": "leetcode exerciseesicrexe edocteel"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

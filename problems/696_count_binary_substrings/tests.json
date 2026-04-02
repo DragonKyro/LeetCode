@@ -1,0 +1,50 @@
+{
+  "problem_id": 696,
+  "title": "Count Binary Substrings",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/count-binary-substrings/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "00110011"
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "10101"
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "0"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "00000000"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "01010101"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "00111100"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "problem_id": 1450,
+  "title": "Number of Students Doing Homework at a Given Time",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/",
+  "test_cases": [
+    {
+      "input": {
+        "startTime": [
+          1,
+          2,
+          3
+        ],
+        "endTime": [
+          3,
+          2,
+          7
+        ],
+        "queryTime": 4
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "startTime": [
+          4
+        ],
+        "endTime": [
+          4
+        ],
+        "queryTime": 4
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "startTime": [
+          1
+        ],
+        "endTime": [
+          3,
+          2,
+          7
+        ],
+        "queryTime": 4
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startTime": [
+          -100,
+          100
+        ],
+        "endTime": [
+          3,
+          2,
+          7
+        ],
+        "queryTime": 4
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startTime": [
+          1,
+          1,
+          1
+        ],
+        "endTime": [
+          3,
+          2,
+          7
+        ],
+        "queryTime": 4
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startTime": [
+          3,
+          2,
+          1
+        ],
+        "endTime": [
+          3,
+          2,
+          7
+        ],
+        "queryTime": 4
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startTime": [
+          -100,
+          -100
+        ],
+        "endTime": [
+          3,
+          2,
+          7
+        ],
+        "queryTime": 4
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startTime": [
+          100,
+          100
+        ],
+        "endTime": [
+          3,
+          2,
+          7
+        ],
+        "queryTime": 4
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startTime": [
+          1,
+          2,
+          3
+        ],
+        "endTime": [
+          3
+        ],
+        "queryTime": 4
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startTime": [
+          1,
+          2,
+          3
+        ],
+        "endTime": [
+          -100,
+          100
+        ],
+        "queryTime": 4
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startTime": [
+          1,
+          2,
+          3
+        ],
+        "endTime": [
+          3,
+          3,
+          3
+        ],
+        "queryTime": 4
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startTime": [
+          1,
+          2,
+          3
+        ],
+        "endTime": [
+          1,
+          2,
+          3
+        ],
+        "queryTime": 4
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startTime": [
+          1,
+          2,
+          3
+        ],
+        "endTime": [
+          3,
+          2,
+          1
+        ],
+        "queryTime": 4
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startTime": [
+          1,
+          2,
+          3
+        ],
+        "endTime": [
+          -100,
+          -100
+        ],
+        "queryTime": 4
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startTime": [
+          1,
+          2,
+          3
+        ],
+        "endTime": [
+          100,
+          100
+        ],
+        "queryTime": 4
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startTime": [
+          1,
+          2,
+          3
+        ],
+        "endTime": [
+          3,
+          2,
+          7
+        ],
+        "queryTime": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

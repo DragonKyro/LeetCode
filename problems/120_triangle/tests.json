@@ -1,0 +1,45 @@
+{
+  "problem_id": 120,
+  "title": "Triangle",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/triangle/",
+  "test_cases": [
+    {
+      "input": {
+        "triangle": [
+          [
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            5,
+            7
+          ],
+          [
+            4,
+            1,
+            8,
+            3
+          ]
+        ]
+      },
+      "expected": 11,
+      "source": "example"
+    },
+    {
+      "input": {
+        "triangle": [
+          [
+            -10
+          ]
+        ]
+      },
+      "expected": -10,
+      "source": "example"
+    }
+  ]
+}

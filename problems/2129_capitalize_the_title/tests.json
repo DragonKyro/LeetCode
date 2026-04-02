@@ -1,0 +1,57 @@
+{
+  "problem_id": 2129,
+  "title": "Capitalize the Title",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/capitalize-the-title/",
+  "test_cases": [
+    {
+      "input": {
+        "title": "capiTalIze tHe titLe"
+      },
+      "expected": "Capitalize The Title",
+      "source": "example"
+    },
+    {
+      "input": {
+        "title": "First leTTeR of EACH Word"
+      },
+      "expected": "First Letter of Each Word",
+      "source": "example"
+    },
+    {
+      "input": {
+        "title": "i lOve leetcode"
+      },
+      "expected": "i Love Leetcode",
+      "source": "example"
+    },
+    {
+      "input": {
+        "title": "c"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "title": "cccccccccccccccccccc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "title": "cdcdcdcdcdcdcdcdcdcd"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "title": "capiTalIzeezIlaTipac"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

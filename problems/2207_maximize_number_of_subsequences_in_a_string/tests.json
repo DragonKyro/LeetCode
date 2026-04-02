@@ -1,0 +1,80 @@
+{
+  "problem_id": 2207,
+  "title": "Maximize Number of Subsequences in a String",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximize-number-of-subsequences-in-a-string/",
+  "test_cases": [
+    {
+      "input": {
+        "text": "abdcdbc",
+        "pattern": "ac"
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "text": "aabb",
+        "pattern": "ab"
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "text": "a",
+        "pattern": "ac"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "text": "aaaaaaa",
+        "pattern": "ac"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "text": "ababab",
+        "pattern": "ac"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "text": "abddba",
+        "pattern": "ac"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "text": "abdcdbc",
+        "pattern": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "text": "abdcdbc",
+        "pattern": "aa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "text": "abdcdbc",
+        "pattern": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

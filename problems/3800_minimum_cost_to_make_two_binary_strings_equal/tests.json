@@ -1,0 +1,129 @@
+{
+  "problem_id": 3800,
+  "title": "Minimum Cost to Make Two Binary Strings Equal",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-cost-to-make-two-binary-strings-equal/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "01000",
+        "t": "10111",
+        "flipCost": 10,
+        "swapCost": 2,
+        "crossCost": 2
+      },
+      "expected": 16,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "001",
+        "t": "110",
+        "flipCost": 2,
+        "swapCost": 100,
+        "crossCost": 100
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "1010",
+        "t": "1010",
+        "flipCost": 5,
+        "swapCost": 5,
+        "crossCost": 5
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "0",
+        "t": "10111",
+        "flipCost": 10,
+        "swapCost": 2,
+        "crossCost": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "00000",
+        "t": "10111",
+        "flipCost": 10,
+        "swapCost": 2,
+        "crossCost": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "0101",
+        "t": "10111",
+        "flipCost": 10,
+        "swapCost": 2,
+        "crossCost": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "0110",
+        "t": "10111",
+        "flipCost": 10,
+        "swapCost": 2,
+        "crossCost": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "01000",
+        "t": "1",
+        "flipCost": 10,
+        "swapCost": 2,
+        "crossCost": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "01000",
+        "t": "11111",
+        "flipCost": 10,
+        "swapCost": 2,
+        "crossCost": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "01000",
+        "t": "1212",
+        "flipCost": 10,
+        "swapCost": 2,
+        "crossCost": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "01000",
+        "t": "1001",
+        "flipCost": 10,
+        "swapCost": 2,
+        "crossCost": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "problem_id": 3217,
+  "title": "Delete Nodes From Linked List Present in Array",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3
+        ],
+        "head": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "expected": [
+        4,
+        5
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          1
+        ],
+        "head": [
+          1,
+          2,
+          1,
+          2,
+          1,
+          2
+        ]
+      },
+      "expected": [
+        2,
+        2,
+        2
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          5
+        ],
+        "head": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "expected": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          1
+        ],
+        "head": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          100000
+        ],
+        "head": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1,
+          1
+        ],
+        "head": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          3,
+          2,
+          1
+        ],
+        "head": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1
+        ],
+        "head": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          100000,
+          100000
+        ],
+        "head": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3
+        ],
+        "head": [
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3
+        ],
+        "head": [
+          1,
+          100000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3
+        ],
+        "head": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3
+        ],
+        "head": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3
+        ],
+        "head": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3
+        ],
+        "head": [
+          100000,
+          100000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

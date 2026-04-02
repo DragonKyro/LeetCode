@@ -1,0 +1,32 @@
+{
+  "problem_id": 991,
+  "title": "Broken Calculator",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/broken-calculator/",
+  "test_cases": [
+    {
+      "input": {
+        "startValue": 2,
+        "target": 3
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "startValue": 5,
+        "target": 8
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "startValue": 3,
+        "target": 10
+      },
+      "expected": 3,
+      "source": "example"
+    }
+  ]
+}

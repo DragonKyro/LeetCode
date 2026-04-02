@@ -1,0 +1,36 @@
+{
+  "problem_id": 2507,
+  "title": "Smallest Value After Replacing With Sum of Prime Factors",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/smallest-value-after-replacing-with-sum-of-prime-factors/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 15
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 3
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 100000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

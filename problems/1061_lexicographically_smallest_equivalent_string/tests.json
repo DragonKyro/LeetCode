@@ -1,0 +1,143 @@
+{
+  "problem_id": 1061,
+  "title": "Lexicographically Smallest Equivalent String",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/lexicographically-smallest-equivalent-string/",
+  "test_cases": [
+    {
+      "input": {
+        "s1": "parker",
+        "s2": "morris",
+        "baseStr": "parser"
+      },
+      "expected": "makkek",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s1": "hello",
+        "s2": "world",
+        "baseStr": "hold"
+      },
+      "expected": "hdld",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s1": "leetcode",
+        "s2": "programs",
+        "baseStr": "sourcecode"
+      },
+      "expected": "aauaaaaada",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s1": "p",
+        "s2": "morris",
+        "baseStr": "parser"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "pppppp",
+        "s2": "morris",
+        "baseStr": "parser"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "pqpqpq",
+        "s2": "morris",
+        "baseStr": "parser"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "parrap",
+        "s2": "morris",
+        "baseStr": "parser"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "parker",
+        "s2": "m",
+        "baseStr": "parser"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "parker",
+        "s2": "mmmmmm",
+        "baseStr": "parser"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "parker",
+        "s2": "mnmnmn",
+        "baseStr": "parser"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "parker",
+        "s2": "morrom",
+        "baseStr": "parser"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "parker",
+        "s2": "morris",
+        "baseStr": "p"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "parker",
+        "s2": "morris",
+        "baseStr": "pppppp"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "parker",
+        "s2": "morris",
+        "baseStr": "pqpqpq"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "parker",
+        "s2": "morris",
+        "baseStr": "parrap"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

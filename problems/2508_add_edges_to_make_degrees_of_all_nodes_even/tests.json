@@ -1,0 +1,145 @@
+{
+  "problem_id": 2508,
+  "title": "Add Edges to Make Degrees of All Nodes Even",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/add-edges-to-make-degrees-of-all-nodes-even/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 5,
+        "edges": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            5
+          ]
+        ]
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 4,
+        "edges": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 4,
+        "edges": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ]
+        ]
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 3,
+        "edges": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            5
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 100000,
+        "edges": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            5
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

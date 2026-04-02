@@ -1,0 +1,117 @@
+{
+  "problem_id": 1706,
+  "title": "Where Will the Ball Fall",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/where-will-the-ball-fall/",
+  "test_cases": [
+    {
+      "input": {
+        "grid": [
+          [
+            1,
+            1,
+            1,
+            -1,
+            -1
+          ],
+          [
+            1,
+            1,
+            1,
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1,
+            -1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            -1
+          ],
+          [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ]
+        ]
+      },
+      "expected": [
+        1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            -1
+          ]
+        ]
+      },
+      "expected": [
+        -1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ]
+        ]
+      },
+      "expected": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        -1
+      ],
+      "source": "example"
+    }
+  ]
+}

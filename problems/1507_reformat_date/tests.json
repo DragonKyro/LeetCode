@@ -1,0 +1,57 @@
+{
+  "problem_id": 1507,
+  "title": "Reformat Date",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/reformat-date/",
+  "test_cases": [
+    {
+      "input": {
+        "date": "20th Oct 2052"
+      },
+      "expected": "2052-10-20",
+      "source": "example"
+    },
+    {
+      "input": {
+        "date": "6th Jun 1933"
+      },
+      "expected": "1933-06-06",
+      "source": "example"
+    },
+    {
+      "input": {
+        "date": "26th May 1960"
+      },
+      "expected": "1960-05-26",
+      "source": "example"
+    },
+    {
+      "input": {
+        "date": "2"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "date": "2222222222222"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "date": "232323232323"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "date": "20th OO ht02"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

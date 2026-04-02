@@ -1,0 +1,146 @@
+{
+  "problem_id": 3850,
+  "title": "Count Sequences to K",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/count-sequences-to-k/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          2,
+          3,
+          2
+        ],
+        "k": 6
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          6,
+          3
+        ],
+        "k": 2
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          5
+        ],
+        "k": 1
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          2
+        ],
+        "k": 6
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          6
+        ],
+        "k": 6
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          2,
+          2
+        ],
+        "k": 6
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3
+        ],
+        "k": 6
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          3,
+          2,
+          1
+        ],
+        "k": 6
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1
+        ],
+        "k": 6
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          6,
+          6
+        ],
+        "k": 6
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          3,
+          2
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          3,
+          2
+        ],
+        "k": 1000000000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

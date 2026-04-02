@@ -1,0 +1,55 @@
+{
+  "problem_id": 187,
+  "title": "Repeated DNA Sequences",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/repeated-dna-sequences/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"
+      },
+      "expected": [
+        "AAAAACCCCC",
+        "CCCCCAAAAA"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "AAAAAAAAAAAAA"
+      },
+      "expected": [
+        "AAAAAAAAAA"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "A"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ABABABABABABABABABABABABABABABAB"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "AAAAACCCCCAAAAACCAAAAACCCCCAAAAA"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

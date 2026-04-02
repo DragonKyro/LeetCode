@@ -1,0 +1,96 @@
+{
+  "problem_id": 2060,
+  "title": "Check if an Original String Exists Given Two Encoded Strings",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/check-if-an-original-string-exists-given-two-encoded-strings/",
+  "test_cases": [
+    {
+      "input": {
+        "s1": "internationalization",
+        "s2": "i18n"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s1": "l123e",
+        "s2": "44"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s1": "a5b",
+        "s2": "c5b"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s1": "i",
+        "s2": "i18n"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "iiiiiiiiiiiiiiiiiiii",
+        "s2": "i18n"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "ijijijijijijijijijij",
+        "s2": "i18n"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "internatiooitanretni",
+        "s2": "i18n"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "internationalization",
+        "s2": "i"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "internationalization",
+        "s2": "iiii"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "internationalization",
+        "s2": "ijij"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "internationalization",
+        "s2": "i11i"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

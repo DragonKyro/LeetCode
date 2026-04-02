@@ -1,0 +1,57 @@
+{
+  "problem_id": 3746,
+  "title": "Minimum String Length After Balanced Removals",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-string-length-after-balanced-removals/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "aabbab"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "aaaa"
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "aaabb"
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ababab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aabbaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

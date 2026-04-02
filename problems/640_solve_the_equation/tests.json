@@ -1,0 +1,80 @@
+{
+  "problem_id": 640,
+  "title": "Solve the Equation",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/solve-the-equation/",
+  "test_cases": [
+    {
+      "input": {
+        "equation": "\"x+5-3+",
+        "x": "6+x-2\""
+      },
+      "expected": "x=2",
+      "source": "example"
+    },
+    {
+      "input": {
+        "equation": "",
+        "x": "x\""
+      },
+      "expected": "Infinite solutions",
+      "source": "example"
+    },
+    {
+      "input": {
+        "equation": "",
+        "2x": "x\""
+      },
+      "expected": "x=0",
+      "source": "example"
+    },
+    {
+      "input": {
+        "equation": "\"\"\"\"\"\"\"",
+        "x": "6+x-2\""
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "equation": "\"x++x\"",
+        "x": "6+x-2\""
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "equation": "\"x+5-3+",
+        "x": "6"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "equation": "\"x+5-3+",
+        "x": "666666"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "equation": "\"x+5-3+",
+        "x": "676767"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "equation": "\"x+5-3+",
+        "x": "6+xx+6"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

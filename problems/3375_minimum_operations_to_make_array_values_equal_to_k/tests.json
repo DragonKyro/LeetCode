@@ -1,0 +1,124 @@
+{
+  "problem_id": 3375,
+  "title": "Minimum Operations to Make Array Values Equal to K",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/minimum-operations-to-make-array-values-equal-to-k/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          5,
+          2,
+          5,
+          4,
+          5
+        ],
+        "k": 2
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          1,
+          2
+        ],
+        "k": 2
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          9,
+          7,
+          5,
+          3
+        ],
+        "k": 1
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          5
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          5,
+          2,
+          5,
+          4,
+          5
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

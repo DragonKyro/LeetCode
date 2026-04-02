@@ -1,0 +1,78 @@
+{
+  "problem_id": 2196,
+  "title": "Create Binary Tree From Descriptions",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/create-binary-tree-from-descriptions/",
+  "test_cases": [
+    {
+      "input": {
+        "descriptions": [
+          [
+            20,
+            15,
+            1
+          ],
+          [
+            20,
+            17,
+            0
+          ],
+          [
+            50,
+            20,
+            1
+          ],
+          [
+            50,
+            80,
+            0
+          ],
+          [
+            80,
+            19,
+            1
+          ]
+        ]
+      },
+      "expected": [
+        50,
+        20,
+        80,
+        15,
+        17,
+        19
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "descriptions": [
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            2,
+            3,
+            0
+          ],
+          [
+            3,
+            4,
+            1
+          ]
+        ]
+      },
+      "expected": [
+        1,
+        2,
+        null,
+        null,
+        3,
+        4
+      ],
+      "source": "example"
+    }
+  ]
+}

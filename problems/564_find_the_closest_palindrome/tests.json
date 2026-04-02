@@ -1,0 +1,43 @@
+{
+  "problem_id": 564,
+  "title": "Find the Closest Palindrome",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/find-the-closest-palindrome/",
+  "test_cases": [
+    {
+      "input": {
+        "n": "123"
+      },
+      "expected": "121",
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": "1"
+      },
+      "expected": "0",
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": "111"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": "1212"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": "11"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

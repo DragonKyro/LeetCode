@@ -1,0 +1,43 @@
+{
+  "problem_id": 808,
+  "title": "Soup Servings",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/soup-servings/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 50
+      },
+      "expected": 0.625,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 100
+      },
+      "expected": 0.71875,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 1000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

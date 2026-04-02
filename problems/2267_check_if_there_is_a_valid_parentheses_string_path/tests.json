@@ -1,0 +1,52 @@
+{
+  "problem_id": 2267,
+  "title": " Check if There Is a Valid Parentheses String Path",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/check-if-there-is-a-valid-parentheses-string-path/",
+  "test_cases": [
+    {
+      "input": {
+        "grid": [
+          [
+            "(",
+            "(",
+            "("
+          ],
+          [
+            ")",
+            "(",
+            ")"
+          ],
+          [
+            "(",
+            "(",
+            ")"
+          ],
+          [
+            "(",
+            "(",
+            ")"
+          ]
+        ]
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            ")",
+            ")"
+          ],
+          [
+            "(",
+            "("
+          ]
+        ]
+      },
+      "expected": false,
+      "source": "example"
+    }
+  ]
+}

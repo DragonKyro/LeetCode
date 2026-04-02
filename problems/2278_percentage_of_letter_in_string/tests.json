@@ -1,0 +1,64 @@
+{
+  "problem_id": 2278,
+  "title": "Percentage of Letter in String",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/percentage-of-letter-in-string/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "foobar",
+        "letter": "o"
+      },
+      "expected": 33,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "jjjj",
+        "letter": "k"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "f",
+        "letter": "o"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ffffff",
+        "letter": "o"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "fgfgfg",
+        "letter": "o"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "foooof",
+        "letter": "o"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "foobar",
+        "letter": "opop"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

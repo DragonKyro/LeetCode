@@ -1,0 +1,57 @@
+{
+  "problem_id": 1106,
+  "title": "Parsing A Boolean Expression",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/parsing-a-boolean-expression/",
+  "test_cases": [
+    {
+      "input": {
+        "expression": "&(|(f))"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "expression": "|(f,f,f,t)"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "expression": "!(&(f,t))"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "expression": "&"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "expression": "&&&&&&&"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "expression": "&'&'&'"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "expression": "&(||(&"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

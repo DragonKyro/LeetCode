@@ -1,0 +1,52 @@
+{
+  "problem_id": 3697,
+  "title": "Compute Decimal Representation",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/compute-decimal-representation/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 537
+      },
+      "expected": [
+        500,
+        30,
+        7
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 102
+      },
+      "expected": [
+        100,
+        2
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 6
+      },
+      "expected": [
+        6
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 1000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

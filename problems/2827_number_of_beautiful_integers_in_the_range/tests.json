@@ -1,0 +1,35 @@
+{
+  "problem_id": 2827,
+  "title": "Number of Beautiful Integers in the Range",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/number-of-beautiful-integers-in-the-range/",
+  "test_cases": [
+    {
+      "input": {
+        "low": 10,
+        "high": 20,
+        "k": 3
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "low": 1,
+        "high": 10,
+        "k": 1
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "low": 5,
+        "high": 5,
+        "k": 2
+      },
+      "expected": 0,
+      "source": "example"
+    }
+  ]
+}

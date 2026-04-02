@@ -1,0 +1,50 @@
+{
+  "problem_id": 2443,
+  "title": "Sum of Number and Its Reverse",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/sum-of-number-and-its-reverse/",
+  "test_cases": [
+    {
+      "input": {
+        "num": 443
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 63
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 181
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": 100000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

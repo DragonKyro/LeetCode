@@ -1,0 +1,81 @@
+{
+  "problem_id": 825,
+  "title": "Friends Of Appropriate Ages",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/friends-of-appropriate-ages/",
+  "test_cases": [
+    {
+      "input": {
+        "ages": [
+          16,
+          16
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "ages": [
+          16,
+          17,
+          18
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "ages": [
+          20,
+          30,
+          100,
+          110,
+          120
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "ages": [
+          16
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "ages": [
+          1,
+          120
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "ages": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "ages": [
+          120,
+          120
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

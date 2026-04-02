@@ -1,0 +1,64 @@
+{
+  "problem_id": 207,
+  "title": "Course Schedule",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/course-schedule/",
+  "test_cases": [
+    {
+      "input": {
+        "numCourses": 2,
+        "prerequisites": [
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "numCourses": 2,
+        "prerequisites": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "numCourses": 1,
+        "prerequisites": [
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "numCourses": 2000,
+        "prerequisites": [
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

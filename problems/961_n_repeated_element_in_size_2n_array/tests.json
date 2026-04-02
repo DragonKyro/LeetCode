@@ -1,0 +1,125 @@
+{
+  "problem_id": 961,
+  "title": "N-Repeated Element in Size 2N Array",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/n-repeated-element-in-size-2n-array/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          3
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          1,
+          2,
+          5,
+          3,
+          2
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          5,
+          1,
+          5,
+          2,
+          5,
+          3,
+          5,
+          4
+        ]
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          0,
+          10000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          0,
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          10000,
+          10000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

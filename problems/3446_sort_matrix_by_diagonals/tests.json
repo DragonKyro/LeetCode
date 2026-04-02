@@ -1,0 +1,87 @@
+{
+  "problem_id": 3446,
+  "title": "Sort Matrix by Diagonals",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/sort-matrix-by-diagonals/",
+  "test_cases": [
+    {
+      "input": {
+        "grid": [
+          [
+            1,
+            7,
+            3
+          ],
+          [
+            9,
+            8,
+            2
+          ],
+          [
+            4,
+            5,
+            6
+          ]
+        ]
+      },
+      "expected": [
+        [
+          8,
+          2,
+          3
+        ],
+        [
+          9,
+          6,
+          7
+        ],
+        [
+          4,
+          5,
+          1
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      },
+      "expected": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            1
+          ]
+        ]
+      },
+      "expected": [
+        [
+          1
+        ]
+      ],
+      "source": "example"
+    }
+  ]
+}

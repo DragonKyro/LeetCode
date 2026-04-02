@@ -1,0 +1,73 @@
+{
+  "problem_id": 3235,
+  "title": "Check if the Rectangle Corner Is Reachable",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/check-if-the-rectangle-corner-is-reachable/",
+  "test_cases": [
+    {
+      "input": {
+        "xCorner": 3,
+        "yCorner": 4,
+        "circles": [
+          [
+            2,
+            1,
+            1
+          ]
+        ]
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "xCorner": 3,
+        "yCorner": 3,
+        "circles": [
+          [
+            1,
+            1,
+            2
+          ]
+        ]
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "xCorner": 3,
+        "yCorner": 3,
+        "circles": [
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            1,
+            2,
+            1
+          ]
+        ]
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "xCorner": 4,
+        "yCorner": 4,
+        "circles": [
+          [
+            5,
+            5,
+            1
+          ]
+        ]
+      },
+      "expected": true,
+      "source": "example"
+    }
+  ]
+}

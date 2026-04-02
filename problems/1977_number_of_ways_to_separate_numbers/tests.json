@@ -1,0 +1,57 @@
+{
+  "problem_id": 1977,
+  "title": "Number of Ways to Separate Numbers",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/number-of-ways-to-separate-numbers/",
+  "test_cases": [
+    {
+      "input": {
+        "num": "327"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": "094"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": "0"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": "3"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "333"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "3434"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "33"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

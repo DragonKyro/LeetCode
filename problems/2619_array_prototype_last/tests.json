@@ -1,0 +1,98 @@
+{
+  "problem_id": 2619,
+  "title": "Array Prototype Last",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/array-prototype-last/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          null,
+          {},
+          3
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": []
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          null
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          null,
+          null,
+          null
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

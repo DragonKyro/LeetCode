@@ -1,0 +1,121 @@
+{
+  "problem_id": 1000,
+  "title": "Minimum Cost to Merge Stones",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-cost-to-merge-stones/",
+  "test_cases": [
+    {
+      "input": {
+        "stones": [
+          3,
+          2,
+          4,
+          1
+        ],
+        "k": 2
+      },
+      "expected": 20,
+      "source": "example"
+    },
+    {
+      "input": {
+        "stones": [
+          3,
+          2,
+          4,
+          1
+        ],
+        "k": 3
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "stones": [
+          3,
+          5,
+          1,
+          2,
+          6
+        ],
+        "k": 3
+      },
+      "expected": 25,
+      "source": "example"
+    },
+    {
+      "input": {
+        "stones": [
+          3
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "stones": [
+          1,
+          1
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "stones": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "stones": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "stones": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "stones": [
+          3,
+          2,
+          4,
+          1
+        ],
+        "k": 30
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

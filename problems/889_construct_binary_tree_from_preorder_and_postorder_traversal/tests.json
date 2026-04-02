@@ -1,0 +1,348 @@
+{
+  "problem_id": 889,
+  "title": "Construct Binary Tree from Preorder and Postorder Traversal",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/",
+  "test_cases": [
+    {
+      "input": {
+        "preorder": [
+          1,
+          2,
+          4,
+          5,
+          3,
+          6,
+          7
+        ],
+        "postorder": [
+          4,
+          5,
+          2,
+          6,
+          7,
+          3,
+          1
+        ]
+      },
+      "expected": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "preorder": [
+          1
+        ],
+        "postorder": [
+          1
+        ]
+      },
+      "expected": [
+        1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "preorder": [
+          1
+        ],
+        "postorder": [
+          4,
+          5,
+          2,
+          6,
+          7,
+          3,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "preorder": [
+          -100,
+          100
+        ],
+        "postorder": [
+          4,
+          5,
+          2,
+          6,
+          7,
+          3,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "preorder": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "postorder": [
+          4,
+          5,
+          2,
+          6,
+          7,
+          3,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "preorder": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "postorder": [
+          4,
+          5,
+          2,
+          6,
+          7,
+          3,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "preorder": [
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "postorder": [
+          4,
+          5,
+          2,
+          6,
+          7,
+          3,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "preorder": [
+          -100,
+          -100
+        ],
+        "postorder": [
+          4,
+          5,
+          2,
+          6,
+          7,
+          3,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "preorder": [
+          100,
+          100
+        ],
+        "postorder": [
+          4,
+          5,
+          2,
+          6,
+          7,
+          3,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "preorder": [
+          1,
+          2,
+          4,
+          5,
+          3,
+          6,
+          7
+        ],
+        "postorder": [
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "preorder": [
+          1,
+          2,
+          4,
+          5,
+          3,
+          6,
+          7
+        ],
+        "postorder": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "preorder": [
+          1,
+          2,
+          4,
+          5,
+          3,
+          6,
+          7
+        ],
+        "postorder": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "preorder": [
+          1,
+          2,
+          4,
+          5,
+          3,
+          6,
+          7
+        ],
+        "postorder": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "preorder": [
+          1,
+          2,
+          4,
+          5,
+          3,
+          6,
+          7
+        ],
+        "postorder": [
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "preorder": [
+          1,
+          2,
+          4,
+          5,
+          3,
+          6,
+          7
+        ],
+        "postorder": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "preorder": [
+          1,
+          2,
+          4,
+          5,
+          3,
+          6,
+          7
+        ],
+        "postorder": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

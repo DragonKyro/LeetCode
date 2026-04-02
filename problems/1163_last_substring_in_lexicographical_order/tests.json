@@ -1,0 +1,43 @@
+{
+  "problem_id": 1163,
+  "title": "Last Substring in Lexicographical Order",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/last-substring-in-lexicographical-order/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "abab"
+      },
+      "expected": "bab",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "leetcode"
+      },
+      "expected": "tcode",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abba"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "problem_id": 2574,
+  "title": "Left and Right Sum Differences",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/left-and-right-sum-differences/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          10,
+          4,
+          8,
+          3
+        ]
+      },
+      "expected": [
+        15,
+        1,
+        11,
+        22
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          1
+        ]
+      },
+      "expected": [
+        0
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          10
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          100000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          100000,
+          100000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

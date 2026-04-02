@@ -1,0 +1,96 @@
+{
+  "problem_id": 844,
+  "title": "Backspace String Compare",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/backspace-string-compare/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "ab#c",
+        "t": "ad#c"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "ab##",
+        "t": "c#d#"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a#c",
+        "t": "b"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a",
+        "t": "ad#c"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaa",
+        "t": "ad#c"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abab",
+        "t": "ad#c"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abba",
+        "t": "ad#c"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ab#c",
+        "t": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ab#c",
+        "t": "aaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ab#c",
+        "t": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ab#c",
+        "t": "adda"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

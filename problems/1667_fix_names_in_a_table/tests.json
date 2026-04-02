@@ -1,0 +1,43 @@
+{
+  "problem_id": 1667,
+  "title": "Fix Names in a Table",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/fix-names-in-a-table/",
+  "test_cases": [
+    {
+      "input": {
+        "arg0": "Users table:\n+---------+-------+\n| user_id | name  |\n+---------+-------+\n| 1       | aLice |\n| 2       | bOB   |\n+---------+-------+"
+      },
+      "expected": "+---------+-------+\n| user_id | name  |\n+---------+-------+\n| 1       | Alice |\n| 2       | Bob   |\n+---------+-------+",
+      "source": "example"
+    },
+    {
+      "input": {
+        "arg0": "U"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arg0": "UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arg0": "UVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUV"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arg0": "Users table:\n+---------+-------+\n| user_id | name  |\n+---------+----+---------+\n|  eman | di_resu |\n+-------+---------+\n:elbat sresU"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

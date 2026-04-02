@@ -1,0 +1,62 @@
+{
+  "problem_id": 3044,
+  "title": "Most Frequent Prime",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/most-frequent-prime/",
+  "test_cases": [
+    {
+      "input": {
+        "mat": [
+          [
+            1,
+            1
+          ],
+          [
+            9,
+            9
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      "expected": 19,
+      "source": "example"
+    },
+    {
+      "input": {
+        "mat": [
+          [
+            7
+          ]
+        ]
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "mat": [
+          [
+            9,
+            7,
+            8
+          ],
+          [
+            4,
+            6,
+            5
+          ],
+          [
+            2,
+            8,
+            6
+          ]
+        ]
+      },
+      "expected": 97,
+      "source": "example"
+    }
+  ]
+}

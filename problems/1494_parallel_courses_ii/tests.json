@@ -1,0 +1,100 @@
+{
+  "problem_id": 1494,
+  "title": "Parallel Courses II",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/parallel-courses-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 4,
+        "relations": [
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "k": 2
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 5,
+        "relations": [
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            1,
+            5
+          ]
+        ],
+        "k": 2
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "relations": [
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 15,
+        "relations": [
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

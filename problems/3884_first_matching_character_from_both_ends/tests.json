@@ -1,0 +1,57 @@
+{
+  "problem_id": 3884,
+  "title": "First Matching Character From Both Ends",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/first-matching-character-from-both-ends/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "abcacbd"
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abc"
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abcdab"
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaaaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ababab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abccba"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

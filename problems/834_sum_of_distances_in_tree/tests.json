@@ -1,0 +1,128 @@
+{
+  "problem_id": 834,
+  "title": "Sum of Distances in Tree",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/sum-of-distances-in-tree/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 6,
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ]
+        ]
+      },
+      "expected": [
+        8,
+        12,
+        6,
+        10,
+        10,
+        10
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "edges": []
+      },
+      "expected": [
+        0
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 2,
+        "edges": [
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      "expected": [
+        1,
+        1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 3,
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

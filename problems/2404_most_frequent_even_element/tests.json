@@ -1,0 +1,137 @@
+{
+  "problem_id": 2404,
+  "title": "Most Frequent Even Element",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/most-frequent-even-element/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          0,
+          1,
+          2,
+          2,
+          4,
+          4,
+          1
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          4,
+          4,
+          9,
+          2,
+          4
+        ]
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          29,
+          47,
+          21,
+          41,
+          13,
+          37,
+          25,
+          7
+        ]
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          0,
+          100000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          0,
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          100000,
+          100000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

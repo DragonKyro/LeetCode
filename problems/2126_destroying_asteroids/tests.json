@@ -1,0 +1,148 @@
+{
+  "problem_id": 2126,
+  "title": "Destroying Asteroids",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/destroying-asteroids/",
+  "test_cases": [
+    {
+      "input": {
+        "mass": 10,
+        "asteroids": [
+          3,
+          9,
+          19,
+          5,
+          21
+        ]
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "mass": 5,
+        "asteroids": [
+          4,
+          9,
+          23,
+          4
+        ]
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "mass": 1,
+        "asteroids": [
+          3,
+          9,
+          19,
+          5,
+          21
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "mass": 100000,
+        "asteroids": [
+          3,
+          9,
+          19,
+          5,
+          21
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "mass": 10,
+        "asteroids": [
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "mass": 10,
+        "asteroids": [
+          1,
+          100000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "mass": 10,
+        "asteroids": [
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "mass": 10,
+        "asteroids": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "mass": 10,
+        "asteroids": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "mass": 10,
+        "asteroids": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "mass": 10,
+        "asteroids": [
+          100000,
+          100000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": 1249,
+  "title": "Minimum Remove to Make Valid Parentheses",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "lee(t(c)o)de)"
+      },
+      "expected": "lee(t(c)o)de",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a)b(c)d"
+      },
+      "expected": "ab(c)d",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "))(("
+      },
+      "expected": "",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "l"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "lllllllllllll"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "lmlmlmlmlmlm"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "lee(t((t(eel"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": 1021,
+  "title": "Remove Outermost Parentheses",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/remove-outermost-parentheses/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "(()())(())"
+      },
+      "expected": "()()()",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "(()())(())(()(()))"
+      },
+      "expected": "()()()()(())",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "()()"
+      },
+      "expected": "",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "("
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "(((((((((("
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "()()()()()"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "(()())()(("
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

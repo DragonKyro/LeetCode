@@ -1,0 +1,302 @@
+{
+  "problem_id": 3424,
+  "title": "Minimum Cost to Make Arrays Identical",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-cost-to-make-arrays-identical/",
+  "test_cases": [
+    {
+      "input": {
+        "arr": [
+          -7,
+          9,
+          5
+        ],
+        "brr": [
+          7,
+          -2,
+          -5
+        ],
+        "k": 2
+      },
+      "expected": 13,
+      "source": "example"
+    },
+    {
+      "input": {
+        "arr": [
+          2,
+          1
+        ],
+        "brr": [
+          2,
+          1
+        ],
+        "k": 0
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "arr": [
+          -7
+        ],
+        "brr": [
+          7,
+          -2,
+          -5
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          -100000,
+          100000
+        ],
+        "brr": [
+          7,
+          -2,
+          -5
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          -7,
+          -7,
+          -7
+        ],
+        "brr": [
+          7,
+          -2,
+          -5
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          1,
+          2,
+          3
+        ],
+        "brr": [
+          7,
+          -2,
+          -5
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          3,
+          2,
+          1
+        ],
+        "brr": [
+          7,
+          -2,
+          -5
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          -100000,
+          -100000
+        ],
+        "brr": [
+          7,
+          -2,
+          -5
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          100000,
+          100000
+        ],
+        "brr": [
+          7,
+          -2,
+          -5
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          -7,
+          9,
+          5
+        ],
+        "brr": [
+          7
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          -7,
+          9,
+          5
+        ],
+        "brr": [
+          -100000,
+          100000
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          -7,
+          9,
+          5
+        ],
+        "brr": [
+          7,
+          7,
+          7
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          -7,
+          9,
+          5
+        ],
+        "brr": [
+          1,
+          2,
+          3
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          -7,
+          9,
+          5
+        ],
+        "brr": [
+          3,
+          2,
+          1
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          -7,
+          9,
+          5
+        ],
+        "brr": [
+          -100000,
+          -100000
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          -7,
+          9,
+          5
+        ],
+        "brr": [
+          100000,
+          100000
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          -7,
+          9,
+          5
+        ],
+        "brr": [
+          7,
+          -2,
+          -5
+        ],
+        "k": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          -7,
+          9,
+          5
+        ],
+        "brr": [
+          7,
+          -2,
+          -5
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

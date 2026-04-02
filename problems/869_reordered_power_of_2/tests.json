@@ -1,0 +1,29 @@
+{
+  "problem_id": 869,
+  "title": "Reordered Power of 2",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/reordered-power-of-2/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 10
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

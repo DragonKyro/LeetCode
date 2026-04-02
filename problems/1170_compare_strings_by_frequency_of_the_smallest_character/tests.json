@@ -1,0 +1,41 @@
+{
+  "problem_id": 1170,
+  "title": "Compare Strings by Frequency of the Smallest Character",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character/",
+  "test_cases": [
+    {
+      "input": {
+        "queries": [
+          "cbd"
+        ],
+        "words": [
+          "zaaaz"
+        ]
+      },
+      "expected": [
+        1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "queries": [
+          "bbb",
+          "cc"
+        ],
+        "words": [
+          "a",
+          "aa",
+          "aaa",
+          "aaaa"
+        ]
+      },
+      "expected": [
+        1,
+        2
+      ],
+      "source": "example"
+    }
+  ]
+}

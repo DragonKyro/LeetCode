@@ -1,0 +1,89 @@
+{
+  "problem_id": 3292,
+  "title": "Minimum Number of Valid Strings to Form Target II",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-number-of-valid-strings-to-form-target-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "words": [
+          "abc",
+          "aaaaa",
+          "bcdef"
+        ],
+        "target": "aabcdabc"
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "abababab",
+          "ab"
+        ],
+        "target": "ababaababa"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "abcdef"
+        ],
+        "target": "xyz"
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "abc",
+          "aaaaa",
+          "bcdef"
+        ],
+        "target": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "words": [
+          "abc",
+          "aaaaa",
+          "bcdef"
+        ],
+        "target": "aaaaaaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "words": [
+          "abc",
+          "aaaaa",
+          "bcdef"
+        ],
+        "target": "abababab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "words": [
+          "abc",
+          "aaaaa",
+          "bcdef"
+        ],
+        "target": "aabccbaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

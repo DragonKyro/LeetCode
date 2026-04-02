@@ -1,0 +1,43 @@
+{
+  "problem_id": 3844,
+  "title": "Longest Almost-Palindromic Substring",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/longest-almost-palindromic-substring/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "abca"
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abba"
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "zzabba"
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "aaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

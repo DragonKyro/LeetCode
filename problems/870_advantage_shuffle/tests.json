@@ -1,0 +1,288 @@
+{
+  "problem_id": 870,
+  "title": "Advantage Shuffle",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/advantage-shuffle/",
+  "test_cases": [
+    {
+      "input": {
+        "nums1": [
+          2,
+          7,
+          11,
+          15
+        ],
+        "nums2": [
+          1,
+          10,
+          4,
+          11
+        ]
+      },
+      "expected": [
+        2,
+        11,
+        7,
+        15
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums1": [
+          12,
+          24,
+          8,
+          32
+        ],
+        "nums2": [
+          13,
+          25,
+          32,
+          11
+        ]
+      },
+      "expected": [
+        24,
+        32,
+        8,
+        12
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums1": [
+          2
+        ],
+        "nums2": [
+          1,
+          10,
+          4,
+          11
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          -100,
+          100
+        ],
+        "nums2": [
+          1,
+          10,
+          4,
+          11
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "nums2": [
+          1,
+          10,
+          4,
+          11
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "nums2": [
+          1,
+          10,
+          4,
+          11
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "nums2": [
+          1,
+          10,
+          4,
+          11
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          -100,
+          -100
+        ],
+        "nums2": [
+          1,
+          10,
+          4,
+          11
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          100,
+          100
+        ],
+        "nums2": [
+          1,
+          10,
+          4,
+          11
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          2,
+          7,
+          11,
+          15
+        ],
+        "nums2": [
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          2,
+          7,
+          11,
+          15
+        ],
+        "nums2": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          2,
+          7,
+          11,
+          15
+        ],
+        "nums2": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          2,
+          7,
+          11,
+          15
+        ],
+        "nums2": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          2,
+          7,
+          11,
+          15
+        ],
+        "nums2": [
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          2,
+          7,
+          11,
+          15
+        ],
+        "nums2": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          2,
+          7,
+          11,
+          15
+        ],
+        "nums2": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "problem_id": 3753,
+  "title": "Total Waviness of Numbers in Range II",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/total-waviness-of-numbers-in-range-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "num1": 120,
+        "num2": 130
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num1": 198,
+        "num2": 202
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num1": 4848,
+        "num2": 4848
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num1": 120,
+        "num2": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num1": 120,
+        "num2": 1000000000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "problem_id": 2643,
+  "title": "Row With Maximum Ones",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/row-with-maximum-ones/",
+  "test_cases": [
+    {
+      "input": {
+        "mat": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      "expected": [
+        0,
+        1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "mat": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ]
+        ]
+      },
+      "expected": [
+        1,
+        2
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "mat": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "expected": [
+        1,
+        2
+      ],
+      "source": "example"
+    }
+  ]
+}

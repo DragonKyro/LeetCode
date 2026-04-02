@@ -1,0 +1,110 @@
+{
+  "problem_id": 3766,
+  "title": "Minimum Operations to Make Binary Palindrome",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-operations-to-make-binary-palindrome/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          4
+        ]
+      },
+      "expected": [
+        0,
+        1,
+        1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          6,
+          7,
+          12
+        ]
+      },
+      "expected": [
+        1,
+        0,
+        3
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

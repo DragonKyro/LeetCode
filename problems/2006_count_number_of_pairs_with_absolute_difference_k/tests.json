@@ -1,0 +1,119 @@
+{
+  "problem_id": 2006,
+  "title": "Count Number of Pairs With Absolute Difference K",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          2,
+          1
+        ],
+        "k": 1
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          3
+        ],
+        "k": 3
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          3,
+          2,
+          1,
+          5,
+          4
+        ],
+        "k": 2
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          1
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          2,
+          1
+        ],
+        "k": 99
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

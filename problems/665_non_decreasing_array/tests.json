@@ -1,0 +1,102 @@
+{
+  "problem_id": 665,
+  "title": "Non-decreasing Array",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/non-decreasing-array/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          4,
+          2,
+          3
+        ]
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          2,
+          1
+        ]
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -100000,
+          100000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          4,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -100000,
+          -100000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          100000,
+          100000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

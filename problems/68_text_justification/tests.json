@@ -1,0 +1,82 @@
+{
+  "problem_id": 68,
+  "title": "Text Justification",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/text-justification/",
+  "test_cases": [
+    {
+      "input": {
+        "words": [
+          "This",
+          "is",
+          "an",
+          "example",
+          "of",
+          "text",
+          "justification."
+        ],
+        "maxWidth": 16
+      },
+      "expected": "[\n   \"This    is    an\",\n   \"example  of text\",\n   \"justification.  \"\n]",
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "What",
+          "must",
+          "be",
+          "acknowledgment",
+          "shall",
+          "be"
+        ],
+        "maxWidth": 16
+      },
+      "expected": "[\n  \"What   must   be\",\n  \"acknowledgment  \",\n  \"shall be        \"\n]",
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "Science",
+          "is",
+          "what",
+          "we",
+          "understand",
+          "well",
+          "enough",
+          "to",
+          "explain",
+          "to",
+          "a",
+          "computer.",
+          "Art",
+          "is",
+          "everything",
+          "else",
+          "we",
+          "do"
+        ],
+        "maxWidth": 20
+      },
+      "expected": "[\n  \"Science  is  what we\",\n  \"understand      well\",\n  \"enough to explain to\",\n  \"a  computer.  Art is\",\n  \"everything  else  we\",\n  \"do                  \"\n]",
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "This",
+          "is",
+          "an",
+          "example",
+          "of",
+          "text",
+          "justification."
+        ],
+        "maxWidth": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "problem_id": 14,
+  "title": "Longest Common Prefix",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/longest-common-prefix/",
+  "test_cases": [
+    {
+      "input": {
+        "strs": [
+          "flower",
+          "flow",
+          "flight"
+        ]
+      },
+      "expected": "fl",
+      "source": "example"
+    },
+    {
+      "input": {
+        "strs": [
+          "dog",
+          "racecar",
+          "car"
+        ]
+      },
+      "expected": "",
+      "source": "example"
+    }
+  ]
+}

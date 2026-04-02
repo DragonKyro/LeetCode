@@ -1,0 +1,96 @@
+{
+  "problem_id": 76,
+  "title": "Minimum Window Substring",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-window-substring/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "ADOBECODEBANC",
+        "t": "ABC"
+      },
+      "expected": "BANC",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a",
+        "t": "a"
+      },
+      "expected": "a",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a",
+        "t": "aa"
+      },
+      "expected": "",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "A",
+        "t": "ABC"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "AAAAAAAAAAAAA",
+        "t": "ABC"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ABABABABABAB",
+        "t": "ABC"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ADOBECCEBODA",
+        "t": "ABC"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ADOBECODEBANC",
+        "t": "A"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ADOBECODEBANC",
+        "t": "AAA"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ADOBECODEBANC",
+        "t": "ABAB"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ADOBECODEBANC",
+        "t": "AA"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

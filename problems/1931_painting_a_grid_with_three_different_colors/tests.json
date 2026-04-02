@@ -1,0 +1,40 @@
+{
+  "problem_id": 1931,
+  "title": "Painting a Grid With Three Different Colors",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/painting-a-grid-with-three-different-colors/",
+  "test_cases": [
+    {
+      "input": {
+        "m": 1,
+        "n": 1
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "m": 1,
+        "n": 2
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "m": 5,
+        "n": 5
+      },
+      "expected": 580986,
+      "source": "example"
+    },
+    {
+      "input": {
+        "m": 5,
+        "n": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

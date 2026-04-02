@@ -1,0 +1,36 @@
+{
+  "problem_id": 1432,
+  "title": "Max Difference You Can Get From Changing an Integer",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/max-difference-you-can-get-from-changing-an-integer/",
+  "test_cases": [
+    {
+      "input": {
+        "num": 555
+      },
+      "expected": 888,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 9
+      },
+      "expected": 8,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": 100000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "problem_id": 2744,
+  "title": "Find Maximum Number of String Pairs",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/find-maximum-number-of-string-pairs/",
+  "test_cases": [
+    {
+      "input": {
+        "words": [
+          "cd",
+          "ac",
+          "dc",
+          "ca",
+          "zz"
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "ab",
+          "ba",
+          "cc"
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "aa",
+          "ab"
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    }
+  ]
+}

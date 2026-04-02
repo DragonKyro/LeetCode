@@ -1,0 +1,74 @@
+{
+  "problem_id": 756,
+  "title": "Pyramid Transition Matrix",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/pyramid-transition-matrix/",
+  "test_cases": [
+    {
+      "input": {
+        "bottom": "BCD",
+        "allowed": [
+          "BCC",
+          "CDE",
+          "CEA",
+          "FFF"
+        ]
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "bottom": "AAAA",
+        "allowed": [
+          "AAB",
+          "AAC",
+          "BCD",
+          "BBE",
+          "DEF"
+        ]
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "bottom": "BBB",
+        "allowed": [
+          "BCC",
+          "CDE",
+          "CEA",
+          "FFF"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "bottom": "BCBC",
+        "allowed": [
+          "BCC",
+          "CDE",
+          "CEA",
+          "FFF"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "bottom": "BB",
+        "allowed": [
+          "BCC",
+          "CDE",
+          "CEA",
+          "FFF"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

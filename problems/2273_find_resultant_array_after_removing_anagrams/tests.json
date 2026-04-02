@@ -1,0 +1,43 @@
+{
+  "problem_id": 2273,
+  "title": "Find Resultant Array After Removing Anagrams",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/",
+  "test_cases": [
+    {
+      "input": {
+        "words": [
+          "abba",
+          "baba",
+          "bbaa",
+          "cd",
+          "cd"
+        ]
+      },
+      "expected": [
+        "abba",
+        "cd"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e"
+        ]
+      },
+      "expected": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "source": "example"
+    }
+  ]
+}

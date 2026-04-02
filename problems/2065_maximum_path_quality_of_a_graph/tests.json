@@ -1,0 +1,304 @@
+{
+  "problem_id": 2065,
+  "title": "Maximum Path Quality of a Graph",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/maximum-path-quality-of-a-graph/",
+  "test_cases": [
+    {
+      "input": {
+        "values": [
+          0,
+          32,
+          10,
+          43
+        ],
+        "edges": [
+          [
+            0,
+            1,
+            10
+          ],
+          [
+            1,
+            2,
+            15
+          ],
+          [
+            0,
+            3,
+            10
+          ]
+        ],
+        "maxTime": 49
+      },
+      "expected": 75,
+      "source": "example"
+    },
+    {
+      "input": {
+        "values": [
+          5,
+          10,
+          15,
+          20
+        ],
+        "edges": [
+          [
+            0,
+            1,
+            10
+          ],
+          [
+            1,
+            2,
+            10
+          ],
+          [
+            0,
+            3,
+            10
+          ]
+        ],
+        "maxTime": 30
+      },
+      "expected": 25,
+      "source": "example"
+    },
+    {
+      "input": {
+        "values": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "edges": [
+          [
+            0,
+            1,
+            10
+          ],
+          [
+            1,
+            2,
+            11
+          ],
+          [
+            2,
+            3,
+            12
+          ],
+          [
+            1,
+            3,
+            13
+          ]
+        ],
+        "maxTime": 50
+      },
+      "expected": 7,
+      "source": "example"
+    },
+    {
+      "input": {
+        "values": [
+          0
+        ],
+        "edges": [
+          [
+            0,
+            1,
+            10
+          ],
+          [
+            1,
+            2,
+            15
+          ],
+          [
+            0,
+            3,
+            10
+          ]
+        ],
+        "maxTime": 49
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "values": [
+          0,
+          100000000
+        ],
+        "edges": [
+          [
+            0,
+            1,
+            10
+          ],
+          [
+            1,
+            2,
+            15
+          ],
+          [
+            0,
+            3,
+            10
+          ]
+        ],
+        "maxTime": 49
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "values": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "edges": [
+          [
+            0,
+            1,
+            10
+          ],
+          [
+            1,
+            2,
+            15
+          ],
+          [
+            0,
+            3,
+            10
+          ]
+        ],
+        "maxTime": 49
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "values": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "edges": [
+          [
+            0,
+            1,
+            10
+          ],
+          [
+            1,
+            2,
+            15
+          ],
+          [
+            0,
+            3,
+            10
+          ]
+        ],
+        "maxTime": 49
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "values": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "edges": [
+          [
+            0,
+            1,
+            10
+          ],
+          [
+            1,
+            2,
+            15
+          ],
+          [
+            0,
+            3,
+            10
+          ]
+        ],
+        "maxTime": 49
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "values": [
+          0,
+          0
+        ],
+        "edges": [
+          [
+            0,
+            1,
+            10
+          ],
+          [
+            1,
+            2,
+            15
+          ],
+          [
+            0,
+            3,
+            10
+          ]
+        ],
+        "maxTime": 49
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "values": [
+          100000000,
+          100000000
+        ],
+        "edges": [
+          [
+            0,
+            1,
+            10
+          ],
+          [
+            1,
+            2,
+            15
+          ],
+          [
+            0,
+            3,
+            10
+          ]
+        ],
+        "maxTime": 49
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

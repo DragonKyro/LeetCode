@@ -1,0 +1,46 @@
+{
+  "problem_id": 51,
+  "title": "N-Queens",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/n-queens/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 4
+      },
+      "expected": [
+        [
+          ".Q..",
+          "...Q",
+          "Q...",
+          "..Q."
+        ],
+        [
+          "..Q.",
+          "Q...",
+          "...Q",
+          ".Q.."
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": [
+        [
+          "Q"
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 9
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "problem_id": 2939,
+  "title": "Maximum Xor Product",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-xor-product/",
+  "test_cases": [
+    {
+      "input": {
+        "a": 12,
+        "b": 5,
+        "n": 4
+      },
+      "expected": 98,
+      "source": "example"
+    },
+    {
+      "input": {
+        "a": 6,
+        "b": 7,
+        "n": 5
+      },
+      "expected": 930,
+      "source": "example"
+    },
+    {
+      "input": {
+        "a": 1,
+        "b": 6,
+        "n": 3
+      },
+      "expected": 12,
+      "source": "example"
+    },
+    {
+      "input": {
+        "a": 12,
+        "b": 5,
+        "n": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "a": 12,
+        "b": 5,
+        "n": 50
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "a": 12,
+        "b": 5,
+        "n": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

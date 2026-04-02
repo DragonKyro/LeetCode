@@ -1,0 +1,68 @@
+{
+  "problem_id": 93,
+  "title": "Restore IP Addresses",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/restore-ip-addresses/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "25525511135"
+      },
+      "expected": [
+        "255.255.11.135",
+        "255.255.111.35"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "0000"
+      },
+      "expected": [
+        "0.0.0.0"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "101023"
+      },
+      "expected": [
+        "1.0.10.23",
+        "1.0.102.3",
+        "10.1.0.23",
+        "10.10.2.3",
+        "101.0.2.3"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "2"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "22222222222"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "2323232323"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "2552552552"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

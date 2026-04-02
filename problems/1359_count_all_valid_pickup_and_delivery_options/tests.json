@@ -1,0 +1,36 @@
+{
+  "problem_id": 1359,
+  "title": "Count All Valid Pickup and Delivery Options",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 2
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 3
+      },
+      "expected": 90,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 500
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

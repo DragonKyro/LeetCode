@@ -1,0 +1,72 @@
+{
+  "problem_id": 2280,
+  "title": "Minimum Lines to Represent a Line Chart",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-lines-to-represent-a-line-chart/",
+  "test_cases": [
+    {
+      "input": {
+        "stockPrices": [
+          [
+            1,
+            7
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            8,
+            1
+          ]
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "stockPrices": [
+          [
+            3,
+            4
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    }
+  ]
+}

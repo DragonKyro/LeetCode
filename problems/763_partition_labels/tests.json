@@ -1,0 +1,56 @@
+{
+  "problem_id": 763,
+  "title": "Partition Labels",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/partition-labels/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "ababcbacadefegdehijhklij"
+      },
+      "expected": [
+        9,
+        7,
+        8
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "eccbbbbdec"
+      },
+      "expected": [
+        10
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abababababababababababab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ababcbacadeffedacabcbaba"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

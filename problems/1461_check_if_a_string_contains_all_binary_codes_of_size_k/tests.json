@@ -1,0 +1,80 @@
+{
+  "problem_id": 1461,
+  "title": "Check If a String Contains All Binary Codes of Size K",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "00110110",
+        "k": 2
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "0110",
+        "k": 1
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "0110",
+        "k": 2
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "0",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "00000000",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "01010101",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "00111100",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "00110110",
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "00110110",
+        "k": 20
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

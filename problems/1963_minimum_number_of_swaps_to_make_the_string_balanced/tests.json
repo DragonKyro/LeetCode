@@ -1,0 +1,57 @@
+{
+  "problem_id": 1963,
+  "title": "Minimum Number of Swaps to Make the String Balanced",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "][]["
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "]]][[["
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "[]"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "]"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "]]]]"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "]^]^"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "][[]"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

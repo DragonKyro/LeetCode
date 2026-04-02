@@ -1,0 +1,86 @@
+{
+  "problem_id": 2812,
+  "title": "Find the Safest Path in a Grid",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-the-safest-path-in-a-grid/",
+  "test_cases": [
+    {
+      "input": {
+        "grid": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "problem_id": 935,
+  "title": "Knight Dialer",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/knight-dialer/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": 10,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 2
+      },
+      "expected": 20,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 3131
+      },
+      "expected": 136006598,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 5000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

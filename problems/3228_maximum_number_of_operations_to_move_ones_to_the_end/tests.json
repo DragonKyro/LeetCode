@@ -1,0 +1,50 @@
+{
+  "problem_id": 3228,
+  "title": "Maximum Number of Operations to Move Ones to the End",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-number-of-operations-to-move-ones-to-the-end/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "1001101"
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "00111"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "1"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "1111111"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "121212"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "100001"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

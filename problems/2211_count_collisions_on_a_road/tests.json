@@ -1,0 +1,50 @@
+{
+  "problem_id": 2211,
+  "title": "Count Collisions on a Road",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-collisions-on-a-road/",
+  "test_cases": [
+    {
+      "input": {
+        "directions": "RLRSLL"
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "directions": "LLRR"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "directions": "R"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "directions": "RRRRRR"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "directions": "RSRSRS"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "directions": "RLRRLR"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "problem_id": 3505,
+  "title": "Minimum Operations to Make Elements Within K Subarrays Equal",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-operations-to-make-elements-within-k-subarrays-equal/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          5,
+          -2,
+          1,
+          3,
+          7,
+          3,
+          6,
+          4,
+          -1
+        ],
+        "x": 3,
+        "k": 2
+      },
+      "expected": 8,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          9,
+          -2,
+          -2,
+          -2,
+          1,
+          5
+        ],
+        "x": 2,
+        "k": 2
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          5,
+          5
+        ],
+        "x": 3,
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1000000,
+          1000000
+        ],
+        "x": 3,
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "x": 3,
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "x": 3,
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "x": 3,
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          5,
+          -2,
+          1,
+          3,
+          7,
+          3,
+          6,
+          4,
+          -1
+        ],
+        "x": 3,
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          5,
+          -2,
+          1,
+          3,
+          7,
+          3,
+          6,
+          4,
+          -1
+        ],
+        "x": 3,
+        "k": 15
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

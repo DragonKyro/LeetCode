@@ -1,0 +1,41 @@
+{
+  "problem_id": 794,
+  "title": "Valid Tic-Tac-Toe State",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/valid-tic-tac-toe-state/",
+  "test_cases": [
+    {
+      "input": {
+        "board": [
+          "O  ",
+          "   ",
+          "   "
+        ]
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "board": [
+          "XOX",
+          " X ",
+          "   "
+        ]
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "board": [
+          "XOX",
+          "O O",
+          "XOX"
+        ]
+      },
+      "expected": true,
+      "source": "example"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "problem_id": 3597,
+  "title": "Partition String ",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/partition-string/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "abbccccd"
+      },
+      "expected": [
+        "a",
+        "b",
+        "bc",
+        "c",
+        "cc",
+        "d"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "aaaa"
+      },
+      "expected": [
+        "a",
+        "aa"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaaaaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abababab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abbccbba"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

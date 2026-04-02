@@ -1,0 +1,72 @@
+{
+  "problem_id": 2949,
+  "title": "Count Beautiful Substrings II",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/count-beautiful-substrings-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "baeyh",
+        "k": 2
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abba",
+        "k": 1
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "bcdf",
+        "k": 1
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "b",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "bbbbb",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "bcbc",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "baab",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "baeyh",
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

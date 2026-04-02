@@ -1,0 +1,96 @@
+{
+  "problem_id": 1191,
+  "title": "K-Concatenation Maximum Sum",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/k-concatenation-maximum-sum/",
+  "test_cases": [
+    {
+      "input": {
+        "arr": [
+          1,
+          2
+        ],
+        "k": 3
+      },
+      "expected": 9,
+      "source": "example"
+    },
+    {
+      "input": {
+        "arr": [
+          1,
+          -2,
+          1
+        ],
+        "k": 5
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "arr": [
+          -1,
+          -2
+        ],
+        "k": 7
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "arr": [
+          1
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          10000,
+          10000
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          1,
+          1
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          1,
+          2
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          1,
+          2
+        ],
+        "k": 100000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

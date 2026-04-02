@@ -1,0 +1,141 @@
+{
+  "problem_id": 313,
+  "title": "Super Ugly Number",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/super-ugly-number/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 12,
+        "primes": [
+          2,
+          7,
+          13,
+          19
+        ]
+      },
+      "expected": 32,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "primes": [
+          2,
+          3,
+          5
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "primes": [
+          2,
+          7,
+          13,
+          19
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 100000,
+        "primes": [
+          2,
+          7,
+          13,
+          19
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 12,
+        "primes": [
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 12,
+        "primes": [
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 12,
+        "primes": [
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 12,
+        "primes": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 12,
+        "primes": [
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 12,
+        "primes": [
+          2,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 12,
+        "primes": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

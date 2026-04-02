@@ -1,0 +1,64 @@
+{
+  "problem_id": 1531,
+  "title": "String Compression II",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/string-compression-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "aaabcccd",
+        "k": 2
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "aabbaa",
+        "k": 2
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "aaaaaaaaaaa",
+        "k": 0
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaaaaaa",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abababab",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaabbaaa",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

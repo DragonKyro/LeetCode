@@ -1,0 +1,121 @@
+{
+  "problem_id": 1478,
+  "title": "Allocate Mailboxes",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/allocate-mailboxes/",
+  "test_cases": [
+    {
+      "input": {
+        "houses": [
+          1,
+          4,
+          8,
+          10,
+          20
+        ],
+        "k": 3
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "houses": [
+          2,
+          3,
+          5,
+          12,
+          18
+        ],
+        "k": 2
+      },
+      "expected": 9,
+      "source": "example"
+    },
+    {
+      "input": {
+        "houses": [
+          1
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "houses": [
+          1,
+          10000
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "houses": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "houses": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "houses": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "houses": [
+          1,
+          1
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "houses": [
+          10000,
+          10000
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

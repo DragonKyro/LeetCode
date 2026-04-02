@@ -1,0 +1,376 @@
+{
+  "problem_id": 1052,
+  "title": "Grumpy Bookstore Owner",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/grumpy-bookstore-owner/",
+  "test_cases": [
+    {
+      "input": {
+        "customers": [
+          1,
+          0,
+          1,
+          2,
+          1,
+          1,
+          7,
+          5
+        ],
+        "grumpy": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "minutes": 3
+      },
+      "expected": 16,
+      "source": "example"
+    },
+    {
+      "input": {
+        "customers": [
+          1
+        ],
+        "grumpy": [
+          0
+        ],
+        "minutes": 1
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "customers": [
+          1
+        ],
+        "grumpy": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "minutes": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "customers": [
+          0,
+          1
+        ],
+        "grumpy": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "minutes": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "customers": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "grumpy": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "minutes": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "customers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "grumpy": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "minutes": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "customers": [
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "grumpy": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "minutes": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "customers": [
+          0,
+          0
+        ],
+        "grumpy": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "minutes": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "customers": [
+          1,
+          1
+        ],
+        "grumpy": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "minutes": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "customers": [
+          1,
+          0,
+          1,
+          2,
+          1,
+          1,
+          7,
+          5
+        ],
+        "grumpy": [
+          0
+        ],
+        "minutes": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "customers": [
+          1,
+          0,
+          1,
+          2,
+          1,
+          1,
+          7,
+          5
+        ],
+        "grumpy": [
+          -100,
+          100
+        ],
+        "minutes": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "customers": [
+          1,
+          0,
+          1,
+          2,
+          1,
+          1,
+          7,
+          5
+        ],
+        "grumpy": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "minutes": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "customers": [
+          1,
+          0,
+          1,
+          2,
+          1,
+          1,
+          7,
+          5
+        ],
+        "grumpy": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "minutes": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "customers": [
+          1,
+          0,
+          1,
+          2,
+          1,
+          1,
+          7,
+          5
+        ],
+        "grumpy": [
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "minutes": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "customers": [
+          1,
+          0,
+          1,
+          2,
+          1,
+          1,
+          7,
+          5
+        ],
+        "grumpy": [
+          -100,
+          -100
+        ],
+        "minutes": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "customers": [
+          1,
+          0,
+          1,
+          2,
+          1,
+          1,
+          7,
+          5
+        ],
+        "grumpy": [
+          100,
+          100
+        ],
+        "minutes": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "problem_id": 3002,
+  "title": "Maximum Size of a Set After Removals",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-size-of-a-set-after-removals/",
+  "test_cases": [
+    {
+      "input": {
+        "nums1": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "nums2": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "nums2": [
+          2,
+          3,
+          2,
+          3,
+          2,
+          3
+        ]
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          1,
+          2,
+          2,
+          3,
+          3
+        ],
+        "nums2": [
+          4,
+          4,
+          5,
+          5,
+          6,
+          6
+        ]
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums1": [
+          1
+        ],
+        "nums2": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          -100,
+          100
+        ],
+        "nums2": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "nums2": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "nums2": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "nums2": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          -100,
+          -100
+        ],
+        "nums2": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          100,
+          100
+        ],
+        "nums2": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "nums2": [
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "nums2": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "nums2": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "nums2": [
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "nums2": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "nums2": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": 3016,
+  "title": "Minimum Number of Pushes to Type Word II",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "word": "abcde"
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word": "xyzxyzxyzxyz"
+      },
+      "expected": 12,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word": "aabbccddeeffgghhiiiiii"
+      },
+      "expected": 24,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word": "aaaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word": "abba"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

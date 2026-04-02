@@ -1,0 +1,341 @@
+{
+  "problem_id": 1385,
+  "title": "Find the Distance Value Between Two Arrays",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/find-the-distance-value-between-two-arrays/",
+  "test_cases": [
+    {
+      "input": {
+        "arr1": [
+          4,
+          5,
+          8
+        ],
+        "arr2": [
+          10,
+          9,
+          1,
+          8
+        ],
+        "d": 2
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "arr1": [
+          1,
+          4,
+          2,
+          3
+        ],
+        "arr2": [
+          -4,
+          -3,
+          6,
+          10,
+          20,
+          30
+        ],
+        "d": 3
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "arr1": [
+          2,
+          1,
+          100,
+          3
+        ],
+        "arr2": [
+          -5,
+          -2,
+          10,
+          -3,
+          7
+        ],
+        "d": 6
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "arr1": [
+          4
+        ],
+        "arr2": [
+          10,
+          9,
+          1,
+          8
+        ],
+        "d": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr1": [
+          -100,
+          100
+        ],
+        "arr2": [
+          10,
+          9,
+          1,
+          8
+        ],
+        "d": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr1": [
+          4,
+          4,
+          4
+        ],
+        "arr2": [
+          10,
+          9,
+          1,
+          8
+        ],
+        "d": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr1": [
+          1,
+          2,
+          3
+        ],
+        "arr2": [
+          10,
+          9,
+          1,
+          8
+        ],
+        "d": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr1": [
+          3,
+          2,
+          1
+        ],
+        "arr2": [
+          10,
+          9,
+          1,
+          8
+        ],
+        "d": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr1": [
+          -100,
+          -100
+        ],
+        "arr2": [
+          10,
+          9,
+          1,
+          8
+        ],
+        "d": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr1": [
+          100,
+          100
+        ],
+        "arr2": [
+          10,
+          9,
+          1,
+          8
+        ],
+        "d": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr1": [
+          4,
+          5,
+          8
+        ],
+        "arr2": [
+          10
+        ],
+        "d": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr1": [
+          4,
+          5,
+          8
+        ],
+        "arr2": [
+          -100,
+          100
+        ],
+        "d": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr1": [
+          4,
+          5,
+          8
+        ],
+        "arr2": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "d": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr1": [
+          4,
+          5,
+          8
+        ],
+        "arr2": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "d": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr1": [
+          4,
+          5,
+          8
+        ],
+        "arr2": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "d": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr1": [
+          4,
+          5,
+          8
+        ],
+        "arr2": [
+          -100,
+          -100
+        ],
+        "d": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr1": [
+          4,
+          5,
+          8
+        ],
+        "arr2": [
+          100,
+          100
+        ],
+        "d": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr1": [
+          4,
+          5,
+          8
+        ],
+        "arr2": [
+          10,
+          9,
+          1,
+          8
+        ],
+        "d": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr1": [
+          4,
+          5,
+          8
+        ],
+        "arr2": [
+          10,
+          9,
+          1,
+          8
+        ],
+        "d": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

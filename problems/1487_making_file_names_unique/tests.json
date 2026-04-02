@@ -1,0 +1,61 @@
+{
+  "problem_id": 1487,
+  "title": "Making File Names Unique",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/making-file-names-unique/",
+  "test_cases": [
+    {
+      "input": {
+        "names": [
+          "pes",
+          "fifa",
+          "gta",
+          "pes(2019)"
+        ]
+      },
+      "expected": [
+        "pes",
+        "fifa",
+        "gta",
+        "pes(2019)"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "names": [
+          "gta",
+          "gta(1)",
+          "gta",
+          "avalon"
+        ]
+      },
+      "expected": [
+        "gta",
+        "gta(1)",
+        "gta(2)",
+        "avalon"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "names": [
+          "onepiece",
+          "onepiece(1)",
+          "onepiece(2)",
+          "onepiece(3)",
+          "onepiece"
+        ]
+      },
+      "expected": [
+        "onepiece",
+        "onepiece(1)",
+        "onepiece(2)",
+        "onepiece(3)",
+        "onepiece(4)"
+      ],
+      "source": "example"
+    }
+  ]
+}

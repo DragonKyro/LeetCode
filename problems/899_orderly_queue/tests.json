@@ -1,0 +1,56 @@
+{
+  "problem_id": 899,
+  "title": "Orderly Queue",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/orderly-queue/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "cba",
+        "k": 1
+      },
+      "expected": "acb",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "baaca",
+        "k": 3
+      },
+      "expected": "aaabc",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "c",
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ccc",
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "cdcd",
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "cc",
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

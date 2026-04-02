@@ -1,0 +1,88 @@
+{
+  "problem_id": 72,
+  "title": "Edit Distance",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/edit-distance/",
+  "test_cases": [
+    {
+      "input": {
+        "word1": "horse",
+        "word2": "ros"
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word1": "intention",
+        "word2": "execution"
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word1": "h",
+        "word2": "ros"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "hhhhh",
+        "word2": "ros"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "hihi",
+        "word2": "ros"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "hooh",
+        "word2": "ros"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "horse",
+        "word2": "r"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "horse",
+        "word2": "rrr"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "horse",
+        "word2": "rsrs"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "horse",
+        "word2": "rr"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "problem_id": 1638,
+  "title": "Count Substrings That Differ by One Character",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-substrings-that-differ-by-one-character/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "aba",
+        "t": "baba"
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "ab",
+        "t": "bb"
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a",
+        "t": "baba"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaa",
+        "t": "baba"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abab",
+        "t": "baba"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aa",
+        "t": "baba"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aba",
+        "t": "b"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aba",
+        "t": "bbbb"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aba",
+        "t": "bcbc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aba",
+        "t": "baab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

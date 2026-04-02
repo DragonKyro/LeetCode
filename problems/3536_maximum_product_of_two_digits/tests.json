@@ -1,0 +1,43 @@
+{
+  "problem_id": 3536,
+  "title": "Maximum Product of Two Digits",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/maximum-product-of-two-digits/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 31
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 22
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 124
+      },
+      "expected": 8,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 10
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 1000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

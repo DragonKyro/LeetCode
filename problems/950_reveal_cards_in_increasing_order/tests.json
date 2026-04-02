@@ -1,0 +1,128 @@
+{
+  "problem_id": 950,
+  "title": "Reveal Cards In Increasing Order",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/reveal-cards-in-increasing-order/",
+  "test_cases": [
+    {
+      "input": {
+        "deck": [
+          17,
+          13,
+          11,
+          2,
+          3,
+          5,
+          7
+        ]
+      },
+      "expected": [
+        2,
+        13,
+        3,
+        11,
+        5,
+        17,
+        7
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "deck": [
+          1,
+          1000
+        ]
+      },
+      "expected": [
+        1,
+        1000
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "deck": [
+          17
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "deck": [
+          1,
+          1000000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "deck": [
+          17,
+          17,
+          17,
+          17,
+          17,
+          17,
+          17
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "deck": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "deck": [
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "deck": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "deck": [
+          1000000,
+          1000000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

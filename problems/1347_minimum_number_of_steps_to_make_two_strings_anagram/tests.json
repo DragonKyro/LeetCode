@@ -1,0 +1,96 @@
+{
+  "problem_id": 1347,
+  "title": "Minimum Number of Steps to Make Two Strings Anagram",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "bab",
+        "t": "aba"
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "leetcode",
+        "t": "practice"
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "anagram",
+        "t": "mangaar"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "b",
+        "t": "aba"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "bbb",
+        "t": "aba"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "bcbc",
+        "t": "aba"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "bb",
+        "t": "aba"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "bab",
+        "t": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "bab",
+        "t": "aaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "bab",
+        "t": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "bab",
+        "t": "aa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

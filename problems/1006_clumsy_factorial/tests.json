@@ -1,0 +1,36 @@
+{
+  "problem_id": 1006,
+  "title": "Clumsy Factorial",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/clumsy-factorial/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 4
+      },
+      "expected": 7,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 10
+      },
+      "expected": 12,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 10000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

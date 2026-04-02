@@ -1,0 +1,45 @@
+{
+  "problem_id": 3799,
+  "title": "Word Squares II",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/word-squares-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "words": [
+          "able",
+          "area",
+          "echo",
+          "also"
+        ]
+      },
+      "expected": [
+        [
+          "able",
+          "area",
+          "echo",
+          "also"
+        ],
+        [
+          "area",
+          "able",
+          "also",
+          "echo"
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "code",
+          "cafe",
+          "eden",
+          "edge"
+        ]
+      },
+      "expected": [],
+      "source": "example"
+    }
+  ]
+}

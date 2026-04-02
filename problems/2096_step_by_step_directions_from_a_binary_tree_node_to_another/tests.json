@@ -1,0 +1,135 @@
+{
+  "problem_id": 2096,
+  "title": "Step-By-Step Directions From a Binary Tree Node to Another",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/",
+  "test_cases": [
+    {
+      "input": {
+        "root": [
+          5,
+          1,
+          2,
+          3,
+          null,
+          6,
+          4
+        ],
+        "startValue": 3,
+        "destValue": 6
+      },
+      "expected": "UURL",
+      "source": "example"
+    },
+    {
+      "input": {
+        "root": [
+          2,
+          1
+        ],
+        "startValue": 2,
+        "destValue": 1
+      },
+      "expected": "L",
+      "source": "example"
+    },
+    {
+      "input": {
+        "root": [
+          5
+        ],
+        "startValue": 3,
+        "destValue": 6
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          -100,
+          100
+        ],
+        "startValue": 3,
+        "destValue": 6
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "startValue": 3,
+        "destValue": 6
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "startValue": 3,
+        "destValue": 6
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "startValue": 3,
+        "destValue": 6
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          -100,
+          -100
+        ],
+        "startValue": 3,
+        "destValue": 6
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          100,
+          100
+        ],
+        "startValue": 3,
+        "destValue": 6
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "problem_id": 675,
+  "title": "Cut Off Trees for Golf Event",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/cut-off-trees-for-golf-event/",
+  "test_cases": [
+    {
+      "input": {
+        "forest": [
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            0,
+            0,
+            4
+          ],
+          [
+            7,
+            6,
+            5
+          ]
+        ]
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "forest": [
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            7,
+            6,
+            5
+          ]
+        ]
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "forest": [
+          [
+            2,
+            3,
+            4
+          ],
+          [
+            0,
+            0,
+            5
+          ],
+          [
+            8,
+            7,
+            6
+          ]
+        ]
+      },
+      "expected": 6,
+      "source": "example"
+    }
+  ]
+}

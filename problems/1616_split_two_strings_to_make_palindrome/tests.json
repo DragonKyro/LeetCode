@@ -1,0 +1,88 @@
+{
+  "problem_id": 1616,
+  "title": "Split Two Strings to Make Palindrome",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/split-two-strings-to-make-palindrome/",
+  "test_cases": [
+    {
+      "input": {
+        "a": "xbdef",
+        "b": "xecab"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "a": "ulacfd",
+        "b": "jizalu"
+      },
+      "expected": "true\nExplaination: Split them at index 3:\na_prefix = \"ula\", a_suffix = \"cfd\"\nb_prefix = \"jiz\", b_suffix = \"alu\"\nThen, a_prefix + b_suffix = \"ula\" + \"alu\" = \"ulaalu\", which is a palindrome",
+      "source": "example"
+    },
+    {
+      "input": {
+        "a": "x",
+        "b": "xecab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "a": "xxxxx",
+        "b": "xecab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "a": "xyxy",
+        "b": "xecab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "a": "xbbx",
+        "b": "xecab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "a": "xbdef",
+        "b": "x"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "a": "xbdef",
+        "b": "xxxxx"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "a": "xbdef",
+        "b": "xyxy"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "a": "xbdef",
+        "b": "xeex"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

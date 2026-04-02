@@ -1,0 +1,36 @@
+{
+  "problem_id": 1969,
+  "title": "Minimum Non-Zero Product of the Array Elements",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-non-zero-product-of-the-array-elements/",
+  "test_cases": [
+    {
+      "input": {
+        "p": 1
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "p": 2
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "p": 3
+      },
+      "expected": 1512,
+      "source": "example"
+    },
+    {
+      "input": {
+        "p": 60
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

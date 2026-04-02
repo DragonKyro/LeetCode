@@ -1,0 +1,50 @@
+{
+  "problem_id": 2272,
+  "title": "Substring With Largest Variance",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/substring-with-largest-variance/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "aababbb"
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abcde"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaaaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ababab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aabbaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

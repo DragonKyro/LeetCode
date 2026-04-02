@@ -1,0 +1,122 @@
+{
+  "problem_id": 962,
+  "title": "Maximum Width Ramp",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-width-ramp/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          6,
+          0,
+          8,
+          2,
+          1,
+          5
+        ]
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          9,
+          8,
+          1,
+          0,
+          1,
+          9,
+          4,
+          0,
+          4,
+          1
+        ]
+      },
+      "expected": 7,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          6,
+          6
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          0,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          0,
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          5,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

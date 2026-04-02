@@ -1,0 +1,73 @@
+{
+  "problem_id": 1144,
+  "title": "Decrease Elements To Make Array Zigzag",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/decrease-elements-to-make-array-zigzag/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          9,
+          6,
+          1,
+          6,
+          2
+        ]
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

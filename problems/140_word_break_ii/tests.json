@@ -1,0 +1,113 @@
+{
+  "problem_id": 140,
+  "title": "Word Break II",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/word-break-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "catsanddog",
+        "wordDict": [
+          "cat",
+          "cats",
+          "and",
+          "sand",
+          "dog"
+        ]
+      },
+      "expected": [
+        "cats and dog",
+        "cat sand dog"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "pineapplepenapple",
+        "wordDict": [
+          "apple",
+          "pen",
+          "applepen",
+          "pine",
+          "pineapple"
+        ]
+      },
+      "expected": [
+        "pine apple pen apple",
+        "pineapple pen apple",
+        "pine applepen apple"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "catsandog",
+        "wordDict": [
+          "cats",
+          "dog",
+          "sand",
+          "and",
+          "cat"
+        ]
+      },
+      "expected": [],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "c",
+        "wordDict": [
+          "cat",
+          "cats",
+          "and",
+          "sand",
+          "dog"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "cccccccccc",
+        "wordDict": [
+          "cat",
+          "cats",
+          "and",
+          "sand",
+          "dog"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "cdcdcdcdcd",
+        "wordDict": [
+          "cat",
+          "cats",
+          "and",
+          "sand",
+          "dog"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "catsaastac",
+        "wordDict": [
+          "cat",
+          "cats",
+          "and",
+          "sand",
+          "dog"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

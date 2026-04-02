@@ -1,0 +1,97 @@
+{
+  "problem_id": 1311,
+  "title": "Get Watched Videos by Your Friends",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/get-watched-videos-by-your-friends/",
+  "test_cases": [
+    {
+      "input": {
+        "watchedVideos": [
+          [
+            "A",
+            "B"
+          ],
+          [
+            "C"
+          ],
+          [
+            "B",
+            "C"
+          ],
+          [
+            "D"
+          ]
+        ],
+        "friends": [
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "id": 0,
+        "level": 1
+      },
+      "expected": [
+        "B",
+        "C"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "watchedVideos": [
+          [
+            "A",
+            "B"
+          ],
+          [
+            "C"
+          ],
+          [
+            "B",
+            "C"
+          ],
+          [
+            "D"
+          ]
+        ],
+        "friends": [
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "id": 0,
+        "level": 2
+      },
+      "expected": [
+        "D"
+      ],
+      "source": "example"
+    }
+  ]
+}

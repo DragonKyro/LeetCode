@@ -1,0 +1,38 @@
+{
+  "problem_id": 3609,
+  "title": "Minimum Moves to Reach Target in Grid",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-moves-to-reach-target-in-grid/",
+  "test_cases": [
+    {
+      "input": {
+        "sx": 1,
+        "sy": 2,
+        "tx": 5,
+        "ty": 4
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "sx": 0,
+        "sy": 1,
+        "tx": 2,
+        "ty": 3
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "sx": 1,
+        "sy": 1,
+        "tx": 2,
+        "ty": 2
+      },
+      "expected": -1,
+      "source": "example"
+    }
+  ]
+}

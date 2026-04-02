@@ -1,0 +1,201 @@
+{
+  "problem_id": 1605,
+  "title": "Find Valid Matrix Given Row and Column Sums",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-valid-matrix-given-row-and-column-sums/",
+  "test_cases": [
+    {
+      "input": {
+        "rowSum": [
+          3,
+          8
+        ],
+        "colSum": [
+          4,
+          7
+        ]
+      },
+      "expected": [
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "rowSum": [
+          5,
+          7,
+          10
+        ],
+        "colSum": [
+          8,
+          6,
+          8
+        ]
+      },
+      "expected": [
+        [
+          0,
+          5,
+          0
+        ],
+        [
+          6,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          8
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "rowSum": [
+          3
+        ],
+        "colSum": [
+          4,
+          7
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "rowSum": [
+          -100,
+          100
+        ],
+        "colSum": [
+          4,
+          7
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "rowSum": [
+          3,
+          3
+        ],
+        "colSum": [
+          4,
+          7
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "rowSum": [
+          -100,
+          -100
+        ],
+        "colSum": [
+          4,
+          7
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "rowSum": [
+          100,
+          100
+        ],
+        "colSum": [
+          4,
+          7
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "rowSum": [
+          3,
+          8
+        ],
+        "colSum": [
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "rowSum": [
+          3,
+          8
+        ],
+        "colSum": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "rowSum": [
+          3,
+          8
+        ],
+        "colSum": [
+          4,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "rowSum": [
+          3,
+          8
+        ],
+        "colSum": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "rowSum": [
+          3,
+          8
+        ],
+        "colSum": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

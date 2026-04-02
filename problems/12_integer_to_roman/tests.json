@@ -1,0 +1,43 @@
+{
+  "problem_id": 12,
+  "title": "Integer to Roman",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/integer-to-roman/",
+  "test_cases": [
+    {
+      "input": {
+        "num": 3749
+      },
+      "expected": "MMMDCCXLIX",
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 58
+      },
+      "expected": "LVIII",
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 1994
+      },
+      "expected": "MCMXCIV",
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": 3999
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

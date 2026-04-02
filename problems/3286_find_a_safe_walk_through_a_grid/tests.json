@@ -1,0 +1,103 @@
+{
+  "problem_id": 3286,
+  "title": "Find a Safe Walk Through a Grid",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-a-safe-walk-through-a-grid/",
+  "test_cases": [
+    {
+      "input": {
+        "grid": [
+          [
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        ],
+        "health": 1
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ]
+        ],
+        "health": 3
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ]
+        ],
+        "health": 5
+      },
+      "expected": true,
+      "source": "example"
+    }
+  ]
+}

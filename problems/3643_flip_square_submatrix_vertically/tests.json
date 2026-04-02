@@ -1,0 +1,104 @@
+{
+  "problem_id": 3643,
+  "title": "Flip Square Submatrix Vertically",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/flip-square-submatrix-vertically/",
+  "test_cases": [
+    {
+      "input": {
+        "grid": [
+          [
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            5,
+            6,
+            7,
+            8
+          ],
+          [
+            9,
+            10,
+            11,
+            12
+          ],
+          [
+            13,
+            14,
+            15,
+            16
+          ]
+        ],
+        "x": 1,
+        "y": 0,
+        "k": 3
+      },
+      "expected": [
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          13,
+          14,
+          15,
+          8
+        ],
+        [
+          9,
+          10,
+          11,
+          12
+        ],
+        [
+          5,
+          6,
+          7,
+          16
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            3,
+            4,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            4,
+            2
+          ]
+        ],
+        "x": 0,
+        "y": 2,
+        "k": 2
+      },
+      "expected": [
+        [
+          3,
+          4,
+          4,
+          2
+        ],
+        [
+          2,
+          3,
+          2,
+          3
+        ]
+      ],
+      "source": "example"
+    }
+  ]
+}

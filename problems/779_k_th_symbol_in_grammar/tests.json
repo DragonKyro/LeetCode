@@ -1,0 +1,48 @@
+{
+  "problem_id": 779,
+  "title": "K-th Symbol in Grammar",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/k-th-symbol-in-grammar/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 1,
+        "k": 1
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 2,
+        "k": 1
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 2,
+        "k": 2
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 30,
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 1,
+        "k": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

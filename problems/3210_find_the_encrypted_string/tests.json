@@ -1,0 +1,72 @@
+{
+  "problem_id": 3210,
+  "title": "Find the Encrypted String",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/find-the-encrypted-string/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "dart",
+        "k": 3
+      },
+      "expected": "tdar",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "aaa",
+        "k": 1
+      },
+      "expected": "aaa",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "d",
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "dddd",
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "dede",
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "daad",
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "dart",
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "dart",
+        "k": 10000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "problem_id": 500,
+  "title": "Keyboard Row",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/keyboard-row/",
+  "test_cases": [
+    {
+      "input": {
+        "words": [
+          "Hello",
+          "Alaska",
+          "Dad",
+          "Peace"
+        ]
+      },
+      "expected": [
+        "Alaska",
+        "Dad"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "omk"
+        ]
+      },
+      "expected": [],
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "adsdf",
+          "sfd"
+        ]
+      },
+      "expected": [
+        "adsdf",
+        "sfd"
+      ],
+      "source": "example"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "problem_id": 818,
+  "title": "Race Car",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/race-car/",
+  "test_cases": [
+    {
+      "input": {
+        "target": 3
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "target": 6
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "target": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "target": 10000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

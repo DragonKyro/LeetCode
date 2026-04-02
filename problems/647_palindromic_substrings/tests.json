@@ -1,0 +1,43 @@
+{
+  "problem_id": 647,
+  "title": "Palindromic Substrings",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/palindromic-substrings/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "abc"
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "aaa"
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

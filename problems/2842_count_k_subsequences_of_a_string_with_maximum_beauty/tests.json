@@ -1,0 +1,56 @@
+{
+  "problem_id": 2842,
+  "title": "Count K-Subsequences of a String With Maximum Beauty",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/count-k-subsequences-of-a-string-with-maximum-beauty/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "bcca",
+        "k": 2
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abbcd",
+        "k": 4
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "b",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "bbbb",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "bcbc",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "bccb",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

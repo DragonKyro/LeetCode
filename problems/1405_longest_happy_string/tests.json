@@ -1,0 +1,26 @@
+{
+  "problem_id": 1405,
+  "title": "Longest Happy String",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/longest-happy-string/",
+  "test_cases": [
+    {
+      "input": {
+        "a": 1,
+        "b": 1,
+        "c": 7
+      },
+      "expected": "ccaccbcc",
+      "source": "example"
+    },
+    {
+      "input": {
+        "a": 7,
+        "b": 1,
+        "c": 0
+      },
+      "expected": "aabaa",
+      "source": "example"
+    }
+  ]
+}

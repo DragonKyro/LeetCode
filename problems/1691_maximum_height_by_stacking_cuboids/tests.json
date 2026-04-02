@@ -1,0 +1,87 @@
+{
+  "problem_id": 1691,
+  "title": "Maximum Height by Stacking Cuboids ",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/maximum-height-by-stacking-cuboids/",
+  "test_cases": [
+    {
+      "input": {
+        "cuboids": [
+          [
+            50,
+            45,
+            20
+          ],
+          [
+            95,
+            37,
+            53
+          ],
+          [
+            45,
+            23,
+            12
+          ]
+        ]
+      },
+      "expected": 190,
+      "source": "example"
+    },
+    {
+      "input": {
+        "cuboids": [
+          [
+            38,
+            25,
+            45
+          ],
+          [
+            76,
+            35,
+            3
+          ]
+        ]
+      },
+      "expected": 76,
+      "source": "example"
+    },
+    {
+      "input": {
+        "cuboids": [
+          [
+            7,
+            11,
+            17
+          ],
+          [
+            7,
+            17,
+            11
+          ],
+          [
+            11,
+            7,
+            17
+          ],
+          [
+            11,
+            17,
+            7
+          ],
+          [
+            17,
+            7,
+            11
+          ],
+          [
+            17,
+            11,
+            7
+          ]
+        ]
+      },
+      "expected": 102,
+      "source": "example"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "problem_id": 1140,
+  "title": "Stone Game II",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/stone-game-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "piles": [
+          2,
+          7,
+          9,
+          4,
+          4
+        ]
+      },
+      "expected": 10,
+      "source": "example"
+    },
+    {
+      "input": {
+        "piles": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          100
+        ]
+      },
+      "expected": 104,
+      "source": "example"
+    },
+    {
+      "input": {
+        "piles": [
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "piles": [
+          1,
+          10000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "piles": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "piles": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "piles": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "piles": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "piles": [
+          10000,
+          10000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

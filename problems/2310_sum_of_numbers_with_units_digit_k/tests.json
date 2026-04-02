@@ -1,0 +1,72 @@
+{
+  "problem_id": 2310,
+  "title": "Sum of Numbers With Units Digit K",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/sum-of-numbers-with-units-digit-k/",
+  "test_cases": [
+    {
+      "input": {
+        "num": 58,
+        "k": 9
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 37,
+        "k": 2
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 0,
+        "k": 7
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 0,
+        "k": 9
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": 3000,
+        "k": 9
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": 1,
+        "k": 9
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": 58,
+        "k": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": 58,
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

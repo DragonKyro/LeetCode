@@ -1,0 +1,342 @@
+{
+  "problem_id": 3534,
+  "title": "Path Existence Queries in a Graph II",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/path-existence-queries-in-a-graph-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 5,
+        "nums": [
+          1,
+          8,
+          3,
+          4,
+          2
+        ],
+        "maxDiff": 3,
+        "queries": [
+          [
+            0,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ]
+      },
+      "expected": [
+        1,
+        1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 5,
+        "nums": [
+          5,
+          3,
+          1,
+          9,
+          10
+        ],
+        "maxDiff": 2,
+        "queries": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            4,
+            3
+          ]
+        ]
+      },
+      "expected": [
+        1,
+        2,
+        -1,
+        1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 3,
+        "nums": [
+          3,
+          6,
+          1
+        ],
+        "maxDiff": 1,
+        "queries": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      },
+      "expected": [
+        0,
+        -1,
+        -1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 5,
+        "nums": [
+          1
+        ],
+        "maxDiff": 3,
+        "queries": [
+          [
+            0,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 5,
+        "nums": [
+          0,
+          100000
+        ],
+        "maxDiff": 3,
+        "queries": [
+          [
+            0,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 5,
+        "nums": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "maxDiff": 3,
+        "queries": [
+          [
+            0,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 5,
+        "nums": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "maxDiff": 3,
+        "queries": [
+          [
+            0,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 5,
+        "nums": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "maxDiff": 3,
+        "queries": [
+          [
+            0,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 5,
+        "nums": [
+          0,
+          0
+        ],
+        "maxDiff": 3,
+        "queries": [
+          [
+            0,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 5,
+        "nums": [
+          100000,
+          100000
+        ],
+        "maxDiff": 3,
+        "queries": [
+          [
+            0,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 5,
+        "nums": [
+          1,
+          8,
+          3,
+          4,
+          2
+        ],
+        "maxDiff": 0,
+        "queries": [
+          [
+            0,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 5,
+        "nums": [
+          1,
+          8,
+          3,
+          4,
+          2
+        ],
+        "maxDiff": 100000,
+        "queries": [
+          [
+            0,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 5,
+        "nums": [
+          1,
+          8,
+          3,
+          4,
+          2
+        ],
+        "maxDiff": 1,
+        "queries": [
+          [
+            0,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

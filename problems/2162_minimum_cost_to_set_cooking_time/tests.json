@@ -1,0 +1,68 @@
+{
+  "problem_id": 2162,
+  "title": "Minimum Cost to Set Cooking Time",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-cost-to-set-cooking-time/",
+  "test_cases": [
+    {
+      "input": {
+        "startAt": 1,
+        "moveCost": 2,
+        "pushCost": 1,
+        "targetSeconds": 600
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "startAt": 0,
+        "moveCost": 1,
+        "pushCost": 2,
+        "targetSeconds": 76
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "startAt": 0,
+        "moveCost": 2,
+        "pushCost": 1,
+        "targetSeconds": 600
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startAt": 9,
+        "moveCost": 2,
+        "pushCost": 1,
+        "targetSeconds": 600
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startAt": 1,
+        "moveCost": 2,
+        "pushCost": 1,
+        "targetSeconds": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startAt": 1,
+        "moveCost": 2,
+        "pushCost": 1,
+        "targetSeconds": 6039
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

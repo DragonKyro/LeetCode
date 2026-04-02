@@ -1,0 +1,176 @@
+{
+  "problem_id": 3043,
+  "title": "Find the Length of the Longest Common Prefix",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/",
+  "test_cases": [
+    {
+      "input": {
+        "arr1": [
+          1,
+          10,
+          100
+        ],
+        "arr2": [
+          1000
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "arr1": [
+          1,
+          2,
+          3
+        ],
+        "arr2": [
+          4,
+          4,
+          4
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "arr1": [
+          1
+        ],
+        "arr2": [
+          1000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr1": [
+          -100,
+          100
+        ],
+        "arr2": [
+          1000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr1": [
+          1,
+          1,
+          1
+        ],
+        "arr2": [
+          1000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr1": [
+          1,
+          2,
+          3
+        ],
+        "arr2": [
+          1000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr1": [
+          3,
+          2,
+          1
+        ],
+        "arr2": [
+          1000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr1": [
+          -100,
+          -100
+        ],
+        "arr2": [
+          1000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr1": [
+          100,
+          100
+        ],
+        "arr2": [
+          1000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr1": [
+          1,
+          10,
+          100
+        ],
+        "arr2": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr1": [
+          1,
+          10,
+          100
+        ],
+        "arr2": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr1": [
+          1,
+          10,
+          100
+        ],
+        "arr2": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

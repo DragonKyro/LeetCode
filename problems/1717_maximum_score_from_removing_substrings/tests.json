@@ -1,0 +1,62 @@
+{
+  "problem_id": 1717,
+  "title": "Maximum Score From Removing Substrings",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-score-from-removing-substrings/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "cdbcbbaaabab",
+        "x": 4,
+        "y": 5
+      },
+      "expected": 19,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "aabbaaxybbaabb",
+        "x": 5,
+        "y": 4
+      },
+      "expected": 20,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "c",
+        "x": 4,
+        "y": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "cccccccccccc",
+        "x": 4,
+        "y": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "cdcdcdcdcdcd",
+        "x": 4,
+        "y": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "cdbcbbbbcbdc",
+        "x": 4,
+        "y": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

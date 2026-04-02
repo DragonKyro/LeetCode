@@ -1,0 +1,122 @@
+{
+  "problem_id": 2391,
+  "title": "Minimum Amount of Time to Collect Garbage",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/",
+  "test_cases": [
+    {
+      "input": {
+        "garbage": [
+          "G",
+          "P",
+          "GP",
+          "GG"
+        ],
+        "travel": [
+          2,
+          4,
+          3
+        ]
+      },
+      "expected": 21,
+      "source": "example"
+    },
+    {
+      "input": {
+        "garbage": [
+          "MMM",
+          "PGM",
+          "GP"
+        ],
+        "travel": [
+          3,
+          10
+        ]
+      },
+      "expected": 37,
+      "source": "example"
+    },
+    {
+      "input": {
+        "garbage": [
+          "G",
+          "P",
+          "GP",
+          "GG"
+        ],
+        "travel": [
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "garbage": [
+          "G",
+          "P",
+          "GP",
+          "GG"
+        ],
+        "travel": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "garbage": [
+          "G",
+          "P",
+          "GP",
+          "GG"
+        ],
+        "travel": [
+          2,
+          2,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "garbage": [
+          "G",
+          "P",
+          "GP",
+          "GG"
+        ],
+        "travel": [
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "garbage": [
+          "G",
+          "P",
+          "GP",
+          "GG"
+        ],
+        "travel": [
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

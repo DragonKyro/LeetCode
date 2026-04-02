@@ -1,0 +1,43 @@
+{
+  "problem_id": 1780,
+  "title": "Check if Number is a Sum of Powers of Three",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 12
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 91
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 21
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 10000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

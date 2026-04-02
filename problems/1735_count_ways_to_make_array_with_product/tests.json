@@ -1,0 +1,66 @@
+{
+  "problem_id": 1735,
+  "title": "Count Ways to Make Array With Product",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/count-ways-to-make-array-with-product/",
+  "test_cases": [
+    {
+      "input": {
+        "queries": [
+          [
+            2,
+            6
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            73,
+            660
+          ]
+        ]
+      },
+      "expected": [
+        4,
+        1,
+        50734910
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "queries": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            5
+          ]
+        ]
+      },
+      "expected": [
+        1,
+        2,
+        3,
+        10,
+        5
+      ],
+      "source": "example"
+    }
+  ]
+}

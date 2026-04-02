@@ -1,0 +1,50 @@
+{
+  "problem_id": 1750,
+  "title": "Minimum Length of String After Deleting Similar Ends",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "ca"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "cabaabac"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "aabccabba"
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "c"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "cc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "cdcd"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

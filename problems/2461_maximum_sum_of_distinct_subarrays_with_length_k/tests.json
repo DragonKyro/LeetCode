@@ -1,0 +1,127 @@
+{
+  "problem_id": 2461,
+  "title": "Maximum Sum of Distinct Subarrays With Length K",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          1,
+          5,
+          4,
+          2,
+          9,
+          9,
+          9
+        ],
+        "k": 3
+      },
+      "expected": 15,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          4,
+          4
+        ],
+        "k": 3
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          1
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          100000
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          100000,
+          100000
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

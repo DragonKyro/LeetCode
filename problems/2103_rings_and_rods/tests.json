@@ -1,0 +1,57 @@
+{
+  "problem_id": 2103,
+  "title": "Rings and Rods",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/rings-and-rods/",
+  "test_cases": [
+    {
+      "input": {
+        "rings": "B0B6G0R6R0R6G9"
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "rings": "B0R0G0R9R0B0G0"
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "rings": "G4"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "rings": "B"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "rings": "BBBBBBBBBBBBBB"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "rings": "BCBCBCBCBCBCBC"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "rings": "B0B6G0RR0G6B0B"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "problem_id": 920,
+  "title": "Number of Music Playlists",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/number-of-music-playlists/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 3,
+        "goal": 3,
+        "k": 1
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 2,
+        "goal": 3,
+        "k": 0
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 2,
+        "goal": 3,
+        "k": 1
+      },
+      "expected": 2,
+      "source": "example"
+    }
+  ]
+}

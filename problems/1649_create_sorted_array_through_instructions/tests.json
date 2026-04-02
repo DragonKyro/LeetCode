@@ -1,0 +1,126 @@
+{
+  "problem_id": 1649,
+  "title": "Create Sorted Array through Instructions",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/create-sorted-array-through-instructions/",
+  "test_cases": [
+    {
+      "input": {
+        "instructions": [
+          1,
+          5,
+          6,
+          2
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "instructions": [
+          1,
+          2,
+          3,
+          6,
+          5,
+          4
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "instructions": [
+          1,
+          3,
+          3,
+          3,
+          2,
+          4,
+          2,
+          1,
+          2
+        ]
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "instructions": [
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "instructions": [
+          1,
+          100000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "instructions": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "instructions": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "instructions": [
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "instructions": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "instructions": [
+          100000,
+          100000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

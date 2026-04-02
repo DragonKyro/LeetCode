@@ -1,0 +1,56 @@
+{
+  "problem_id": 827,
+  "title": "Making A Large Island",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/making-a-large-island/",
+  "test_cases": [
+    {
+      "input": {
+        "grid": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      "expected": 4,
+      "source": "example"
+    }
+  ]
+}

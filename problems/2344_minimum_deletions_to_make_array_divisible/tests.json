@@ -1,0 +1,299 @@
+{
+  "problem_id": 2344,
+  "title": "Minimum Deletions to Make Array Divisible",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-deletions-to-make-array-divisible/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          2,
+          3,
+          2,
+          4,
+          3
+        ],
+        "numsDivide": [
+          9,
+          6,
+          9,
+          3,
+          15
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          3,
+          6
+        ],
+        "numsDivide": [
+          8,
+          2,
+          6,
+          10
+        ]
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          2
+        ],
+        "numsDivide": [
+          9,
+          6,
+          9,
+          3,
+          15
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -100,
+          100
+        ],
+        "numsDivide": [
+          9,
+          6,
+          9,
+          3,
+          15
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "numsDivide": [
+          9,
+          6,
+          9,
+          3,
+          15
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "numsDivide": [
+          9,
+          6,
+          9,
+          3,
+          15
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "numsDivide": [
+          9,
+          6,
+          9,
+          3,
+          15
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -100,
+          -100
+        ],
+        "numsDivide": [
+          9,
+          6,
+          9,
+          3,
+          15
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          100,
+          100
+        ],
+        "numsDivide": [
+          9,
+          6,
+          9,
+          3,
+          15
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          3,
+          2,
+          4,
+          3
+        ],
+        "numsDivide": [
+          9
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          3,
+          2,
+          4,
+          3
+        ],
+        "numsDivide": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          3,
+          2,
+          4,
+          3
+        ],
+        "numsDivide": [
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          3,
+          2,
+          4,
+          3
+        ],
+        "numsDivide": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          3,
+          2,
+          4,
+          3
+        ],
+        "numsDivide": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          3,
+          2,
+          4,
+          3
+        ],
+        "numsDivide": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          3,
+          2,
+          4,
+          3
+        ],
+        "numsDivide": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

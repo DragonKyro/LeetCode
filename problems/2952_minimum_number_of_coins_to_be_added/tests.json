@@ -1,0 +1,150 @@
+{
+  "problem_id": 2952,
+  "title": "Minimum Number of Coins to be Added",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-number-of-coins-to-be-added/",
+  "test_cases": [
+    {
+      "input": {
+        "coins": [
+          1,
+          4,
+          10
+        ],
+        "target": 19
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "coins": [
+          1,
+          4,
+          10,
+          5,
+          7,
+          19
+        ],
+        "target": 19
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "coins": [
+          1,
+          1,
+          1
+        ],
+        "target": 20
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "coins": [
+          1
+        ],
+        "target": 19
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "coins": [
+          -100,
+          100
+        ],
+        "target": 19
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "coins": [
+          1,
+          1,
+          1
+        ],
+        "target": 19
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "coins": [
+          1,
+          2,
+          3
+        ],
+        "target": 19
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "coins": [
+          3,
+          2,
+          1
+        ],
+        "target": 19
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "coins": [
+          -100,
+          -100
+        ],
+        "target": 19
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "coins": [
+          100,
+          100
+        ],
+        "target": 19
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "coins": [
+          1,
+          4,
+          10
+        ],
+        "target": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "coins": [
+          1,
+          4,
+          10
+        ],
+        "target": 100000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

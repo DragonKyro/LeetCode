@@ -1,0 +1,50 @@
+{
+  "problem_id": 1156,
+  "title": "Swap For Longest Repeated Character Substring",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/swap-for-longest-repeated-character-substring/",
+  "test_cases": [
+    {
+      "input": {
+        "text": "ababa"
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "text": "aaabaaa"
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "text": "aaaaa"
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "text": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "text": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "text": "abba"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

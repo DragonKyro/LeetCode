@@ -1,0 +1,58 @@
+{
+  "problem_id": 2703,
+  "title": "Return Length of Arguments Passed",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/return-length-of-arguments-passed/",
+  "test_cases": [
+    {
+      "input": {
+        "args": [
+          5
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "args": [
+          {},
+          null,
+          "3"
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "args": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "args": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "args": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

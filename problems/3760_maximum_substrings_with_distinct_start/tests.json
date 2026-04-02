@@ -1,0 +1,43 @@
+{
+  "problem_id": 3760,
+  "title": "Maximum Substrings With Distinct Start",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-substrings-with-distinct-start/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "abab"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abcd"
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "aaaa"
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abba"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

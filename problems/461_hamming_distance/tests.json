@@ -1,0 +1,24 @@
+{
+  "problem_id": 461,
+  "title": "Hamming Distance",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/hamming-distance/",
+  "test_cases": [
+    {
+      "input": {
+        "x": 1,
+        "y": 4
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "x": 3,
+        "y": 1
+      },
+      "expected": 1,
+      "source": "example"
+    }
+  ]
+}

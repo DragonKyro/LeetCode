@@ -1,0 +1,96 @@
+{
+  "problem_id": 165,
+  "title": "Compare Version Numbers",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/compare-version-numbers/",
+  "test_cases": [
+    {
+      "input": {
+        "version1": "1.2",
+        "version2": "1.10"
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "version1": "1.01",
+        "version2": "1.001"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "version1": "1.0",
+        "version2": "1.0.0.0"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "version1": "1",
+        "version2": "1.10"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "version1": "111",
+        "version2": "1.10"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "version1": "1212",
+        "version2": "1.10"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "version1": "11",
+        "version2": "1.10"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "version1": "1.2",
+        "version2": "1"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "version1": "1.2",
+        "version2": "1111"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "version1": "1.2",
+        "version2": "1212"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "version1": "1.2",
+        "version2": "1..1"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

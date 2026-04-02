@@ -1,0 +1,50 @@
+{
+  "problem_id": 738,
+  "title": "Monotone Increasing Digits",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/monotone-increasing-digits/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 10
+      },
+      "expected": 9,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1234
+      },
+      "expected": 1234,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 332
+      },
+      "expected": 299,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 1000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

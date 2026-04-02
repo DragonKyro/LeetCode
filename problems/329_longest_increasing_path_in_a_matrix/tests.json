@@ -1,0 +1,65 @@
+{
+  "problem_id": 329,
+  "title": "Longest Increasing Path in a Matrix",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/longest-increasing-path-in-a-matrix/",
+  "test_cases": [
+    {
+      "input": {
+        "matrix": [
+          [
+            9,
+            9,
+            4
+          ],
+          [
+            6,
+            6,
+            8
+          ],
+          [
+            2,
+            1,
+            1
+          ]
+        ]
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "matrix": [
+          [
+            3,
+            4,
+            5
+          ],
+          [
+            3,
+            2,
+            6
+          ],
+          [
+            2,
+            2,
+            1
+          ]
+        ]
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "matrix": [
+          [
+            1
+          ]
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    }
+  ]
+}

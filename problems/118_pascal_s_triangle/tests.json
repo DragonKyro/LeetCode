@@ -1,0 +1,59 @@
+{
+  "problem_id": 118,
+  "title": "Pascal's Triangle",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/pascals-triangle/",
+  "test_cases": [
+    {
+      "input": {
+        "numRows": 5
+      },
+      "expected": [
+        [
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2,
+          1
+        ],
+        [
+          1,
+          3,
+          3,
+          1
+        ],
+        [
+          1,
+          4,
+          6,
+          4,
+          1
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "numRows": 1
+      },
+      "expected": [
+        [
+          1
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "numRows": 30
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

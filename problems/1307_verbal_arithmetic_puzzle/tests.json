@@ -1,0 +1,86 @@
+{
+  "problem_id": 1307,
+  "title": "Verbal Arithmetic Puzzle",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/verbal-arithmetic-puzzle/",
+  "test_cases": [
+    {
+      "input": {
+        "words": [
+          "SEND",
+          "MORE"
+        ],
+        "result": "MONEY"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "SIX",
+          "SEVEN",
+          "SEVEN"
+        ],
+        "result": "TWENTY"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "LEET",
+          "CODE"
+        ],
+        "result": "POINT"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "SEND",
+          "MORE"
+        ],
+        "result": "M"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "words": [
+          "SEND",
+          "MORE"
+        ],
+        "result": "MMMMM"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "words": [
+          "SEND",
+          "MORE"
+        ],
+        "result": "MNMN"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "words": [
+          "SEND",
+          "MORE"
+        ],
+        "result": "MOOM"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

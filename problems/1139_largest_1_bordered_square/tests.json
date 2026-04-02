@@ -1,0 +1,45 @@
+{
+  "problem_id": 1139,
+  "title": "Largest 1-Bordered Square",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/largest-1-bordered-square/",
+  "test_cases": [
+    {
+      "input": {
+        "grid": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ]
+        ]
+      },
+      "expected": 9,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            1,
+            1,
+            0,
+            0
+          ]
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "problem_id": 539,
+  "title": "Minimum Time Difference",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-time-difference/",
+  "test_cases": [
+    {
+      "input": {
+        "timePoints": [
+          "23:59",
+          "00:00"
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "timePoints": [
+          "00:00",
+          "23:59",
+          "00:00"
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    }
+  ]
+}

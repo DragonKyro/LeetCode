@@ -1,0 +1,112 @@
+{
+  "problem_id": 473,
+  "title": "Matchsticks to Square",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/matchsticks-to-square/",
+  "test_cases": [
+    {
+      "input": {
+        "matchsticks": [
+          1,
+          1,
+          2,
+          2,
+          2
+        ]
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "matchsticks": [
+          3,
+          3,
+          3,
+          3,
+          4
+        ]
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "matchsticks": [
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "matchsticks": [
+          1,
+          100000000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "matchsticks": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "matchsticks": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "matchsticks": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "matchsticks": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "matchsticks": [
+          100000000,
+          100000000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

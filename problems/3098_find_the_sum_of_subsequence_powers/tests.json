@@ -1,0 +1,91 @@
+{
+  "problem_id": 3098,
+  "title": "Find the Sum of Subsequence Powers",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/find-the-sum-of-subsequence-powers/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "k": 3
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          2
+        ],
+        "k": 2
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          3,
+          -1
+        ],
+        "k": 2
+      },
+      "expected": 10,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          1
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          100000000,
+          100000000
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

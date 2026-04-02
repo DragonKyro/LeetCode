@@ -1,0 +1,43 @@
+{
+  "problem_id": 2806,
+  "title": "Account Balance After Rounded Purchase",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/account-balance-after-rounded-purchase/",
+  "test_cases": [
+    {
+      "input": {
+        "purchaseAmount": 9
+      },
+      "expected": 90,
+      "source": "example"
+    },
+    {
+      "input": {
+        "purchaseAmount": 15
+      },
+      "expected": 80,
+      "source": "example"
+    },
+    {
+      "input": {
+        "purchaseAmount": 10
+      },
+      "expected": 90,
+      "source": "example"
+    },
+    {
+      "input": {
+        "purchaseAmount": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "purchaseAmount": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

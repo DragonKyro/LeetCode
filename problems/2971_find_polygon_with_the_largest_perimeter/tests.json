@@ -1,0 +1,106 @@
+{
+  "problem_id": 2971,
+  "title": "Find Polygon With the Largest Perimeter",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-polygon-with-the-largest-perimeter/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          5,
+          5,
+          5
+        ]
+      },
+      "expected": 15,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          12,
+          1,
+          2,
+          5,
+          50,
+          3
+        ]
+      },
+      "expected": 12,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          5,
+          5,
+          50
+        ]
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1000000000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1000000000,
+          1000000000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

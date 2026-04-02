@@ -1,0 +1,100 @@
+{
+  "problem_id": 2141,
+  "title": "Maximum Running Time of N Computers",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/maximum-running-time-of-n-computers/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 2,
+        "batteries": [
+          3,
+          3,
+          3
+        ]
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 2,
+        "batteries": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 2,
+        "batteries": [
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 2,
+        "batteries": [
+          1,
+          1000000000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 2,
+        "batteries": [
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 2,
+        "batteries": [
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 2,
+        "batteries": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 2,
+        "batteries": [
+          1000000000,
+          1000000000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "problem_id": 722,
+  "title": "Remove Comments",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/remove-comments/",
+  "test_cases": [
+    {
+      "input": {
+        "source": "[\"/*Test program */\", \"int main()\", \"{ \", \"  // variable declaration \", \"int a, b, c;\", \"/* This is a test\", \"   multiline  \", \"   comment for \", \"   testing */\", \"",
+        "a": "b + c;\", \"}\"]"
+      },
+      "expected": [
+        "int main()",
+        "{ ",
+        "  ",
+        "int a, b, c;",
+        "a = b + c;",
+        "}"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "source": [
+          "a/*comment",
+          "line",
+          "more_comment*/b"
+        ]
+      },
+      "expected": [
+        "ab"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "source": "[",
+        "a": "b + c;\", \"}\"]"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "source": "[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[",
+        "a": "b + c;\", \"}\"]"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "source": "[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\",
+        "a": "b + c;\", \"}\"]"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "source": "[\"/*Test program */\", \"int main()\", \"{ \", \"  // variable declaration \", \"int a, b,,b ,a tni\" ,\" noitaralced elbairav //  \" ,\" {\" ,\")(niam tni\" ,\"/* margorp tseT*/\"[",
+        "a": "b + c;\", \"}\"]"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "source": "[\"/*Test program */\", \"int main()\", \"{ \", \"  // variable declaration \", \"int a, b, c;\", \"/* This is a test\", \"   multiline  \", \"   comment for \", \"   testing */\", \"",
+        "a": "b"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "source": "[\"/*Test program */\", \"int main()\", \"{ \", \"  // variable declaration \", \"int a, b, c;\", \"/* This is a test\", \"   multiline  \", \"   comment for \", \"   testing */\", \"",
+        "a": "bbbbbbbbbbbbb"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "source": "[\"/*Test program */\", \"int main()\", \"{ \", \"  // variable declaration \", \"int a, b, c;\", \"/* This is a test\", \"   multiline  \", \"   comment for \", \"   testing */\", \"",
+        "a": "bcbcbcbcbcbc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "source": "[\"/*Test program */\", \"int main()\", \"{ \", \"  // variable declaration \", \"int a, b, c;\", \"/* This is a test\", \"   multiline  \", \"   comment for \", \"   testing */\", \"",
+        "a": "b + c;;c + b"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

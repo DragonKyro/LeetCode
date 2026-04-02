@@ -1,0 +1,102 @@
+{
+  "problem_id": 781,
+  "title": "Rabbits in Forest",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/rabbits-in-forest/",
+  "test_cases": [
+    {
+      "input": {
+        "answers": [
+          1,
+          1,
+          2
+        ]
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "answers": [
+          10,
+          10,
+          10
+        ]
+      },
+      "expected": 11,
+      "source": "example"
+    },
+    {
+      "input": {
+        "answers": [
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "answers": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "answers": [
+          1,
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "answers": [
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "answers": [
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "answers": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "answers": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

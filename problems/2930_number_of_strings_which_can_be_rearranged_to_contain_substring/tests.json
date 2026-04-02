@@ -1,0 +1,36 @@
+{
+  "problem_id": 2930,
+  "title": "Number of Strings Which Can Be Rearranged to Contain Substring",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/number-of-strings-which-can-be-rearranged-to-contain-substring/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 4
+      },
+      "expected": 12,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 10
+      },
+      "expected": 83943898,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 100000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "problem_id": 1545,
+  "title": "Find Kth Bit in Nth Binary String",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 3,
+        "k": 1
+      },
+      "expected": "0",
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 4,
+        "k": 11
+      },
+      "expected": "1",
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 20,
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 3,
+        "k": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

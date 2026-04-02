@@ -1,0 +1,176 @@
+{
+  "problem_id": 3781,
+  "title": "Maximum Score After Binary Swaps",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-score-after-binary-swaps/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          2,
+          1,
+          5,
+          2,
+          3
+        ],
+        "s": "01010"
+      },
+      "expected": 7,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          7,
+          2,
+          9
+        ],
+        "s": "0000"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          2
+        ],
+        "s": "01010"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1000000000
+        ],
+        "s": "01010"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "s": "01010"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "s": "01010"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "s": "01010"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1
+        ],
+        "s": "01010"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1000000000,
+          1000000000
+        ],
+        "s": "01010"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          1,
+          5,
+          2,
+          3
+        ],
+        "s": "0"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          1,
+          5,
+          2,
+          3
+        ],
+        "s": "00000"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          1,
+          5,
+          2,
+          3
+        ],
+        "s": "0101"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          1,
+          5,
+          2,
+          3
+        ],
+        "s": "0110"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

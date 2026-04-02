@@ -1,0 +1,637 @@
+{
+  "problem_id": 2087,
+  "title": "Minimum Cost Homecoming of a Robot in a Grid",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-cost-homecoming-of-a-robot-in-a-grid/",
+  "test_cases": [
+    {
+      "input": {
+        "startPos": [
+          1,
+          0
+        ],
+        "homePos": [
+          2,
+          3
+        ],
+        "rowCosts": [
+          5,
+          4,
+          3
+        ],
+        "colCosts": [
+          8,
+          2,
+          6,
+          7
+        ]
+      },
+      "expected": 18,
+      "source": "example"
+    },
+    {
+      "input": {
+        "startPos": [
+          0,
+          0
+        ],
+        "homePos": [
+          0,
+          0
+        ],
+        "rowCosts": [
+          5
+        ],
+        "colCosts": [
+          26
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "startPos": [
+          1
+        ],
+        "homePos": [
+          2,
+          3
+        ],
+        "rowCosts": [
+          5,
+          4,
+          3
+        ],
+        "colCosts": [
+          8,
+          2,
+          6,
+          7
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startPos": [
+          -100,
+          100
+        ],
+        "homePos": [
+          2,
+          3
+        ],
+        "rowCosts": [
+          5,
+          4,
+          3
+        ],
+        "colCosts": [
+          8,
+          2,
+          6,
+          7
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startPos": [
+          1,
+          1
+        ],
+        "homePos": [
+          2,
+          3
+        ],
+        "rowCosts": [
+          5,
+          4,
+          3
+        ],
+        "colCosts": [
+          8,
+          2,
+          6,
+          7
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startPos": [
+          -100,
+          -100
+        ],
+        "homePos": [
+          2,
+          3
+        ],
+        "rowCosts": [
+          5,
+          4,
+          3
+        ],
+        "colCosts": [
+          8,
+          2,
+          6,
+          7
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startPos": [
+          100,
+          100
+        ],
+        "homePos": [
+          2,
+          3
+        ],
+        "rowCosts": [
+          5,
+          4,
+          3
+        ],
+        "colCosts": [
+          8,
+          2,
+          6,
+          7
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startPos": [
+          1,
+          0
+        ],
+        "homePos": [
+          2
+        ],
+        "rowCosts": [
+          5,
+          4,
+          3
+        ],
+        "colCosts": [
+          8,
+          2,
+          6,
+          7
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startPos": [
+          1,
+          0
+        ],
+        "homePos": [
+          -100,
+          100
+        ],
+        "rowCosts": [
+          5,
+          4,
+          3
+        ],
+        "colCosts": [
+          8,
+          2,
+          6,
+          7
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startPos": [
+          1,
+          0
+        ],
+        "homePos": [
+          2,
+          2
+        ],
+        "rowCosts": [
+          5,
+          4,
+          3
+        ],
+        "colCosts": [
+          8,
+          2,
+          6,
+          7
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startPos": [
+          1,
+          0
+        ],
+        "homePos": [
+          -100,
+          -100
+        ],
+        "rowCosts": [
+          5,
+          4,
+          3
+        ],
+        "colCosts": [
+          8,
+          2,
+          6,
+          7
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startPos": [
+          1,
+          0
+        ],
+        "homePos": [
+          100,
+          100
+        ],
+        "rowCosts": [
+          5,
+          4,
+          3
+        ],
+        "colCosts": [
+          8,
+          2,
+          6,
+          7
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startPos": [
+          1,
+          0
+        ],
+        "homePos": [
+          2,
+          3
+        ],
+        "rowCosts": [
+          5
+        ],
+        "colCosts": [
+          8,
+          2,
+          6,
+          7
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startPos": [
+          1,
+          0
+        ],
+        "homePos": [
+          2,
+          3
+        ],
+        "rowCosts": [
+          -100,
+          100
+        ],
+        "colCosts": [
+          8,
+          2,
+          6,
+          7
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startPos": [
+          1,
+          0
+        ],
+        "homePos": [
+          2,
+          3
+        ],
+        "rowCosts": [
+          5,
+          5,
+          5
+        ],
+        "colCosts": [
+          8,
+          2,
+          6,
+          7
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startPos": [
+          1,
+          0
+        ],
+        "homePos": [
+          2,
+          3
+        ],
+        "rowCosts": [
+          1,
+          2,
+          3
+        ],
+        "colCosts": [
+          8,
+          2,
+          6,
+          7
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startPos": [
+          1,
+          0
+        ],
+        "homePos": [
+          2,
+          3
+        ],
+        "rowCosts": [
+          3,
+          2,
+          1
+        ],
+        "colCosts": [
+          8,
+          2,
+          6,
+          7
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startPos": [
+          1,
+          0
+        ],
+        "homePos": [
+          2,
+          3
+        ],
+        "rowCosts": [
+          -100,
+          -100
+        ],
+        "colCosts": [
+          8,
+          2,
+          6,
+          7
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startPos": [
+          1,
+          0
+        ],
+        "homePos": [
+          2,
+          3
+        ],
+        "rowCosts": [
+          100,
+          100
+        ],
+        "colCosts": [
+          8,
+          2,
+          6,
+          7
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startPos": [
+          1,
+          0
+        ],
+        "homePos": [
+          2,
+          3
+        ],
+        "rowCosts": [
+          5,
+          4,
+          3
+        ],
+        "colCosts": [
+          8
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startPos": [
+          1,
+          0
+        ],
+        "homePos": [
+          2,
+          3
+        ],
+        "rowCosts": [
+          5,
+          4,
+          3
+        ],
+        "colCosts": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startPos": [
+          1,
+          0
+        ],
+        "homePos": [
+          2,
+          3
+        ],
+        "rowCosts": [
+          5,
+          4,
+          3
+        ],
+        "colCosts": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startPos": [
+          1,
+          0
+        ],
+        "homePos": [
+          2,
+          3
+        ],
+        "rowCosts": [
+          5,
+          4,
+          3
+        ],
+        "colCosts": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startPos": [
+          1,
+          0
+        ],
+        "homePos": [
+          2,
+          3
+        ],
+        "rowCosts": [
+          5,
+          4,
+          3
+        ],
+        "colCosts": [
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startPos": [
+          1,
+          0
+        ],
+        "homePos": [
+          2,
+          3
+        ],
+        "rowCosts": [
+          5,
+          4,
+          3
+        ],
+        "colCosts": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startPos": [
+          1,
+          0
+        ],
+        "homePos": [
+          2,
+          3
+        ],
+        "rowCosts": [
+          5,
+          4,
+          3
+        ],
+        "colCosts": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

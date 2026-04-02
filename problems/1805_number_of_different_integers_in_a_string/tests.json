@@ -1,0 +1,57 @@
+{
+  "problem_id": 1805,
+  "title": "Number of Different Integers in a String",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/number-of-different-integers-in-a-string/",
+  "test_cases": [
+    {
+      "input": {
+        "word": "a123bc34d8ef34"
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word": "leet1234code234"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word": "a1b01c001"
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word": "aaaaaaaaaaaaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word": "ababababababab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word": "a123bc33cb321a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

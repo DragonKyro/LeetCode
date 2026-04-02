@@ -1,0 +1,178 @@
+{
+  "problem_id": 1095,
+  "title": "Find in Mountain Array",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/find-in-mountain-array/",
+  "test_cases": [
+    {
+      "input": {
+        "mountainArr": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          3,
+          1
+        ],
+        "target": 3
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "mountainArr": [
+          0,
+          1,
+          2,
+          4,
+          2,
+          1
+        ],
+        "target": 3
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "mountainArr": [
+          1
+        ],
+        "target": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "mountainArr": [
+          -100,
+          100
+        ],
+        "target": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "mountainArr": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "target": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "mountainArr": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "target": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "mountainArr": [
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "target": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "mountainArr": [
+          -100,
+          -100
+        ],
+        "target": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "mountainArr": [
+          100,
+          100
+        ],
+        "target": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "mountainArr": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          3,
+          1
+        ],
+        "target": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "mountainArr": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          3,
+          1
+        ],
+        "target": 1000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "mountainArr": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          3,
+          1
+        ],
+        "target": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

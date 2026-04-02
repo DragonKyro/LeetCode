@@ -1,0 +1,231 @@
+{
+  "problem_id": 2724,
+  "title": "Sort By",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/sort-by/",
+  "test_cases": [
+    {
+      "input": {
+        "arr": [
+          5,
+          4,
+          1,
+          2,
+          3
+        ],
+        "fn": "(x) => x"
+      },
+      "expected": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "arr": [
+          {
+            "x": 1
+          },
+          {
+            "x": 0
+          },
+          {
+            "x": -1
+          }
+        ],
+        "fn": "(d) => d.x"
+      },
+      "expected": [
+        {
+          "x": -1
+        },
+        {
+          "x": 0
+        },
+        {
+          "x": 1
+        }
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "arr": [
+          [
+            3,
+            4
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            10,
+            1
+          ]
+        ],
+        "fn": "(x) => x[1]"
+      },
+      "expected": [
+        [
+          10,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "arr": [
+          5
+        ],
+        "fn": "(x) => x"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          -100,
+          100
+        ],
+        "fn": "(x) => x"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "fn": "(x) => x"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "fn": "(x) => x"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "fn": "(x) => x"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          -100,
+          -100
+        ],
+        "fn": "(x) => x"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          100,
+          100
+        ],
+        "fn": "(x) => x"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          5,
+          4,
+          1,
+          2,
+          3
+        ],
+        "fn": "("
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          5,
+          4,
+          1,
+          2,
+          3
+        ],
+        "fn": "(((((((("
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          5,
+          4,
+          1,
+          2,
+          3
+        ],
+        "fn": "()()()()"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          5,
+          4,
+          1,
+          2,
+          3
+        ],
+        "fn": "(x)  )x("
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

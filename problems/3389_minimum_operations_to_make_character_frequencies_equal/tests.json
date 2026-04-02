@@ -1,0 +1,43 @@
+{
+  "problem_id": 3389,
+  "title": "Minimum Operations to Make Character Frequencies Equal",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-operations-to-make-character-frequencies-equal/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "acab"
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "wddw"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "aaabc"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "aaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "acca"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

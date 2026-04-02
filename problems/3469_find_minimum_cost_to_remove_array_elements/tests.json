@@ -1,0 +1,107 @@
+{
+  "problem_id": 3469,
+  "title": "Find Minimum Cost to Remove Array Elements",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-minimum-cost-to-remove-array-elements/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          6,
+          2,
+          8,
+          4
+        ]
+      },
+      "expected": 12,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          1,
+          3,
+          3
+        ]
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          6
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1000000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          6,
+          6,
+          6,
+          6
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1000000,
+          1000000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

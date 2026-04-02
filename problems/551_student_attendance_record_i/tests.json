@@ -1,0 +1,50 @@
+{
+  "problem_id": 551,
+  "title": "Student Attendance Record I",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/student-attendance-record-i/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "PPALLP"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "PPALLL"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "P"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "PPPPPP"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "PQPQPQ"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "PPAAPP"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

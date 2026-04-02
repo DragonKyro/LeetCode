@@ -1,0 +1,50 @@
+{
+  "problem_id": 2086,
+  "title": "Minimum Number of Food Buckets to Feed the Hamsters",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-number-of-food-buckets-to-feed-the-hamsters/",
+  "test_cases": [
+    {
+      "input": {
+        "hamsters": "H..H"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "hamsters": ".H.H."
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "hamsters": ".HHH."
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "hamsters": "H"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "hamsters": "HHHH"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "hamsters": "HIHI"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

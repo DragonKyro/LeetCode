@@ -1,0 +1,208 @@
+{
+  "problem_id": 3575,
+  "title": "Maximum Good Subtree Score",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/maximum-good-subtree-score/",
+  "test_cases": [
+    {
+      "input": {
+        "vals": [
+          2,
+          3
+        ],
+        "par": [
+          -1,
+          0
+        ]
+      },
+      "expected": 8,
+      "source": "example"
+    },
+    {
+      "input": {
+        "vals": [
+          1,
+          5,
+          2
+        ],
+        "par": [
+          -1,
+          0,
+          0
+        ]
+      },
+      "expected": 15,
+      "source": "example"
+    },
+    {
+      "input": {
+        "vals": [
+          34,
+          1,
+          2
+        ],
+        "par": [
+          -1,
+          0,
+          1
+        ]
+      },
+      "expected": 42,
+      "source": "example"
+    },
+    {
+      "input": {
+        "vals": [
+          3,
+          22,
+          5
+        ],
+        "par": [
+          -1,
+          0,
+          1
+        ]
+      },
+      "expected": 18,
+      "source": "example"
+    },
+    {
+      "input": {
+        "vals": [
+          2
+        ],
+        "par": [
+          -1,
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "vals": [
+          1,
+          1000000000
+        ],
+        "par": [
+          -1,
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "vals": [
+          2,
+          2
+        ],
+        "par": [
+          -1,
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "vals": [
+          1,
+          1
+        ],
+        "par": [
+          -1,
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "vals": [
+          1000000000,
+          1000000000
+        ],
+        "par": [
+          -1,
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "vals": [
+          2,
+          3
+        ],
+        "par": [
+          -1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "vals": [
+          2,
+          3
+        ],
+        "par": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "vals": [
+          2,
+          3
+        ],
+        "par": [
+          -1,
+          -1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "vals": [
+          2,
+          3
+        ],
+        "par": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "vals": [
+          2,
+          3
+        ],
+        "par": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

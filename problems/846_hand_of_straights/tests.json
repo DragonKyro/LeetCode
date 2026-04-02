@@ -1,0 +1,137 @@
+{
+  "problem_id": 846,
+  "title": "Hand of Straights",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/hand-of-straights/",
+  "test_cases": [
+    {
+      "input": {
+        "hand": [
+          1,
+          2,
+          3,
+          6,
+          2,
+          3,
+          4,
+          7,
+          8
+        ],
+        "groupSize": 3
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "hand": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "groupSize": 4
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "hand": [
+          1
+        ],
+        "groupSize": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "hand": [
+          0,
+          1000000000
+        ],
+        "groupSize": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "hand": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "groupSize": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "hand": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "groupSize": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "hand": [
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "groupSize": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "hand": [
+          0,
+          0
+        ],
+        "groupSize": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "hand": [
+          1000000000,
+          1000000000
+        ],
+        "groupSize": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

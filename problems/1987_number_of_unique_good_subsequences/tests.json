@@ -1,0 +1,57 @@
+{
+  "problem_id": 1987,
+  "title": "Number of Unique Good Subsequences",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/number-of-unique-good-subsequences/",
+  "test_cases": [
+    {
+      "input": {
+        "binary": "001"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "binary": "11"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "binary": "101"
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "binary": "0"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "binary": "000"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "binary": "0101"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "binary": "00"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

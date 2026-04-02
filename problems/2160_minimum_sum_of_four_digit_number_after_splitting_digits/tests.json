@@ -1,0 +1,36 @@
+{
+  "problem_id": 2160,
+  "title": "Minimum Sum of Four Digit Number After Splitting Digits",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/",
+  "test_cases": [
+    {
+      "input": {
+        "num": 2932
+      },
+      "expected": 52,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 4009
+      },
+      "expected": 13,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": 9999
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

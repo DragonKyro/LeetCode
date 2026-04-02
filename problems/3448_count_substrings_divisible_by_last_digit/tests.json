@@ -1,0 +1,57 @@
+{
+  "problem_id": 3448,
+  "title": "Count Substrings Divisible By Last Digit",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/count-substrings-divisible-by-last-digit/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "12936"
+      },
+      "expected": 11,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "5701283"
+      },
+      "expected": 18,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "1010101010"
+      },
+      "expected": 25,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "1"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "11111"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "1212"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "1221"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

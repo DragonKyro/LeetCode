@@ -1,0 +1,56 @@
+{
+  "problem_id": 3504,
+  "title": "Longest Palindrome After Substring Concatenation II",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/longest-palindrome-after-substring-concatenation-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "a",
+        "t": "a"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abc",
+        "t": "def"
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "b",
+        "t": "aaaa"
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abcde",
+        "t": "ecdba"
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abab",
+        "t": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "a",
+        "t": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

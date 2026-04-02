@@ -1,0 +1,43 @@
+{
+  "problem_id": 190,
+  "title": "Reverse Bits",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/reverse-bits/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 43261596
+      },
+      "expected": 964176192,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 2147483644
+      },
+      "expected": 1073741822,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 2147483648
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

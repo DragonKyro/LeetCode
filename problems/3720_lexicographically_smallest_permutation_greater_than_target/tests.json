@@ -1,0 +1,96 @@
+{
+  "problem_id": 3720,
+  "title": "Lexicographically Smallest Permutation Greater Than Target",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/lexicographically-smallest-permutation-greater-than-target/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "abc",
+        "target": "bba"
+      },
+      "expected": "bca",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "leet",
+        "target": "code"
+      },
+      "expected": "eelt",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "baba",
+        "target": "bbaa"
+      },
+      "expected": "",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a",
+        "target": "bba"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaa",
+        "target": "bba"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abab",
+        "target": "bba"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aa",
+        "target": "bba"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abc",
+        "target": "b"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abc",
+        "target": "bbb"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abc",
+        "target": "bcbc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abc",
+        "target": "bb"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

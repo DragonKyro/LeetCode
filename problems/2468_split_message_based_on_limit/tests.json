@@ -1,0 +1,90 @@
+{
+  "problem_id": 2468,
+  "title": "Split Message Based on Limit",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/split-message-based-on-limit/",
+  "test_cases": [
+    {
+      "input": {
+        "message": "this is really a very awesome message",
+        "limit": 9
+      },
+      "expected": [
+        "thi<1/14>",
+        "s i<2/14>",
+        "s r<3/14>",
+        "eal<4/14>",
+        "ly <5/14>",
+        "a v<6/14>",
+        "ery<7/14>",
+        " aw<8/14>",
+        "eso<9/14>",
+        "me<10/14>",
+        " m<11/14>",
+        "es<12/14>",
+        "sa<13/14>",
+        "ge<14/14>"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "message": "short message",
+        "limit": 15
+      },
+      "expected": [
+        "short mess<1/2>",
+        "age<2/2>"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "message": "t",
+        "limit": 9
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "message": "ttttttttttttttttttttttttttttttttttttt",
+        "limit": 9
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "message": "tutututututututututututututututututu",
+        "limit": 9
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "message": "this is really a vv a yllaer si siht",
+        "limit": 9
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "message": "this is really a very awesome message",
+        "limit": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "message": "this is really a very awesome message",
+        "limit": 10000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

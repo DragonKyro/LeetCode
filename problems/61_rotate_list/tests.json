@@ -1,0 +1,143 @@
+{
+  "problem_id": 61,
+  "title": "Rotate List",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/rotate-list/",
+  "test_cases": [
+    {
+      "input": {
+        "head": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "k": 2
+      },
+      "expected": [
+        4,
+        5,
+        1,
+        2,
+        3
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "head": [
+          0,
+          1,
+          2
+        ],
+        "k": 4
+      },
+      "expected": [
+        2,
+        0,
+        1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "head": [
+          1
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "head": [
+          -100,
+          100
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "head": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "head": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "head": [
+          -100,
+          -100
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "head": [
+          100,
+          100
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "head": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "k": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "head": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

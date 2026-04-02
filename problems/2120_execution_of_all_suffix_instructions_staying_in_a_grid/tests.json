@@ -1,0 +1,168 @@
+{
+  "problem_id": 2120,
+  "title": "Execution of All Suffix Instructions Staying in a Grid",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/execution-of-all-suffix-instructions-staying-in-a-grid/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 3,
+        "startPos": [
+          0,
+          1
+        ],
+        "s": "RRDDLU"
+      },
+      "expected": [
+        1,
+        5,
+        4,
+        3,
+        1,
+        0
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 2,
+        "startPos": [
+          1,
+          1
+        ],
+        "s": "LURD"
+      },
+      "expected": [
+        4,
+        1,
+        0,
+        0
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "startPos": [
+          0,
+          0
+        ],
+        "s": "LRUD"
+      },
+      "expected": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 3,
+        "startPos": [
+          0
+        ],
+        "s": "RRDDLU"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 3,
+        "startPos": [
+          -100,
+          100
+        ],
+        "s": "RRDDLU"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 3,
+        "startPos": [
+          0,
+          0
+        ],
+        "s": "RRDDLU"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 3,
+        "startPos": [
+          -100,
+          -100
+        ],
+        "s": "RRDDLU"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 3,
+        "startPos": [
+          100,
+          100
+        ],
+        "s": "RRDDLU"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 3,
+        "startPos": [
+          0,
+          1
+        ],
+        "s": "R"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 3,
+        "startPos": [
+          0,
+          1
+        ],
+        "s": "RRRRRR"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 3,
+        "startPos": [
+          0,
+          1
+        ],
+        "s": "RSRSRS"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 3,
+        "startPos": [
+          0,
+          1
+        ],
+        "s": "RRDDRR"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "problem_id": 547,
+  "title": "Number of Provinces",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/number-of-provinces/",
+  "test_cases": [
+    {
+      "input": {
+        "isConnected": [
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "isConnected": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    }
+  ]
+}

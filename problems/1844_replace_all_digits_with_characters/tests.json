@@ -1,0 +1,50 @@
+{
+  "problem_id": 1844,
+  "title": "Replace All Digits with Characters",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/replace-all-digits-with-characters/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "a1c1e1"
+      },
+      "expected": "abcdef",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a1b2c3d4e"
+      },
+      "expected": "abbdcfdhe",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ababab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "a1cc1a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

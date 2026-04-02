@@ -1,0 +1,88 @@
+{
+  "problem_id": 488,
+  "title": "Zuma Game",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/zuma-game/",
+  "test_cases": [
+    {
+      "input": {
+        "board": "WRRBBW",
+        "hand": "RB"
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "board": "WWRRBBWW",
+        "hand": "WRBRW"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "board": "G",
+        "hand": "GGGGG"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "board": "W",
+        "hand": "RB"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "board": "WWWWWW",
+        "hand": "RB"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "board": "WXWXWX",
+        "hand": "RB"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "board": "WRRRRW",
+        "hand": "RB"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "board": "WRRBBW",
+        "hand": "R"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "board": "WRRBBW",
+        "hand": "RR"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "board": "WRRBBW",
+        "hand": "RSRS"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

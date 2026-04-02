@@ -1,0 +1,119 @@
+{
+  "problem_id": 3147,
+  "title": "Taking Maximum Energy From the Mystic Dungeon",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/taking-maximum-energy-from-the-mystic-dungeon/",
+  "test_cases": [
+    {
+      "input": {
+        "energy": [
+          5,
+          2,
+          -10,
+          -5,
+          1
+        ],
+        "k": 3
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "energy": [
+          -2,
+          -3,
+          -1
+        ],
+        "k": 2
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "energy": [
+          5
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "energy": [
+          -1000,
+          1
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "energy": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "energy": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "energy": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "energy": [
+          -1000,
+          -1000
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "energy": [
+          1,
+          1
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

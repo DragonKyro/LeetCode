@@ -1,0 +1,50 @@
+{
+  "problem_id": 1927,
+  "title": "Sum Game",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/sum-game/",
+  "test_cases": [
+    {
+      "input": {
+        "num": "5023"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": "25??"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": "?3295???"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": "5555"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "5656"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "5005"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "problem_id": 3669,
+  "title": "Balanced K-Factor Decomposition",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/balanced-k-factor-decomposition/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 100,
+        "k": 2
+      },
+      "expected": [
+        10,
+        10
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 44,
+        "k": 3
+      },
+      "expected": [
+        2,
+        2,
+        11
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 4,
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 100000,
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 100,
+        "k": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

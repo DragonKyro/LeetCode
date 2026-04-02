@@ -1,0 +1,120 @@
+{
+  "problem_id": 433,
+  "title": "Minimum Genetic Mutation",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-genetic-mutation/",
+  "test_cases": [
+    {
+      "input": {
+        "startGene": "AACCGGTT",
+        "endGene": "AACCGGTA",
+        "bank": [
+          "AACCGGTA"
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "startGene": "AACCGGTT",
+        "endGene": "AAACGGTA",
+        "bank": [
+          "AACCGGTA",
+          "AACCGCTA",
+          "AAACGGTA"
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "startGene": "A",
+        "endGene": "AACCGGTA",
+        "bank": [
+          "AACCGGTA"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startGene": "AAAAAAAA",
+        "endGene": "AACCGGTA",
+        "bank": [
+          "AACCGGTA"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startGene": "ABABABAB",
+        "endGene": "AACCGGTA",
+        "bank": [
+          "AACCGGTA"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startGene": "AACCCCAA",
+        "endGene": "AACCGGTA",
+        "bank": [
+          "AACCGGTA"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startGene": "AACCGGTT",
+        "endGene": "A",
+        "bank": [
+          "AACCGGTA"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startGene": "AACCGGTT",
+        "endGene": "AAAAAAAA",
+        "bank": [
+          "AACCGGTA"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startGene": "AACCGGTT",
+        "endGene": "ABABABAB",
+        "bank": [
+          "AACCGGTA"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startGene": "AACCGGTT",
+        "endGene": "AACCCCAA",
+        "bank": [
+          "AACCGGTA"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

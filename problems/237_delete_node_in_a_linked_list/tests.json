@@ -1,0 +1,124 @@
+{
+  "problem_id": 237,
+  "title": "Delete Node in a Linked List",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/delete-node-in-a-linked-list/",
+  "test_cases": [
+    {
+      "input": {
+        "head": [
+          4,
+          5,
+          1,
+          9
+        ],
+        "node": 5
+      },
+      "expected": [
+        4,
+        1,
+        9
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "head": [
+          4,
+          5,
+          1,
+          9
+        ],
+        "node": 1
+      },
+      "expected": [
+        4,
+        5,
+        9
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "head": [
+          4
+        ],
+        "node": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "head": [
+          -100,
+          100
+        ],
+        "node": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "head": [
+          4,
+          4,
+          4,
+          4
+        ],
+        "node": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "head": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "node": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "head": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "node": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "head": [
+          -100,
+          -100
+        ],
+        "node": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "head": [
+          100,
+          100
+        ],
+        "node": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

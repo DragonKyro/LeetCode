@@ -1,0 +1,60 @@
+{
+  "problem_id": 3527,
+  "title": "Find the Most Common Response",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-the-most-common-response/",
+  "test_cases": [
+    {
+      "input": {
+        "responses": [
+          [
+            "good",
+            "ok",
+            "good",
+            "ok"
+          ],
+          [
+            "ok",
+            "bad",
+            "good",
+            "ok",
+            "ok"
+          ],
+          [
+            "good"
+          ],
+          [
+            "bad"
+          ]
+        ]
+      },
+      "expected": "good",
+      "source": "example"
+    },
+    {
+      "input": {
+        "responses": [
+          [
+            "good",
+            "ok",
+            "good"
+          ],
+          [
+            "ok",
+            "bad"
+          ],
+          [
+            "bad",
+            "notsure"
+          ],
+          [
+            "great",
+            "good"
+          ]
+        ]
+      },
+      "expected": "bad",
+      "source": "example"
+    }
+  ]
+}

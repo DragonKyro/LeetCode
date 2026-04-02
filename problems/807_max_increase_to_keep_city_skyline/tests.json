@@ -1,0 +1,63 @@
+{
+  "problem_id": 807,
+  "title": "Max Increase to Keep City Skyline",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/max-increase-to-keep-city-skyline/",
+  "test_cases": [
+    {
+      "input": {
+        "grid": [
+          [
+            3,
+            0,
+            8,
+            4
+          ],
+          [
+            2,
+            4,
+            5,
+            7
+          ],
+          [
+            9,
+            2,
+            6,
+            3
+          ],
+          [
+            0,
+            3,
+            1,
+            0
+          ]
+        ]
+      },
+      "expected": 35,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    }
+  ]
+}

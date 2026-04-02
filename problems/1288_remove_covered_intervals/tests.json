@@ -1,0 +1,44 @@
+{
+  "problem_id": 1288,
+  "title": "Remove Covered Intervals",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/remove-covered-intervals/",
+  "test_cases": [
+    {
+      "input": {
+        "intervals": [
+          [
+            1,
+            4
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            2,
+            8
+          ]
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "intervals": [
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    }
+  ]
+}

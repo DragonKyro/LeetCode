@@ -1,0 +1,48 @@
+{
+  "problem_id": 424,
+  "title": "Longest Repeating Character Replacement",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/longest-repeating-character-replacement/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "ABAB",
+        "k": 2
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "AABABBA",
+        "k": 1
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "A",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "AAAA",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ABBA",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

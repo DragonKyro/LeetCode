@@ -1,0 +1,56 @@
+{
+  "problem_id": 2081,
+  "title": "Sum of k-Mirror Numbers",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/sum-of-k-mirror-numbers/",
+  "test_cases": [
+    {
+      "input": {
+        "k": 2,
+        "n": 5
+      },
+      "expected": 25,
+      "source": "example"
+    },
+    {
+      "input": {
+        "k": 3,
+        "n": 7
+      },
+      "expected": 499,
+      "source": "example"
+    },
+    {
+      "input": {
+        "k": 7,
+        "n": 17
+      },
+      "expected": 20379000,
+      "source": "example"
+    },
+    {
+      "input": {
+        "k": 9,
+        "n": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "k": 2,
+        "n": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "k": 2,
+        "n": 30
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

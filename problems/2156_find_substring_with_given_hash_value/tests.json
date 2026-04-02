@@ -1,0 +1,74 @@
+{
+  "problem_id": 2156,
+  "title": "Find Substring With Given Hash Value",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/find-substring-with-given-hash-value/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "leetcode",
+        "power": 7,
+        "modulo": 20,
+        "k": 2,
+        "hashValue": 0
+      },
+      "expected": "ee",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "fbxzaad",
+        "power": 31,
+        "modulo": 100,
+        "k": 3,
+        "hashValue": 32
+      },
+      "expected": "fbx",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "l",
+        "power": 7,
+        "modulo": 20,
+        "k": 2,
+        "hashValue": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "llllllll",
+        "power": 7,
+        "modulo": 20,
+        "k": 2,
+        "hashValue": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "lmlmlmlm",
+        "power": 7,
+        "modulo": 20,
+        "k": 2,
+        "hashValue": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "leetteel",
+        "power": 7,
+        "modulo": 20,
+        "k": 2,
+        "hashValue": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

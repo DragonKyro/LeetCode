@@ -1,0 +1,121 @@
+{
+  "problem_id": 1402,
+  "title": "Reducing Dishes",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/reducing-dishes/",
+  "test_cases": [
+    {
+      "input": {
+        "satisfaction": [
+          -1,
+          -8,
+          0,
+          5,
+          -9
+        ]
+      },
+      "expected": 14,
+      "source": "example"
+    },
+    {
+      "input": {
+        "satisfaction": [
+          4,
+          3,
+          2
+        ]
+      },
+      "expected": 20,
+      "source": "example"
+    },
+    {
+      "input": {
+        "satisfaction": [
+          -1,
+          -4,
+          -5
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "satisfaction": [
+          -1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "satisfaction": [
+          -1000,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "satisfaction": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "satisfaction": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "satisfaction": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "satisfaction": [
+          -1000,
+          -1000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "satisfaction": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

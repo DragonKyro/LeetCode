@@ -1,0 +1,57 @@
+{
+  "problem_id": 468,
+  "title": "Validate IP Address",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/validate-ip-address/",
+  "test_cases": [
+    {
+      "input": {
+        "queryIP": "172.16.254.1"
+      },
+      "expected": "IPv4",
+      "source": "example"
+    },
+    {
+      "input": {
+        "queryIP": "2001:0db8:85a3:0:0:8A2E:0370:7334"
+      },
+      "expected": "IPv6",
+      "source": "example"
+    },
+    {
+      "input": {
+        "queryIP": "256.256.256.256"
+      },
+      "expected": "Neither",
+      "source": "example"
+    },
+    {
+      "input": {
+        "queryIP": "1"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "queryIP": "111111111111"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "queryIP": "121212121212"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "queryIP": "172.1661.271"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

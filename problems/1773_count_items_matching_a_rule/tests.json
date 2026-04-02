@@ -1,0 +1,258 @@
+{
+  "problem_id": 1773,
+  "title": "Count Items Matching a Rule",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/count-items-matching-a-rule/",
+  "test_cases": [
+    {
+      "input": {
+        "items": [
+          [
+            "phone",
+            "blue",
+            "pixel"
+          ],
+          [
+            "computer",
+            "silver",
+            "lenovo"
+          ],
+          [
+            "phone",
+            "gold",
+            "iphone"
+          ]
+        ],
+        "ruleKey": "color",
+        "ruleValue": "silver"
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "items": [
+          [
+            "phone",
+            "blue",
+            "pixel"
+          ],
+          [
+            "computer",
+            "silver",
+            "phone"
+          ],
+          [
+            "phone",
+            "gold",
+            "iphone"
+          ]
+        ],
+        "ruleKey": "type",
+        "ruleValue": "phone"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "items": [
+          [
+            "phone",
+            "blue",
+            "pixel"
+          ],
+          [
+            "computer",
+            "silver",
+            "lenovo"
+          ],
+          [
+            "phone",
+            "gold",
+            "iphone"
+          ]
+        ],
+        "ruleKey": "c",
+        "ruleValue": "silver"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "items": [
+          [
+            "phone",
+            "blue",
+            "pixel"
+          ],
+          [
+            "computer",
+            "silver",
+            "lenovo"
+          ],
+          [
+            "phone",
+            "gold",
+            "iphone"
+          ]
+        ],
+        "ruleKey": "ccccc",
+        "ruleValue": "silver"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "items": [
+          [
+            "phone",
+            "blue",
+            "pixel"
+          ],
+          [
+            "computer",
+            "silver",
+            "lenovo"
+          ],
+          [
+            "phone",
+            "gold",
+            "iphone"
+          ]
+        ],
+        "ruleKey": "cdcd",
+        "ruleValue": "silver"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "items": [
+          [
+            "phone",
+            "blue",
+            "pixel"
+          ],
+          [
+            "computer",
+            "silver",
+            "lenovo"
+          ],
+          [
+            "phone",
+            "gold",
+            "iphone"
+          ]
+        ],
+        "ruleKey": "cooc",
+        "ruleValue": "silver"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "items": [
+          [
+            "phone",
+            "blue",
+            "pixel"
+          ],
+          [
+            "computer",
+            "silver",
+            "lenovo"
+          ],
+          [
+            "phone",
+            "gold",
+            "iphone"
+          ]
+        ],
+        "ruleKey": "color",
+        "ruleValue": "s"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "items": [
+          [
+            "phone",
+            "blue",
+            "pixel"
+          ],
+          [
+            "computer",
+            "silver",
+            "lenovo"
+          ],
+          [
+            "phone",
+            "gold",
+            "iphone"
+          ]
+        ],
+        "ruleKey": "color",
+        "ruleValue": "ssssss"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "items": [
+          [
+            "phone",
+            "blue",
+            "pixel"
+          ],
+          [
+            "computer",
+            "silver",
+            "lenovo"
+          ],
+          [
+            "phone",
+            "gold",
+            "iphone"
+          ]
+        ],
+        "ruleKey": "color",
+        "ruleValue": "ststst"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "items": [
+          [
+            "phone",
+            "blue",
+            "pixel"
+          ],
+          [
+            "computer",
+            "silver",
+            "lenovo"
+          ],
+          [
+            "phone",
+            "gold",
+            "iphone"
+          ]
+        ],
+        "ruleKey": "color",
+        "ruleValue": "sillis"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

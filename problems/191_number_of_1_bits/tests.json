@@ -1,0 +1,43 @@
+{
+  "problem_id": 191,
+  "title": "Number of 1 Bits",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/number-of-1-bits/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 11
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 128
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 2147483645
+      },
+      "expected": 30,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 2147483648
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

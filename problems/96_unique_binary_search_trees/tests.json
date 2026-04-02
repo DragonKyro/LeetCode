@@ -1,0 +1,29 @@
+{
+  "problem_id": 96,
+  "title": "Unique Binary Search Trees",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/unique-binary-search-trees/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 3
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 19
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

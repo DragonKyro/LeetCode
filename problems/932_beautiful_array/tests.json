@@ -1,0 +1,40 @@
+{
+  "problem_id": 932,
+  "title": "Beautiful Array",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/beautiful-array/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 4
+      },
+      "expected": [
+        2,
+        1,
+        4,
+        3
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 5
+      },
+      "expected": [
+        3,
+        1,
+        2,
+        5,
+        4
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

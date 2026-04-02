@@ -1,0 +1,50 @@
+{
+  "problem_id": 263,
+  "title": "Ugly Number",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/ugly-number/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 6
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 14
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": -2147483648
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 2147483648
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

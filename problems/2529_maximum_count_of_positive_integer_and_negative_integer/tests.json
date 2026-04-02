@@ -1,0 +1,130 @@
+{
+  "problem_id": 2529,
+  "title": "Maximum Count of Positive Integer and Negative Integer",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          -2,
+          -1,
+          -1,
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          -3,
+          -2,
+          -1,
+          0,
+          0,
+          1,
+          2
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          5,
+          20,
+          66,
+          1314
+        ]
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          -2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -2000,
+          2000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -2,
+          -2,
+          -2,
+          -2,
+          -2,
+          -2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -2000,
+          -2000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          2000,
+          2000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "problem_id": 2478,
+  "title": "Number of Beautiful Partitions",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/number-of-beautiful-partitions/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "23542185131",
+        "k": 3,
+        "minLength": 2
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "23542185131",
+        "k": 3,
+        "minLength": 3
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "3312958",
+        "k": 3,
+        "minLength": 1
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "2",
+        "k": 3,
+        "minLength": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "22222222222",
+        "k": 3,
+        "minLength": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "2323232323",
+        "k": 3,
+        "minLength": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "2354224532",
+        "k": 3,
+        "minLength": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

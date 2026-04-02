@@ -1,0 +1,57 @@
+{
+  "problem_id": 1678,
+  "title": "Goal Parser Interpretation",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/goal-parser-interpretation/",
+  "test_cases": [
+    {
+      "input": {
+        "command": "G()(al)"
+      },
+      "expected": "Goal",
+      "source": "example"
+    },
+    {
+      "input": {
+        "command": "G()()()()(al)"
+      },
+      "expected": "Gooooal",
+      "source": "example"
+    },
+    {
+      "input": {
+        "command": "(al)G(al)()()G"
+      },
+      "expected": "alGalooG",
+      "source": "example"
+    },
+    {
+      "input": {
+        "command": "G"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "command": "GGGGGGG"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "command": "GHGHGH"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "command": "G())(G"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

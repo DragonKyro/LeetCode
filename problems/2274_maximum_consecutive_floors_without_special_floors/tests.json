@@ -1,0 +1,92 @@
+{
+  "problem_id": 2274,
+  "title": "Maximum Consecutive Floors Without Special Floors",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-consecutive-floors-without-special-floors/",
+  "test_cases": [
+    {
+      "input": {
+        "bottom": 2,
+        "top": 9,
+        "special": [
+          4,
+          6
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "bottom": 6,
+        "top": 8,
+        "special": [
+          7,
+          6,
+          8
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "bottom": 2,
+        "top": 9,
+        "special": [
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "bottom": 2,
+        "top": 9,
+        "special": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "bottom": 2,
+        "top": 9,
+        "special": [
+          4,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "bottom": 2,
+        "top": 9,
+        "special": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "bottom": 2,
+        "top": 9,
+        "special": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

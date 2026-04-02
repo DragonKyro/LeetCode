@@ -1,0 +1,57 @@
+{
+  "problem_id": 1451,
+  "title": "Rearrange Words in a Sentence",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/rearrange-words-in-a-sentence/",
+  "test_cases": [
+    {
+      "input": {
+        "text": "Leetcode is cool"
+      },
+      "expected": "Is cool leetcode",
+      "source": "example"
+    },
+    {
+      "input": {
+        "text": "Keep calm and code on"
+      },
+      "expected": "On and keep calm code",
+      "source": "example"
+    },
+    {
+      "input": {
+        "text": "To be or not to be"
+      },
+      "expected": "To be or to be not",
+      "source": "example"
+    },
+    {
+      "input": {
+        "text": "L"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "text": "LLLLLLLLLLLLLLLL"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "text": "LMLMLMLMLMLMLMLM"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "text": "LeetcodeedocteeL"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

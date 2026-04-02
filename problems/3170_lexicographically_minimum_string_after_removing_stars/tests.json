@@ -1,0 +1,50 @@
+{
+  "problem_id": 3170,
+  "title": "Lexicographically Minimum String After Removing Stars",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "aaba*"
+      },
+      "expected": "aab",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abc"
+      },
+      "expected": "abc",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

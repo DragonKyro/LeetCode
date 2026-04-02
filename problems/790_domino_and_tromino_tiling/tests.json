@@ -1,0 +1,22 @@
+{
+  "problem_id": 790,
+  "title": "Domino and Tromino Tiling",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/domino-and-tromino-tiling/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 3
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": 1,
+      "source": "example"
+    }
+  ]
+}

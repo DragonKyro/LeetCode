@@ -1,0 +1,110 @@
+{
+  "problem_id": 1617,
+  "title": "Count Subtrees With Max Distance Between Cities",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/count-subtrees-with-max-distance-between-cities/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 4,
+        "edges": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ]
+      },
+      "expected": [
+        3,
+        4,
+        0
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 2,
+        "edges": [
+          [
+            1,
+            2
+          ]
+        ]
+      },
+      "expected": [
+        1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 3,
+        "edges": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      "expected": [
+        2,
+        1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 2,
+        "edges": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 15,
+        "edges": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

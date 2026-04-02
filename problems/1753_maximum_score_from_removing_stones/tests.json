@@ -1,0 +1,35 @@
+{
+  "problem_id": 1753,
+  "title": "Maximum Score From Removing Stones",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-score-from-removing-stones/",
+  "test_cases": [
+    {
+      "input": {
+        "a": 2,
+        "b": 4,
+        "c": 6
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "a": 4,
+        "b": 4,
+        "c": 6
+      },
+      "expected": 7,
+      "source": "example"
+    },
+    {
+      "input": {
+        "a": 1,
+        "b": 8,
+        "c": 8
+      },
+      "expected": 8,
+      "source": "example"
+    }
+  ]
+}

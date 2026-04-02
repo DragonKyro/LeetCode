@@ -1,0 +1,316 @@
+{
+  "problem_id": 2660,
+  "title": "Determine the Winner of a Bowling Game",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/determine-the-winner-of-a-bowling-game/",
+  "test_cases": [
+    {
+      "input": {
+        "player1": [
+          5,
+          10,
+          3,
+          2
+        ],
+        "player2": [
+          6,
+          5,
+          7,
+          3
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "player1": [
+          3,
+          5,
+          7,
+          6
+        ],
+        "player2": [
+          8,
+          10,
+          10,
+          2
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "player1": [
+          2,
+          3
+        ],
+        "player2": [
+          4,
+          1
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "player1": [
+          1,
+          1,
+          1,
+          10,
+          10,
+          10,
+          10
+        ],
+        "player2": [
+          10,
+          10,
+          10,
+          10,
+          1,
+          1,
+          1
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "player1": [
+          5
+        ],
+        "player2": [
+          6,
+          5,
+          7,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "player1": [
+          -100,
+          100
+        ],
+        "player2": [
+          6,
+          5,
+          7,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "player1": [
+          5,
+          5,
+          5,
+          5
+        ],
+        "player2": [
+          6,
+          5,
+          7,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "player1": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "player2": [
+          6,
+          5,
+          7,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "player1": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "player2": [
+          6,
+          5,
+          7,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "player1": [
+          -100,
+          -100
+        ],
+        "player2": [
+          6,
+          5,
+          7,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "player1": [
+          100,
+          100
+        ],
+        "player2": [
+          6,
+          5,
+          7,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "player1": [
+          5,
+          10,
+          3,
+          2
+        ],
+        "player2": [
+          6
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "player1": [
+          5,
+          10,
+          3,
+          2
+        ],
+        "player2": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "player1": [
+          5,
+          10,
+          3,
+          2
+        ],
+        "player2": [
+          6,
+          6,
+          6,
+          6
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "player1": [
+          5,
+          10,
+          3,
+          2
+        ],
+        "player2": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "player1": [
+          5,
+          10,
+          3,
+          2
+        ],
+        "player2": [
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "player1": [
+          5,
+          10,
+          3,
+          2
+        ],
+        "player2": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "player1": [
+          5,
+          10,
+          3,
+          2
+        ],
+        "player2": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "problem_id": 1631,
+  "title": "Path With Minimum Effort",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/path-with-minimum-effort/",
+  "test_cases": [
+    {
+      "input": {
+        "heights": [
+          [
+            1,
+            2,
+            2
+          ],
+          [
+            3,
+            8,
+            2
+          ],
+          [
+            5,
+            3,
+            5
+          ]
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "heights": [
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            3,
+            8,
+            4
+          ],
+          [
+            5,
+            3,
+            5
+          ]
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "heights": [
+          [
+            1,
+            2,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            2,
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            2,
+            1
+          ]
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    }
+  ]
+}

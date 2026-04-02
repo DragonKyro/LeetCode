@@ -1,0 +1,43 @@
+{
+  "problem_id": 838,
+  "title": "Push Dominoes",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/push-dominoes/",
+  "test_cases": [
+    {
+      "input": {
+        "dominoes": "RR.L"
+      },
+      "expected": "RR.L",
+      "source": "example"
+    },
+    {
+      "input": {
+        "dominoes": ".L.R...LR..L.."
+      },
+      "expected": "LL.RR.LLRRLL..",
+      "source": "example"
+    },
+    {
+      "input": {
+        "dominoes": "R"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "dominoes": "RRRR"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "dominoes": "RSRS"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

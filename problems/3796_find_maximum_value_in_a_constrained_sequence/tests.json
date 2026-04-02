@@ -1,0 +1,281 @@
+{
+  "problem_id": 3796,
+  "title": "Find Maximum Value in a Constrained Sequence",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-maximum-value-in-a-constrained-sequence/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 10,
+        "restrictions": [
+          [
+            3,
+            1
+          ],
+          [
+            8,
+            1
+          ]
+        ],
+        "diff": [
+          2,
+          2,
+          3,
+          1,
+          4,
+          5,
+          1,
+          1,
+          2
+        ]
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 8,
+        "restrictions": [
+          [
+            3,
+            2
+          ]
+        ],
+        "diff": [
+          3,
+          5,
+          2,
+          4,
+          2,
+          3,
+          1
+        ]
+      },
+      "expected": 12,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 2,
+        "restrictions": [
+          [
+            3,
+            1
+          ],
+          [
+            8,
+            1
+          ]
+        ],
+        "diff": [
+          2,
+          2,
+          3,
+          1,
+          4,
+          5,
+          1,
+          1,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 100000,
+        "restrictions": [
+          [
+            3,
+            1
+          ],
+          [
+            8,
+            1
+          ]
+        ],
+        "diff": [
+          2,
+          2,
+          3,
+          1,
+          4,
+          5,
+          1,
+          1,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 10,
+        "restrictions": [
+          [
+            3,
+            1
+          ],
+          [
+            8,
+            1
+          ]
+        ],
+        "diff": [
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 10,
+        "restrictions": [
+          [
+            3,
+            1
+          ],
+          [
+            8,
+            1
+          ]
+        ],
+        "diff": [
+          1,
+          10
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 10,
+        "restrictions": [
+          [
+            3,
+            1
+          ],
+          [
+            8,
+            1
+          ]
+        ],
+        "diff": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 10,
+        "restrictions": [
+          [
+            3,
+            1
+          ],
+          [
+            8,
+            1
+          ]
+        ],
+        "diff": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 10,
+        "restrictions": [
+          [
+            3,
+            1
+          ],
+          [
+            8,
+            1
+          ]
+        ],
+        "diff": [
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 10,
+        "restrictions": [
+          [
+            3,
+            1
+          ],
+          [
+            8,
+            1
+          ]
+        ],
+        "diff": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 10,
+        "restrictions": [
+          [
+            3,
+            1
+          ],
+          [
+            8,
+            1
+          ]
+        ],
+        "diff": [
+          10,
+          10
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

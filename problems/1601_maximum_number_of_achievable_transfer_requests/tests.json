@@ -1,0 +1,83 @@
+{
+  "problem_id": 1601,
+  "title": "Maximum Number of Achievable Transfer Requests",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/maximum-number-of-achievable-transfer-requests/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 4,
+        "requests": [
+          [
+            0,
+            3
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "requests": [
+          [
+            0,
+            3
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 20,
+        "requests": [
+          [
+            0,
+            3
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

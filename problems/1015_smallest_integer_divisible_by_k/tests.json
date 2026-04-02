@@ -1,0 +1,36 @@
+{
+  "problem_id": 1015,
+  "title": "Smallest Integer Divisible by K",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/smallest-integer-divisible-by-k/",
+  "test_cases": [
+    {
+      "input": {
+        "k": 1
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "k": 2
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "k": 3
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "k": 100000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

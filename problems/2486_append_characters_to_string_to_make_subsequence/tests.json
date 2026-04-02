@@ -1,0 +1,96 @@
+{
+  "problem_id": 2486,
+  "title": "Append Characters to String to Make Subsequence",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "coaching",
+        "t": "coding"
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abcde",
+        "t": "a"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "z",
+        "t": "abcde"
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "c",
+        "t": "coding"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "cccccccc",
+        "t": "coding"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "cdcdcdcd",
+        "t": "coding"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "coaccaoc",
+        "t": "coding"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "coaching",
+        "t": "c"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "coaching",
+        "t": "cccccc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "coaching",
+        "t": "cdcdcd"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "coaching",
+        "t": "coddoc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

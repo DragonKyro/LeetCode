@@ -1,0 +1,63 @@
+{
+  "problem_id": 1072,
+  "title": "Flip Columns For Maximum Number of Equal Rows",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/flip-columns-for-maximum-number-of-equal-rows/",
+  "test_cases": [
+    {
+      "input": {
+        "matrix": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "matrix": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "matrix": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    }
+  ]
+}

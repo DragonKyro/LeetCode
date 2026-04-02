@@ -1,0 +1,57 @@
+{
+  "problem_id": 1759,
+  "title": "Count Number of Homogenous Substrings",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-number-of-homogenous-substrings/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "abbcccaa"
+      },
+      "expected": 13,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "xy"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "zzzzz"
+      },
+      "expected": 15,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaaaaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abababab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abbccbba"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "problem_id": 1801,
+  "title": "Number of Orders in the Backlog",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/number-of-orders-in-the-backlog/",
+  "test_cases": [
+    {
+      "input": {
+        "orders": [
+          [
+            10,
+            5,
+            0
+          ],
+          [
+            15,
+            2,
+            1
+          ],
+          [
+            25,
+            1,
+            1
+          ],
+          [
+            30,
+            4,
+            0
+          ]
+        ]
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "orders": [
+          [
+            7,
+            1000000000,
+            1
+          ],
+          [
+            15,
+            3,
+            0
+          ],
+          [
+            5,
+            999999995,
+            0
+          ],
+          [
+            5,
+            1,
+            1
+          ]
+        ]
+      },
+      "expected": 999999984,
+      "source": "example"
+    }
+  ]
+}

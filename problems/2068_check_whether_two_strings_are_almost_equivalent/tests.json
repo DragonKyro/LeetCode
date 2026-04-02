@@ -1,0 +1,72 @@
+{
+  "problem_id": 2068,
+  "title": "Check Whether Two Strings are Almost Equivalent",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/",
+  "test_cases": [
+    {
+      "input": {
+        "word1": "aaaa",
+        "word2": "bccb"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word1": "abcdeef",
+        "word2": "abaaacc"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word1": "cccddabba",
+        "word2": "babababab"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word1": "a",
+        "word2": "bccb"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "abab",
+        "word2": "bccb"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "aaaa",
+        "word2": "b"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "aaaa",
+        "word2": "bbbb"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "aaaa",
+        "word2": "bcbc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

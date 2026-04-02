@@ -1,0 +1,86 @@
+{
+  "problem_id": 748,
+  "title": "Shortest Completing Word",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/shortest-completing-word/",
+  "test_cases": [
+    {
+      "input": {
+        "licensePlate": "1s3 PSt",
+        "words": [
+          "step",
+          "steps",
+          "stripe",
+          "stepple"
+        ]
+      },
+      "expected": "steps",
+      "source": "example"
+    },
+    {
+      "input": {
+        "licensePlate": "1s3 456",
+        "words": [
+          "looks",
+          "pest",
+          "stew",
+          "show"
+        ]
+      },
+      "expected": "pest",
+      "source": "example"
+    },
+    {
+      "input": {
+        "licensePlate": "1",
+        "words": [
+          "step",
+          "steps",
+          "stripe",
+          "stepple"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "licensePlate": "1111111",
+        "words": [
+          "step",
+          "steps",
+          "stripe",
+          "stepple"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "licensePlate": "121212",
+        "words": [
+          "step",
+          "steps",
+          "stripe",
+          "stepple"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "licensePlate": "1s33s1",
+        "words": [
+          "step",
+          "steps",
+          "stripe",
+          "stepple"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

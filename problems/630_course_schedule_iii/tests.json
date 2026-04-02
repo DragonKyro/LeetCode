@@ -1,0 +1,60 @@
+{
+  "problem_id": 630,
+  "title": "Course Schedule III",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/course-schedule-iii/",
+  "test_cases": [
+    {
+      "input": {
+        "courses": [
+          [
+            100,
+            200
+          ],
+          [
+            200,
+            1300
+          ],
+          [
+            1000,
+            1250
+          ],
+          [
+            2000,
+            3200
+          ]
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "courses": [
+          [
+            1,
+            2
+          ]
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "courses": [
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            3
+          ]
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    }
+  ]
+}

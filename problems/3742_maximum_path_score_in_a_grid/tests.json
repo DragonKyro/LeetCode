@@ -1,0 +1,76 @@
+{
+  "problem_id": 3742,
+  "title": "Maximum Path Score in a Grid",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-path-score-in-a-grid/",
+  "test_cases": [
+    {
+      "input": {
+        "grid": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "k": 1
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "k": 1
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "k": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "k": 1000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

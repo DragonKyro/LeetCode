@@ -1,0 +1,72 @@
+{
+  "problem_id": 854,
+  "title": "K-Similar Strings",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/k-similar-strings/",
+  "test_cases": [
+    {
+      "input": {
+        "s1": "ab",
+        "s2": "ba"
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s1": "abc",
+        "s2": "bca"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s1": "a",
+        "s2": "ba"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "aa",
+        "s2": "ba"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "abab",
+        "s2": "ba"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "ab",
+        "s2": "b"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "ab",
+        "s2": "bb"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "ab",
+        "s2": "bcbc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

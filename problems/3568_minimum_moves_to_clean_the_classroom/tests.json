@@ -1,0 +1,63 @@
+{
+  "problem_id": 3568,
+  "title": "Minimum Moves to Clean the Classroom",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-moves-to-clean-the-classroom/",
+  "test_cases": [
+    {
+      "input": {
+        "classroom": [
+          "S.",
+          "XL"
+        ],
+        "energy": 2
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "classroom": [
+          "LS",
+          "RL"
+        ],
+        "energy": 4
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "classroom": [
+          "L.S",
+          "RXL"
+        ],
+        "energy": 3
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "classroom": [
+          "S.",
+          "XL"
+        ],
+        "energy": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "classroom": [
+          "S.",
+          "XL"
+        ],
+        "energy": 50
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

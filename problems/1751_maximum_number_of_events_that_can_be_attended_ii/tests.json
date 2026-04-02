@@ -1,0 +1,85 @@
+{
+  "problem_id": 1751,
+  "title": "Maximum Number of Events That Can Be Attended II",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "events": [
+          [
+            1,
+            2,
+            4
+          ],
+          [
+            3,
+            4,
+            3
+          ],
+          [
+            2,
+            3,
+            1
+          ]
+        ],
+        "k": 2
+      },
+      "expected": 7,
+      "source": "example"
+    },
+    {
+      "input": {
+        "events": [
+          [
+            1,
+            2,
+            4
+          ],
+          [
+            3,
+            4,
+            3
+          ],
+          [
+            2,
+            3,
+            10
+          ]
+        ],
+        "k": 2
+      },
+      "expected": 10,
+      "source": "example"
+    },
+    {
+      "input": {
+        "events": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            2,
+            2,
+            2
+          ],
+          [
+            3,
+            3,
+            3
+          ],
+          [
+            4,
+            4,
+            4
+          ]
+        ],
+        "k": 3
+      },
+      "expected": 9,
+      "source": "example"
+    }
+  ]
+}

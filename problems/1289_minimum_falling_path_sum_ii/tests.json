@@ -1,0 +1,42 @@
+{
+  "problem_id": 1289,
+  "title": "Minimum Falling Path Sum II",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-falling-path-sum-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "grid": [
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            4,
+            5,
+            6
+          ],
+          [
+            7,
+            8,
+            9
+          ]
+        ]
+      },
+      "expected": 13,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            7
+          ]
+        ]
+      },
+      "expected": 7,
+      "source": "example"
+    }
+  ]
+}

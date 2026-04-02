@@ -1,0 +1,95 @@
+{
+  "problem_id": 1690,
+  "title": "Stone Game VII",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/stone-game-vii/",
+  "test_cases": [
+    {
+      "input": {
+        "stones": [
+          5,
+          3,
+          1,
+          4,
+          2
+        ]
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "stones": [
+          7,
+          90,
+          5,
+          1,
+          100,
+          10,
+          10,
+          2
+        ]
+      },
+      "expected": 122,
+      "source": "example"
+    },
+    {
+      "input": {
+        "stones": [
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "stones": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "stones": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "stones": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "stones": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

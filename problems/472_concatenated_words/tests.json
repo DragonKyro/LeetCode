@@ -1,0 +1,41 @@
+{
+  "problem_id": 472,
+  "title": "Concatenated Words",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/concatenated-words/",
+  "test_cases": [
+    {
+      "input": {
+        "words": [
+          "cat",
+          "cats",
+          "catsdogcats",
+          "dog",
+          "dogcatsdog",
+          "hippopotamuses",
+          "rat",
+          "ratcatdogcat"
+        ]
+      },
+      "expected": [
+        "catsdogcats",
+        "dogcatsdog",
+        "ratcatdogcat"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "cat",
+          "dog",
+          "catdog"
+        ]
+      },
+      "expected": [
+        "catdog"
+      ],
+      "source": "example"
+    }
+  ]
+}

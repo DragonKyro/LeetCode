@@ -1,0 +1,88 @@
+{
+  "problem_id": 1754,
+  "title": "Largest Merge Of Two Strings",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/largest-merge-of-two-strings/",
+  "test_cases": [
+    {
+      "input": {
+        "word1": "cabaa",
+        "word2": "bcaaa"
+      },
+      "expected": "cbcabaaaaa",
+      "source": "example"
+    },
+    {
+      "input": {
+        "word1": "abcabc",
+        "word2": "abdcaba"
+      },
+      "expected": "abdcabcabcaba",
+      "source": "example"
+    },
+    {
+      "input": {
+        "word1": "c",
+        "word2": "bcaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "ccccc",
+        "word2": "bcaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "cdcd",
+        "word2": "bcaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "caac",
+        "word2": "bcaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "cabaa",
+        "word2": "b"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "cabaa",
+        "word2": "bbbbb"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "cabaa",
+        "word2": "bcbc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "cabaa",
+        "word2": "bccb"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

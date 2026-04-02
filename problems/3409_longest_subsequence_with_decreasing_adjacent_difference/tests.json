@@ -1,0 +1,120 @@
+{
+  "problem_id": 3409,
+  "title": "Longest Subsequence With Decreasing Adjacent Difference",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/longest-subsequence-with-decreasing-adjacent-difference/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          16,
+          6,
+          3
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          6,
+          5,
+          3,
+          4,
+          2,
+          1
+        ]
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          10,
+          20,
+          10,
+          19,
+          10,
+          20
+        ]
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          16,
+          16
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          300
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          16,
+          16,
+          16
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          300,
+          300
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

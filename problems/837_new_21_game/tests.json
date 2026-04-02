@@ -1,0 +1,53 @@
+{
+  "problem_id": 837,
+  "title": "New 21 Game",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/new-21-game/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 10,
+        "k": 1,
+        "maxPts": 10
+      },
+      "expected": 1.0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 6,
+        "k": 1,
+        "maxPts": 10
+      },
+      "expected": 0.6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 21,
+        "k": 17,
+        "maxPts": 10
+      },
+      "expected": 0.73278,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 10,
+        "k": 1,
+        "maxPts": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 10,
+        "k": 1,
+        "maxPts": 10000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

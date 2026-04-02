@@ -1,0 +1,45 @@
+{
+  "problem_id": 1048,
+  "title": "Longest String Chain",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/longest-string-chain/",
+  "test_cases": [
+    {
+      "input": {
+        "words": [
+          "a",
+          "b",
+          "ba",
+          "bca",
+          "bda",
+          "bdca"
+        ]
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "xbc",
+          "pcxbcf",
+          "xb",
+          "cxbc",
+          "pcxbc"
+        ]
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "abcd",
+          "dbqca"
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    }
+  ]
+}

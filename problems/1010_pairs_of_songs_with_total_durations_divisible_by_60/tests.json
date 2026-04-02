@@ -1,0 +1,110 @@
+{
+  "problem_id": 1010,
+  "title": "Pairs of Songs With Total Durations Divisible by 60",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/",
+  "test_cases": [
+    {
+      "input": {
+        "time": [
+          30,
+          20,
+          150,
+          100,
+          40
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "time": [
+          60,
+          60,
+          60
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "time": [
+          30
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "time": [
+          1,
+          500
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "time": [
+          30,
+          30,
+          30,
+          30,
+          30
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "time": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "time": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "time": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "time": [
+          500,
+          500
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

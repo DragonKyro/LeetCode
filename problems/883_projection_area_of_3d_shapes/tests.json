@@ -1,0 +1,51 @@
+{
+  "problem_id": 883,
+  "title": "Projection Area of 3D Shapes",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/projection-area-of-3d-shapes/",
+  "test_cases": [
+    {
+      "input": {
+        "grid": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      "expected": 17,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            2
+          ]
+        ]
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      "expected": 8,
+      "source": "example"
+    }
+  ]
+}

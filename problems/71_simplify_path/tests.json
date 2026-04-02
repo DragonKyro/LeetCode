@@ -1,0 +1,71 @@
+{
+  "problem_id": 71,
+  "title": "Simplify Path",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/simplify-path/",
+  "test_cases": [
+    {
+      "input": {
+        "path": "/home/"
+      },
+      "expected": "/home",
+      "source": "example"
+    },
+    {
+      "input": {
+        "path": "/home//foo/"
+      },
+      "expected": "/home/foo",
+      "source": "example"
+    },
+    {
+      "input": {
+        "path": "/home/user/Documents/../Pictures"
+      },
+      "expected": "/home/user/Pictures",
+      "source": "example"
+    },
+    {
+      "input": {
+        "path": "/../"
+      },
+      "expected": "/",
+      "source": "example"
+    },
+    {
+      "input": {
+        "path": "/.../a/../b/c/../d/./"
+      },
+      "expected": "/.../b/d",
+      "source": "example"
+    },
+    {
+      "input": {
+        "path": "/"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "path": "//////"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "path": "/0/0/0"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "path": "/hooh/"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

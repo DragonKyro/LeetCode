@@ -1,0 +1,40 @@
+{
+  "problem_id": 1866,
+  "title": "Number of Ways to Rearrange Sticks With K Sticks Visible",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/number-of-ways-to-rearrange-sticks-with-k-sticks-visible/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 3,
+        "k": 2
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 5,
+        "k": 5
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 20,
+        "k": 11
+      },
+      "expected": 647427950,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

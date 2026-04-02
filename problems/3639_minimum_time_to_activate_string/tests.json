@@ -1,0 +1,210 @@
+{
+  "problem_id": 3639,
+  "title": "Minimum Time to Activate String",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-time-to-activate-string/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "abc",
+        "order": [
+          1,
+          0,
+          2
+        ],
+        "k": 2
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "cat",
+        "order": [
+          0,
+          2,
+          1
+        ],
+        "k": 6
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "xy",
+        "order": [
+          0,
+          1
+        ],
+        "k": 4
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a",
+        "order": [
+          1,
+          0,
+          2
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaa",
+        "order": [
+          1,
+          0,
+          2
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abab",
+        "order": [
+          1,
+          0,
+          2
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aa",
+        "order": [
+          1,
+          0,
+          2
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abc",
+        "order": [
+          1
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abc",
+        "order": [
+          -100,
+          100
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abc",
+        "order": [
+          1,
+          1,
+          1
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abc",
+        "order": [
+          1,
+          2,
+          3
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abc",
+        "order": [
+          3,
+          2,
+          1
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abc",
+        "order": [
+          -100,
+          -100
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abc",
+        "order": [
+          100,
+          100
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abc",
+        "order": [
+          1,
+          0,
+          2
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abc",
+        "order": [
+          1,
+          0,
+          2
+        ],
+        "k": 1000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

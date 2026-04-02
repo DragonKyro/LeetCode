@@ -1,0 +1,546 @@
+{
+  "problem_id": 2977,
+  "title": "Minimum Cost to Convert String II",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-cost-to-convert-string-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "source": "abcd",
+        "target": "acbe",
+        "original": [
+          "a",
+          "b",
+          "c",
+          "c",
+          "e",
+          "d"
+        ],
+        "changed": [
+          "b",
+          "c",
+          "b",
+          "e",
+          "b",
+          "e"
+        ],
+        "cost": [
+          2,
+          5,
+          5,
+          1,
+          2,
+          20
+        ]
+      },
+      "expected": 28,
+      "source": "example"
+    },
+    {
+      "input": {
+        "source": "abcdefgh",
+        "target": "acdeeghh",
+        "original": [
+          "bcd",
+          "fgh",
+          "thh"
+        ],
+        "changed": [
+          "cde",
+          "thh",
+          "ghh"
+        ],
+        "cost": [
+          1,
+          3,
+          5
+        ]
+      },
+      "expected": 9,
+      "source": "example"
+    },
+    {
+      "input": {
+        "source": "abcdefgh",
+        "target": "addddddd",
+        "original": [
+          "bcd",
+          "defgh"
+        ],
+        "changed": [
+          "ddd",
+          "ddddd"
+        ],
+        "cost": [
+          100,
+          1578
+        ]
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "source": "a",
+        "target": "acbe",
+        "original": [
+          "a",
+          "b",
+          "c",
+          "c",
+          "e",
+          "d"
+        ],
+        "changed": [
+          "b",
+          "c",
+          "b",
+          "e",
+          "b",
+          "e"
+        ],
+        "cost": [
+          2,
+          5,
+          5,
+          1,
+          2,
+          20
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "source": "aaaa",
+        "target": "acbe",
+        "original": [
+          "a",
+          "b",
+          "c",
+          "c",
+          "e",
+          "d"
+        ],
+        "changed": [
+          "b",
+          "c",
+          "b",
+          "e",
+          "b",
+          "e"
+        ],
+        "cost": [
+          2,
+          5,
+          5,
+          1,
+          2,
+          20
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "source": "abab",
+        "target": "acbe",
+        "original": [
+          "a",
+          "b",
+          "c",
+          "c",
+          "e",
+          "d"
+        ],
+        "changed": [
+          "b",
+          "c",
+          "b",
+          "e",
+          "b",
+          "e"
+        ],
+        "cost": [
+          2,
+          5,
+          5,
+          1,
+          2,
+          20
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "source": "abba",
+        "target": "acbe",
+        "original": [
+          "a",
+          "b",
+          "c",
+          "c",
+          "e",
+          "d"
+        ],
+        "changed": [
+          "b",
+          "c",
+          "b",
+          "e",
+          "b",
+          "e"
+        ],
+        "cost": [
+          2,
+          5,
+          5,
+          1,
+          2,
+          20
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "source": "abcd",
+        "target": "a",
+        "original": [
+          "a",
+          "b",
+          "c",
+          "c",
+          "e",
+          "d"
+        ],
+        "changed": [
+          "b",
+          "c",
+          "b",
+          "e",
+          "b",
+          "e"
+        ],
+        "cost": [
+          2,
+          5,
+          5,
+          1,
+          2,
+          20
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "source": "abcd",
+        "target": "aaaa",
+        "original": [
+          "a",
+          "b",
+          "c",
+          "c",
+          "e",
+          "d"
+        ],
+        "changed": [
+          "b",
+          "c",
+          "b",
+          "e",
+          "b",
+          "e"
+        ],
+        "cost": [
+          2,
+          5,
+          5,
+          1,
+          2,
+          20
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "source": "abcd",
+        "target": "abab",
+        "original": [
+          "a",
+          "b",
+          "c",
+          "c",
+          "e",
+          "d"
+        ],
+        "changed": [
+          "b",
+          "c",
+          "b",
+          "e",
+          "b",
+          "e"
+        ],
+        "cost": [
+          2,
+          5,
+          5,
+          1,
+          2,
+          20
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "source": "abcd",
+        "target": "acca",
+        "original": [
+          "a",
+          "b",
+          "c",
+          "c",
+          "e",
+          "d"
+        ],
+        "changed": [
+          "b",
+          "c",
+          "b",
+          "e",
+          "b",
+          "e"
+        ],
+        "cost": [
+          2,
+          5,
+          5,
+          1,
+          2,
+          20
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "source": "abcd",
+        "target": "acbe",
+        "original": [
+          "a",
+          "b",
+          "c",
+          "c",
+          "e",
+          "d"
+        ],
+        "changed": [
+          "b",
+          "c",
+          "b",
+          "e",
+          "b",
+          "e"
+        ],
+        "cost": [
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "source": "abcd",
+        "target": "acbe",
+        "original": [
+          "a",
+          "b",
+          "c",
+          "c",
+          "e",
+          "d"
+        ],
+        "changed": [
+          "b",
+          "c",
+          "b",
+          "e",
+          "b",
+          "e"
+        ],
+        "cost": [
+          1,
+          1000000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "source": "abcd",
+        "target": "acbe",
+        "original": [
+          "a",
+          "b",
+          "c",
+          "c",
+          "e",
+          "d"
+        ],
+        "changed": [
+          "b",
+          "c",
+          "b",
+          "e",
+          "b",
+          "e"
+        ],
+        "cost": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "source": "abcd",
+        "target": "acbe",
+        "original": [
+          "a",
+          "b",
+          "c",
+          "c",
+          "e",
+          "d"
+        ],
+        "changed": [
+          "b",
+          "c",
+          "b",
+          "e",
+          "b",
+          "e"
+        ],
+        "cost": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "source": "abcd",
+        "target": "acbe",
+        "original": [
+          "a",
+          "b",
+          "c",
+          "c",
+          "e",
+          "d"
+        ],
+        "changed": [
+          "b",
+          "c",
+          "b",
+          "e",
+          "b",
+          "e"
+        ],
+        "cost": [
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "source": "abcd",
+        "target": "acbe",
+        "original": [
+          "a",
+          "b",
+          "c",
+          "c",
+          "e",
+          "d"
+        ],
+        "changed": [
+          "b",
+          "c",
+          "b",
+          "e",
+          "b",
+          "e"
+        ],
+        "cost": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "source": "abcd",
+        "target": "acbe",
+        "original": [
+          "a",
+          "b",
+          "c",
+          "c",
+          "e",
+          "d"
+        ],
+        "changed": [
+          "b",
+          "c",
+          "b",
+          "e",
+          "b",
+          "e"
+        ],
+        "cost": [
+          1000000,
+          1000000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

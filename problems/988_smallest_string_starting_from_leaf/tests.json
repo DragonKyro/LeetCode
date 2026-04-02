@@ -1,0 +1,138 @@
+{
+  "problem_id": 988,
+  "title": "Smallest String Starting From Leaf",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/smallest-string-starting-from-leaf/",
+  "test_cases": [
+    {
+      "input": {
+        "root": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          3,
+          4
+        ]
+      },
+      "expected": "dba",
+      "source": "example"
+    },
+    {
+      "input": {
+        "root": [
+          25,
+          1,
+          3,
+          1,
+          3,
+          0,
+          2
+        ]
+      },
+      "expected": "adz",
+      "source": "example"
+    },
+    {
+      "input": {
+        "root": [
+          2,
+          2,
+          1,
+          null,
+          1,
+          0,
+          null,
+          0
+        ]
+      },
+      "expected": "abc",
+      "source": "example"
+    },
+    {
+      "input": {
+        "root": [
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

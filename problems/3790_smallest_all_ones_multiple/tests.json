@@ -1,0 +1,36 @@
+{
+  "problem_id": 3790,
+  "title": "Smallest All-Ones Multiple",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/smallest-all-ones-multiple/",
+  "test_cases": [
+    {
+      "input": {
+        "k": 3
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "k": 7
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "k": 2
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "k": 100000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "problem_id": 2090,
+  "title": "K Radius Subarray Averages",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/k-radius-subarray-averages/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          7,
+          4,
+          3,
+          9,
+          1,
+          8,
+          5,
+          2,
+          6
+        ],
+        "k": 3
+      },
+      "expected": [
+        -1,
+        -1,
+        -1,
+        5,
+        4,
+        4,
+        -1,
+        -1,
+        -1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          100000
+        ],
+        "k": 0
+      },
+      "expected": [
+        100000
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          8
+        ],
+        "k": 100000
+      },
+      "expected": [
+        -1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          7
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -100,
+          100
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -100,
+          -100
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          100,
+          100
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

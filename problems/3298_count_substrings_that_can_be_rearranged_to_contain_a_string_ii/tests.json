@@ -1,0 +1,96 @@
+{
+  "problem_id": 3298,
+  "title": "Count Substrings That Can Be Rearranged to Contain a String II",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/count-substrings-that-can-be-rearranged-to-contain-a-string-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "word1": "bcca",
+        "word2": "abc"
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word1": "abcabc",
+        "word2": "abc"
+      },
+      "expected": 10,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word1": "abcabc",
+        "word2": "aaabc"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word1": "b",
+        "word2": "abc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "bbbb",
+        "word2": "abc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "bcbc",
+        "word2": "abc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "bccb",
+        "word2": "abc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "bcca",
+        "word2": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "bcca",
+        "word2": "aaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "bcca",
+        "word2": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "bcca",
+        "word2": "aa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

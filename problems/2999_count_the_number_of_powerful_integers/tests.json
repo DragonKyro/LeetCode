@@ -1,0 +1,98 @@
+{
+  "problem_id": 2999,
+  "title": "Count the Number of Powerful Integers",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/count-the-number-of-powerful-integers/",
+  "test_cases": [
+    {
+      "input": {
+        "start": 1,
+        "finish": 6000,
+        "limit": 4,
+        "s": "124"
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "start": 15,
+        "finish": 215,
+        "limit": 6,
+        "s": "10"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "start": 1000,
+        "finish": 2000,
+        "limit": 4,
+        "s": "3000"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "start": 1,
+        "finish": 6000,
+        "limit": 1,
+        "s": "124"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "start": 1,
+        "finish": 6000,
+        "limit": 9,
+        "s": "124"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "start": 1,
+        "finish": 6000,
+        "limit": 4,
+        "s": "1"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "start": 1,
+        "finish": 6000,
+        "limit": 4,
+        "s": "111"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "start": 1,
+        "finish": 6000,
+        "limit": 4,
+        "s": "1212"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "start": 1,
+        "finish": 6000,
+        "limit": 4,
+        "s": "11"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

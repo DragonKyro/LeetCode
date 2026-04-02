@@ -1,0 +1,29 @@
+{
+  "problem_id": 804,
+  "title": "Unique Morse Code Words",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/unique-morse-code-words/",
+  "test_cases": [
+    {
+      "input": {
+        "words": [
+          "gin",
+          "zen",
+          "gig",
+          "msg"
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "a"
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "problem_id": 1379,
+  "title": "Find a Corresponding Node of a Binary Tree in a Clone of That Tree",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/",
+  "test_cases": [
+    {
+      "input": {
+        "tree": [
+          7,
+          4,
+          3,
+          null,
+          null,
+          6,
+          19
+        ],
+        "target": 3
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "tree": [
+          7
+        ],
+        "target": 7
+      },
+      "expected": 7,
+      "source": "example"
+    },
+    {
+      "input": {
+        "tree": [
+          8,
+          null,
+          6,
+          null,
+          5,
+          null,
+          4,
+          null,
+          3,
+          null,
+          2,
+          null,
+          1
+        ],
+        "target": 4
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "tree": [
+          7
+        ],
+        "target": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "tree": [
+          -100,
+          100
+        ],
+        "target": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "tree": [
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "target": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "tree": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "target": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "tree": [
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "target": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "tree": [
+          -100,
+          -100
+        ],
+        "target": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "tree": [
+          100,
+          100
+        ],
+        "target": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

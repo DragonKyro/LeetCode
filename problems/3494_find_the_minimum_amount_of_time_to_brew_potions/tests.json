@@ -1,0 +1,292 @@
+{
+  "problem_id": 3494,
+  "title": "Find the Minimum Amount of Time to Brew Potions",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-the-minimum-amount-of-time-to-brew-potions/",
+  "test_cases": [
+    {
+      "input": {
+        "skill": [
+          1,
+          5,
+          2,
+          4
+        ],
+        "mana": [
+          5,
+          1,
+          4,
+          2
+        ]
+      },
+      "expected": 110,
+      "source": "example"
+    },
+    {
+      "input": {
+        "skill": [
+          1,
+          1,
+          1
+        ],
+        "mana": [
+          1,
+          1,
+          1
+        ]
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "skill": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "mana": [
+          1,
+          2
+        ]
+      },
+      "expected": 21,
+      "source": "example"
+    },
+    {
+      "input": {
+        "skill": [
+          1
+        ],
+        "mana": [
+          5,
+          1,
+          4,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "skill": [
+          -100,
+          100
+        ],
+        "mana": [
+          5,
+          1,
+          4,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "skill": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "mana": [
+          5,
+          1,
+          4,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "skill": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "mana": [
+          5,
+          1,
+          4,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "skill": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "mana": [
+          5,
+          1,
+          4,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "skill": [
+          -100,
+          -100
+        ],
+        "mana": [
+          5,
+          1,
+          4,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "skill": [
+          100,
+          100
+        ],
+        "mana": [
+          5,
+          1,
+          4,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "skill": [
+          1,
+          5,
+          2,
+          4
+        ],
+        "mana": [
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "skill": [
+          1,
+          5,
+          2,
+          4
+        ],
+        "mana": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "skill": [
+          1,
+          5,
+          2,
+          4
+        ],
+        "mana": [
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "skill": [
+          1,
+          5,
+          2,
+          4
+        ],
+        "mana": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "skill": [
+          1,
+          5,
+          2,
+          4
+        ],
+        "mana": [
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "skill": [
+          1,
+          5,
+          2,
+          4
+        ],
+        "mana": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "skill": [
+          1,
+          5,
+          2,
+          4
+        ],
+        "mana": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

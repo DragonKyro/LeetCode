@@ -1,0 +1,133 @@
+{
+  "problem_id": 1923,
+  "title": "Longest Common Subpath",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/longest-common-subpath/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 5,
+        "paths": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            2,
+            3,
+            4
+          ],
+          [
+            4,
+            0,
+            1,
+            2,
+            3
+          ]
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 3,
+        "paths": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 5,
+        "paths": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            4,
+            3,
+            2,
+            1,
+            0
+          ]
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "paths": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            2,
+            3,
+            4
+          ],
+          [
+            4,
+            0,
+            1,
+            2,
+            3
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 100000,
+        "paths": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            2,
+            3,
+            4
+          ],
+          [
+            4,
+            0,
+            1,
+            2,
+            3
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

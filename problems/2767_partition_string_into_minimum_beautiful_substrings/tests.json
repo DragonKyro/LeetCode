@@ -1,0 +1,57 @@
+{
+  "problem_id": 2767,
+  "title": "Partition String Into Minimum Beautiful Substrings",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/partition-string-into-minimum-beautiful-substrings/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "1011"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "111"
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "0"
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "1"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "1111"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "1212"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "1001"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

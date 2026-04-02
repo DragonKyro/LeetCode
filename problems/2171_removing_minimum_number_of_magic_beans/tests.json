@@ -1,0 +1,107 @@
+{
+  "problem_id": 2171,
+  "title": "Removing Minimum Number of Magic Beans",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/removing-minimum-number-of-magic-beans/",
+  "test_cases": [
+    {
+      "input": {
+        "beans": [
+          4,
+          1,
+          6,
+          5
+        ]
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "beans": [
+          2,
+          10,
+          3,
+          2
+        ]
+      },
+      "expected": 7,
+      "source": "example"
+    },
+    {
+      "input": {
+        "beans": [
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "beans": [
+          1,
+          100000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "beans": [
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "beans": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "beans": [
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "beans": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "beans": [
+          100000,
+          100000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

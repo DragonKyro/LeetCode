@@ -1,0 +1,156 @@
+{
+  "problem_id": 1223,
+  "title": "Dice Roll Simulation",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/dice-roll-simulation/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 2,
+        "rollMax": [
+          1,
+          1,
+          2,
+          2,
+          2,
+          3
+        ]
+      },
+      "expected": 34,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 2,
+        "rollMax": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "expected": 30,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 3,
+        "rollMax": [
+          1,
+          1,
+          1,
+          2,
+          2,
+          3
+        ]
+      },
+      "expected": 181,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "rollMax": [
+          1,
+          1,
+          2,
+          2,
+          2,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 5000,
+        "rollMax": [
+          1,
+          1,
+          2,
+          2,
+          2,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 2,
+        "rollMax": [
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 2,
+        "rollMax": [
+          1,
+          15
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 2,
+        "rollMax": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 2,
+        "rollMax": [
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 2,
+        "rollMax": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 2,
+        "rollMax": [
+          15,
+          15
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

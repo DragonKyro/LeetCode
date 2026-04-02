@@ -1,0 +1,89 @@
+{
+  "problem_id": 1734,
+  "title": "Decode XORed Permutation",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/decode-xored-permutation/",
+  "test_cases": [
+    {
+      "input": {
+        "encoded": [
+          3,
+          1
+        ]
+      },
+      "expected": [
+        1,
+        2,
+        3
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "encoded": [
+          6,
+          5,
+          4,
+          6
+        ]
+      },
+      "expected": [
+        2,
+        4,
+        1,
+        5,
+        3
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "encoded": [
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "encoded": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "encoded": [
+          3,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "encoded": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "encoded": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

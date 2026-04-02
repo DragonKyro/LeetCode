@@ -1,0 +1,57 @@
+{
+  "problem_id": 1614,
+  "title": "Maximum Nesting Depth of the Parentheses",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "(1+(2*3)+((8)/4))+1"
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "(1)+((2))+(((3)))"
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "()(())((()()))"
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "("
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "((((((((((((((((((("
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "()()()()()()()()()"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "(1+(2*3)++)3*2(+1("
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

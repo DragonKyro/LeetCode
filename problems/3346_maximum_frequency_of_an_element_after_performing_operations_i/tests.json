@@ -1,0 +1,147 @@
+{
+  "problem_id": 3346,
+  "title": "Maximum Frequency of an Element After Performing Operations I",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-frequency-of-an-element-after-performing-operations-i/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          1,
+          4,
+          5
+        ],
+        "k": 1,
+        "numOperations": 2
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          5,
+          11,
+          20,
+          20
+        ],
+        "k": 5,
+        "numOperations": 1
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          1
+        ],
+        "k": 1,
+        "numOperations": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          100000
+        ],
+        "k": 1,
+        "numOperations": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1,
+          1
+        ],
+        "k": 1,
+        "numOperations": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3
+        ],
+        "k": 1,
+        "numOperations": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          3,
+          2,
+          1
+        ],
+        "k": 1,
+        "numOperations": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1
+        ],
+        "k": 1,
+        "numOperations": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          100000,
+          100000
+        ],
+        "k": 1,
+        "numOperations": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          4,
+          5
+        ],
+        "k": 0,
+        "numOperations": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          4,
+          5
+        ],
+        "k": 100000,
+        "numOperations": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

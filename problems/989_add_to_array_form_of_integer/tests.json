@@ -1,0 +1,167 @@
+{
+  "problem_id": 989,
+  "title": "Add to Array-Form of Integer",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/add-to-array-form-of-integer/",
+  "test_cases": [
+    {
+      "input": {
+        "num": [
+          1,
+          2,
+          0,
+          0
+        ],
+        "k": 34
+      },
+      "expected": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": [
+          2,
+          7,
+          4
+        ],
+        "k": 181
+      },
+      "expected": [
+        4,
+        5,
+        5
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": [
+          2,
+          1,
+          5
+        ],
+        "k": 806
+      },
+      "expected": [
+        1,
+        0,
+        2,
+        1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": [
+          1
+        ],
+        "k": 34
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": [
+          0,
+          9
+        ],
+        "k": 34
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "k": 34
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "k": 34
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "k": 34
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": [
+          0,
+          0
+        ],
+        "k": 34
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": [
+          9,
+          9
+        ],
+        "k": 34
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": [
+          1,
+          2,
+          0,
+          0
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": [
+          1,
+          2,
+          0,
+          0
+        ],
+        "k": 10000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

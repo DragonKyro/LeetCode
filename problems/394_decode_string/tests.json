@@ -1,0 +1,57 @@
+{
+  "problem_id": 394,
+  "title": "Decode String",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/decode-string/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "3[a]2[bc]"
+      },
+      "expected": "aaabcbc",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "3[a2[c]]"
+      },
+      "expected": "accaccacc",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "2[abc]3[cd]ef"
+      },
+      "expected": "abcabccdcdcdef",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "3"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "333333333"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "34343434"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "3[a]]a[3"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

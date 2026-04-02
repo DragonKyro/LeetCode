@@ -1,0 +1,264 @@
+{
+  "problem_id": 1626,
+  "title": "Best Team With No Conflicts",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/best-team-with-no-conflicts/",
+  "test_cases": [
+    {
+      "input": {
+        "scores": [
+          1,
+          3,
+          5,
+          10,
+          15
+        ],
+        "ages": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "expected": 34,
+      "source": "example"
+    },
+    {
+      "input": {
+        "scores": [
+          4,
+          5,
+          6,
+          5
+        ],
+        "ages": [
+          2,
+          1,
+          2,
+          1
+        ]
+      },
+      "expected": 16,
+      "source": "example"
+    },
+    {
+      "input": {
+        "scores": [
+          1,
+          2,
+          3,
+          5
+        ],
+        "ages": [
+          8,
+          9,
+          10,
+          1
+        ]
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "scores": [
+          1
+        ],
+        "ages": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "scores": [
+          1,
+          1000000
+        ],
+        "ages": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "scores": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "ages": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "scores": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "ages": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "scores": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "ages": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "scores": [
+          1,
+          1
+        ],
+        "ages": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "scores": [
+          1000000,
+          1000000
+        ],
+        "ages": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "scores": [
+          1,
+          3,
+          5,
+          10,
+          15
+        ],
+        "ages": [
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "scores": [
+          1,
+          3,
+          5,
+          10,
+          15
+        ],
+        "ages": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "scores": [
+          1,
+          3,
+          5,
+          10,
+          15
+        ],
+        "ages": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "scores": [
+          1,
+          3,
+          5,
+          10,
+          15
+        ],
+        "ages": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

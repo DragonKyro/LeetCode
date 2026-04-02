@@ -1,0 +1,43 @@
+{
+  "problem_id": 2914,
+  "title": "Minimum Number of Changes to Make Binary String Beautiful",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-number-of-changes-to-make-binary-string-beautiful/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "1001"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "10"
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "0000"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "1111"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "1212"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

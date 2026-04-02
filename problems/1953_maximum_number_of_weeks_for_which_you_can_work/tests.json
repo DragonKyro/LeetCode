@@ -1,0 +1,91 @@
+{
+  "problem_id": 1953,
+  "title": "Maximum Number of Weeks for Which You Can Work",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-number-of-weeks-for-which-you-can-work/",
+  "test_cases": [
+    {
+      "input": {
+        "milestones": [
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "milestones": [
+          5,
+          2,
+          1
+        ]
+      },
+      "expected": 7,
+      "source": "example"
+    },
+    {
+      "input": {
+        "milestones": [
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "milestones": [
+          1,
+          1000000000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "milestones": [
+          1,
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "milestones": [
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "milestones": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "milestones": [
+          1000000000,
+          1000000000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

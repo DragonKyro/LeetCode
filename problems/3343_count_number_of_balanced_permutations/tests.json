@@ -1,0 +1,50 @@
+{
+  "problem_id": 3343,
+  "title": "Count Number of Balanced Permutations",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/count-number-of-balanced-permutations/",
+  "test_cases": [
+    {
+      "input": {
+        "num": "123"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": "112"
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": "12345"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": "111"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "1212"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "11"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

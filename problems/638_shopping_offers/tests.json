@@ -1,0 +1,322 @@
+{
+  "problem_id": 638,
+  "title": "Shopping Offers",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/shopping-offers/",
+  "test_cases": [
+    {
+      "input": {
+        "price": [
+          2,
+          5
+        ],
+        "special": [
+          [
+            3,
+            0,
+            5
+          ],
+          [
+            1,
+            2,
+            10
+          ]
+        ],
+        "needs": [
+          3,
+          2
+        ]
+      },
+      "expected": 14,
+      "source": "example"
+    },
+    {
+      "input": {
+        "price": [
+          2,
+          3,
+          4
+        ],
+        "special": [
+          [
+            1,
+            1,
+            0,
+            4
+          ],
+          [
+            2,
+            2,
+            1,
+            9
+          ]
+        ],
+        "needs": [
+          1,
+          2,
+          1
+        ]
+      },
+      "expected": 11,
+      "source": "example"
+    },
+    {
+      "input": {
+        "price": [
+          2
+        ],
+        "special": [
+          [
+            3,
+            0,
+            5
+          ],
+          [
+            1,
+            2,
+            10
+          ]
+        ],
+        "needs": [
+          3,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "price": [
+          -100,
+          100
+        ],
+        "special": [
+          [
+            3,
+            0,
+            5
+          ],
+          [
+            1,
+            2,
+            10
+          ]
+        ],
+        "needs": [
+          3,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "price": [
+          2,
+          2
+        ],
+        "special": [
+          [
+            3,
+            0,
+            5
+          ],
+          [
+            1,
+            2,
+            10
+          ]
+        ],
+        "needs": [
+          3,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "price": [
+          -100,
+          -100
+        ],
+        "special": [
+          [
+            3,
+            0,
+            5
+          ],
+          [
+            1,
+            2,
+            10
+          ]
+        ],
+        "needs": [
+          3,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "price": [
+          100,
+          100
+        ],
+        "special": [
+          [
+            3,
+            0,
+            5
+          ],
+          [
+            1,
+            2,
+            10
+          ]
+        ],
+        "needs": [
+          3,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "price": [
+          2,
+          5
+        ],
+        "special": [
+          [
+            3,
+            0,
+            5
+          ],
+          [
+            1,
+            2,
+            10
+          ]
+        ],
+        "needs": [
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "price": [
+          2,
+          5
+        ],
+        "special": [
+          [
+            3,
+            0,
+            5
+          ],
+          [
+            1,
+            2,
+            10
+          ]
+        ],
+        "needs": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "price": [
+          2,
+          5
+        ],
+        "special": [
+          [
+            3,
+            0,
+            5
+          ],
+          [
+            1,
+            2,
+            10
+          ]
+        ],
+        "needs": [
+          3,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "price": [
+          2,
+          5
+        ],
+        "special": [
+          [
+            3,
+            0,
+            5
+          ],
+          [
+            1,
+            2,
+            10
+          ]
+        ],
+        "needs": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "price": [
+          2,
+          5
+        ],
+        "special": [
+          [
+            3,
+            0,
+            5
+          ],
+          [
+            1,
+            2,
+            10
+          ]
+        ],
+        "needs": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

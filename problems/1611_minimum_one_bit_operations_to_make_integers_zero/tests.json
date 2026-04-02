@@ -1,0 +1,43 @@
+{
+  "problem_id": 1611,
+  "title": "Minimum One Bit Operations to Make Integers Zero",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 3
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 6
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 1000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

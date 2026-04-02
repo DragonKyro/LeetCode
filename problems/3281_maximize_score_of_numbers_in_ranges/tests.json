@@ -1,0 +1,149 @@
+{
+  "problem_id": 3281,
+  "title": "Maximize Score of Numbers in Ranges",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximize-score-of-numbers-in-ranges/",
+  "test_cases": [
+    {
+      "input": {
+        "start": [
+          6,
+          0,
+          3
+        ],
+        "d": 2
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "start": [
+          2,
+          6,
+          13,
+          13
+        ],
+        "d": 5
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "start": [
+          6,
+          6
+        ],
+        "d": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "start": [
+          0,
+          1000000000
+        ],
+        "d": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "start": [
+          6,
+          6,
+          6
+        ],
+        "d": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "start": [
+          1,
+          2,
+          3
+        ],
+        "d": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "start": [
+          3,
+          2,
+          1
+        ],
+        "d": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "start": [
+          0,
+          0
+        ],
+        "d": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "start": [
+          1000000000,
+          1000000000
+        ],
+        "d": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "start": [
+          6,
+          0,
+          3
+        ],
+        "d": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "start": [
+          6,
+          0,
+          3
+        ],
+        "d": 1000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "start": [
+          6,
+          0,
+          3
+        ],
+        "d": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

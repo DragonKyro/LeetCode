@@ -1,0 +1,282 @@
+{
+  "problem_id": 946,
+  "title": "Validate Stack Sequences",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/validate-stack-sequences/",
+  "test_cases": [
+    {
+      "input": {
+        "pushed": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "popped": [
+          4,
+          5,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "pushed": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "popped": [
+          4,
+          3,
+          5,
+          1,
+          2
+        ]
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "pushed": [
+          1
+        ],
+        "popped": [
+          4,
+          5,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "pushed": [
+          0,
+          1
+        ],
+        "popped": [
+          4,
+          5,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "pushed": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "popped": [
+          4,
+          5,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "pushed": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "popped": [
+          4,
+          5,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "pushed": [
+          0,
+          0
+        ],
+        "popped": [
+          4,
+          5,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "pushed": [
+          1,
+          1
+        ],
+        "popped": [
+          4,
+          5,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "pushed": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "popped": [
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "pushed": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "popped": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "pushed": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "popped": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "pushed": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "popped": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "pushed": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "popped": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "pushed": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "popped": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "pushed": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "popped": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

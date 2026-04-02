@@ -1,0 +1,50 @@
+{
+  "problem_id": 520,
+  "title": "Detect Capital",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/detect-capital/",
+  "test_cases": [
+    {
+      "input": {
+        "word": "USA"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word": "FlaG"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word": "U"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word": "UUU"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word": "UVUV"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word": "UU"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

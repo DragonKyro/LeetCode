@@ -1,0 +1,43 @@
+{
+  "problem_id": 649,
+  "title": "Dota2 Senate",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/dota2-senate/",
+  "test_cases": [
+    {
+      "input": {
+        "senate": "RD"
+      },
+      "expected": "Radiant",
+      "source": "example"
+    },
+    {
+      "input": {
+        "senate": "RDD"
+      },
+      "expected": "Dire",
+      "source": "example"
+    },
+    {
+      "input": {
+        "senate": "R"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "senate": "RR"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "senate": "RSRS"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

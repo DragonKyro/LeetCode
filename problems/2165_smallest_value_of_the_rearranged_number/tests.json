@@ -1,0 +1,50 @@
+{
+  "problem_id": 2165,
+  "title": "Smallest Value of the Rearranged Number",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/smallest-value-of-the-rearranged-number/",
+  "test_cases": [
+    {
+      "input": {
+        "num": 310
+      },
+      "expected": 103,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": -7605
+      },
+      "expected": -7650,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": -1000000000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": 1000000000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

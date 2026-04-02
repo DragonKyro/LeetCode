@@ -1,0 +1,129 @@
+{
+  "problem_id": 735,
+  "title": "Asteroid Collision",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/asteroid-collision/",
+  "test_cases": [
+    {
+      "input": {
+        "asteroids": [
+          5,
+          10,
+          -5
+        ]
+      },
+      "expected": [
+        5,
+        10
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "asteroids": [
+          8,
+          -8
+        ]
+      },
+      "expected": [],
+      "source": "example"
+    },
+    {
+      "input": {
+        "asteroids": [
+          10,
+          2,
+          -5
+        ]
+      },
+      "expected": [
+        10
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "asteroids": "[3,5,-6,2,-1,4]​​​​​​​"
+      },
+      "expected": [
+        -6,
+        2,
+        4
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "asteroids": [
+          5,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "asteroids": [
+          -1000,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "asteroids": [
+          5,
+          5,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "asteroids": [
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "asteroids": [
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "asteroids": [
+          -1000,
+          -1000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "asteroids": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

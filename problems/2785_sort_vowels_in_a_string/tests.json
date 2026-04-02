@@ -1,0 +1,50 @@
+{
+  "problem_id": 2785,
+  "title": "Sort Vowels in a String",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/sort-vowels-in-a-string/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "lEetcOde"
+      },
+      "expected": "lEOtcede",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "lYmpH"
+      },
+      "expected": "lYmpH",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "l"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "llllllll"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "lmlmlmlm"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "lEetteEl"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

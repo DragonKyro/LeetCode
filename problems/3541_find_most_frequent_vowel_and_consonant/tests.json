@@ -1,0 +1,50 @@
+{
+  "problem_id": 3541,
+  "title": "Find Most Frequent Vowel and Consonant",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "successes"
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "aeiaeia"
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "s"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "sssssssss"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "stststst"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "succccus"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

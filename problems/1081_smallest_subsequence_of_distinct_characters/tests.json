@@ -1,0 +1,50 @@
+{
+  "problem_id": 1081,
+  "title": "Smallest Subsequence of Distinct Characters",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "bcabc"
+      },
+      "expected": "abc",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "cbacdcbc"
+      },
+      "expected": "acdb",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "b"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "bbbbb"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "bcbc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "bccb"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

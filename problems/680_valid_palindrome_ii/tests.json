@@ -1,0 +1,57 @@
+{
+  "problem_id": 680,
+  "title": "Valid Palindrome II",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/valid-palindrome-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "aba"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abca"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abc"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

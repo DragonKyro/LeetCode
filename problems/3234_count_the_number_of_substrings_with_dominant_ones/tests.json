@@ -1,0 +1,50 @@
+{
+  "problem_id": 3234,
+  "title": "Count the Number of Substrings With Dominant Ones",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-the-number-of-substrings-with-dominant-ones/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "00011"
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "101101"
+      },
+      "expected": 16,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "0"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "00000"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "0101"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "0000"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

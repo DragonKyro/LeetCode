@@ -1,0 +1,75 @@
+{
+  "problem_id": 830,
+  "title": "Positions of Large Groups",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/positions-of-large-groups/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "abbxxxxzzy"
+      },
+      "expected": [
+        [
+          3,
+          6
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abc"
+      },
+      "expected": [],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abcdddeeeeaabbbcd"
+      },
+      "expected": [
+        [
+          3,
+          5
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          12,
+          14
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaaaaaaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ababababab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abbxxxxbba"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

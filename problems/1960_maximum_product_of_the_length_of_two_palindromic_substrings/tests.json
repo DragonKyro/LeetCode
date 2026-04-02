@@ -1,0 +1,43 @@
+{
+  "problem_id": 1960,
+  "title": "Maximum Product of the Length of Two Palindromic Substrings",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/maximum-product-of-the-length-of-two-palindromic-substrings/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "ababbb"
+      },
+      "expected": 9,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "zaaaxbbby"
+      },
+      "expected": 9,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "aaaaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ababab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abaaba"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

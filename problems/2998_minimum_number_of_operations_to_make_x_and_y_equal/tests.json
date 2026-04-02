@@ -1,0 +1,32 @@
+{
+  "problem_id": 2998,
+  "title": "Minimum Number of Operations to Make X and Y Equal",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-number-of-operations-to-make-x-and-y-equal/",
+  "test_cases": [
+    {
+      "input": {
+        "x": 26,
+        "y": 1
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "x": 54,
+        "y": 2
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "x": 25,
+        "y": 30
+      },
+      "expected": 5,
+      "source": "example"
+    }
+  ]
+}

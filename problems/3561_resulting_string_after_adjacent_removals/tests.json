@@ -1,0 +1,57 @@
+{
+  "problem_id": 3561,
+  "title": "Resulting String After Adjacent Removals",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/resulting-string-after-adjacent-removals/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "abc"
+      },
+      "expected": "c",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "adcb"
+      },
+      "expected": "",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "zadb"
+      },
+      "expected": "db",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "problem_id": 3567,
+  "title": "Minimum Absolute Difference in Sliding Submatrix",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-absolute-difference-in-sliding-submatrix/",
+  "test_cases": [
+    {
+      "input": {
+        "grid": [
+          [
+            1,
+            8
+          ],
+          [
+            3,
+            -2
+          ]
+        ],
+        "k": 2
+      },
+      "expected": [
+        [
+          2
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            3,
+            -1
+          ]
+        ],
+        "k": 1
+      },
+      "expected": [
+        [
+          0,
+          0
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            1,
+            -2,
+            3
+          ],
+          [
+            2,
+            3,
+            5
+          ]
+        ],
+        "k": 2
+      },
+      "expected": [
+        [
+          1,
+          2
+        ]
+      ],
+      "source": "example"
+    }
+  ]
+}

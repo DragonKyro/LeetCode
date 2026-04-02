@@ -1,0 +1,139 @@
+{
+  "problem_id": 3194,
+  "title": "Minimum Average of Smallest and Largest Elements",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          7,
+          8,
+          3,
+          4,
+          15,
+          13,
+          4,
+          1
+        ]
+      },
+      "expected": 5.5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          9,
+          8,
+          3,
+          10,
+          5
+        ]
+      },
+      "expected": 5.5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          7,
+          8,
+          9
+        ]
+      },
+      "expected": 5.0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          7
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          50
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          50,
+          50
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

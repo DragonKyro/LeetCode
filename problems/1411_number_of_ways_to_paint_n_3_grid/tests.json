@@ -1,0 +1,22 @@
+{
+  "problem_id": 1411,
+  "title": "Number of Ways to Paint N × 3 Grid",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/number-of-ways-to-paint-n-3-grid/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": 12,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 5000
+      },
+      "expected": 30228214,
+      "source": "example"
+    }
+  ]
+}

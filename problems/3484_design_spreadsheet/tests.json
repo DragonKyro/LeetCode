@@ -1,0 +1,52 @@
+{
+  "problem_id": 3484,
+  "title": "Design Spreadsheet",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/design-spreadsheet/",
+  "test_cases": [
+    {
+      "input": {
+        "arg0": "[\"Spreadsheet\", \"getValue\", \"setCell\", \"getValue\", \"setCell\", \"getValue\", \"resetCell\", \"getValue\"]\n\n[[3], [\"=5+7\"], [\"A1\", 10], [\"=A1+6\"], [\"B2\", 15], [\"=A1+B2\"], [\"A1\"], [\"=A1+B2\"]]"
+      },
+      "expected": [
+        null,
+        12,
+        null,
+        16,
+        null,
+        25,
+        null,
+        15
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "arg0": "["
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arg0": "[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[["
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arg0": "[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arg0": "[\"Spreadsheet\", \"getValue\", \"setCell\", \"getValue\", \"setCell\", \"getValue\", \"resetCell\", \"getteg\" ,\"lleCteser\" ,\"eulaVteg\" ,\"lleCtes\" ,\"eulaVteg\" ,\"lleCtes\" ,\"eulaVteg\" ,\"teehsdaerpS\"["
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

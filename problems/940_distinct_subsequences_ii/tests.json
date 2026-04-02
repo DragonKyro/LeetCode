@@ -1,0 +1,50 @@
+{
+  "problem_id": 940,
+  "title": "Distinct Subsequences II",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/distinct-subsequences-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "abc"
+      },
+      "expected": 7,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "aba"
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "aaa"
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

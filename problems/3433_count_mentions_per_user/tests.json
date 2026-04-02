@@ -1,0 +1,108 @@
+{
+  "problem_id": 3433,
+  "title": "Count Mentions Per User",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-mentions-per-user/",
+  "test_cases": [
+    {
+      "input": {
+        "numberOfUsers": 2,
+        "events": [
+          [
+            "MESSAGE",
+            "10",
+            "id1 id0"
+          ],
+          [
+            "OFFLINE",
+            "11",
+            "0"
+          ],
+          [
+            "MESSAGE",
+            "71",
+            "HERE"
+          ]
+        ]
+      },
+      "expected": [
+        2,
+        2
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "numberOfUsers": 2,
+        "events": [
+          [
+            "MESSAGE",
+            "10",
+            "id1 id0"
+          ],
+          [
+            "OFFLINE",
+            "11",
+            "0"
+          ],
+          [
+            "MESSAGE",
+            "12",
+            "ALL"
+          ]
+        ]
+      },
+      "expected": [
+        2,
+        2
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "numberOfUsers": 2,
+        "events": [
+          [
+            "OFFLINE",
+            "10",
+            "0"
+          ],
+          [
+            "MESSAGE",
+            "12",
+            "HERE"
+          ]
+        ]
+      },
+      "expected": [
+        0,
+        1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "numberOfUsers": 1,
+        "events": [
+          [
+            "MESSAGE",
+            "10",
+            "id1 id0"
+          ],
+          [
+            "OFFLINE",
+            "11",
+            "0"
+          ],
+          [
+            "MESSAGE",
+            "71",
+            "HERE"
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

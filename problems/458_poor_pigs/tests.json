@@ -1,0 +1,35 @@
+{
+  "problem_id": 458,
+  "title": "Poor Pigs",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/poor-pigs/",
+  "test_cases": [
+    {
+      "input": {
+        "buckets": 4,
+        "minutesToDie": 15,
+        "minutesToTest": 15
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "buckets": 4,
+        "minutesToDie": 15,
+        "minutesToTest": 30
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "buckets": 1,
+        "minutesToDie": 15,
+        "minutesToTest": 15
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

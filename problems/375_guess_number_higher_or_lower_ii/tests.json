@@ -1,0 +1,36 @@
+{
+  "problem_id": 375,
+  "title": "Guess Number Higher or Lower II",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/guess-number-higher-or-lower-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 10
+      },
+      "expected": 16,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 2
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 200
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

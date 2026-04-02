@@ -1,0 +1,48 @@
+{
+  "problem_id": 1037,
+  "title": "Valid Boomerang",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/valid-boomerang/",
+  "test_cases": [
+    {
+      "input": {
+        "points": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "points": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      "expected": false,
+      "source": "example"
+    }
+  ]
+}

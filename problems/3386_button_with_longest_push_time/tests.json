@@ -1,0 +1,48 @@
+{
+  "problem_id": 3386,
+  "title": "Button with Longest Push Time",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/button-with-longest-push-time/",
+  "test_cases": [
+    {
+      "input": {
+        "events": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            9
+          ],
+          [
+            1,
+            15
+          ]
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "events": [
+          [
+            10,
+            5
+          ],
+          [
+            1,
+            7
+          ]
+        ]
+      },
+      "expected": 10,
+      "source": "example"
+    }
+  ]
+}

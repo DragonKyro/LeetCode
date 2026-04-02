@@ -1,0 +1,43 @@
+{
+  "problem_id": 1646,
+  "title": "Get Maximum in Generated Array",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/get-maximum-in-generated-array/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 7
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 2
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 3
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

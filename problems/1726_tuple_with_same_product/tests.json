@@ -1,0 +1,108 @@
+{
+  "problem_id": 1726,
+  "title": "Tuple with Same Product",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/tuple-with-same-product/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          2,
+          3,
+          4,
+          6
+        ]
+      },
+      "expected": 8,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          4,
+          5,
+          10
+        ]
+      },
+      "expected": 16,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          10000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          10000,
+          10000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

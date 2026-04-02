@@ -1,0 +1,488 @@
+{
+  "problem_id": 2569,
+  "title": "Handling Sum Queries After Update",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/handling-sum-queries-after-update/",
+  "test_cases": [
+    {
+      "input": {
+        "nums1": [
+          1,
+          0,
+          1
+        ],
+        "nums2": [
+          0,
+          0,
+          0
+        ],
+        "queries": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            3,
+            0,
+            0
+          ]
+        ]
+      },
+      "expected": [
+        3
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums1": [
+          1
+        ],
+        "nums2": [
+          5
+        ],
+        "queries": [
+          [
+            2,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            0
+          ]
+        ]
+      },
+      "expected": [
+        5
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums1": [
+          1
+        ],
+        "nums2": [
+          0,
+          0,
+          0
+        ],
+        "queries": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            3,
+            0,
+            0
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          0,
+          1
+        ],
+        "nums2": [
+          0,
+          0,
+          0
+        ],
+        "queries": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            3,
+            0,
+            0
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          1,
+          1
+        ],
+        "nums2": [
+          0,
+          0,
+          0
+        ],
+        "queries": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            3,
+            0,
+            0
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          2,
+          3
+        ],
+        "nums2": [
+          0,
+          0,
+          0
+        ],
+        "queries": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            3,
+            0,
+            0
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          3,
+          2,
+          1
+        ],
+        "nums2": [
+          0,
+          0,
+          0
+        ],
+        "queries": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            3,
+            0,
+            0
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          0,
+          0
+        ],
+        "nums2": [
+          0,
+          0,
+          0
+        ],
+        "queries": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            3,
+            0,
+            0
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          1
+        ],
+        "nums2": [
+          0,
+          0,
+          0
+        ],
+        "queries": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            3,
+            0,
+            0
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          0,
+          1
+        ],
+        "nums2": [
+          0
+        ],
+        "queries": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            3,
+            0,
+            0
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          0,
+          1
+        ],
+        "nums2": [
+          0,
+          1000000000
+        ],
+        "queries": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            3,
+            0,
+            0
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          0,
+          1
+        ],
+        "nums2": [
+          1,
+          2,
+          3
+        ],
+        "queries": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            3,
+            0,
+            0
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          0,
+          1
+        ],
+        "nums2": [
+          3,
+          2,
+          1
+        ],
+        "queries": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            3,
+            0,
+            0
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          0,
+          1
+        ],
+        "nums2": [
+          0,
+          0
+        ],
+        "queries": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            3,
+            0,
+            0
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          0,
+          1
+        ],
+        "nums2": [
+          1000000000,
+          1000000000
+        ],
+        "queries": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            3,
+            0,
+            0
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

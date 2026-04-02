@@ -1,0 +1,154 @@
+{
+  "problem_id": 1129,
+  "title": "Shortest Path with Alternating Colors",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/shortest-path-with-alternating-colors/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 3,
+        "redEdges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "blueEdges": []
+      },
+      "expected": [
+        0,
+        1,
+        -1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 3,
+        "redEdges": [
+          [
+            0,
+            1
+          ]
+        ],
+        "blueEdges": [
+          [
+            2,
+            1
+          ]
+        ]
+      },
+      "expected": [
+        0,
+        1,
+        -1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "redEdges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "blueEdges": []
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 3,
+        "redEdges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "blueEdges": [
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 3,
+        "redEdges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "blueEdges": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 3,
+        "redEdges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "blueEdges": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 3,
+        "redEdges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "blueEdges": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

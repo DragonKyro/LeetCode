@@ -1,0 +1,88 @@
+{
+  "problem_id": 3146,
+  "title": "Permutation Difference between Two Strings",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/permutation-difference-between-two-strings/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "abc",
+        "t": "bac"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abcde",
+        "t": "edbac"
+      },
+      "expected": 12,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a",
+        "t": "bac"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaa",
+        "t": "bac"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abab",
+        "t": "bac"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aa",
+        "t": "bac"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abc",
+        "t": "b"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abc",
+        "t": "bbb"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abc",
+        "t": "bcbc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abc",
+        "t": "bb"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

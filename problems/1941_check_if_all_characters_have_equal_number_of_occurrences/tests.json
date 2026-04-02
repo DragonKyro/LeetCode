@@ -1,0 +1,50 @@
+{
+  "problem_id": 1941,
+  "title": "Check if All Characters Have Equal Number of Occurrences",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "abacbc"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "aaabb"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ababab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abaaba"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

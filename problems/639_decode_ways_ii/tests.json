@@ -1,0 +1,36 @@
+{
+  "problem_id": 639,
+  "title": "Decode Ways II",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/decode-ways-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "*"
+      },
+      "expected": 9,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "1*"
+      },
+      "expected": 18,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "2*"
+      },
+      "expected": 15,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "*+*+"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

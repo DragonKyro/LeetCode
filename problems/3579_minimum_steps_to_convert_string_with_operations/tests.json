@@ -1,0 +1,96 @@
+{
+  "problem_id": 3579,
+  "title": "Minimum Steps to Convert String with Operations",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-steps-to-convert-string-with-operations/",
+  "test_cases": [
+    {
+      "input": {
+        "word1": "abcdf",
+        "word2": "dacbe"
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word1": "abceded",
+        "word2": "baecfef"
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word1": "abcdef",
+        "word2": "fedabc"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word1": "a",
+        "word2": "dacbe"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "aaaaa",
+        "word2": "dacbe"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "abab",
+        "word2": "dacbe"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "abba",
+        "word2": "dacbe"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "abcdf",
+        "word2": "d"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "abcdf",
+        "word2": "ddddd"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "abcdf",
+        "word2": "dede"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "abcdf",
+        "word2": "daad"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

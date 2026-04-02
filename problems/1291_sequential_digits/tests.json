@@ -1,0 +1,35 @@
+{
+  "problem_id": 1291,
+  "title": "Sequential Digits",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/sequential-digits/",
+  "test_cases": [
+    {
+      "input": {
+        "low": 100,
+        "high": 300
+      },
+      "expected": [
+        123,
+        234
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "low": 1000,
+        "high": 13000
+      },
+      "expected": [
+        1234,
+        2345,
+        3456,
+        4567,
+        5678,
+        6789,
+        12345
+      ],
+      "source": "example"
+    }
+  ]
+}

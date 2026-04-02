@@ -1,0 +1,36 @@
+{
+  "problem_id": 2571,
+  "title": "Minimum Operations to Reduce an Integer to 0",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 39
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 54
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 100000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

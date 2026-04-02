@@ -1,0 +1,50 @@
+{
+  "problem_id": 17,
+  "title": "Letter Combinations of a Phone Number",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
+  "test_cases": [
+    {
+      "input": {
+        "digits": "23"
+      },
+      "expected": [
+        "ad",
+        "ae",
+        "af",
+        "bd",
+        "be",
+        "bf",
+        "cd",
+        "ce",
+        "cf"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "digits": "2"
+      },
+      "expected": [
+        "a",
+        "b",
+        "c"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "digits": "22"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "digits": "2323"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

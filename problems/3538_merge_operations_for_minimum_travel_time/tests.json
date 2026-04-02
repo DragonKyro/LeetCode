@@ -1,0 +1,332 @@
+{
+  "problem_id": 3538,
+  "title": "Merge Operations for Minimum Travel Time",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/merge-operations-for-minimum-travel-time/",
+  "test_cases": [
+    {
+      "input": {
+        "l": 10,
+        "n": 4,
+        "k": 1,
+        "position": [
+          0,
+          3,
+          8,
+          10
+        ],
+        "time": [
+          5,
+          8,
+          3,
+          6
+        ]
+      },
+      "expected": 62,
+      "source": "example"
+    },
+    {
+      "input": {
+        "l": 5,
+        "n": 5,
+        "k": 1,
+        "position": [
+          0,
+          1,
+          2,
+          3,
+          5
+        ],
+        "time": [
+          8,
+          3,
+          9,
+          3,
+          3
+        ]
+      },
+      "expected": 34,
+      "source": "example"
+    },
+    {
+      "input": {
+        "l": 1,
+        "n": 4,
+        "k": 1,
+        "position": [
+          0,
+          3,
+          8,
+          10
+        ],
+        "time": [
+          5,
+          8,
+          3,
+          6
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "l": 100000,
+        "n": 4,
+        "k": 1,
+        "position": [
+          0,
+          3,
+          8,
+          10
+        ],
+        "time": [
+          5,
+          8,
+          3,
+          6
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "l": 10,
+        "n": 4,
+        "k": 1,
+        "position": [
+          0
+        ],
+        "time": [
+          5,
+          8,
+          3,
+          6
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "l": 10,
+        "n": 4,
+        "k": 1,
+        "position": [
+          -100,
+          100
+        ],
+        "time": [
+          5,
+          8,
+          3,
+          6
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "l": 10,
+        "n": 4,
+        "k": 1,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "time": [
+          5,
+          8,
+          3,
+          6
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "l": 10,
+        "n": 4,
+        "k": 1,
+        "position": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "time": [
+          5,
+          8,
+          3,
+          6
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "l": 10,
+        "n": 4,
+        "k": 1,
+        "position": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "time": [
+          5,
+          8,
+          3,
+          6
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "l": 10,
+        "n": 4,
+        "k": 1,
+        "position": [
+          -100,
+          -100
+        ],
+        "time": [
+          5,
+          8,
+          3,
+          6
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "l": 10,
+        "n": 4,
+        "k": 1,
+        "position": [
+          100,
+          100
+        ],
+        "time": [
+          5,
+          8,
+          3,
+          6
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "l": 10,
+        "n": 4,
+        "k": 1,
+        "position": [
+          0,
+          3,
+          8,
+          10
+        ],
+        "time": [
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "l": 10,
+        "n": 4,
+        "k": 1,
+        "position": [
+          0,
+          3,
+          8,
+          10
+        ],
+        "time": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "l": 10,
+        "n": 4,
+        "k": 1,
+        "position": [
+          0,
+          3,
+          8,
+          10
+        ],
+        "time": [
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "l": 10,
+        "n": 4,
+        "k": 1,
+        "position": [
+          0,
+          3,
+          8,
+          10
+        ],
+        "time": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "l": 10,
+        "n": 4,
+        "k": 1,
+        "position": [
+          0,
+          3,
+          8,
+          10
+        ],
+        "time": [
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "problem_id": 450,
+  "title": "Delete Node in a BST",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/delete-node-in-a-bst/",
+  "test_cases": [
+    {
+      "input": {
+        "root": [
+          5,
+          3,
+          6,
+          2,
+          4,
+          null,
+          7
+        ],
+        "key": 3
+      },
+      "expected": [
+        5,
+        4,
+        6,
+        2,
+        null,
+        null,
+        7
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "root": [
+          5,
+          3,
+          6,
+          2,
+          4,
+          null,
+          7
+        ],
+        "key": 0
+      },
+      "expected": [
+        5,
+        3,
+        6,
+        2,
+        4,
+        null,
+        7
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "root": [],
+        "key": 0
+      },
+      "expected": [],
+      "source": "example"
+    },
+    {
+      "input": {
+        "root": [
+          5
+        ],
+        "key": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          -100,
+          100
+        ],
+        "key": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "key": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "key": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "key": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          -100,
+          -100
+        ],
+        "key": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          100,
+          100
+        ],
+        "key": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          5,
+          3,
+          6,
+          2,
+          4,
+          null,
+          7
+        ],
+        "key": -100000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          5,
+          3,
+          6,
+          2,
+          4,
+          null,
+          7
+        ],
+        "key": 100000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          5,
+          3,
+          6,
+          2,
+          4,
+          null,
+          7
+        ],
+        "key": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

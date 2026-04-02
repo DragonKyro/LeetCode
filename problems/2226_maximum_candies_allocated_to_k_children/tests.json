@@ -1,0 +1,134 @@
+{
+  "problem_id": 2226,
+  "title": "Maximum Candies Allocated to K Children",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-candies-allocated-to-k-children/",
+  "test_cases": [
+    {
+      "input": {
+        "candies": [
+          5,
+          8,
+          6
+        ],
+        "k": 3
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "candies": [
+          2,
+          5
+        ],
+        "k": 11
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "candies": [
+          5
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "candies": [
+          1,
+          10000000
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "candies": [
+          5,
+          5,
+          5
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "candies": [
+          1,
+          2,
+          3
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "candies": [
+          3,
+          2,
+          1
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "candies": [
+          1,
+          1
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "candies": [
+          10000000,
+          10000000
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "candies": [
+          5,
+          8,
+          6
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "candies": [
+          5,
+          8,
+          6
+        ],
+        "k": 1000000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

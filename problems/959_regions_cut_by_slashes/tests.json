@@ -1,0 +1,38 @@
+{
+  "problem_id": 959,
+  "title": "Regions Cut By Slashes",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/regions-cut-by-slashes/",
+  "test_cases": [
+    {
+      "input": {
+        "grid": [
+          " /",
+          "/ "
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          " /",
+          "  "
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          "/\\",
+          "\\/"
+        ]
+      },
+      "expected": 5,
+      "source": "example"
+    }
+  ]
+}

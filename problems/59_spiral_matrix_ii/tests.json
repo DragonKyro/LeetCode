@@ -1,0 +1,49 @@
+{
+  "problem_id": 59,
+  "title": "Spiral Matrix II",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/spiral-matrix-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 3
+      },
+      "expected": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          8,
+          9,
+          4
+        ],
+        [
+          7,
+          6,
+          5
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": [
+        [
+          1
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 20
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

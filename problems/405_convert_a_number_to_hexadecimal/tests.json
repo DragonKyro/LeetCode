@@ -1,0 +1,50 @@
+{
+  "problem_id": 405,
+  "title": "Convert a Number to Hexadecimal",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/convert-a-number-to-hexadecimal/",
+  "test_cases": [
+    {
+      "input": {
+        "num": 26
+      },
+      "expected": "1a",
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": -1
+      },
+      "expected": "ffffffff",
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": -2147483648
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": 2147483648
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

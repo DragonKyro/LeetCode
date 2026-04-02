@@ -1,0 +1,38 @@
+{
+  "problem_id": 780,
+  "title": "Reaching Points",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/reaching-points/",
+  "test_cases": [
+    {
+      "input": {
+        "sx": 1,
+        "sy": 1,
+        "tx": 3,
+        "ty": 5
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "sx": 1,
+        "sy": 1,
+        "tx": 2,
+        "ty": 2
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "sx": 1,
+        "sy": 1,
+        "tx": 1,
+        "ty": 1
+      },
+      "expected": true,
+      "source": "example"
+    }
+  ]
+}

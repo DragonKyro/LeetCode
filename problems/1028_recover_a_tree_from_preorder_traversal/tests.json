@@ -1,0 +1,83 @@
+{
+  "problem_id": 1028,
+  "title": "Recover a Tree From Preorder Traversal",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/",
+  "test_cases": [
+    {
+      "input": {
+        "traversal": "1-2--3--4-5--6--7"
+      },
+      "expected": [
+        1,
+        2,
+        5,
+        3,
+        4,
+        6,
+        7
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "traversal": "1-2--3---4-5--6---7"
+      },
+      "expected": [
+        1,
+        2,
+        5,
+        3,
+        null,
+        6,
+        null,
+        4,
+        null,
+        7
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "traversal": "1-401--349---90--88"
+      },
+      "expected": [
+        1,
+        401,
+        null,
+        349,
+        88,
+        90
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "traversal": "1"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "traversal": "11111111111111111"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "traversal": "1212121212121212"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "traversal": "1-2--3----3--2-1"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": 3856,
+  "title": "Trim Trailing Vowels",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/trim-trailing-vowels/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "idea"
+      },
+      "expected": "id",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "day"
+      },
+      "expected": "day",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "aeiou"
+      },
+      "expected": "",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "i"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "iiii"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ijij"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "iddi"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

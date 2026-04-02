@@ -1,0 +1,50 @@
+{
+  "problem_id": 1392,
+  "title": "Longest Happy Prefix",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/longest-happy-prefix/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "level"
+      },
+      "expected": "l",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "ababab"
+      },
+      "expected": "abab",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "l"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "lllll"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "lmlm"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "leel"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

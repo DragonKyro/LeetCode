@@ -1,0 +1,24 @@
+{
+  "problem_id": 2843,
+  "title": "  Count Symmetric Integers",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/count-symmetric-integers/",
+  "test_cases": [
+    {
+      "input": {
+        "low": 1,
+        "high": 100
+      },
+      "expected": 9,
+      "source": "example"
+    },
+    {
+      "input": {
+        "low": 1200,
+        "high": 1230
+      },
+      "expected": 4,
+      "source": "example"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "problem_id": 341,
+  "title": "Flatten Nested List Iterator",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/flatten-nested-list-iterator/",
+  "test_cases": [
+    {
+      "input": {
+        "nestedList": [
+          [
+            1,
+            1
+          ],
+          2,
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      "expected": [
+        1,
+        1,
+        2,
+        1,
+        1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nestedList": [
+          1,
+          [
+            4,
+            [
+              6
+            ]
+          ]
+        ]
+      },
+      "expected": [
+        1,
+        4,
+        6
+      ],
+      "source": "example"
+    }
+  ]
+}

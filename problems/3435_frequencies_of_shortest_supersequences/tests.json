@@ -1,0 +1,154 @@
+{
+  "problem_id": 3435,
+  "title": "Frequencies of Shortest Supersequences",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/frequencies-of-shortest-supersequences/",
+  "test_cases": [
+    {
+      "input": {
+        "words": [
+          "ab",
+          "ba"
+        ]
+      },
+      "expected": [
+        [
+          1,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "aa",
+          "ac"
+        ]
+      },
+      "expected": [
+        [
+          2,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "aa",
+          "bb",
+          "cc"
+        ]
+      },
+      "expected": [
+        [
+          2,
+          2,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "source": "example"
+    }
+  ]
+}

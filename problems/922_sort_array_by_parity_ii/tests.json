@@ -1,0 +1,114 @@
+{
+  "problem_id": 922,
+  "title": "Sort Array By Parity II",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/sort-array-by-parity-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          4,
+          2,
+          5,
+          7
+        ]
+      },
+      "expected": [
+        4,
+        5,
+        2,
+        7
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          3
+        ]
+      },
+      "expected": [
+        2,
+        3
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          0,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          0,
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "problem_id": 753,
+  "title": "Cracking the Safe",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/cracking-the-safe/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 1,
+        "k": 2
+      },
+      "expected": "10",
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 2,
+        "k": 2
+      },
+      "expected": "01100",
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 4,
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 1,
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 1,
+        "k": 10
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

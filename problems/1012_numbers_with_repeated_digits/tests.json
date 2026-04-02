@@ -1,0 +1,43 @@
+{
+  "problem_id": 1012,
+  "title": "Numbers With Repeated Digits",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/numbers-with-repeated-digits/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 20
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 100
+      },
+      "expected": 10,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1000
+      },
+      "expected": 262,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 1000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

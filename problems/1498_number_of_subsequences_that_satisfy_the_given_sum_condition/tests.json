@@ -1,0 +1,157 @@
+{
+  "problem_id": 1498,
+  "title": "Number of Subsequences That Satisfy the Given Sum Condition",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          3,
+          5,
+          6,
+          7
+        ],
+        "target": 9
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          3,
+          3,
+          6,
+          8
+        ],
+        "target": 10
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          3,
+          3,
+          4,
+          6,
+          7
+        ],
+        "target": 12
+      },
+      "expected": 61,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          3
+        ],
+        "target": 9
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1000000
+        ],
+        "target": 9
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "target": 9
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "target": 9
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "target": 9
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1
+        ],
+        "target": 9
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1000000,
+          1000000
+        ],
+        "target": 9
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          3,
+          5,
+          6,
+          7
+        ],
+        "target": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          3,
+          5,
+          6,
+          7
+        ],
+        "target": 1000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

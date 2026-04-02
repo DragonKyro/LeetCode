@@ -1,0 +1,64 @@
+{
+  "problem_id": 2663,
+  "title": "Lexicographically Smallest Beautiful String",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/lexicographically-smallest-beautiful-string/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "abcz",
+        "k": 26
+      },
+      "expected": "abda",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "dc",
+        "k": 4
+      },
+      "expected": "",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a",
+        "k": 26
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaa",
+        "k": 26
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abab",
+        "k": 26
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abba",
+        "k": 26
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abcz",
+        "k": 4
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

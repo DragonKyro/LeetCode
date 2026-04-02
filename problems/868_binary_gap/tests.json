@@ -1,0 +1,43 @@
+{
+  "problem_id": 868,
+  "title": "Binary Gap",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/binary-gap/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 22
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 8
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 5
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 1000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

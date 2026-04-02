@@ -1,0 +1,96 @@
+{
+  "problem_id": 3734,
+  "title": "Lexicographically Smallest Palindromic Permutation Greater Than Target",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/lexicographically-smallest-palindromic-permutation-greater-than-target/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "baba",
+        "target": "abba"
+      },
+      "expected": "baab",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "baba",
+        "target": "bbaa"
+      },
+      "expected": "",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abc",
+        "target": "abb"
+      },
+      "expected": "",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "aac",
+        "target": "abb"
+      },
+      "expected": "aca",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "b",
+        "target": "abba"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "bbbb",
+        "target": "abba"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "bcbc",
+        "target": "abba"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "baab",
+        "target": "abba"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "baba",
+        "target": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "baba",
+        "target": "aaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "baba",
+        "target": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

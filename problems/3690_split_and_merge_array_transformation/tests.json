@@ -1,0 +1,244 @@
+{
+  "problem_id": 3690,
+  "title": "Split and Merge Array Transformation",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/split-and-merge-array-transformation/",
+  "test_cases": [
+    {
+      "input": {
+        "nums1": [
+          3,
+          1,
+          2
+        ],
+        "nums2": [
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "nums2": [
+          5,
+          4,
+          3,
+          2,
+          1,
+          1
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums1": [
+          3
+        ],
+        "nums2": [
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          -100,
+          100
+        ],
+        "nums2": [
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          3,
+          3,
+          3
+        ],
+        "nums2": [
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          2,
+          3
+        ],
+        "nums2": [
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          3,
+          2,
+          1
+        ],
+        "nums2": [
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          -100,
+          -100
+        ],
+        "nums2": [
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          100,
+          100
+        ],
+        "nums2": [
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          3,
+          1,
+          2
+        ],
+        "nums2": [
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          3,
+          1,
+          2
+        ],
+        "nums2": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          3,
+          1,
+          2
+        ],
+        "nums2": [
+          1,
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          3,
+          1,
+          2
+        ],
+        "nums2": [
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          3,
+          1,
+          2
+        ],
+        "nums2": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          3,
+          1,
+          2
+        ],
+        "nums2": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

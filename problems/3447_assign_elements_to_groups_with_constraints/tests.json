@@ -1,0 +1,264 @@
+{
+  "problem_id": 3447,
+  "title": "Assign Elements to Groups with Constraints",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/assign-elements-to-groups-with-constraints/",
+  "test_cases": [
+    {
+      "input": {
+        "groups": [
+          8,
+          4,
+          3,
+          2,
+          4
+        ],
+        "elements": [
+          4,
+          2
+        ]
+      },
+      "expected": [
+        0,
+        0,
+        -1,
+        1,
+        0
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "groups": [
+          2,
+          3,
+          5,
+          7
+        ],
+        "elements": [
+          5,
+          3,
+          3
+        ]
+      },
+      "expected": [
+        -1,
+        1,
+        0,
+        -1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "groups": [
+          10,
+          21,
+          30,
+          41
+        ],
+        "elements": [
+          2,
+          1
+        ]
+      },
+      "expected": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "groups": [
+          8
+        ],
+        "elements": [
+          4,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "groups": [
+          1,
+          100000
+        ],
+        "elements": [
+          4,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "groups": [
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "elements": [
+          4,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "groups": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "elements": [
+          4,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "groups": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "elements": [
+          4,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "groups": [
+          1,
+          1
+        ],
+        "elements": [
+          4,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "groups": [
+          100000,
+          100000
+        ],
+        "elements": [
+          4,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "groups": [
+          8,
+          4,
+          3,
+          2,
+          4
+        ],
+        "elements": [
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "groups": [
+          8,
+          4,
+          3,
+          2,
+          4
+        ],
+        "elements": [
+          1,
+          100000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "groups": [
+          8,
+          4,
+          3,
+          2,
+          4
+        ],
+        "elements": [
+          4,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "groups": [
+          8,
+          4,
+          3,
+          2,
+          4
+        ],
+        "elements": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "groups": [
+          8,
+          4,
+          3,
+          2,
+          4
+        ],
+        "elements": [
+          100000,
+          100000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

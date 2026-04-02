@@ -1,0 +1,57 @@
+{
+  "problem_id": 1763,
+  "title": "Longest Nice Substring",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/longest-nice-substring/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "YazaAay"
+      },
+      "expected": "aAa",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "Bb"
+      },
+      "expected": "Bb",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "c"
+      },
+      "expected": "",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "Y"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "YYYYYYY"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "YZYZYZ"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "YazzaY"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

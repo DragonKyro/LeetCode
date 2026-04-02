@@ -1,0 +1,50 @@
+{
+  "problem_id": 459,
+  "title": "Repeated Substring Pattern",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/repeated-substring-pattern/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "abab"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "aba"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abcabcabcabc"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abba"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

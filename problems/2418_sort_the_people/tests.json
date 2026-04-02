@@ -1,0 +1,155 @@
+{
+  "problem_id": 2418,
+  "title": "Sort the People",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/sort-the-people/",
+  "test_cases": [
+    {
+      "input": {
+        "names": [
+          "Mary",
+          "John",
+          "Emma"
+        ],
+        "heights": [
+          180,
+          165,
+          170
+        ]
+      },
+      "expected": [
+        "Mary",
+        "Emma",
+        "John"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "names": [
+          "Alice",
+          "Bob",
+          "Bob"
+        ],
+        "heights": [
+          155,
+          185,
+          150
+        ]
+      },
+      "expected": [
+        "Bob",
+        "Alice",
+        "Bob"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "names": [
+          "Mary",
+          "John",
+          "Emma"
+        ],
+        "heights": [
+          180
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "names": [
+          "Mary",
+          "John",
+          "Emma"
+        ],
+        "heights": [
+          1,
+          100000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "names": [
+          "Mary",
+          "John",
+          "Emma"
+        ],
+        "heights": [
+          180,
+          180,
+          180
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "names": [
+          "Mary",
+          "John",
+          "Emma"
+        ],
+        "heights": [
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "names": [
+          "Mary",
+          "John",
+          "Emma"
+        ],
+        "heights": [
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "names": [
+          "Mary",
+          "John",
+          "Emma"
+        ],
+        "heights": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "names": [
+          "Mary",
+          "John",
+          "Emma"
+        ],
+        "heights": [
+          100000,
+          100000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

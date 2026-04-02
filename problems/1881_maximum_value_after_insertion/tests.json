@@ -1,0 +1,48 @@
+{
+  "problem_id": 1881,
+  "title": "Maximum Value after Insertion",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-value-after-insertion/",
+  "test_cases": [
+    {
+      "input": {
+        "n": "99",
+        "x": 9
+      },
+      "expected": "999",
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": "-13",
+        "x": 2
+      },
+      "expected": "-123",
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": "9",
+        "x": 9
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": "9:9:",
+        "x": 9
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": "99",
+        "x": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

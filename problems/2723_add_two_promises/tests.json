@@ -1,0 +1,134 @@
+{
+  "problem_id": 2723,
+  "title": "Add Two Promises",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/add-two-promises/",
+  "test_cases": [
+    {
+      "input": {
+        "promise1": "new Promise(",
+        "resolve": "> setTimeout(() => resolve(5), 60))",
+        "promise2": "new Promise("
+      },
+      "expected": 7,
+      "source": "example"
+    },
+    {
+      "input": {
+        "promise1": "new Promise(",
+        "resolve": "> setTimeout(() => resolve(-12), 30))",
+        "promise2": "new Promise("
+      },
+      "expected": -2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "promise1": "n",
+        "resolve": "> setTimeout(() => resolve(5), 60))",
+        "promise2": "new Promise("
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "promise1": "nnnnnnnnnnnn",
+        "resolve": "> setTimeout(() => resolve(5), 60))",
+        "promise2": "new Promise("
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "promise1": "nononononono",
+        "resolve": "> setTimeout(() => resolve(5), 60))",
+        "promise2": "new Promise("
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "promise1": "new PrrP wen",
+        "resolve": "> setTimeout(() => resolve(5), 60))",
+        "promise2": "new Promise("
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "promise1": "new Promise(",
+        "resolve": ">",
+        "promise2": "new Promise("
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "promise1": "new Promise(",
+        "resolve": ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>",
+        "promise2": "new Promise("
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "promise1": "new Promise(",
+        "resolve": ">?>?>?>?>?>?>?>?>?>?>?>?>?>?>?>?>?",
+        "promise2": "new Promise("
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "promise1": "new Promise(",
+        "resolve": "> setTimeout(() == )((tuoemiTtes >",
+        "promise2": "new Promise("
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "promise1": "new Promise(",
+        "resolve": "> setTimeout(() => resolve(5), 60))",
+        "promise2": "n"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "promise1": "new Promise(",
+        "resolve": "> setTimeout(() => resolve(5), 60))",
+        "promise2": "nnnnnnnnnnnn"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "promise1": "new Promise(",
+        "resolve": "> setTimeout(() => resolve(5), 60))",
+        "promise2": "nononononono"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "promise1": "new Promise(",
+        "resolve": "> setTimeout(() => resolve(5), 60))",
+        "promise2": "new PrrP wen"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

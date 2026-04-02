@@ -1,0 +1,93 @@
+{
+  "problem_id": 884,
+  "title": "Uncommon Words from Two Sentences",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/uncommon-words-from-two-sentences/",
+  "test_cases": [
+    {
+      "input": {
+        "s1": "this apple is sweet",
+        "s2": "this apple is sour"
+      },
+      "expected": [
+        "sweet",
+        "sour"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s1": "apple apple",
+        "s2": "banana"
+      },
+      "expected": [
+        "banana"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s1": "t",
+        "s2": "this apple is sour"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "ttttttttttttttttttt",
+        "s2": "this apple is sour"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "tututututututututu",
+        "s2": "this apple is sour"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "this appllppa siht",
+        "s2": "this apple is sour"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "this apple is sweet",
+        "s2": "t"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "this apple is sweet",
+        "s2": "tttttttttttttttttt"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "this apple is sweet",
+        "s2": "tututututututututu"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "this apple is sweet",
+        "s2": "this appllppa siht"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

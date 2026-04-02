@@ -1,0 +1,36 @@
+{
+  "problem_id": 1745,
+  "title": "Palindrome Partitioning IV",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/palindrome-partitioning-iv/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "abcbdd"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "bcbddxy"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "aaaaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abccba"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

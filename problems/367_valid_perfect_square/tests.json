@@ -1,0 +1,36 @@
+{
+  "problem_id": 367,
+  "title": "Valid Perfect Square",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/valid-perfect-square/",
+  "test_cases": [
+    {
+      "input": {
+        "num": 16
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 14
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": 2147483648
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

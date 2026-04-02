@@ -1,0 +1,36 @@
+{
+  "problem_id": 1688,
+  "title": "Count of Matches in Tournament",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/count-of-matches-in-tournament/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 7
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 14
+      },
+      "expected": 13,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 200
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "problem_id": 2140,
+  "title": "Solving Questions With Brainpower",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/solving-questions-with-brainpower/",
+  "test_cases": [
+    {
+      "input": {
+        "questions": [
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            2,
+            5
+          ]
+        ]
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "questions": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            5
+          ]
+        ]
+      },
+      "expected": 7,
+      "source": "example"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "problem_id": 3260,
+  "title": "Find the Largest Palindrome Divisible by K",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/find-the-largest-palindrome-divisible-by-k/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 3,
+        "k": 5
+      },
+      "expected": "595",
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "k": 4
+      },
+      "expected": "8",
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 5,
+        "k": 6
+      },
+      "expected": "89898",
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "k": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 100000,
+        "k": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 3,
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 3,
+        "k": 9
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

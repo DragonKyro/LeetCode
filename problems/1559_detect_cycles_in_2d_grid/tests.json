@@ -1,0 +1,95 @@
+{
+  "problem_id": 1559,
+  "title": "Detect Cycles in 2D Grid",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/detect-cycles-in-2d-grid/",
+  "test_cases": [
+    {
+      "input": {
+        "grid": [
+          [
+            "a",
+            "a",
+            "a",
+            "a"
+          ],
+          [
+            "a",
+            "b",
+            "b",
+            "a"
+          ],
+          [
+            "a",
+            "b",
+            "b",
+            "a"
+          ],
+          [
+            "a",
+            "a",
+            "a",
+            "a"
+          ]
+        ]
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            "c",
+            "c",
+            "c",
+            "a"
+          ],
+          [
+            "c",
+            "d",
+            "c",
+            "c"
+          ],
+          [
+            "c",
+            "c",
+            "e",
+            "c"
+          ],
+          [
+            "f",
+            "c",
+            "c",
+            "c"
+          ]
+        ]
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            "a",
+            "b",
+            "b"
+          ],
+          [
+            "b",
+            "z",
+            "b"
+          ],
+          [
+            "b",
+            "b",
+            "a"
+          ]
+        ]
+      },
+      "expected": false,
+      "source": "example"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "problem_id": 2648,
+  "title": "Generate Fibonacci Sequence",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/generate-fibonacci-sequence/",
+  "test_cases": [
+    {
+      "input": {
+        "callCount": 5
+      },
+      "expected": [
+        0,
+        1,
+        1,
+        2,
+        3
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "callCount": 0
+      },
+      "expected": [],
+      "source": "example"
+    },
+    {
+      "input": {
+        "callCount": 50
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "callCount": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

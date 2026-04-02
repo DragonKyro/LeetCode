@@ -1,0 +1,117 @@
+{
+  "problem_id": 2815,
+  "title": "Max Pair Sum in an Array",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/max-pair-sum-in-an-array/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          112,
+          131,
+          411
+        ]
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          2536,
+          1613,
+          3366,
+          162
+        ]
+      },
+      "expected": 5902,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          51,
+          71,
+          17,
+          24,
+          42
+        ]
+      },
+      "expected": 88,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          112,
+          112
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          10000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          112,
+          112,
+          112
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          10000,
+          10000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

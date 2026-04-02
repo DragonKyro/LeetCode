@@ -1,0 +1,43 @@
+{
+  "problem_id": 397,
+  "title": "Integer Replacement",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/integer-replacement/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 8
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 7
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 4
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 2147483648
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

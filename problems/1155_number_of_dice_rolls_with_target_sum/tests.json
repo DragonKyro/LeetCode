@@ -1,0 +1,44 @@
+{
+  "problem_id": 1155,
+  "title": "Number of Dice Rolls With Target Sum",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 1,
+        "k": 6,
+        "target": 3
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 2,
+        "k": 6,
+        "target": 7
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 30,
+        "k": 30,
+        "target": 500
+      },
+      "expected": 222616187,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "k": 6,
+        "target": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

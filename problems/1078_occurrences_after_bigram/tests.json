@@ -1,0 +1,113 @@
+{
+  "problem_id": 1078,
+  "title": "Occurrences After Bigram",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/occurrences-after-bigram/",
+  "test_cases": [
+    {
+      "input": {
+        "text": "alice is a good girl she is a good student",
+        "first": "a",
+        "second": "good"
+      },
+      "expected": [
+        "girl",
+        "student"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "text": "we will we will rock you",
+        "first": "we",
+        "second": "will"
+      },
+      "expected": [
+        "we",
+        "rock"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "text": "a",
+        "first": "a",
+        "second": "good"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "text": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "first": "a",
+        "second": "good"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "text": "ababababababababababababababababababababab",
+        "first": "a",
+        "second": "good"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "text": "alice is a good girl  lrig doog a si ecila",
+        "first": "a",
+        "second": "good"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "text": "alice is a good girl she is a good student",
+        "first": "abab",
+        "second": "good"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "text": "alice is a good girl she is a good student",
+        "first": "a",
+        "second": "g"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "text": "alice is a good girl she is a good student",
+        "first": "a",
+        "second": "gggg"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "text": "alice is a good girl she is a good student",
+        "first": "a",
+        "second": "ghgh"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "text": "alice is a good girl she is a good student",
+        "first": "a",
+        "second": "goog"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

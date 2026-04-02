@@ -1,0 +1,76 @@
+{
+  "problem_id": 3367,
+  "title": "Maximize Sum of Weights after Edge Removals",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/maximize-sum-of-weights-after-edge-removals/",
+  "test_cases": [
+    {
+      "input": {
+        "edges": [
+          [
+            0,
+            1,
+            4
+          ],
+          [
+            0,
+            2,
+            2
+          ],
+          [
+            2,
+            3,
+            12
+          ],
+          [
+            2,
+            4,
+            6
+          ]
+        ],
+        "k": 2
+      },
+      "expected": 22,
+      "source": "example"
+    },
+    {
+      "input": {
+        "edges": [
+          [
+            0,
+            1,
+            5
+          ],
+          [
+            1,
+            2,
+            10
+          ],
+          [
+            0,
+            3,
+            15
+          ],
+          [
+            3,
+            4,
+            20
+          ],
+          [
+            3,
+            5,
+            5
+          ],
+          [
+            0,
+            6,
+            10
+          ]
+        ],
+        "k": 3
+      },
+      "expected": 65,
+      "source": "example"
+    }
+  ]
+}

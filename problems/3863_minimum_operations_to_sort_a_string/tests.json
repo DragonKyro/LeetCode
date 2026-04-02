@@ -1,0 +1,57 @@
+{
+  "problem_id": 3863,
+  "title": "Minimum Operations to Sort a String",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-operations-to-sort-a-string/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "dog"
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "card"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "gf"
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "d"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ddd"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "dede"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "dd"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "problem_id": 2426,
+  "title": "Number of Pairs Satisfying Inequality",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/number-of-pairs-satisfying-inequality/",
+  "test_cases": [
+    {
+      "input": {
+        "nums1": [
+          3,
+          2,
+          5
+        ],
+        "nums2": [
+          2,
+          2,
+          1
+        ],
+        "diff": 1
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums1": [
+          3,
+          -1
+        ],
+        "nums2": [
+          -2,
+          2
+        ],
+        "diff": -1
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums1": [
+          3
+        ],
+        "nums2": [
+          2,
+          2,
+          1
+        ],
+        "diff": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          -100,
+          100
+        ],
+        "nums2": [
+          2,
+          2,
+          1
+        ],
+        "diff": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          3,
+          3,
+          3
+        ],
+        "nums2": [
+          2,
+          2,
+          1
+        ],
+        "diff": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          2,
+          3
+        ],
+        "nums2": [
+          2,
+          2,
+          1
+        ],
+        "diff": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          3,
+          2,
+          1
+        ],
+        "nums2": [
+          2,
+          2,
+          1
+        ],
+        "diff": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          -100,
+          -100
+        ],
+        "nums2": [
+          2,
+          2,
+          1
+        ],
+        "diff": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          100,
+          100
+        ],
+        "nums2": [
+          2,
+          2,
+          1
+        ],
+        "diff": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          3,
+          2,
+          5
+        ],
+        "nums2": [
+          2
+        ],
+        "diff": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          3,
+          2,
+          5
+        ],
+        "nums2": [
+          -100,
+          100
+        ],
+        "diff": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          3,
+          2,
+          5
+        ],
+        "nums2": [
+          2,
+          2,
+          2
+        ],
+        "diff": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          3,
+          2,
+          5
+        ],
+        "nums2": [
+          1,
+          2,
+          3
+        ],
+        "diff": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          3,
+          2,
+          5
+        ],
+        "nums2": [
+          3,
+          2,
+          1
+        ],
+        "diff": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          3,
+          2,
+          5
+        ],
+        "nums2": [
+          -100,
+          -100
+        ],
+        "diff": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          3,
+          2,
+          5
+        ],
+        "nums2": [
+          100,
+          100
+        ],
+        "diff": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          3,
+          2,
+          5
+        ],
+        "nums2": [
+          2,
+          2,
+          1
+        ],
+        "diff": 10000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

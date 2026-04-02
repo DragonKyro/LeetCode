@@ -1,0 +1,80 @@
+{
+  "problem_id": 859,
+  "title": "Buddy Strings",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/buddy-strings/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "ab",
+        "goal": "ba"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "ab",
+        "goal": "ab"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "aa",
+        "goal": "aa"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a",
+        "goal": "ba"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aa",
+        "goal": "ba"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abab",
+        "goal": "ba"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ab",
+        "goal": "b"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ab",
+        "goal": "bb"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ab",
+        "goal": "bcbc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

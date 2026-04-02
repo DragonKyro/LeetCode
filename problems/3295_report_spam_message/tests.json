@@ -1,0 +1,39 @@
+{
+  "problem_id": 3295,
+  "title": "Report Spam Message",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/report-spam-message/",
+  "test_cases": [
+    {
+      "input": {
+        "message": [
+          "hello",
+          "world",
+          "leetcode"
+        ],
+        "bannedWords": [
+          "world",
+          "hello"
+        ]
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "message": [
+          "hello",
+          "programming",
+          "fun"
+        ],
+        "bannedWords": [
+          "world",
+          "programming",
+          "leetcode"
+        ]
+      },
+      "expected": false,
+      "source": "example"
+    }
+  ]
+}

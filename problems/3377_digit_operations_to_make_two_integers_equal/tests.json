@@ -1,0 +1,32 @@
+{
+  "problem_id": 3377,
+  "title": "Digit Operations to Make Two Integers Equal",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/digit-operations-to-make-two-integers-equal/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 10,
+        "m": 12
+      },
+      "expected": 85,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 4,
+        "m": 8
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 6,
+        "m": 2
+      },
+      "expected": -1,
+      "source": "example"
+    }
+  ]
+}

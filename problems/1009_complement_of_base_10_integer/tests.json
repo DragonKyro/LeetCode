@@ -1,0 +1,29 @@
+{
+  "problem_id": 1009,
+  "title": "Complement of Base 10 Integer",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/complement-of-base-10-integer/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 5
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 7
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 10
+      },
+      "expected": 5,
+      "source": "example"
+    }
+  ]
+}

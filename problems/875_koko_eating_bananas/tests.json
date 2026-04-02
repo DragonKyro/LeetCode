@@ -1,0 +1,131 @@
+{
+  "problem_id": 875,
+  "title": "Koko Eating Bananas",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/koko-eating-bananas/",
+  "test_cases": [
+    {
+      "input": {
+        "piles": [
+          3,
+          6,
+          7,
+          11
+        ],
+        "h": 8
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "piles": [
+          30,
+          11,
+          23,
+          4,
+          20
+        ],
+        "h": 5
+      },
+      "expected": 30,
+      "source": "example"
+    },
+    {
+      "input": {
+        "piles": [
+          30,
+          11,
+          23,
+          4,
+          20
+        ],
+        "h": 6
+      },
+      "expected": 23,
+      "source": "example"
+    },
+    {
+      "input": {
+        "piles": [
+          3
+        ],
+        "h": 8
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "piles": [
+          1,
+          1000000000
+        ],
+        "h": 8
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "piles": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "h": 8
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "piles": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "h": 8
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "piles": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "h": 8
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "piles": [
+          1,
+          1
+        ],
+        "h": 8
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "piles": [
+          1000000000,
+          1000000000
+        ],
+        "h": 8
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

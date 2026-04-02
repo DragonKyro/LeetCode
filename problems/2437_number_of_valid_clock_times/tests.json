@@ -1,0 +1,57 @@
+{
+  "problem_id": 2437,
+  "title": "Number of Valid Clock Times",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/number-of-valid-clock-times/",
+  "test_cases": [
+    {
+      "input": {
+        "time": "?5:00"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "time": "0?:0?"
+      },
+      "expected": 100,
+      "source": "example"
+    },
+    {
+      "input": {
+        "time": "??:??"
+      },
+      "expected": 1440,
+      "source": "example"
+    },
+    {
+      "input": {
+        "time": "?"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "time": "?????"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "time": "?@?@"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "time": "?55?"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

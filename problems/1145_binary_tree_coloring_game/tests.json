@@ -1,0 +1,131 @@
+{
+  "problem_id": 1145,
+  "title": "Binary Tree Coloring Game",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/binary-tree-coloring-game/",
+  "test_cases": [
+    {
+      "input": {
+        "root": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "n": 11,
+        "x": 3
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "root": [
+          1,
+          2,
+          3
+        ],
+        "n": 3,
+        "x": 1
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "root": [
+          1
+        ],
+        "n": 11,
+        "x": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          -100,
+          100
+        ],
+        "n": 11,
+        "x": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "n": 11,
+        "x": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          11,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "n": 11,
+        "x": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          -100,
+          -100
+        ],
+        "n": 11,
+        "x": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          100,
+          100
+        ],
+        "n": 11,
+        "x": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "problem_id": 1637,
+  "title": "Widest Vertical Area Between Two Points Containing No Points",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/",
+  "test_cases": [
+    {
+      "input": {
+        "points": [
+          [
+            8,
+            7
+          ],
+          [
+            9,
+            9
+          ],
+          [
+            7,
+            4
+          ],
+          [
+            9,
+            7
+          ]
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "points": [
+          [
+            3,
+            1
+          ],
+          [
+            9,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            8,
+            8
+          ]
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    }
+  ]
+}

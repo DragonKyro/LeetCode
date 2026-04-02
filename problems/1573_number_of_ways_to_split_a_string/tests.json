@@ -1,0 +1,36 @@
+{
+  "problem_id": 1573,
+  "title": "Number of Ways to Split a String",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/number-of-ways-to-split-a-string/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "10101"
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "1001"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "0000"
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "11111"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

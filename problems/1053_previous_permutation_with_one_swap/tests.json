@@ -1,0 +1,118 @@
+{
+  "problem_id": 1053,
+  "title": "Previous Permutation With One Swap",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/previous-permutation-with-one-swap/",
+  "test_cases": [
+    {
+      "input": {
+        "arr": [
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": [
+        3,
+        1,
+        2
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "arr": [
+          1,
+          1,
+          5
+        ]
+      },
+      "expected": [
+        1,
+        1,
+        5
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "arr": [
+          1,
+          9,
+          4,
+          6,
+          7
+        ]
+      },
+      "expected": [
+        1,
+        7,
+        4,
+        6,
+        9
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "arr": [
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          1,
+          10000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          3,
+          3,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          10000,
+          10000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

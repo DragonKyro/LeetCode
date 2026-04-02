@@ -1,0 +1,29 @@
+{
+  "problem_id": 2678,
+  "title": "Number of Senior Citizens",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/number-of-senior-citizens/",
+  "test_cases": [
+    {
+      "input": {
+        "details": [
+          "7868190130M7522",
+          "5303914400F9211",
+          "9273338290F4010"
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "details": [
+          "1313579440F2036",
+          "2921522980M5644"
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "problem_id": 279,
+  "title": "Perfect Squares",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/perfect-squares/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 12
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 13
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 10000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

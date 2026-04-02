@@ -1,0 +1,141 @@
+{
+  "problem_id": 3332,
+  "title": "Maximum Points Tourist Can Earn",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-points-tourist-can-earn/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 2,
+        "k": 1,
+        "stayScore": [
+          [
+            2,
+            3
+          ]
+        ],
+        "travelScore": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 3,
+        "k": 2,
+        "stayScore": [
+          [
+            3,
+            4,
+            2
+          ],
+          [
+            2,
+            1,
+            2
+          ]
+        ],
+        "travelScore": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            2,
+            0,
+            4
+          ],
+          [
+            3,
+            2,
+            0
+          ]
+        ]
+      },
+      "expected": 8,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "k": 1,
+        "stayScore": [
+          [
+            2,
+            3
+          ]
+        ],
+        "travelScore": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 200,
+        "k": 1,
+        "stayScore": [
+          [
+            2,
+            3
+          ]
+        ],
+        "travelScore": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 2,
+        "k": 200,
+        "stayScore": [
+          [
+            2,
+            3
+          ]
+        ],
+        "travelScore": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

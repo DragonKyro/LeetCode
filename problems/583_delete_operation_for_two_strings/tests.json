@@ -1,0 +1,88 @@
+{
+  "problem_id": 583,
+  "title": "Delete Operation for Two Strings",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/delete-operation-for-two-strings/",
+  "test_cases": [
+    {
+      "input": {
+        "word1": "sea",
+        "word2": "eat"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word1": "leetcode",
+        "word2": "etco"
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word1": "s",
+        "word2": "eat"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "sss",
+        "word2": "eat"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "stst",
+        "word2": "eat"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "ss",
+        "word2": "eat"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "sea",
+        "word2": "e"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "sea",
+        "word2": "eee"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "sea",
+        "word2": "efef"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "sea",
+        "word2": "ee"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

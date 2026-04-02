@@ -1,0 +1,50 @@
+{
+  "problem_id": 1525,
+  "title": "Number of Good Ways to Split a String",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/number-of-good-ways-to-split-a-string/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "aacaba"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abcd"
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ababab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaccaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

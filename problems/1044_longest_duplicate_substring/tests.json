@@ -1,0 +1,43 @@
+{
+  "problem_id": 1044,
+  "title": "Longest Duplicate Substring",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/longest-duplicate-substring/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "banana"
+      },
+      "expected": "ana",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abcd"
+      },
+      "expected": "",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "bbbbbb"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "bcbcbc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "bannab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

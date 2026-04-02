@@ -1,0 +1,111 @@
+{
+  "problem_id": 506,
+  "title": "Relative Ranks",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/relative-ranks/",
+  "test_cases": [
+    {
+      "input": {
+        "score": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": [
+        "Gold Medal",
+        "Silver Medal",
+        "Bronze Medal",
+        "4",
+        "5"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "score": [
+          10,
+          3,
+          8,
+          9,
+          4
+        ]
+      },
+      "expected": [
+        "Gold Medal",
+        "5",
+        "Bronze Medal",
+        "Silver Medal",
+        "4"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "score": [
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "score": [
+          0,
+          1000000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "score": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "score": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "score": [
+          0,
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "score": [
+          1000000,
+          1000000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

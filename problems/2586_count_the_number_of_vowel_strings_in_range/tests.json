@@ -1,0 +1,36 @@
+{
+  "problem_id": 2586,
+  "title": "Count the Number of Vowel Strings in Range",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range/",
+  "test_cases": [
+    {
+      "input": {
+        "words": [
+          "are",
+          "amy",
+          "u"
+        ],
+        "left": 0,
+        "right": 2
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "hey",
+          "aeo",
+          "mu",
+          "ooo",
+          "artro"
+        ],
+        "left": 1,
+        "right": 4
+      },
+      "expected": 3,
+      "source": "example"
+    }
+  ]
+}

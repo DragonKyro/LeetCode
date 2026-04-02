@@ -1,0 +1,96 @@
+{
+  "problem_id": 87,
+  "title": "Scramble String",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/scramble-string/",
+  "test_cases": [
+    {
+      "input": {
+        "s1": "great",
+        "s2": "rgeat"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s1": "abcde",
+        "s2": "caebd"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s1": "a",
+        "s2": "a"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s1": "g",
+        "s2": "rgeat"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "ggggg",
+        "s2": "rgeat"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "ghgh",
+        "s2": "rgeat"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "grrg",
+        "s2": "rgeat"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "great",
+        "s2": "r"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "great",
+        "s2": "rrrrr"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "great",
+        "s2": "rsrs"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "great",
+        "s2": "rggr"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

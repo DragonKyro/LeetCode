@@ -1,0 +1,53 @@
+{
+  "problem_id": 1901,
+  "title": "Find a Peak Element II",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-a-peak-element-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "mat": [
+          [
+            1,
+            4
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      },
+      "expected": [
+        0,
+        1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "mat": [
+          [
+            10,
+            20,
+            15
+          ],
+          [
+            21,
+            30,
+            14
+          ],
+          [
+            7,
+            16,
+            32
+          ]
+        ]
+      },
+      "expected": [
+        1,
+        1
+      ],
+      "source": "example"
+    }
+  ]
+}

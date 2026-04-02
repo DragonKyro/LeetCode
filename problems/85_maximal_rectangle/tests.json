@@ -1,0 +1,66 @@
+{
+  "problem_id": 85,
+  "title": "Maximal Rectangle",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/maximal-rectangle/",
+  "test_cases": [
+    {
+      "input": {
+        "matrix": [
+          [
+            "1",
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "0",
+            "1",
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "0",
+            "0",
+            "1",
+            "0"
+          ]
+        ]
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "matrix": [
+          [
+            "0"
+          ]
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "matrix": [
+          [
+            "1"
+          ]
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    }
+  ]
+}

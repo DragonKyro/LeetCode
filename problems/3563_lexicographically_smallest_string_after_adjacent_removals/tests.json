@@ -1,0 +1,57 @@
+{
+  "problem_id": 3563,
+  "title": "Lexicographically Smallest String After Adjacent Removals",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/lexicographically-smallest-string-after-adjacent-removals/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "abc"
+      },
+      "expected": "a",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "bcda"
+      },
+      "expected": "",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "zdce"
+      },
+      "expected": "zdce",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

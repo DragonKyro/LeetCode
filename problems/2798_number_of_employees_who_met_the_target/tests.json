@@ -1,0 +1,121 @@
+{
+  "problem_id": 2798,
+  "title": "Number of Employees Who Met the Target",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/number-of-employees-who-met-the-target/",
+  "test_cases": [
+    {
+      "input": {
+        "hours": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "target": 2
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "hours": [
+          5,
+          1,
+          4,
+          2,
+          2
+        ],
+        "target": 6
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "hours": [
+          0
+        ],
+        "target": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "hours": [
+          -100,
+          100
+        ],
+        "target": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "hours": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "target": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "hours": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "target": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "hours": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "target": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "hours": [
+          -100,
+          -100
+        ],
+        "target": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "hours": [
+          100,
+          100
+        ],
+        "target": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

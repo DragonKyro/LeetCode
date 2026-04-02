@@ -1,0 +1,40 @@
+{
+  "problem_id": 3200,
+  "title": "Maximum Height of a Triangle",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/maximum-height-of-a-triangle/",
+  "test_cases": [
+    {
+      "input": {
+        "red": 2,
+        "blue": 4
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "red": 2,
+        "blue": 1
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "red": 1,
+        "blue": 1
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "red": 10,
+        "blue": 1
+      },
+      "expected": 2,
+      "source": "example"
+    }
+  ]
+}

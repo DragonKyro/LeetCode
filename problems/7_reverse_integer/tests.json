@@ -1,0 +1,57 @@
+{
+  "problem_id": 7,
+  "title": "Reverse Integer",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/reverse-integer/",
+  "test_cases": [
+    {
+      "input": {
+        "x": 123
+      },
+      "expected": 321,
+      "source": "example"
+    },
+    {
+      "input": {
+        "x": -123
+      },
+      "expected": -321,
+      "source": "example"
+    },
+    {
+      "input": {
+        "x": 120
+      },
+      "expected": 21,
+      "source": "example"
+    },
+    {
+      "input": {
+        "x": -2147483648
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "x": 2147483648
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "x": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "x": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

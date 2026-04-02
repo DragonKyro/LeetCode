@@ -1,0 +1,56 @@
+{
+  "problem_id": 1584,
+  "title": "Min Cost to Connect All Points",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/min-cost-to-connect-all-points/",
+  "test_cases": [
+    {
+      "input": {
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            10
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            7,
+            0
+          ]
+        ]
+      },
+      "expected": 20,
+      "source": "example"
+    },
+    {
+      "input": {
+        "points": [
+          [
+            3,
+            12
+          ],
+          [
+            -2,
+            5
+          ],
+          [
+            -4,
+            1
+          ]
+        ]
+      },
+      "expected": 18,
+      "source": "example"
+    }
+  ]
+}

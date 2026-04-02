@@ -1,0 +1,48 @@
+{
+  "problem_id": 67,
+  "title": "Add Binary",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/add-binary/",
+  "test_cases": [
+    {
+      "input": {
+        "a": "11",
+        "b": "1"
+      },
+      "expected": "100",
+      "source": "example"
+    },
+    {
+      "input": {
+        "a": "1010",
+        "b": "1011"
+      },
+      "expected": "10101",
+      "source": "example"
+    },
+    {
+      "input": {
+        "a": "1",
+        "b": "1"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "a": "1212",
+        "b": "1"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "a": "11",
+        "b": "1212"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "problem_id": 2472,
+  "title": "Maximum Number of Non-overlapping Palindrome Substrings",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/maximum-number-of-non-overlapping-palindrome-substrings/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "abaccdbbd",
+        "k": 3
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "adbcda",
+        "k": 2
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a",
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaaaaaaa",
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abababab",
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abaccaba",
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "problem_id": 699,
+  "title": "Falling Squares",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/falling-squares/",
+  "test_cases": [
+    {
+      "input": {
+        "positions": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            6,
+            1
+          ]
+        ]
+      },
+      "expected": [
+        2,
+        5,
+        5
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "positions": [
+          [
+            100,
+            100
+          ],
+          [
+            200,
+            100
+          ]
+        ]
+      },
+      "expected": [
+        100,
+        100
+      ],
+      "source": "example"
+    }
+  ]
+}

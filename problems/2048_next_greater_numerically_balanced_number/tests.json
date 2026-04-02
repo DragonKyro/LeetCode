@@ -1,0 +1,43 @@
+{
+  "problem_id": 2048,
+  "title": "Next Greater Numerically Balanced Number",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/next-greater-numerically-balanced-number/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": 22,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1000
+      },
+      "expected": 1333,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 3000
+      },
+      "expected": 3133,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 1000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

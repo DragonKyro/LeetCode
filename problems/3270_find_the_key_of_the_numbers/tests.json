@@ -1,0 +1,35 @@
+{
+  "problem_id": 3270,
+  "title": "Find the Key of the Numbers",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/find-the-key-of-the-numbers/",
+  "test_cases": [
+    {
+      "input": {
+        "num1": 1,
+        "num2": 10,
+        "num3": 1000
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num1": 987,
+        "num2": 879,
+        "num3": 798
+      },
+      "expected": 777,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num1": 1,
+        "num2": 2,
+        "num3": 3
+      },
+      "expected": 1,
+      "source": "example"
+    }
+  ]
+}

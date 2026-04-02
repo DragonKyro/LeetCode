@@ -1,0 +1,113 @@
+{
+  "problem_id": 2335,
+  "title": "Minimum Amount of Time to Fill Cups",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/minimum-amount-of-time-to-fill-cups/",
+  "test_cases": [
+    {
+      "input": {
+        "amount": [
+          1,
+          4,
+          2
+        ]
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "amount": [
+          5,
+          4,
+          4
+        ]
+      },
+      "expected": 7,
+      "source": "example"
+    },
+    {
+      "input": {
+        "amount": [
+          5,
+          0,
+          0
+        ]
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "amount": [
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "amount": [
+          0,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "amount": [
+          1,
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "amount": [
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "amount": [
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "amount": [
+          0,
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "amount": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

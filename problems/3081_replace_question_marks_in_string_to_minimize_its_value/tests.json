@@ -1,0 +1,43 @@
+{
+  "problem_id": 3081,
+  "title": "Replace Question Marks in String to Minimize Its Value",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/replace-question-marks-in-string-to-minimize-its-value/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "???"
+      },
+      "expected": "abc",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a?a?"
+      },
+      "expected": "abac",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "?"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "?@?@"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "??"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

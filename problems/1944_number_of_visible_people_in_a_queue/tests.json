@@ -1,0 +1,129 @@
+{
+  "problem_id": 1944,
+  "title": "Number of Visible People in a Queue",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/number-of-visible-people-in-a-queue/",
+  "test_cases": [
+    {
+      "input": {
+        "heights": [
+          10,
+          6,
+          8,
+          5,
+          11,
+          9
+        ]
+      },
+      "expected": [
+        3,
+        1,
+        2,
+        1,
+        1,
+        0
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "heights": [
+          5,
+          1,
+          2,
+          3,
+          10
+        ]
+      },
+      "expected": [
+        4,
+        1,
+        1,
+        1,
+        0
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "heights": [
+          10
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "heights": [
+          1,
+          100000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "heights": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "heights": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "heights": [
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "heights": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "heights": [
+          100000,
+          100000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "problem_id": 972,
+  "title": "Equal Rational Numbers",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/equal-rational-numbers/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "0.(52)",
+        "t": "0.5(25)"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "0.1666(6)",
+        "t": "0.166(66)"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "0.9(9)",
+        "t": "1."
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "0",
+        "t": "0.5(25)"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "000000",
+        "t": "0.5(25)"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "010101",
+        "t": "0.5(25)"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "0.((.0",
+        "t": "0.5(25)"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "0.(52)",
+        "t": "0"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "0.(52)",
+        "t": "0000000"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "0.(52)",
+        "t": "010101"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "0.(52)",
+        "t": "0.55.0"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

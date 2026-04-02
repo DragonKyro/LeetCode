@@ -1,0 +1,71 @@
+{
+  "problem_id": 3324,
+  "title": "Find the Sequence of Strings Appeared on the Screen",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-the-sequence-of-strings-appeared-on-the-screen/",
+  "test_cases": [
+    {
+      "input": {
+        "target": "abc"
+      },
+      "expected": [
+        "a",
+        "aa",
+        "ab",
+        "aba",
+        "abb",
+        "abc"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "target": "he"
+      },
+      "expected": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "ha",
+        "hb",
+        "hc",
+        "hd",
+        "he"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "target": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "target": "aaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "target": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "target": "aa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

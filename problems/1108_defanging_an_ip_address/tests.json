@@ -1,0 +1,50 @@
+{
+  "problem_id": 1108,
+  "title": "Defanging an IP Address",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/defanging-an-ip-address/",
+  "test_cases": [
+    {
+      "input": {
+        "address": "1.1.1.1"
+      },
+      "expected": "1[.]1[.]1[.]1",
+      "source": "example"
+    },
+    {
+      "input": {
+        "address": "255.100.50.0"
+      },
+      "expected": "255[.]100[.]50[.]0",
+      "source": "example"
+    },
+    {
+      "input": {
+        "address": "1"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "address": "1111111"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "address": "121212"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "address": "1.11.1"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

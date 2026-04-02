@@ -1,0 +1,24 @@
+{
+  "problem_id": 2769,
+  "title": "Find the Maximum Achievable Number",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/find-the-maximum-achievable-number/",
+  "test_cases": [
+    {
+      "input": {
+        "num": 4,
+        "t": 1
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 3,
+        "t": 2
+      },
+      "expected": 7,
+      "source": "example"
+    }
+  ]
+}

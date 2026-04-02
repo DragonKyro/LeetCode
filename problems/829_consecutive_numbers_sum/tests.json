@@ -1,0 +1,43 @@
+{
+  "problem_id": 829,
+  "title": "Consecutive Numbers Sum",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/consecutive-numbers-sum/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 5
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 9
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 15
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 1000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

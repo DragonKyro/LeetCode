@@ -1,0 +1,26 @@
+{
+  "problem_id": 2240,
+  "title": "Number of Ways to Buy Pens and Pencils",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/number-of-ways-to-buy-pens-and-pencils/",
+  "test_cases": [
+    {
+      "input": {
+        "total": 20,
+        "cost1": 10,
+        "cost2": 5
+      },
+      "expected": 9,
+      "source": "example"
+    },
+    {
+      "input": {
+        "total": 5,
+        "cost1": 10,
+        "cost2": 10
+      },
+      "expected": 1,
+      "source": "example"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": 3875,
+  "title": "Construct Uniform Parity Array I",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/construct-uniform-parity-array-i/",
+  "test_cases": [
+    {
+      "input": {
+        "nums1": [
+          2,
+          3
+        ]
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums1": [
+          4,
+          6
+        ]
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums1": [
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          2,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

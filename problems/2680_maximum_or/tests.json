@@ -1,0 +1,96 @@
+{
+  "problem_id": 2680,
+  "title": "Maximum OR",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-or/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          12,
+          9
+        ],
+        "k": 1
+      },
+      "expected": 30,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          8,
+          1,
+          2
+        ],
+        "k": 2
+      },
+      "expected": 35,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          12
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1000000000
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          12,
+          12
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1000000000,
+          1000000000
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          12,
+          9
+        ],
+        "k": 15
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "problem_id": 3273,
+  "title": "Minimum Amount of Damage Dealt to Bob",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-amount-of-damage-dealt-to-bob/",
+  "test_cases": [
+    {
+      "input": {
+        "power": 4,
+        "damage": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "health": [
+          4,
+          5,
+          6,
+          8
+        ]
+      },
+      "expected": 39,
+      "source": "example"
+    },
+    {
+      "input": {
+        "power": 1,
+        "damage": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "health": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "expected": 20,
+      "source": "example"
+    },
+    {
+      "input": {
+        "power": 8,
+        "damage": [
+          40
+        ],
+        "health": [
+          59
+        ]
+      },
+      "expected": 320,
+      "source": "example"
+    },
+    {
+      "input": {
+        "power": 1,
+        "damage": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "health": [
+          4,
+          5,
+          6,
+          8
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "power": 10000,
+        "damage": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "health": [
+          4,
+          5,
+          6,
+          8
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "power": 4,
+        "damage": [
+          1
+        ],
+        "health": [
+          4,
+          5,
+          6,
+          8
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "power": 4,
+        "damage": [
+          -100,
+          100
+        ],
+        "health": [
+          4,
+          5,
+          6,
+          8
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "power": 4,
+        "damage": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "health": [
+          4,
+          5,
+          6,
+          8
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "power": 4,
+        "damage": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "health": [
+          4,
+          5,
+          6,
+          8
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "power": 4,
+        "damage": [
+          -100,
+          -100
+        ],
+        "health": [
+          4,
+          5,
+          6,
+          8
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "power": 4,
+        "damage": [
+          100,
+          100
+        ],
+        "health": [
+          4,
+          5,
+          6,
+          8
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "power": 4,
+        "damage": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "health": [
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "power": 4,
+        "damage": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "health": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "power": 4,
+        "damage": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "health": [
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "power": 4,
+        "damage": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "health": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "power": 4,
+        "damage": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "health": [
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "power": 4,
+        "damage": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "health": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "power": 4,
+        "damage": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "health": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

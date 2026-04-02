@@ -1,0 +1,43 @@
+{
+  "problem_id": 921,
+  "title": "Minimum Add to Make Parentheses Valid",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "())"
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "((("
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "("
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "()()"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "(("
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

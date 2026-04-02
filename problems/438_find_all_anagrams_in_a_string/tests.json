@@ -1,0 +1,95 @@
+{
+  "problem_id": 438,
+  "title": "Find All Anagrams in a String",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-all-anagrams-in-a-string/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "cbaebabacd",
+        "p": "abc"
+      },
+      "expected": [
+        0,
+        6
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abab",
+        "p": "ab"
+      },
+      "expected": [
+        0,
+        1,
+        2
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "c",
+        "p": "abc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "cccccccccc",
+        "p": "abc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "cdcdcdcdcd",
+        "p": "abc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "cbaebbeabc",
+        "p": "abc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "cbaebabacd",
+        "p": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "cbaebabacd",
+        "p": "aaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "cbaebabacd",
+        "p": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "cbaebabacd",
+        "p": "aa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": 2730,
+  "title": "Find the Longest Semi-Repetitive Substring",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-the-longest-semi-repetitive-substring/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "52233"
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "5494"
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "1111111"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "5"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "55555"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "5656"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "5225"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "problem_id": 2446,
+  "title": "Determine if Two Events Have Conflict",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/determine-if-two-events-have-conflict/",
+  "test_cases": [
+    {
+      "input": {
+        "event1": [
+          "01:15",
+          "02:00"
+        ],
+        "event2": [
+          "02:00",
+          "03:00"
+        ]
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "event1": [
+          "01:00",
+          "02:00"
+        ],
+        "event2": [
+          "01:20",
+          "03:00"
+        ]
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "event1": [
+          "10:00",
+          "11:00"
+        ],
+        "event2": [
+          "14:00",
+          "15:00"
+        ]
+      },
+      "expected": false,
+      "source": "example"
+    }
+  ]
+}

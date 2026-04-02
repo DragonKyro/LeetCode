@@ -1,0 +1,64 @@
+{
+  "problem_id": 3084,
+  "title": "Count Substrings Starting and Ending with Given Character",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "abada",
+        "c": "a"
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "zzz",
+        "c": "z"
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a",
+        "c": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaaa",
+        "c": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abab",
+        "c": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abba",
+        "c": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abada",
+        "c": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

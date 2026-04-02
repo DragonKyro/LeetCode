@@ -1,0 +1,57 @@
+{
+  "problem_id": 388,
+  "title": "Longest Absolute File Path",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/longest-absolute-file-path/",
+  "test_cases": [
+    {
+      "input": {
+        "input": "dir\\n\\tsubdir1\\n\\tsubdir2\\n\\t\\tfile.ext"
+      },
+      "expected": 20,
+      "source": "example"
+    },
+    {
+      "input": {
+        "input": "dir\\n\\tsubdir1\\n\\t\\tfile1.ext\\n\\t\\tsubsubdir1\\n\\tsubdir2\\n\\t\\tsubsubdir2\\n\\t\\t\\tfile2.ext"
+      },
+      "expected": 32,
+      "source": "example"
+    },
+    {
+      "input": {
+        "input": "a"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "input": "d"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "input": "ddddddddddddddddddddddddddddddddddddddd"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "input": "dedededededededededededededededededede"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "input": "dir\\n\\tsubdir1\\n\\tsst\\n\\1ridbust\\n\\rid"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

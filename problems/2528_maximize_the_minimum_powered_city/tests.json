@@ -1,0 +1,174 @@
+{
+  "problem_id": 2528,
+  "title": "Maximize the Minimum Powered City",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/maximize-the-minimum-powered-city/",
+  "test_cases": [
+    {
+      "input": {
+        "stations": [
+          1,
+          2,
+          4,
+          5,
+          0
+        ],
+        "r": 1,
+        "k": 2
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "stations": [
+          4,
+          4,
+          4,
+          4
+        ],
+        "r": 0,
+        "k": 3
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "stations": [
+          1
+        ],
+        "r": 1,
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "stations": [
+          0,
+          100000
+        ],
+        "r": 1,
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "stations": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "r": 1,
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "stations": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "r": 1,
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "stations": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "r": 1,
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "stations": [
+          0,
+          0
+        ],
+        "r": 1,
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "stations": [
+          100000,
+          100000
+        ],
+        "r": 1,
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "stations": [
+          1,
+          2,
+          4,
+          5,
+          0
+        ],
+        "r": 1,
+        "k": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "stations": [
+          1,
+          2,
+          4,
+          5,
+          0
+        ],
+        "r": 1,
+        "k": 1000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "stations": [
+          1,
+          2,
+          4,
+          5,
+          0
+        ],
+        "r": 1,
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

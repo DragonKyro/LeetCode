@@ -1,0 +1,86 @@
+{
+  "problem_id": 1961,
+  "title": "Check If String Is a Prefix of Array",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/check-if-string-is-a-prefix-of-array/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "iloveleetcode",
+        "words": [
+          "i",
+          "love",
+          "leetcode",
+          "apples"
+        ]
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "iloveleetcode",
+        "words": [
+          "apples",
+          "i",
+          "love",
+          "leetcode"
+        ]
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "i",
+        "words": [
+          "i",
+          "love",
+          "leetcode",
+          "apples"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "iiiiiiiiiiiii",
+        "words": [
+          "i",
+          "love",
+          "leetcode",
+          "apples"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ijijijijijij",
+        "words": [
+          "i",
+          "love",
+          "leetcode",
+          "apples"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ilovellevoli",
+        "words": [
+          "i",
+          "love",
+          "leetcode",
+          "apples"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

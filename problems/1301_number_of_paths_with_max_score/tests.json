@@ -1,0 +1,50 @@
+{
+  "problem_id": 1301,
+  "title": "Number of Paths with Max Score",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/number-of-paths-with-max-score/",
+  "test_cases": [
+    {
+      "input": {
+        "board": [
+          "E23",
+          "2X2",
+          "12S"
+        ]
+      },
+      "expected": [
+        7,
+        1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "board": [
+          "E12",
+          "1X1",
+          "21S"
+        ]
+      },
+      "expected": [
+        4,
+        2
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "board": [
+          "E11",
+          "XXX",
+          "11S"
+        ]
+      },
+      "expected": [
+        0,
+        0
+      ],
+      "source": "example"
+    }
+  ]
+}

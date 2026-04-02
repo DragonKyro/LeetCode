@@ -1,0 +1,146 @@
+{
+  "problem_id": 27,
+  "title": "Remove Element",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/remove-element/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          3,
+          2,
+          2,
+          3
+        ],
+        "val": 3
+      },
+      "expected": "2, nums = [2,2,_,_]",
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          0,
+          1,
+          2,
+          2,
+          3,
+          0,
+          4,
+          2
+        ],
+        "val": 2
+      },
+      "expected": "5, nums = [0,1,4,0,3,_,_,_]",
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          3
+        ],
+        "val": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          0,
+          50
+        ],
+        "val": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "val": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "val": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "val": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          0,
+          0
+        ],
+        "val": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          50,
+          50
+        ],
+        "val": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          3,
+          2,
+          2,
+          3
+        ],
+        "val": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          3,
+          2,
+          2,
+          3
+        ],
+        "val": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

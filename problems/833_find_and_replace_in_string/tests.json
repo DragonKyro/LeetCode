@@ -1,0 +1,216 @@
+{
+  "problem_id": 833,
+  "title": "Find And Replace in String",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-and-replace-in-string/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "abcd",
+        "indices": [
+          0,
+          2
+        ],
+        "sources": [
+          "a",
+          "cd"
+        ],
+        "targets": [
+          "eee",
+          "ffff"
+        ]
+      },
+      "expected": "eeebffff",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abcd",
+        "indices": [
+          0,
+          2
+        ],
+        "sources": [
+          "ab",
+          "ec"
+        ],
+        "targets": [
+          "eee",
+          "ffff"
+        ]
+      },
+      "expected": "eeecd",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a",
+        "indices": [
+          0,
+          2
+        ],
+        "sources": [
+          "a",
+          "cd"
+        ],
+        "targets": [
+          "eee",
+          "ffff"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaa",
+        "indices": [
+          0,
+          2
+        ],
+        "sources": [
+          "a",
+          "cd"
+        ],
+        "targets": [
+          "eee",
+          "ffff"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abab",
+        "indices": [
+          0,
+          2
+        ],
+        "sources": [
+          "a",
+          "cd"
+        ],
+        "targets": [
+          "eee",
+          "ffff"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abba",
+        "indices": [
+          0,
+          2
+        ],
+        "sources": [
+          "a",
+          "cd"
+        ],
+        "targets": [
+          "eee",
+          "ffff"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abcd",
+        "indices": [
+          0
+        ],
+        "sources": [
+          "a",
+          "cd"
+        ],
+        "targets": [
+          "eee",
+          "ffff"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abcd",
+        "indices": [
+          -100,
+          100
+        ],
+        "sources": [
+          "a",
+          "cd"
+        ],
+        "targets": [
+          "eee",
+          "ffff"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abcd",
+        "indices": [
+          0,
+          0
+        ],
+        "sources": [
+          "a",
+          "cd"
+        ],
+        "targets": [
+          "eee",
+          "ffff"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abcd",
+        "indices": [
+          -100,
+          -100
+        ],
+        "sources": [
+          "a",
+          "cd"
+        ],
+        "targets": [
+          "eee",
+          "ffff"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abcd",
+        "indices": [
+          100,
+          100
+        ],
+        "sources": [
+          "a",
+          "cd"
+        ],
+        "targets": [
+          "eee",
+          "ffff"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

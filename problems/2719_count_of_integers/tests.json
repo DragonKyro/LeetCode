@@ -1,0 +1,68 @@
+{
+  "problem_id": 2719,
+  "title": "Count of Integers",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/count-of-integers/",
+  "test_cases": [
+    {
+      "input": {
+        "num1": "1",
+        "num2": "12",
+        "min_sum": 1,
+        "max_sum": 8
+      },
+      "expected": 11,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num1": "1",
+        "num2": "5",
+        "min_sum": 1,
+        "max_sum": 5
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num1": "1212",
+        "num2": "12",
+        "min_sum": 1,
+        "max_sum": 8
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num1": "1",
+        "num2": "1",
+        "min_sum": 1,
+        "max_sum": 8
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num1": "1",
+        "num2": "11",
+        "min_sum": 1,
+        "max_sum": 8
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num1": "1",
+        "num2": "1212",
+        "min_sum": 1,
+        "max_sum": 8
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "problem_id": 3085,
+  "title": "Minimum Deletions to Make String K-Special",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-deletions-to-make-string-k-special/",
+  "test_cases": [
+    {
+      "input": {
+        "word": "aabcaba",
+        "k": 0
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word": "dabdcbdcdcd",
+        "k": 2
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word": "aaabaaa",
+        "k": 2
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word": "a",
+        "k": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word": "aaaaaaa",
+        "k": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word": "ababab",
+        "k": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word": "aabbaa",
+        "k": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word": "aabcaba",
+        "k": 100000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word": "aabcaba",
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

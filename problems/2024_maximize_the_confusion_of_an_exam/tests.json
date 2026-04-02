@@ -1,0 +1,56 @@
+{
+  "problem_id": 2024,
+  "title": "Maximize the Confusion of an Exam",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximize-the-confusion-of-an-exam/",
+  "test_cases": [
+    {
+      "input": {
+        "answerKey": "TTFF",
+        "k": 2
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "answerKey": "TFFT",
+        "k": 1
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "answerKey": "TTFTTFTT",
+        "k": 1
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "answerKey": "T",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "answerKey": "TTTT",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "answerKey": "TUTU",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

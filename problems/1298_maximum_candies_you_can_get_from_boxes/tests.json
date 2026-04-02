@@ -1,0 +1,690 @@
+{
+  "problem_id": 1298,
+  "title": "Maximum Candies You Can Get from Boxes",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/maximum-candies-you-can-get-from-boxes/",
+  "test_cases": [
+    {
+      "input": {
+        "status": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "candies": [
+          7,
+          5,
+          4,
+          100
+        ],
+        "keys": [
+          [],
+          [],
+          [
+            1
+          ],
+          []
+        ],
+        "containedBoxes": [
+          [
+            1,
+            2
+          ],
+          [
+            3
+          ],
+          [],
+          []
+        ],
+        "initialBoxes": [
+          0
+        ]
+      },
+      "expected": 16,
+      "source": "example"
+    },
+    {
+      "input": {
+        "status": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "candies": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "keys": [
+          [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "containedBoxes": [
+          [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "initialBoxes": [
+          0
+        ]
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "status": [
+          1
+        ],
+        "candies": [
+          7,
+          5,
+          4,
+          100
+        ],
+        "keys": [
+          [],
+          [],
+          [
+            1
+          ],
+          []
+        ],
+        "containedBoxes": [
+          [
+            1,
+            2
+          ],
+          [
+            3
+          ],
+          [],
+          []
+        ],
+        "initialBoxes": [
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "status": [
+          -100,
+          100
+        ],
+        "candies": [
+          7,
+          5,
+          4,
+          100
+        ],
+        "keys": [
+          [],
+          [],
+          [
+            1
+          ],
+          []
+        ],
+        "containedBoxes": [
+          [
+            1,
+            2
+          ],
+          [
+            3
+          ],
+          [],
+          []
+        ],
+        "initialBoxes": [
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "status": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "candies": [
+          7,
+          5,
+          4,
+          100
+        ],
+        "keys": [
+          [],
+          [],
+          [
+            1
+          ],
+          []
+        ],
+        "containedBoxes": [
+          [
+            1,
+            2
+          ],
+          [
+            3
+          ],
+          [],
+          []
+        ],
+        "initialBoxes": [
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "status": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "candies": [
+          7,
+          5,
+          4,
+          100
+        ],
+        "keys": [
+          [],
+          [],
+          [
+            1
+          ],
+          []
+        ],
+        "containedBoxes": [
+          [
+            1,
+            2
+          ],
+          [
+            3
+          ],
+          [],
+          []
+        ],
+        "initialBoxes": [
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "status": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "candies": [
+          7,
+          5,
+          4,
+          100
+        ],
+        "keys": [
+          [],
+          [],
+          [
+            1
+          ],
+          []
+        ],
+        "containedBoxes": [
+          [
+            1,
+            2
+          ],
+          [
+            3
+          ],
+          [],
+          []
+        ],
+        "initialBoxes": [
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "status": [
+          -100,
+          -100
+        ],
+        "candies": [
+          7,
+          5,
+          4,
+          100
+        ],
+        "keys": [
+          [],
+          [],
+          [
+            1
+          ],
+          []
+        ],
+        "containedBoxes": [
+          [
+            1,
+            2
+          ],
+          [
+            3
+          ],
+          [],
+          []
+        ],
+        "initialBoxes": [
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "status": [
+          100,
+          100
+        ],
+        "candies": [
+          7,
+          5,
+          4,
+          100
+        ],
+        "keys": [
+          [],
+          [],
+          [
+            1
+          ],
+          []
+        ],
+        "containedBoxes": [
+          [
+            1,
+            2
+          ],
+          [
+            3
+          ],
+          [],
+          []
+        ],
+        "initialBoxes": [
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "status": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "candies": [
+          7
+        ],
+        "keys": [
+          [],
+          [],
+          [
+            1
+          ],
+          []
+        ],
+        "containedBoxes": [
+          [
+            1,
+            2
+          ],
+          [
+            3
+          ],
+          [],
+          []
+        ],
+        "initialBoxes": [
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "status": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "candies": [
+          1,
+          1
+        ],
+        "keys": [
+          [],
+          [],
+          [
+            1
+          ],
+          []
+        ],
+        "containedBoxes": [
+          [
+            1,
+            2
+          ],
+          [
+            3
+          ],
+          [],
+          []
+        ],
+        "initialBoxes": [
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "status": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "candies": [
+          7,
+          7,
+          7,
+          7
+        ],
+        "keys": [
+          [],
+          [],
+          [
+            1
+          ],
+          []
+        ],
+        "containedBoxes": [
+          [
+            1,
+            2
+          ],
+          [
+            3
+          ],
+          [],
+          []
+        ],
+        "initialBoxes": [
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "status": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "candies": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "keys": [
+          [],
+          [],
+          [
+            1
+          ],
+          []
+        ],
+        "containedBoxes": [
+          [
+            1,
+            2
+          ],
+          [
+            3
+          ],
+          [],
+          []
+        ],
+        "initialBoxes": [
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "status": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "candies": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "keys": [
+          [],
+          [],
+          [
+            1
+          ],
+          []
+        ],
+        "containedBoxes": [
+          [
+            1,
+            2
+          ],
+          [
+            3
+          ],
+          [],
+          []
+        ],
+        "initialBoxes": [
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "status": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "candies": [
+          7,
+          5,
+          4,
+          100
+        ],
+        "keys": [
+          [],
+          [],
+          [
+            1
+          ],
+          []
+        ],
+        "containedBoxes": [
+          [
+            1,
+            2
+          ],
+          [
+            3
+          ],
+          [],
+          []
+        ],
+        "initialBoxes": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "status": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "candies": [
+          7,
+          5,
+          4,
+          100
+        ],
+        "keys": [
+          [],
+          [],
+          [
+            1
+          ],
+          []
+        ],
+        "containedBoxes": [
+          [
+            1,
+            2
+          ],
+          [
+            3
+          ],
+          [],
+          []
+        ],
+        "initialBoxes": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "status": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "candies": [
+          7,
+          5,
+          4,
+          100
+        ],
+        "keys": [
+          [],
+          [],
+          [
+            1
+          ],
+          []
+        ],
+        "containedBoxes": [
+          [
+            1,
+            2
+          ],
+          [
+            3
+          ],
+          [],
+          []
+        ],
+        "initialBoxes": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

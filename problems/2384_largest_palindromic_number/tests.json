@@ -1,0 +1,50 @@
+{
+  "problem_id": 2384,
+  "title": "Largest Palindromic Number",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/largest-palindromic-number/",
+  "test_cases": [
+    {
+      "input": {
+        "num": "444947137"
+      },
+      "expected": "7449447",
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": "00009"
+      },
+      "expected": "9",
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": "4"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "444444444"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "45454545"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "44499444"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

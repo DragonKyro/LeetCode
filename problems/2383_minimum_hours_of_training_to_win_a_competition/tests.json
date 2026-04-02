@@ -1,0 +1,304 @@
+{
+  "problem_id": 2383,
+  "title": "Minimum Hours of Training to Win a Competition",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/minimum-hours-of-training-to-win-a-competition/",
+  "test_cases": [
+    {
+      "input": {
+        "initialEnergy": 5,
+        "initialExperience": 3,
+        "energy": [
+          1,
+          4,
+          3,
+          2
+        ],
+        "experience": [
+          2,
+          6,
+          3,
+          1
+        ]
+      },
+      "expected": 8,
+      "source": "example"
+    },
+    {
+      "input": {
+        "initialEnergy": 2,
+        "initialExperience": 4,
+        "energy": [
+          1
+        ],
+        "experience": [
+          3
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "initialEnergy": 5,
+        "initialExperience": 3,
+        "energy": [
+          1
+        ],
+        "experience": [
+          2,
+          6,
+          3,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "initialEnergy": 5,
+        "initialExperience": 3,
+        "energy": [
+          -100,
+          100
+        ],
+        "experience": [
+          2,
+          6,
+          3,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "initialEnergy": 5,
+        "initialExperience": 3,
+        "energy": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "experience": [
+          2,
+          6,
+          3,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "initialEnergy": 5,
+        "initialExperience": 3,
+        "energy": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "experience": [
+          2,
+          6,
+          3,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "initialEnergy": 5,
+        "initialExperience": 3,
+        "energy": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "experience": [
+          2,
+          6,
+          3,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "initialEnergy": 5,
+        "initialExperience": 3,
+        "energy": [
+          -100,
+          -100
+        ],
+        "experience": [
+          2,
+          6,
+          3,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "initialEnergy": 5,
+        "initialExperience": 3,
+        "energy": [
+          100,
+          100
+        ],
+        "experience": [
+          2,
+          6,
+          3,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "initialEnergy": 5,
+        "initialExperience": 3,
+        "energy": [
+          1,
+          4,
+          3,
+          2
+        ],
+        "experience": [
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "initialEnergy": 5,
+        "initialExperience": 3,
+        "energy": [
+          1,
+          4,
+          3,
+          2
+        ],
+        "experience": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "initialEnergy": 5,
+        "initialExperience": 3,
+        "energy": [
+          1,
+          4,
+          3,
+          2
+        ],
+        "experience": [
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "initialEnergy": 5,
+        "initialExperience": 3,
+        "energy": [
+          1,
+          4,
+          3,
+          2
+        ],
+        "experience": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "initialEnergy": 5,
+        "initialExperience": 3,
+        "energy": [
+          1,
+          4,
+          3,
+          2
+        ],
+        "experience": [
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "initialEnergy": 5,
+        "initialExperience": 3,
+        "energy": [
+          1,
+          4,
+          3,
+          2
+        ],
+        "experience": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "initialEnergy": 5,
+        "initialExperience": 3,
+        "energy": [
+          1,
+          4,
+          3,
+          2
+        ],
+        "experience": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

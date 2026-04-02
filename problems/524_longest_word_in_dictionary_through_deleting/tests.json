@@ -1,0 +1,85 @@
+{
+  "problem_id": 524,
+  "title": "Longest Word in Dictionary through Deleting",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "abpcplea",
+        "dictionary": [
+          "ale",
+          "apple",
+          "monkey",
+          "plea"
+        ]
+      },
+      "expected": "apple",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abpcplea",
+        "dictionary": [
+          "a",
+          "b",
+          "c"
+        ]
+      },
+      "expected": "a",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a",
+        "dictionary": [
+          "ale",
+          "apple",
+          "monkey",
+          "plea"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaaaaaa",
+        "dictionary": [
+          "ale",
+          "apple",
+          "monkey",
+          "plea"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abababab",
+        "dictionary": [
+          "ale",
+          "apple",
+          "monkey",
+          "plea"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abpccpba",
+        "dictionary": [
+          "ale",
+          "apple",
+          "monkey",
+          "plea"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

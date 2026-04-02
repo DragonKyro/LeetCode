@@ -1,0 +1,126 @@
+{
+  "problem_id": 658,
+  "title": "Find K Closest Elements",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-k-closest-elements/",
+  "test_cases": [
+    {
+      "input": {
+        "arr": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "k": 4,
+        "x": 3
+      },
+      "expected": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "arr": [
+          1,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "k": 4,
+        "x": -1
+      },
+      "expected": [
+        1,
+        1,
+        2,
+        3
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "arr": [
+          1
+        ],
+        "k": 4,
+        "x": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          -100,
+          100
+        ],
+        "k": 4,
+        "x": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "k": 4,
+        "x": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "k": 4,
+        "x": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          -100,
+          -100
+        ],
+        "k": 4,
+        "x": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          100,
+          100
+        ],
+        "k": 4,
+        "x": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

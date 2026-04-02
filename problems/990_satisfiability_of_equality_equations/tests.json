@@ -1,0 +1,81 @@
+{
+  "problem_id": 990,
+  "title": "Satisfiability of Equality Equations",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/satisfiability-of-equality-equations/",
+  "test_cases": [
+    {
+      "input": {
+        "equations": "[\"",
+        "a": "=b\",\"b!=a\"]"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "equations": "[\"",
+        "b": "=a\",\"",
+        "a": "=b\"]"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "equations": "[",
+        "a": "=b\",\"b!=a\"]"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "equations": "[[",
+        "a": "=b\",\"b!=a\"]"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "equations": "[\\[\\",
+        "a": "=b\",\"b!=a\"]"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "equations": "[\"",
+        "a": "="
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "equations": "[\"",
+        "a": "==========="
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "equations": "[\"",
+        "a": "=>=>=>=>=>"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "equations": "[\"",
+        "a": "=b\",\"\",\"b="
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

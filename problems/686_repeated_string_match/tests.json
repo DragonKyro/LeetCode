@@ -1,0 +1,88 @@
+{
+  "problem_id": 686,
+  "title": "Repeated String Match",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/repeated-string-match/",
+  "test_cases": [
+    {
+      "input": {
+        "a": "abcd",
+        "b": "cdabcdab"
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "a": "a",
+        "b": "aa"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "a": "a",
+        "b": "cdabcdab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "a": "aaaa",
+        "b": "cdabcdab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "a": "abab",
+        "b": "cdabcdab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "a": "abba",
+        "b": "cdabcdab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "a": "abcd",
+        "b": "c"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "a": "abcd",
+        "b": "cccccccc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "a": "abcd",
+        "b": "cdcdcdcd"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "a": "abcd",
+        "b": "cdabbadc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "problem_id": 3560,
+  "title": "Find Minimum Log Transportation Cost",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/find-minimum-log-transportation-cost/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 6,
+        "m": 5,
+        "k": 5
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 4,
+        "m": 4,
+        "k": 6
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 6,
+        "m": 5,
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 6,
+        "m": 5,
+        "k": 100000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

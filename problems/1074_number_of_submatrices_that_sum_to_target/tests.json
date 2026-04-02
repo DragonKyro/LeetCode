@@ -1,0 +1,85 @@
+{
+  "problem_id": 1074,
+  "title": "Number of Submatrices That Sum to Target",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/",
+  "test_cases": [
+    {
+      "input": {
+        "matrix": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "target": 0
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "matrix": [
+          [
+            1,
+            -1
+          ],
+          [
+            -1,
+            1
+          ]
+        ],
+        "target": 0
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "matrix": [
+          [
+            904
+          ]
+        ],
+        "target": 0
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "matrix": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "target": 100000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

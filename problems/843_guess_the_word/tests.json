@@ -1,0 +1,104 @@
+{
+  "problem_id": 843,
+  "title": "Guess the Word",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/guess-the-word/",
+  "test_cases": [
+    {
+      "input": {
+        "secret": "acckzz",
+        "words": [
+          "acckzz",
+          "ccbazz",
+          "eiowzz",
+          "abcczz"
+        ],
+        "allowedGuesses": 10
+      },
+      "expected": "You guessed the secret word correctly",
+      "source": "example"
+    },
+    {
+      "input": {
+        "secret": "hamada",
+        "words": [
+          "hamada",
+          "khaled"
+        ],
+        "allowedGuesses": 10
+      },
+      "expected": "You guessed the secret word correctly",
+      "source": "example"
+    },
+    {
+      "input": {
+        "secret": "a",
+        "words": [
+          "acckzz",
+          "ccbazz",
+          "eiowzz",
+          "abcczz"
+        ],
+        "allowedGuesses": 10
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "secret": "aaaaaa",
+        "words": [
+          "acckzz",
+          "ccbazz",
+          "eiowzz",
+          "abcczz"
+        ],
+        "allowedGuesses": 10
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "secret": "ababab",
+        "words": [
+          "acckzz",
+          "ccbazz",
+          "eiowzz",
+          "abcczz"
+        ],
+        "allowedGuesses": 10
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "secret": "acccca",
+        "words": [
+          "acckzz",
+          "ccbazz",
+          "eiowzz",
+          "abcczz"
+        ],
+        "allowedGuesses": 10
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "secret": "acckzz",
+        "words": [
+          "acckzz",
+          "ccbazz",
+          "eiowzz",
+          "abcczz"
+        ],
+        "allowedGuesses": 30
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

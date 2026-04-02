@@ -1,0 +1,52 @@
+{
+  "problem_id": 2397,
+  "title": "Maximum Rows Covered by Columns",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-rows-covered-by-columns/",
+  "test_cases": [
+    {
+      "input": {
+        "matrix": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "numSelect": 2
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "matrix": [
+          [
+            1
+          ],
+          [
+            0
+          ]
+        ],
+        "numSelect": 1
+      },
+      "expected": 2,
+      "source": "example"
+    }
+  ]
+}

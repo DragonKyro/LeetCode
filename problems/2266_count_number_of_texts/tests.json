@@ -1,0 +1,50 @@
+{
+  "problem_id": 2266,
+  "title": "Count Number of Texts",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-number-of-texts/",
+  "test_cases": [
+    {
+      "input": {
+        "pressedKeys": "22233"
+      },
+      "expected": 8,
+      "source": "example"
+    },
+    {
+      "input": {
+        "pressedKeys": "222222222222222222222222222222222222"
+      },
+      "expected": 82876089,
+      "source": "example"
+    },
+    {
+      "input": {
+        "pressedKeys": "2"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "pressedKeys": "22222"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "pressedKeys": "2323"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "pressedKeys": "2222"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

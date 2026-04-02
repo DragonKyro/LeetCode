@@ -1,0 +1,83 @@
+{
+  "problem_id": 1388,
+  "title": "Pizza With 3n Slices",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/pizza-with-3n-slices/",
+  "test_cases": [
+    {
+      "input": {
+        "slices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "expected": 10,
+      "source": "example"
+    },
+    {
+      "input": {
+        "slices": [
+          8,
+          9,
+          8,
+          6,
+          1,
+          1
+        ]
+      },
+      "expected": 16,
+      "source": "example"
+    },
+    {
+      "input": {
+        "slices": [
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "slices": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "slices": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "slices": [
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

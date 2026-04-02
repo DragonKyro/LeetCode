@@ -1,0 +1,56 @@
+{
+  "problem_id": 2629,
+  "title": "Function Composition",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/function-composition/",
+  "test_cases": [
+    {
+      "input": {
+        "functions": "[",
+        "x": 4
+      },
+      "expected": 65,
+      "source": "example"
+    },
+    {
+      "input": {
+        "functions": "[",
+        "x": 1
+      },
+      "expected": 1000,
+      "source": "example"
+    },
+    {
+      "input": {
+        "functions": [],
+        "x": 42
+      },
+      "expected": 42,
+      "source": "example"
+    },
+    {
+      "input": {
+        "functions": "[\\[\\",
+        "x": 4
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "functions": "[",
+        "x": -1000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "functions": "[",
+        "x": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

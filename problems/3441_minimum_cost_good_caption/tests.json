@@ -1,0 +1,50 @@
+{
+  "problem_id": 3441,
+  "title": "Minimum Cost Good Caption",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-cost-good-caption/",
+  "test_cases": [
+    {
+      "input": {
+        "caption": "cdcd"
+      },
+      "expected": "cccc",
+      "source": "example"
+    },
+    {
+      "input": {
+        "caption": "aca"
+      },
+      "expected": "aaa",
+      "source": "example"
+    },
+    {
+      "input": {
+        "caption": "bc"
+      },
+      "expected": "",
+      "source": "example"
+    },
+    {
+      "input": {
+        "caption": "c"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "caption": "cccc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "caption": "cddc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "problem_id": 3399,
+  "title": "Smallest Substring With Identical Characters II",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/smallest-substring-with-identical-characters-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "000001",
+        "numOps": 1
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "0000",
+        "numOps": 2
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "0101",
+        "numOps": 0
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "0",
+        "numOps": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "000000",
+        "numOps": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "010101",
+        "numOps": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "problem_id": 1436,
+  "title": "Destination City",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/destination-city/",
+  "test_cases": [
+    {
+      "input": {
+        "paths": [
+          [
+            "London",
+            "New York"
+          ],
+          [
+            "New York",
+            "Lima"
+          ],
+          [
+            "Lima",
+            "Sao Paulo"
+          ]
+        ]
+      },
+      "expected": "Sao Paulo",
+      "source": "example"
+    },
+    {
+      "input": {
+        "paths": [
+          [
+            "B",
+            "C"
+          ],
+          [
+            "D",
+            "B"
+          ],
+          [
+            "C",
+            "A"
+          ]
+        ]
+      },
+      "expected": "A",
+      "source": "example"
+    },
+    {
+      "input": {
+        "paths": [
+          [
+            "A",
+            "Z"
+          ]
+        ]
+      },
+      "expected": "Z",
+      "source": "example"
+    }
+  ]
+}

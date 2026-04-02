@@ -1,0 +1,90 @@
+{
+  "problem_id": 1014,
+  "title": "Best Sightseeing Pair",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/best-sightseeing-pair/",
+  "test_cases": [
+    {
+      "input": {
+        "values": [
+          8,
+          1,
+          5,
+          2,
+          6
+        ]
+      },
+      "expected": 11,
+      "source": "example"
+    },
+    {
+      "input": {
+        "values": [
+          1,
+          2
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "values": [
+          8,
+          8
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "values": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "values": [
+          8,
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "values": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "values": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "problem_id": 3477,
+  "title": "Fruits Into Baskets II",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/fruits-into-baskets-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "fruits": [
+          4,
+          2,
+          5
+        ],
+        "baskets": [
+          3,
+          5,
+          4
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "fruits": [
+          3,
+          6,
+          1
+        ],
+        "baskets": [
+          6,
+          4,
+          7
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "fruits": [
+          4
+        ],
+        "baskets": [
+          3,
+          5,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "fruits": [
+          -100,
+          100
+        ],
+        "baskets": [
+          3,
+          5,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "fruits": [
+          4,
+          4,
+          4
+        ],
+        "baskets": [
+          3,
+          5,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "fruits": [
+          1,
+          2,
+          3
+        ],
+        "baskets": [
+          3,
+          5,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "fruits": [
+          3,
+          2,
+          1
+        ],
+        "baskets": [
+          3,
+          5,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "fruits": [
+          -100,
+          -100
+        ],
+        "baskets": [
+          3,
+          5,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "fruits": [
+          100,
+          100
+        ],
+        "baskets": [
+          3,
+          5,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "fruits": [
+          4,
+          2,
+          5
+        ],
+        "baskets": [
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "fruits": [
+          4,
+          2,
+          5
+        ],
+        "baskets": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "fruits": [
+          4,
+          2,
+          5
+        ],
+        "baskets": [
+          3,
+          3,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "fruits": [
+          4,
+          2,
+          5
+        ],
+        "baskets": [
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "fruits": [
+          4,
+          2,
+          5
+        ],
+        "baskets": [
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "fruits": [
+          4,
+          2,
+          5
+        ],
+        "baskets": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "fruits": [
+          4,
+          2,
+          5
+        ],
+        "baskets": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

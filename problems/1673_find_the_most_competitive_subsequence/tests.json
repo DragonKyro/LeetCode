@@ -1,0 +1,128 @@
+{
+  "problem_id": 1673,
+  "title": "Find the Most Competitive Subsequence",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-the-most-competitive-subsequence/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          3,
+          5,
+          2,
+          6
+        ],
+        "k": 2
+      },
+      "expected": [
+        2,
+        6
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          4,
+          3,
+          3,
+          5,
+          4,
+          9,
+          6
+        ],
+        "k": 4
+      },
+      "expected": [
+        2,
+        3,
+        3,
+        4
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          3
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          0,
+          1000000000
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          0,
+          0
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1000000000,
+          1000000000
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

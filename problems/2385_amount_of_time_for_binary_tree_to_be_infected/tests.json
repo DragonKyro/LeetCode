@@ -1,0 +1,133 @@
+{
+  "problem_id": 2385,
+  "title": "Amount of Time for Binary Tree to Be Infected",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/",
+  "test_cases": [
+    {
+      "input": {
+        "root": [
+          1,
+          5,
+          3,
+          null,
+          4,
+          10,
+          6,
+          9,
+          2
+        ],
+        "start": 3
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "root": [
+          1
+        ],
+        "start": 1
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "root": [
+          1
+        ],
+        "start": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          -100,
+          100
+        ],
+        "start": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "start": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "start": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "start": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          -100,
+          -100
+        ],
+        "start": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          100,
+          100
+        ],
+        "start": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

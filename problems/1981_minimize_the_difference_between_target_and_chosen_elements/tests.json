@@ -1,0 +1,114 @@
+{
+  "problem_id": 1981,
+  "title": "Minimize the Difference Between Target and Chosen Elements",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimize-the-difference-between-target-and-chosen-elements/",
+  "test_cases": [
+    {
+      "input": {
+        "mat": [
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            4,
+            5,
+            6
+          ],
+          [
+            7,
+            8,
+            9
+          ]
+        ],
+        "target": 13
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "mat": [
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "target": 100
+      },
+      "expected": 94,
+      "source": "example"
+    },
+    {
+      "input": {
+        "mat": [
+          [
+            1,
+            2,
+            9,
+            8,
+            7
+          ]
+        ],
+        "target": 6
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "mat": [
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            4,
+            5,
+            6
+          ],
+          [
+            7,
+            8,
+            9
+          ]
+        ],
+        "target": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "mat": [
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            4,
+            5,
+            6
+          ],
+          [
+            7,
+            8,
+            9
+          ]
+        ],
+        "target": 800
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

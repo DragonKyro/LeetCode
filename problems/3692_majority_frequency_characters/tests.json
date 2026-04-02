@@ -1,0 +1,57 @@
+{
+  "problem_id": 3692,
+  "title": "Majority Frequency Characters",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/majority-frequency-characters/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "aaabbbccdddde"
+      },
+      "expected": "ab",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abcd"
+      },
+      "expected": "abcd",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "pfpfgi"
+      },
+      "expected": "fp",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaaaaaaaaaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abababababab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaabbbbbbaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "problem_id": 1812,
+  "title": "Determine Color of a Chessboard Square",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/determine-color-of-a-chessboard-square/",
+  "test_cases": [
+    {
+      "input": {
+        "coordinates": "a1"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "coordinates": "h3"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "coordinates": "c7"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "coordinates": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "coordinates": "aa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "coordinates": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "problem_id": 315,
+  "title": "Count of Smaller Numbers After Self",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/count-of-smaller-numbers-after-self/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          5,
+          2,
+          6,
+          1
+        ]
+      },
+      "expected": [
+        2,
+        1,
+        1,
+        0
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          -1
+        ]
+      },
+      "expected": [
+        0
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          -1,
+          -1
+        ]
+      },
+      "expected": [
+        0,
+        0
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          10000,
+          10000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

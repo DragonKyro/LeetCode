@@ -1,0 +1,95 @@
+{
+  "problem_id": 3243,
+  "title": "Shortest Distance After Road Addition Queries I",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/shortest-distance-after-road-addition-queries-i/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 5,
+        "queries": [
+          [
+            2,
+            4
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      "expected": [
+        3,
+        2,
+        1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 4,
+        "queries": [
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      "expected": [
+        1,
+        1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 3,
+        "queries": [
+          [
+            2,
+            4
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 500,
+        "queries": [
+          [
+            2,
+            4
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "problem_id": 2578,
+  "title": "Split With Minimum Sum",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/split-with-minimum-sum/",
+  "test_cases": [
+    {
+      "input": {
+        "num": 4325
+      },
+      "expected": 59,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 687
+      },
+      "expected": 75,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 10
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": 1000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

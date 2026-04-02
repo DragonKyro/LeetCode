@@ -1,0 +1,68 @@
+{
+  "problem_id": 970,
+  "title": "Powerful Integers",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/powerful-integers/",
+  "test_cases": [
+    {
+      "input": {
+        "x": 2,
+        "y": 3,
+        "bound": 10
+      },
+      "expected": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        9,
+        10
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "x": 3,
+        "y": 5,
+        "bound": 15
+      },
+      "expected": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        14
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "x": 2,
+        "y": 3,
+        "bound": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "x": 2,
+        "y": 3,
+        "bound": 1000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "x": 2,
+        "y": 3,
+        "bound": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

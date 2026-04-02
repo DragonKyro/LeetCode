@@ -1,0 +1,54 @@
+{
+  "problem_id": 2614,
+  "title": "Prime In Diagonal",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/prime-in-diagonal/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            5,
+            6,
+            7
+          ],
+          [
+            9,
+            10,
+            11
+          ]
+        ]
+      },
+      "expected": 11,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            5,
+            17,
+            7
+          ],
+          [
+            9,
+            11,
+            10
+          ]
+        ]
+      },
+      "expected": 17,
+      "source": "example"
+    }
+  ]
+}

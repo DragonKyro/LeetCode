@@ -1,0 +1,50 @@
+{
+  "problem_id": 214,
+  "title": "Shortest Palindrome",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/shortest-palindrome/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "aacecaaa"
+      },
+      "expected": "aaacecaaa",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abcd"
+      },
+      "expected": "dcbabcd",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaaaaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abababab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaceecaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

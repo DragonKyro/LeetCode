@@ -1,0 +1,79 @@
+{
+  "problem_id": 691,
+  "title": "Stickers to Spell Word",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/stickers-to-spell-word/",
+  "test_cases": [
+    {
+      "input": {
+        "stickers": [
+          "with",
+          "example",
+          "science"
+        ],
+        "target": "thehat"
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "stickers": [
+          "notice",
+          "possible"
+        ],
+        "target": "basicbasic"
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "stickers": [
+          "with",
+          "example",
+          "science"
+        ],
+        "target": "t"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "stickers": [
+          "with",
+          "example",
+          "science"
+        ],
+        "target": "tttttt"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "stickers": [
+          "with",
+          "example",
+          "science"
+        ],
+        "target": "tututu"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "stickers": [
+          "with",
+          "example",
+          "science"
+        ],
+        "target": "theeht"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "problem_id": 2617,
+  "title": "Minimum Number of Visited Cells in a Grid",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-number-of-visited-cells-in-a-grid/",
+  "test_cases": [
+    {
+      "input": {
+        "grid": [
+          [
+            3,
+            4,
+            2,
+            1
+          ],
+          [
+            4,
+            2,
+            3,
+            1
+          ],
+          [
+            2,
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            4,
+            0,
+            0
+          ]
+        ]
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            3,
+            4,
+            2,
+            1
+          ],
+          [
+            4,
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            1,
+            0
+          ],
+          [
+            3,
+            4,
+            1,
+            0
+          ]
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ]
+      },
+      "expected": -1,
+      "source": "example"
+    }
+  ]
+}

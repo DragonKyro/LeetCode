@@ -1,0 +1,50 @@
+{
+  "problem_id": 5,
+  "title": "Longest Palindromic Substring",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/longest-palindromic-substring/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "babad"
+      },
+      "expected": "bab",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "cbbd"
+      },
+      "expected": "bb",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "b"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "bbbbb"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "bcbc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "baab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

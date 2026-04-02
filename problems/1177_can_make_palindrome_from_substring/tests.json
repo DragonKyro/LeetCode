@@ -1,0 +1,206 @@
+{
+  "problem_id": 1177,
+  "title": "Can Make Palindrome from Substring",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/can-make-palindrome-from-substring/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "abcda",
+        "queries": [
+          [
+            3,
+            3,
+            0
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            2
+          ],
+          [
+            0,
+            4,
+            1
+          ]
+        ]
+      },
+      "expected": [
+        true,
+        false,
+        false,
+        true,
+        true
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "lyb",
+        "queries": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            2,
+            2,
+            1
+          ]
+        ]
+      },
+      "expected": [
+        false,
+        true
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a",
+        "queries": [
+          [
+            3,
+            3,
+            0
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            2
+          ],
+          [
+            0,
+            4,
+            1
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaaa",
+        "queries": [
+          [
+            3,
+            3,
+            0
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            2
+          ],
+          [
+            0,
+            4,
+            1
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abab",
+        "queries": [
+          [
+            3,
+            3,
+            0
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            2
+          ],
+          [
+            0,
+            4,
+            1
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abba",
+        "queries": [
+          [
+            3,
+            3,
+            0
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            2
+          ],
+          [
+            0,
+            4,
+            1
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

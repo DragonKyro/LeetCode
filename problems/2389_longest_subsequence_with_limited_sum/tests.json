@@ -1,0 +1,270 @@
+{
+  "problem_id": 2389,
+  "title": "Longest Subsequence With Limited Sum",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/longest-subsequence-with-limited-sum/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          4,
+          5,
+          2,
+          1
+        ],
+        "queries": [
+          3,
+          10,
+          21
+        ]
+      },
+      "expected": [
+        2,
+        3,
+        4
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "queries": [
+          1
+        ]
+      },
+      "expected": [
+        0
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          4
+        ],
+        "queries": [
+          3,
+          10,
+          21
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -100,
+          100
+        ],
+        "queries": [
+          3,
+          10,
+          21
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          4,
+          4,
+          4
+        ],
+        "queries": [
+          3,
+          10,
+          21
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "queries": [
+          3,
+          10,
+          21
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "queries": [
+          3,
+          10,
+          21
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -100,
+          -100
+        ],
+        "queries": [
+          3,
+          10,
+          21
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          100,
+          100
+        ],
+        "queries": [
+          3,
+          10,
+          21
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          5,
+          2,
+          1
+        ],
+        "queries": [
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          5,
+          2,
+          1
+        ],
+        "queries": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          5,
+          2,
+          1
+        ],
+        "queries": [
+          3,
+          3,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          5,
+          2,
+          1
+        ],
+        "queries": [
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          5,
+          2,
+          1
+        ],
+        "queries": [
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          5,
+          2,
+          1
+        ],
+        "queries": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          5,
+          2,
+          1
+        ],
+        "queries": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

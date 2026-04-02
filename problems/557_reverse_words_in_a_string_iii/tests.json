@@ -1,0 +1,50 @@
+{
+  "problem_id": 557,
+  "title": "Reverse Words in a String III",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/reverse-words-in-a-string-iii/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "Let's take LeetCode contest"
+      },
+      "expected": "s'teL ekat edoCteeL tsetnoc",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "Mr Ding"
+      },
+      "expected": "rM gniD",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "L"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "LLLLLLLLLLLLLLLLLLLLLLLLLLL"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "LMLMLMLMLMLMLMLMLMLMLMLMLM"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "Let's take LeeL ekat s'teL"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

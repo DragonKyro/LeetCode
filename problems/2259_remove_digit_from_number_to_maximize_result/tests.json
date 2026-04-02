@@ -1,0 +1,64 @@
+{
+  "problem_id": 2259,
+  "title": "Remove Digit From Number to Maximize Result",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/",
+  "test_cases": [
+    {
+      "input": {
+        "number": "123",
+        "digit": "3"
+      },
+      "expected": "12",
+      "source": "example"
+    },
+    {
+      "input": {
+        "number": "1231",
+        "digit": "1"
+      },
+      "expected": "231",
+      "source": "example"
+    },
+    {
+      "input": {
+        "number": "551",
+        "digit": "5"
+      },
+      "expected": "51",
+      "source": "example"
+    },
+    {
+      "input": {
+        "number": "111",
+        "digit": "3"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "number": "1212",
+        "digit": "3"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "number": "11",
+        "digit": "3"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "number": "123",
+        "digit": "3434"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

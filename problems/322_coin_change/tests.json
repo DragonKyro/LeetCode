@@ -1,0 +1,155 @@
+{
+  "problem_id": 322,
+  "title": "Coin Change",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/coin-change/",
+  "test_cases": [
+    {
+      "input": {
+        "coins": [
+          1,
+          2,
+          5
+        ],
+        "amount": 11
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "coins": [
+          2
+        ],
+        "amount": 3
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "coins": [
+          1
+        ],
+        "amount": 0
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "coins": [
+          1
+        ],
+        "amount": 11
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "coins": [
+          1,
+          2147483648
+        ],
+        "amount": 11
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "coins": [
+          1,
+          1,
+          1
+        ],
+        "amount": 11
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "coins": [
+          1,
+          2,
+          3
+        ],
+        "amount": 11
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "coins": [
+          3,
+          2,
+          1
+        ],
+        "amount": 11
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "coins": [
+          1,
+          1
+        ],
+        "amount": 11
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "coins": [
+          2147483648,
+          2147483648
+        ],
+        "amount": 11
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "coins": [
+          1,
+          2,
+          5
+        ],
+        "amount": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "coins": [
+          1,
+          2,
+          5
+        ],
+        "amount": 10000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "coins": [
+          1,
+          2,
+          5
+        ],
+        "amount": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "problem_id": 2564,
+  "title": "Substring XOR Queries",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/substring-xor-queries/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "101101",
+        "queries": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      },
+      "expected": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "0101",
+        "queries": [
+          [
+            12,
+            8
+          ]
+        ]
+      },
+      "expected": [
+        [
+          -1,
+          -1
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "1",
+        "queries": [
+          [
+            4,
+            5
+          ]
+        ]
+      },
+      "expected": [
+        [
+          0,
+          0
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "1",
+        "queries": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "111111",
+        "queries": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "121212",
+        "queries": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

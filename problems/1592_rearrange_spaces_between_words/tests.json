@@ -1,0 +1,50 @@
+{
+  "problem_id": 1592,
+  "title": "Rearrange Spaces Between Words",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/rearrange-spaces-between-words/",
+  "test_cases": [
+    {
+      "input": {
+        "text": "  this   is  a sentence "
+      },
+      "expected": "this   is   a   sentence",
+      "source": "example"
+    },
+    {
+      "input": {
+        "text": " practice   makes   perfect"
+      },
+      "expected": "practice   makes   perfect ",
+      "source": "example"
+    },
+    {
+      "input": {
+        "text": " "
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "text": "                        "
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "text": " ! ! ! ! ! ! ! ! ! ! ! !"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "text": "  this   is  si   siht  "
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "problem_id": 3782,
+  "title": "Last Remaining Integer After Alternating Deletion Operations",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/last-remaining-integer-after-alternating-deletion-operations/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 8
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 5
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1000000000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

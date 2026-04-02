@@ -1,0 +1,71 @@
+{
+  "problem_id": 3405,
+  "title": "Count the Number of Arrays with K Matching Adjacent Elements",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/count-the-number-of-arrays-with-k-matching-adjacent-elements/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 3,
+        "m": 2,
+        "k": 1
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 4,
+        "m": 2,
+        "k": 2
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 5,
+        "m": 2,
+        "k": 0
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "m": 2,
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 100000,
+        "m": 2,
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 3,
+        "m": 1,
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 3,
+        "m": 100000,
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "problem_id": 2525,
+  "title": "Categorize Box According to Criteria",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/categorize-box-according-to-criteria/",
+  "test_cases": [
+    {
+      "input": {
+        "length": 1000,
+        "width": 35,
+        "height": 700,
+        "mass": 300
+      },
+      "expected": "Heavy",
+      "source": "example"
+    },
+    {
+      "input": {
+        "length": 200,
+        "width": 50,
+        "height": 800,
+        "mass": 50
+      },
+      "expected": "Neither",
+      "source": "example"
+    },
+    {
+      "input": {
+        "length": 1000,
+        "width": 35,
+        "height": 700,
+        "mass": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "length": 1000,
+        "width": 35,
+        "height": 700,
+        "mass": 1000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

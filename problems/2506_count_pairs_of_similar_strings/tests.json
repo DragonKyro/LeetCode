@@ -1,0 +1,43 @@
+{
+  "problem_id": 2506,
+  "title": "Count Pairs Of Similar Strings",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/count-pairs-of-similar-strings/",
+  "test_cases": [
+    {
+      "input": {
+        "words": [
+          "aba",
+          "aabb",
+          "abcd",
+          "bac",
+          "aabc"
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "aabb",
+          "ab",
+          "ba"
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "nba",
+          "cba",
+          "dba"
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "problem_id": 464,
+  "title": "Can I Win",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/can-i-win/",
+  "test_cases": [
+    {
+      "input": {
+        "maxChoosableInteger": 10,
+        "desiredTotal": 11
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "maxChoosableInteger": 10,
+        "desiredTotal": 0
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "maxChoosableInteger": 10,
+        "desiredTotal": 1
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "maxChoosableInteger": 1,
+        "desiredTotal": 11
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "maxChoosableInteger": 20,
+        "desiredTotal": 11
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "maxChoosableInteger": 10,
+        "desiredTotal": 300
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "problem_id": 670,
+  "title": "Maximum Swap",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-swap/",
+  "test_cases": [
+    {
+      "input": {
+        "num": 2736
+      },
+      "expected": 7236,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 9973
+      },
+      "expected": 9973,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": 100000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

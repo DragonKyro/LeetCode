@@ -1,0 +1,72 @@
+{
+  "problem_id": 2288,
+  "title": "Apply Discount to Prices",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/apply-discount-to-prices/",
+  "test_cases": [
+    {
+      "input": {
+        "sentence": "there are $1 $2 and 5$ candies in the shop",
+        "discount": 50
+      },
+      "expected": "there are $0.50 $1.00 and 5$ candies in the shop",
+      "source": "example"
+    },
+    {
+      "input": {
+        "sentence": "1 2 $3 4 $5 $6 7 8$ $9 $10$",
+        "discount": 100
+      },
+      "expected": "1 2 $0.00 4 $0.00 $0.00 7 8$ $0.00 $10$",
+      "source": "example"
+    },
+    {
+      "input": {
+        "sentence": "t",
+        "discount": 50
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "sentence": "tttttttttttttttttttttttttttttttttttttttttt",
+        "discount": 50
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "sentence": "tututututututututututututututututututututu",
+        "discount": 50
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "sentence": "there are $1 $2 and 55 dna 2$ 1$ era ereht",
+        "discount": 50
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "sentence": "there are $1 $2 and 5$ candies in the shop",
+        "discount": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "sentence": "there are $1 $2 and 5$ candies in the shop",
+        "discount": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

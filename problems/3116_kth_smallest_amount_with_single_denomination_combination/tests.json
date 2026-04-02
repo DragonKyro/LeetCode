@@ -1,0 +1,134 @@
+{
+  "problem_id": 3116,
+  "title": "Kth Smallest Amount With Single Denomination Combination",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/kth-smallest-amount-with-single-denomination-combination/",
+  "test_cases": [
+    {
+      "input": {
+        "coins": [
+          3,
+          6,
+          9
+        ],
+        "k": 3
+      },
+      "expected": 9,
+      "source": "example"
+    },
+    {
+      "input": {
+        "coins": [
+          5,
+          2
+        ],
+        "k": 7
+      },
+      "expected": 12,
+      "source": "example"
+    },
+    {
+      "input": {
+        "coins": [
+          3
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "coins": [
+          1,
+          25
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "coins": [
+          3,
+          3,
+          3
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "coins": [
+          1,
+          2,
+          3
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "coins": [
+          3,
+          2,
+          1
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "coins": [
+          1,
+          1
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "coins": [
+          25,
+          25
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "coins": [
+          3,
+          6,
+          9
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "coins": [
+          3,
+          6,
+          9
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": 1190,
+  "title": "Reverse Substrings Between Each Pair of Parentheses",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "(abcd)"
+      },
+      "expected": "dcba",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "(u(love)i)"
+      },
+      "expected": "iloveu",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "(ed(et(oc))el)"
+      },
+      "expected": "leetcode",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "("
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "(((((("
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "()()()"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "(abba("
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

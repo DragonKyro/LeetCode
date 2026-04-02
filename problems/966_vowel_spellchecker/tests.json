@@ -1,0 +1,57 @@
+{
+  "problem_id": 966,
+  "title": "Vowel Spellchecker",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/vowel-spellchecker/",
+  "test_cases": [
+    {
+      "input": {
+        "wordlist": [
+          "KiTe",
+          "kite",
+          "hare",
+          "Hare"
+        ],
+        "queries": [
+          "kite",
+          "Kite",
+          "KiTe",
+          "Hare",
+          "HARE",
+          "Hear",
+          "hear",
+          "keti",
+          "keet",
+          "keto"
+        ]
+      },
+      "expected": [
+        "kite",
+        "KiTe",
+        "KiTe",
+        "Hare",
+        "hare",
+        "",
+        "",
+        "KiTe",
+        "",
+        "KiTe"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "wordlist": [
+          "yellow"
+        ],
+        "queries": [
+          "YellOw"
+        ]
+      },
+      "expected": [
+        "yellow"
+      ],
+      "source": "example"
+    }
+  ]
+}

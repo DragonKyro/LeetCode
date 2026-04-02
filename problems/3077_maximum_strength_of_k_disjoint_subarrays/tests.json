@@ -1,0 +1,133 @@
+{
+  "problem_id": 3077,
+  "title": "Maximum Strength of K Disjoint Subarrays",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/maximum-strength-of-k-disjoint-subarrays/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          -1,
+          2
+        ],
+        "k": 3
+      },
+      "expected": 22,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          12,
+          -2,
+          -2,
+          -2,
+          -2
+        ],
+        "k": 5
+      },
+      "expected": 64,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          -1,
+          -2,
+          -3
+        ],
+        "k": 1
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          1
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -1000000000,
+          1000000000
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -1000000000,
+          -1000000000
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1000000000,
+          1000000000
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

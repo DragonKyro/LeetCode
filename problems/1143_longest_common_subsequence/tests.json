@@ -1,0 +1,96 @@
+{
+  "problem_id": 1143,
+  "title": "Longest Common Subsequence",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/longest-common-subsequence/",
+  "test_cases": [
+    {
+      "input": {
+        "text1": "abcde",
+        "text2": "ace"
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "text1": "abc",
+        "text2": "abc"
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "text1": "abc",
+        "text2": "def"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "text1": "a",
+        "text2": "ace"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "text1": "aaaaa",
+        "text2": "ace"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "text1": "abab",
+        "text2": "ace"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "text1": "abba",
+        "text2": "ace"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "text1": "abcde",
+        "text2": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "text1": "abcde",
+        "text2": "aaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "text1": "abcde",
+        "text2": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "text1": "abcde",
+        "text2": "aa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

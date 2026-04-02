@@ -1,0 +1,62 @@
+{
+  "problem_id": 1420,
+  "title": "Build Array Where You Can Find The Maximum Exactly K Comparisons",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/build-array-where-you-can-find-the-maximum-exactly-k-comparisons/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 2,
+        "m": 3,
+        "k": 1
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 5,
+        "m": 2,
+        "k": 3
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 9,
+        "m": 1,
+        "k": 1
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "m": 3,
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 50,
+        "m": 3,
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 2,
+        "m": 1,
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

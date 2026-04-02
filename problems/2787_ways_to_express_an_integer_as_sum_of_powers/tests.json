@@ -1,0 +1,56 @@
+{
+  "problem_id": 2787,
+  "title": "Ways to Express an Integer as Sum of Powers",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 10,
+        "x": 2
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 4,
+        "x": 1
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "x": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 300,
+        "x": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 10,
+        "x": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 10,
+        "x": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

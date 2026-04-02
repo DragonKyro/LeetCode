@@ -1,0 +1,107 @@
+{
+  "problem_id": 1599,
+  "title": "Maximum Profit of Operating a Centennial Wheel",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-profit-of-operating-a-centennial-wheel/",
+  "test_cases": [
+    {
+      "input": {
+        "customers": [
+          8,
+          3
+        ],
+        "boardingCost": 5,
+        "runningCost": 6
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "customers": [
+          10,
+          9,
+          6
+        ],
+        "boardingCost": 6,
+        "runningCost": 4
+      },
+      "expected": 7,
+      "source": "example"
+    },
+    {
+      "input": {
+        "customers": [
+          3,
+          4,
+          0,
+          5,
+          1
+        ],
+        "boardingCost": 1,
+        "runningCost": 92
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "customers": [
+          8
+        ],
+        "boardingCost": 5,
+        "runningCost": 6
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "customers": [
+          0,
+          50
+        ],
+        "boardingCost": 5,
+        "runningCost": 6
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "customers": [
+          8,
+          8
+        ],
+        "boardingCost": 5,
+        "runningCost": 6
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "customers": [
+          0,
+          0
+        ],
+        "boardingCost": 5,
+        "runningCost": 6
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "customers": [
+          50,
+          50
+        ],
+        "boardingCost": 5,
+        "runningCost": 6
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

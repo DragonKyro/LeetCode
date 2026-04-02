@@ -1,0 +1,64 @@
+{
+  "problem_id": 2457,
+  "title": "Minimum Addition to Make Integer Beautiful",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-addition-to-make-integer-beautiful/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 16,
+        "target": 6
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 467,
+        "target": 6
+      },
+      "expected": 33,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "target": 1
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "target": 6
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 1000000000000,
+        "target": 6
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 16,
+        "target": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 16,
+        "target": 150
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

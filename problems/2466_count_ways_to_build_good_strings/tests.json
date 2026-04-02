@@ -1,0 +1,28 @@
+{
+  "problem_id": 2466,
+  "title": "Count Ways To Build Good Strings",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-ways-to-build-good-strings/",
+  "test_cases": [
+    {
+      "input": {
+        "low": 3,
+        "high": 3,
+        "zero": 1,
+        "one": 1
+      },
+      "expected": 8,
+      "source": "example"
+    },
+    {
+      "input": {
+        "low": 2,
+        "high": 3,
+        "zero": 1,
+        "one": 2
+      },
+      "expected": 5,
+      "source": "example"
+    }
+  ]
+}

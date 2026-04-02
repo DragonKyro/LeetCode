@@ -1,0 +1,57 @@
+{
+  "problem_id": 331,
+  "title": "Verify Preorder Serialization of a Binary Tree",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/",
+  "test_cases": [
+    {
+      "input": {
+        "preorder": "9,3,4,#,#,1,#,#,2,#,6,#,#"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "preorder": "1,#"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "preorder": "9,#,#,1"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "preorder": "9"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "preorder": "9999999999999999999999999"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "preorder": "9:9:9:9:9:9:9:9:9:9:9:9:"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "preorder": "9,3,4,#,#,1,,1,#,#,4,3,9"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

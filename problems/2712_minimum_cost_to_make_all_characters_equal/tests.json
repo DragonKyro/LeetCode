@@ -1,0 +1,43 @@
+{
+  "problem_id": 2712,
+  "title": "Minimum Cost to Make All Characters Equal",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-cost-to-make-all-characters-equal/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "0011"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "010101"
+      },
+      "expected": 9,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "0"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "0000"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "0101"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "problem_id": 2706,
+  "title": "Buy Two Chocolates",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/buy-two-chocolates/",
+  "test_cases": [
+    {
+      "input": {
+        "prices": [
+          1,
+          2,
+          2
+        ],
+        "money": 3
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "prices": [
+          3,
+          2,
+          3
+        ],
+        "money": 3
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "prices": [
+          1,
+          1
+        ],
+        "money": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "prices": [
+          1,
+          1,
+          1
+        ],
+        "money": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "prices": [
+          1,
+          2,
+          3
+        ],
+        "money": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "prices": [
+          3,
+          2,
+          1
+        ],
+        "money": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "prices": [
+          1,
+          2,
+          2
+        ],
+        "money": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "problem_id": 3492,
+  "title": "Maximum Containers on a Ship",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/maximum-containers-on-a-ship/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 2,
+        "w": 3,
+        "maxWeight": 15
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 3,
+        "w": 5,
+        "maxWeight": 20
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "w": 3,
+        "maxWeight": 15
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 2,
+        "w": 1,
+        "maxWeight": 15
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 2,
+        "w": 3,
+        "maxWeight": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 2,
+        "w": 3,
+        "maxWeight": 1000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

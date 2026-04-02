@@ -1,0 +1,32 @@
+{
+  "problem_id": 1240,
+  "title": "Tiling a Rectangle with the Fewest Squares",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/tiling-a-rectangle-with-the-fewest-squares/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 2,
+        "m": 3
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 5,
+        "m": 8
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 11,
+        "m": 13
+      },
+      "expected": 6,
+      "source": "example"
+    }
+  ]
+}

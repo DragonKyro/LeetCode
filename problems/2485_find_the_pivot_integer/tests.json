@@ -1,0 +1,29 @@
+{
+  "problem_id": 2485,
+  "title": "Find the Pivot Integer",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/find-the-pivot-integer/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 8
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 4
+      },
+      "expected": -1,
+      "source": "example"
+    }
+  ]
+}

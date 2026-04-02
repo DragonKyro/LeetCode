@@ -1,0 +1,137 @@
+{
+  "problem_id": 2666,
+  "title": "Allow One Function Call",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/allow-one-function-call/",
+  "test_cases": [
+    {
+      "input": {
+        "fn": "(a,b,c) => (a + b + c)",
+        "calls": [
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            6
+          ]
+        ]
+      },
+      "expected": [
+        {
+          "calls": 1,
+          "value": 6
+        }
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "fn": "(a,b,c) => (a * b * c)",
+        "calls": [
+          [
+            5,
+            7,
+            4
+          ],
+          [
+            2,
+            3,
+            6
+          ],
+          [
+            4,
+            6,
+            8
+          ]
+        ]
+      },
+      "expected": [
+        {
+          "calls": 1,
+          "value": 140
+        }
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "fn": "(",
+        "calls": [
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            6
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "fn": "((((((((((((((((((((((",
+        "calls": [
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            6
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "fn": "()()()()()()()()()()()",
+        "calls": [
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            6
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "fn": "(a,b,c) =>  >= )c,b,a(",
+        "calls": [
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            6
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

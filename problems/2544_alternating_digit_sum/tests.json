@@ -1,0 +1,43 @@
+{
+  "problem_id": 2544,
+  "title": "Alternating Digit Sum",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/alternating-digit-sum/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 521
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 111
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 886996
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 1000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

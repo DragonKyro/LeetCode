@@ -1,0 +1,49 @@
+{
+  "problem_id": 841,
+  "title": "Keys and Rooms",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/keys-and-rooms/",
+  "test_cases": [
+    {
+      "input": {
+        "rooms": [
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          []
+        ]
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "rooms": [
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            0,
+            1
+          ],
+          [
+            2
+          ],
+          [
+            0
+          ]
+        ]
+      },
+      "expected": false,
+      "source": "example"
+    }
+  ]
+}

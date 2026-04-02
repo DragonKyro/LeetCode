@@ -1,0 +1,56 @@
+{
+  "problem_id": 44,
+  "title": "Wildcard Matching",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/wildcard-matching/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "aa",
+        "p": "a"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "aa",
+        "p": "*"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "cb",
+        "p": "?a"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a",
+        "p": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abab",
+        "p": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aa",
+        "p": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

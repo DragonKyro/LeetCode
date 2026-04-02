@@ -1,0 +1,88 @@
+{
+  "problem_id": 3407,
+  "title": "Substring Matching Pattern",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/substring-matching-pattern/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "leetcode",
+        "p": "ee*e"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "car",
+        "p": "c*v"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "luck",
+        "p": "u*"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "l",
+        "p": "ee*e"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "llllllll",
+        "p": "ee*e"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "lmlmlmlm",
+        "p": "ee*e"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "leetteel",
+        "p": "ee*e"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "leetcode",
+        "p": "e"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "leetcode",
+        "p": "eeee"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "leetcode",
+        "p": "efef"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

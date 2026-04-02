@@ -1,0 +1,96 @@
+{
+  "problem_id": 1813,
+  "title": "Sentence Similarity III",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/sentence-similarity-iii/",
+  "test_cases": [
+    {
+      "input": {
+        "sentence1": "My name is Haley",
+        "sentence2": "My Haley"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "sentence1": "of",
+        "sentence2": "A lot of words"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "sentence1": "Eating right now",
+        "sentence2": "Eating"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "sentence1": "M",
+        "sentence2": "My Haley"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "sentence1": "MMMMMMMMMMMMMMMM",
+        "sentence2": "My Haley"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "sentence1": "MNMNMNMNMNMNMNMN",
+        "sentence2": "My Haley"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "sentence1": "My name  eman yM",
+        "sentence2": "My Haley"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "sentence1": "My name is Haley",
+        "sentence2": "M"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "sentence1": "My name is Haley",
+        "sentence2": "MMMMMMMM"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "sentence1": "My name is Haley",
+        "sentence2": "MNMNMNMN"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "sentence1": "My name is Haley",
+        "sentence2": "My HH yM"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

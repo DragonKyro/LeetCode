@@ -1,0 +1,66 @@
+{
+  "problem_id": 2188,
+  "title": "Minimum Time to Finish the Race",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-time-to-finish-the-race/",
+  "test_cases": [
+    {
+      "input": {
+        "tires": [
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "changeTime": 5,
+        "numLaps": 4
+      },
+      "expected": 21,
+      "source": "example"
+    },
+    {
+      "input": {
+        "tires": [
+          [
+            1,
+            10
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "changeTime": 6,
+        "numLaps": 5
+      },
+      "expected": 25,
+      "source": "example"
+    },
+    {
+      "input": {
+        "tires": [
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "changeTime": 5,
+        "numLaps": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

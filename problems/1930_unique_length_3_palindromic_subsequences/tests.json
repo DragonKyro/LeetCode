@@ -1,0 +1,43 @@
+{
+  "problem_id": 1930,
+  "title": "Unique Length-3 Palindromic Subsequences",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/unique-length-3-palindromic-subsequences/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "aabca"
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "adc"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "bbcbaba"
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "aaaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

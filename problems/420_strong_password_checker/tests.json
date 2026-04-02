@@ -1,0 +1,36 @@
+{
+  "problem_id": 420,
+  "title": "Strong Password Checker",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/strong-password-checker/",
+  "test_cases": [
+    {
+      "input": {
+        "password": "a"
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "password": "aA1"
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "password": "1337C0d3"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "password": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

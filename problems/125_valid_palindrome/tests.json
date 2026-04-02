@@ -1,0 +1,57 @@
+{
+  "problem_id": 125,
+  "title": "Valid Palindrome",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/valid-palindrome/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "A man, a plan, a canal: Panama"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "race a car"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": " "
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "A"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ABABABABABABABABABABABABABABAB"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "A man, a plan,  ,nalp a ,nam A"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

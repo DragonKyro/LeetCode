@@ -1,0 +1,65 @@
+{
+  "problem_id": 301,
+  "title": "Remove Invalid Parentheses",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/remove-invalid-parentheses/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "()())()"
+      },
+      "expected": [
+        "(())()",
+        "()()()"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "(a)())()"
+      },
+      "expected": [
+        "(a())()",
+        "(a)()()"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": ")("
+      },
+      "expected": [
+        ""
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "("
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "((((((("
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "()()()"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "()(()("
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

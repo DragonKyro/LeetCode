@@ -1,0 +1,72 @@
+{
+  "problem_id": 997,
+  "title": "Find the Town Judge",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/find-the-town-judge/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 2,
+        "trust": [
+          [
+            1,
+            2
+          ]
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 3,
+        "trust": [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 3,
+        "trust": [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "trust": [
+          [
+            1,
+            2
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "problem_id": 2634,
+  "title": "Filter Elements from Array",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/filter-elements-from-array/",
+  "test_cases": [
+    {
+      "input": {
+        "arr": [
+          0,
+          10,
+          20,
+          30
+        ],
+        "fn": "function greaterThan10(n) { return n > 10; }"
+      },
+      "expected": [
+        20,
+        30
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "arr": [
+          1,
+          2,
+          3
+        ],
+        "fn": "function firstIndex(n, i) { return",
+        "i": "== 0; }"
+      },
+      "expected": [
+        1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "arr": [
+          -2,
+          -1,
+          0,
+          1,
+          2
+        ],
+        "fn": "function plusOne(n) { return n + 1 }"
+      },
+      "expected": [
+        -2,
+        0,
+        1,
+        2
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "arr": [
+          0
+        ],
+        "fn": "function greaterThan10(n) { return n > 10; }"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          -1000000000,
+          1000000000
+        ],
+        "fn": "function greaterThan10(n) { return n > 10; }"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fn": "function greaterThan10(n) { return n > 10; }"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "fn": "function greaterThan10(n) { return n > 10; }"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "fn": "function greaterThan10(n) { return n > 10; }"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          -1000000000,
+          -1000000000
+        ],
+        "fn": "function greaterThan10(n) { return n > 10; }"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          1000000000,
+          1000000000
+        ],
+        "fn": "function greaterThan10(n) { return n > 10; }"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          0,
+          10,
+          20,
+          30
+        ],
+        "fn": "f"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          0,
+          10,
+          20,
+          30
+        ],
+        "fn": "ffffffffffffffffffffffffffffffffffffffffffff"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          0,
+          10,
+          20,
+          30
+        ],
+        "fn": "fgfgfgfgfgfgfgfgfgfgfgfgfgfgfgfgfgfgfgfgfgfg"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          0,
+          10,
+          20,
+          30
+        ],
+        "fn": "function greaterThan1001nahTretaerg noitcnuf"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

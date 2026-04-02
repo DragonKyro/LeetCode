@@ -1,0 +1,97 @@
+{
+  "problem_id": 372,
+  "title": "Super Pow",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/super-pow/",
+  "test_cases": [
+    {
+      "input": {
+        "a": 2,
+        "b": [
+          3
+        ]
+      },
+      "expected": 8,
+      "source": "example"
+    },
+    {
+      "input": {
+        "a": 2,
+        "b": [
+          1,
+          0
+        ]
+      },
+      "expected": 1024,
+      "source": "example"
+    },
+    {
+      "input": {
+        "a": 1,
+        "b": [
+          4,
+          3,
+          3,
+          8,
+          5,
+          2
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "a": 1,
+        "b": [
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "a": 2147483648,
+        "b": [
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "a": 2,
+        "b": [
+          0,
+          9
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "a": 2,
+        "b": [
+          0,
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "a": 2,
+        "b": [
+          9,
+          9
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

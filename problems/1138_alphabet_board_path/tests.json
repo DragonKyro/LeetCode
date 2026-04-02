@@ -1,0 +1,50 @@
+{
+  "problem_id": 1138,
+  "title": "Alphabet Board Path",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/alphabet-board-path/",
+  "test_cases": [
+    {
+      "input": {
+        "target": "leet"
+      },
+      "expected": "DDR!UURRR!!DDD!",
+      "source": "example"
+    },
+    {
+      "input": {
+        "target": "code"
+      },
+      "expected": "RR!DDRR!UUL!R!",
+      "source": "example"
+    },
+    {
+      "input": {
+        "target": "l"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "target": "llll"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "target": "lmlm"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "target": "leel"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

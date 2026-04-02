@@ -1,0 +1,220 @@
+{
+  "problem_id": 2943,
+  "title": "Maximize Area of Square Hole in Grid",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximize-area-of-square-hole-in-grid/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 2,
+        "m": 1,
+        "hBars": [
+          2,
+          3
+        ],
+        "vBars": [
+          2
+        ]
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "m": 1,
+        "hBars": [
+          2
+        ],
+        "vBars": [
+          2
+        ]
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 2,
+        "m": 3,
+        "hBars": [
+          2,
+          3
+        ],
+        "vBars": [
+          2,
+          4
+        ]
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "m": 1,
+        "hBars": [
+          2,
+          3
+        ],
+        "vBars": [
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 1000000000,
+        "m": 1,
+        "hBars": [
+          2,
+          3
+        ],
+        "vBars": [
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 2,
+        "m": 1000000000,
+        "hBars": [
+          2,
+          3
+        ],
+        "vBars": [
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 2,
+        "m": 1,
+        "hBars": [
+          2
+        ],
+        "vBars": [
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 2,
+        "m": 1,
+        "hBars": [
+          -100,
+          100
+        ],
+        "vBars": [
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 2,
+        "m": 1,
+        "hBars": [
+          2,
+          2
+        ],
+        "vBars": [
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 2,
+        "m": 1,
+        "hBars": [
+          -100,
+          -100
+        ],
+        "vBars": [
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 2,
+        "m": 1,
+        "hBars": [
+          100,
+          100
+        ],
+        "vBars": [
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 2,
+        "m": 1,
+        "hBars": [
+          2,
+          3
+        ],
+        "vBars": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 2,
+        "m": 1,
+        "hBars": [
+          2,
+          3
+        ],
+        "vBars": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 2,
+        "m": 1,
+        "hBars": [
+          2,
+          3
+        ],
+        "vBars": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

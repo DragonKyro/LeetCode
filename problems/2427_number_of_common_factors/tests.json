@@ -1,0 +1,24 @@
+{
+  "problem_id": 2427,
+  "title": "Number of Common Factors",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/number-of-common-factors/",
+  "test_cases": [
+    {
+      "input": {
+        "a": 12,
+        "b": 6
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "a": 25,
+        "b": 30
+      },
+      "expected": 2,
+      "source": "example"
+    }
+  ]
+}

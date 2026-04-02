@@ -1,0 +1,56 @@
+{
+  "problem_id": 2928,
+  "title": "Distribute Candies Among Children I",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/distribute-candies-among-children-i/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 5,
+        "limit": 2
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 3,
+        "limit": 3
+      },
+      "expected": 10,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "limit": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 50,
+        "limit": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 5,
+        "limit": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 5,
+        "limit": 50
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

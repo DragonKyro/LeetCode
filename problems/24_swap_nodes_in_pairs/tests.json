@@ -1,0 +1,112 @@
+{
+  "problem_id": 24,
+  "title": "Swap Nodes in Pairs",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/swap-nodes-in-pairs/",
+  "test_cases": [
+    {
+      "input": {
+        "head": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "expected": [
+        2,
+        1,
+        4,
+        3
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "head": []
+      },
+      "expected": [],
+      "source": "example"
+    },
+    {
+      "input": {
+        "head": [
+          1
+        ]
+      },
+      "expected": [
+        1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "head": [
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": [
+        2,
+        1,
+        3
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "head": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "head": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "head": [
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "head": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "head": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

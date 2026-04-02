@@ -1,0 +1,143 @@
+{
+  "problem_id": 2715,
+  "title": "Timeout Cancellation",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/timeout-cancellation/",
+  "test_cases": [
+    {
+      "input": {
+        "fn": "(x) => x * 5",
+        "args": [
+          2
+        ],
+        "t": 20
+      },
+      "expected": [
+        {
+          "time": 20,
+          "returned": 10
+        }
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "fn": "(x) => x**2",
+        "args": [
+          2
+        ],
+        "t": 100
+      },
+      "expected": [],
+      "source": "example"
+    },
+    {
+      "input": {
+        "fn": "(x1, x2) => x1 * x2",
+        "args": [
+          2,
+          4
+        ],
+        "t": 30
+      },
+      "expected": [
+        {
+          "time": 30,
+          "returned": 8
+        }
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "fn": "(",
+        "args": [
+          2
+        ],
+        "t": 20
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "fn": "((((((((((((",
+        "args": [
+          2
+        ],
+        "t": 20
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "fn": "()()()()()()",
+        "args": [
+          2
+        ],
+        "t": 20
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "fn": "(x) =>>= )x(",
+        "args": [
+          2
+        ],
+        "t": 20
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "fn": "(x) => x * 5",
+        "args": [
+          -100,
+          100
+        ],
+        "t": 20
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "fn": "(x) => x * 5",
+        "args": [
+          -100,
+          -100
+        ],
+        "t": 20
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "fn": "(x) => x * 5",
+        "args": [
+          100,
+          100
+        ],
+        "t": 20
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "fn": "(x) => x * 5",
+        "args": [
+          2
+        ],
+        "t": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

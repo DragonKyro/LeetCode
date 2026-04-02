@@ -1,0 +1,88 @@
+{
+  "problem_id": 115,
+  "title": "Distinct Subsequences",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/distinct-subsequences/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "rabbbit",
+        "t": "rabbit"
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "babgbag",
+        "t": "bag"
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "r",
+        "t": "rabbit"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "rrrrrrr",
+        "t": "rabbit"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "rsrsrs",
+        "t": "rabbit"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "rabbar",
+        "t": "rabbit"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "rabbbit",
+        "t": "r"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "rabbbit",
+        "t": "rrrrrr"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "rabbbit",
+        "t": "rsrsrs"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "rabbbit",
+        "t": "rabbar"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

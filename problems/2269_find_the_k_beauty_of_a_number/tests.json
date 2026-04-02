@@ -1,0 +1,40 @@
+{
+  "problem_id": 2269,
+  "title": "Find the K-Beauty of a Number",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/find-the-k-beauty-of-a-number/",
+  "test_cases": [
+    {
+      "input": {
+        "num": 240,
+        "k": 2
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 430043,
+        "k": 2
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 1,
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": 1000000000,
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

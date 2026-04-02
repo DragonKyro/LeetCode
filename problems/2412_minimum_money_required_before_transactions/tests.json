@@ -1,0 +1,44 @@
+{
+  "problem_id": 2412,
+  "title": "Minimum Money Required Before Transactions",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-money-required-before-transactions/",
+  "test_cases": [
+    {
+      "input": {
+        "transactions": [
+          [
+            2,
+            1
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            4,
+            2
+          ]
+        ]
+      },
+      "expected": 10,
+      "source": "example"
+    },
+    {
+      "input": {
+        "transactions": [
+          [
+            3,
+            0
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    }
+  ]
+}

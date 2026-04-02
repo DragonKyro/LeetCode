@@ -1,0 +1,38 @@
+{
+  "problem_id": 1201,
+  "title": "Ugly Number III",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/ugly-number-iii/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 3,
+        "a": 2,
+        "b": 3,
+        "c": 5
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 4,
+        "a": 2,
+        "b": 3,
+        "c": 4
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 5,
+        "a": 2,
+        "b": 11,
+        "c": 13
+      },
+      "expected": 10,
+      "source": "example"
+    }
+  ]
+}

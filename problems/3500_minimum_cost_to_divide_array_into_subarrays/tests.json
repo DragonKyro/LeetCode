@@ -1,0 +1,282 @@
+{
+  "problem_id": 3500,
+  "title": "Minimum Cost to Divide Array Into Subarrays",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-cost-to-divide-array-into-subarrays/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          3,
+          1,
+          4
+        ],
+        "cost": [
+          4,
+          6,
+          6
+        ],
+        "k": 1
+      },
+      "expected": 110,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          8,
+          5,
+          1,
+          14,
+          2,
+          2,
+          12,
+          1
+        ],
+        "cost": [
+          7,
+          2,
+          8,
+          4,
+          2,
+          2,
+          1,
+          1,
+          2
+        ],
+        "k": 7
+      },
+      "expected": 985,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          3
+        ],
+        "cost": [
+          4,
+          6,
+          6
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -100,
+          100
+        ],
+        "cost": [
+          4,
+          6,
+          6
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          3,
+          3,
+          3
+        ],
+        "cost": [
+          4,
+          6,
+          6
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3
+        ],
+        "cost": [
+          4,
+          6,
+          6
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          3,
+          2,
+          1
+        ],
+        "cost": [
+          4,
+          6,
+          6
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -100,
+          -100
+        ],
+        "cost": [
+          4,
+          6,
+          6
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          100,
+          100
+        ],
+        "cost": [
+          4,
+          6,
+          6
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          3,
+          1,
+          4
+        ],
+        "cost": [
+          4
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          3,
+          1,
+          4
+        ],
+        "cost": [
+          -100,
+          100
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          3,
+          1,
+          4
+        ],
+        "cost": [
+          4,
+          4,
+          4
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          3,
+          1,
+          4
+        ],
+        "cost": [
+          1,
+          2,
+          3
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          3,
+          1,
+          4
+        ],
+        "cost": [
+          3,
+          2,
+          1
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          3,
+          1,
+          4
+        ],
+        "cost": [
+          -100,
+          -100
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          3,
+          1,
+          4
+        ],
+        "cost": [
+          100,
+          100
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "problem_id": 819,
+  "title": "Most Common Word",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/most-common-word/",
+  "test_cases": [
+    {
+      "input": {
+        "paragraph": "Bob hit a ball, the hit BALL flew far after it was hit.",
+        "banned": [
+          "hit"
+        ]
+      },
+      "expected": "ball",
+      "source": "example"
+    },
+    {
+      "input": {
+        "paragraph": "a.",
+        "banned": []
+      },
+      "expected": "a",
+      "source": "example"
+    },
+    {
+      "input": {
+        "paragraph": "B",
+        "banned": [
+          "hit"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "paragraph": "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+        "banned": [
+          "hit"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "paragraph": "BCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBCBC",
+        "banned": [
+          "hit"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "paragraph": "Bob hit a ball, the hit BALLAB tih eht ,llab a tih boB",
+        "banned": [
+          "hit"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

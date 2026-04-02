@@ -1,0 +1,175 @@
+{
+  "problem_id": 2234,
+  "title": "Maximum Total Beauty of the Gardens",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/maximum-total-beauty-of-the-gardens/",
+  "test_cases": [
+    {
+      "input": {
+        "flowers": [
+          1,
+          3,
+          1,
+          1
+        ],
+        "newFlowers": 7,
+        "target": 6,
+        "full": 12,
+        "partial": 1
+      },
+      "expected": 14,
+      "source": "example"
+    },
+    {
+      "input": {
+        "flowers": [
+          2,
+          4,
+          5,
+          3
+        ],
+        "newFlowers": 10,
+        "target": 5,
+        "full": 2,
+        "partial": 6
+      },
+      "expected": 30,
+      "source": "example"
+    },
+    {
+      "input": {
+        "flowers": [
+          1
+        ],
+        "newFlowers": 7,
+        "target": 6,
+        "full": 12,
+        "partial": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "flowers": [
+          -100,
+          100
+        ],
+        "newFlowers": 7,
+        "target": 6,
+        "full": 12,
+        "partial": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "flowers": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "newFlowers": 7,
+        "target": 6,
+        "full": 12,
+        "partial": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "flowers": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "newFlowers": 7,
+        "target": 6,
+        "full": 12,
+        "partial": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "flowers": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "newFlowers": 7,
+        "target": 6,
+        "full": 12,
+        "partial": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "flowers": [
+          -100,
+          -100
+        ],
+        "newFlowers": 7,
+        "target": 6,
+        "full": 12,
+        "partial": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "flowers": [
+          100,
+          100
+        ],
+        "newFlowers": 7,
+        "target": 6,
+        "full": 12,
+        "partial": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "flowers": [
+          1,
+          3,
+          1,
+          1
+        ],
+        "newFlowers": 1,
+        "target": 6,
+        "full": 12,
+        "partial": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "flowers": [
+          1,
+          3,
+          1,
+          1
+        ],
+        "newFlowers": 10000000000,
+        "target": 6,
+        "full": 12,
+        "partial": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

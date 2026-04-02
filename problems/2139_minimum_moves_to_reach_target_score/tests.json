@@ -1,0 +1,56 @@
+{
+  "problem_id": 2139,
+  "title": "Minimum Moves to Reach Target Score",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-moves-to-reach-target-score/",
+  "test_cases": [
+    {
+      "input": {
+        "target": 5,
+        "maxDoubles": 0
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "target": 19,
+        "maxDoubles": 2
+      },
+      "expected": 7,
+      "source": "example"
+    },
+    {
+      "input": {
+        "target": 10,
+        "maxDoubles": 4
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "target": 1,
+        "maxDoubles": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "target": 1000000000,
+        "maxDoubles": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "target": 5,
+        "maxDoubles": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "problem_id": 2011,
+  "title": "Final Value of Variable After Performing Operations",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/final-value-of-variable-after-performing-operations/",
+  "test_cases": [
+    {
+      "input": {
+        "operations": [
+          "--X",
+          "X++",
+          "X++"
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "operations": [
+          "++X",
+          "++X",
+          "X++"
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "operations": [
+          "X++",
+          "++X",
+          "--X",
+          "X--"
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    }
+  ]
+}

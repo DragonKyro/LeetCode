@@ -1,0 +1,123 @@
+{
+  "problem_id": 2111,
+  "title": "Minimum Operations to Make the Array K-Increasing",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-operations-to-make-the-array-k-increasing/",
+  "test_cases": [
+    {
+      "input": {
+        "arr": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "k": 1
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "arr": [
+          4,
+          1,
+          5,
+          2,
+          6,
+          2
+        ],
+        "k": 2
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "arr": [
+          4,
+          1,
+          5,
+          2,
+          6,
+          2
+        ],
+        "k": 3
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "arr": [
+          5
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          -100,
+          100
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          -100,
+          -100
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          100,
+          100
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

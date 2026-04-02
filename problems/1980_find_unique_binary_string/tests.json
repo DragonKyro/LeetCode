@@ -1,0 +1,39 @@
+{
+  "problem_id": 1980,
+  "title": "Find Unique Binary String",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-unique-binary-string/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          "01",
+          "10"
+        ]
+      },
+      "expected": "11",
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          "00",
+          "01"
+        ]
+      },
+      "expected": "11",
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          "111",
+          "011",
+          "001"
+        ]
+      },
+      "expected": "101",
+      "source": "example"
+    }
+  ]
+}

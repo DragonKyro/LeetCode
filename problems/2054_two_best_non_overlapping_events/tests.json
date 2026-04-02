@@ -1,0 +1,77 @@
+{
+  "problem_id": 2054,
+  "title": "Two Best Non-Overlapping Events",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/two-best-non-overlapping-events/",
+  "test_cases": [
+    {
+      "input": {
+        "events": [
+          [
+            1,
+            3,
+            2
+          ],
+          [
+            4,
+            5,
+            2
+          ],
+          [
+            2,
+            4,
+            3
+          ]
+        ]
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "events": [
+          [
+            1,
+            3,
+            2
+          ],
+          [
+            4,
+            5,
+            2
+          ],
+          [
+            1,
+            5,
+            5
+          ]
+        ]
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "events": [
+          [
+            1,
+            5,
+            3
+          ],
+          [
+            1,
+            5,
+            1
+          ],
+          [
+            6,
+            6,
+            5
+          ]
+        ]
+      },
+      "expected": 8,
+      "source": "example"
+    }
+  ]
+}

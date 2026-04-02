@@ -1,0 +1,111 @@
+{
+  "problem_id": 1425,
+  "title": "Constrained Subsequence Sum",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/constrained-subsequence-sum/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          10,
+          2,
+          -10,
+          5,
+          20
+        ],
+        "k": 2
+      },
+      "expected": 37,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          -1,
+          -2,
+          -3
+        ],
+        "k": 1
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          10,
+          -2,
+          -10,
+          -5,
+          20
+        ],
+        "k": 2
+      },
+      "expected": 23,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          10
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          10000,
+          10000
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

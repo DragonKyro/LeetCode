@@ -1,0 +1,53 @@
+{
+  "problem_id": 2965,
+  "title": "Find Missing and Repeated Values",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/find-missing-and-repeated-values/",
+  "test_cases": [
+    {
+      "input": {
+        "grid": [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      },
+      "expected": [
+        2,
+        4
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            9,
+            1,
+            7
+          ],
+          [
+            8,
+            9,
+            2
+          ],
+          [
+            3,
+            4,
+            6
+          ]
+        ]
+      },
+      "expected": [
+        9,
+        5
+      ],
+      "source": "example"
+    }
+  ]
+}

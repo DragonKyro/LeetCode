@@ -1,0 +1,64 @@
+{
+  "problem_id": 2618,
+  "title": "Check if Object Instance of Class",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/check-if-object-instance-of-class/",
+  "test_cases": [
+    {
+      "input": {
+        "func": "() => checkIfInstanceOf(new Date(), Date)"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "func": "() => { class Animal {}; class Dog extends Animal {}; return checkIfInstanceOf(new Dog(), Animal); }"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "func": "() => checkIfInstanceOf(Date, Date)"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "func": "() => checkIfInstanceOf(5, Number)"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "func": "("
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "func": "((((((((((((((((((((((((((((((((((((((((("
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "func": "()()()()()()()()()()()()()()()()()()()()"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "func": "() => checkIfInstanccnatsnIfIkcehc >= )("
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "problem_id": 2325,
+  "title": "Decode the Message",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/decode-the-message/",
+  "test_cases": [
+    {
+      "input": {
+        "key": "the quick brown fox jumps over the lazy dog",
+        "message": "vkbs bs t suepuv"
+      },
+      "expected": "this is a secret",
+      "source": "example"
+    },
+    {
+      "input": {
+        "key": "eljuxhpwnyrdgtqkviszcfmabo",
+        "message": "zwx hnfx lqantp mnoeius ycgk vcnjrdb"
+      },
+      "expected": "the five boxing wizards jump quickly",
+      "source": "example"
+    },
+    {
+      "input": {
+        "key": "ttttttttttttttttttttttttttttttttttttttttttt",
+        "message": "vkbs bs t suepuv"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "key": "the quick brown fox jj xof nworb kciuq eht",
+        "message": "vkbs bs t suepuv"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "key": "the quick brown fox jumps over the lazy dog",
+        "message": "v"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "key": "the quick brown fox jumps over the lazy dog",
+        "message": "vvvvvvvvvvvvvvvv"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "key": "the quick brown fox jumps over the lazy dog",
+        "message": "vwvwvwvwvwvwvwvw"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "key": "the quick brown fox jumps over the lazy dog",
+        "message": "vkbs bs  sb sbkv"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

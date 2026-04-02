@@ -1,0 +1,566 @@
+{
+  "problem_id": 826,
+  "title": "Most Profit Assigning Work",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/most-profit-assigning-work/",
+  "test_cases": [
+    {
+      "input": {
+        "difficulty": [
+          2,
+          4,
+          6,
+          8,
+          10
+        ],
+        "profit": [
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        "worker": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "expected": 100,
+      "source": "example"
+    },
+    {
+      "input": {
+        "difficulty": [
+          85,
+          47,
+          57
+        ],
+        "profit": [
+          24,
+          66,
+          99
+        ],
+        "worker": [
+          40,
+          25,
+          25
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "difficulty": [
+          2
+        ],
+        "profit": [
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        "worker": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "difficulty": [
+          -100,
+          100
+        ],
+        "profit": [
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        "worker": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "difficulty": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "profit": [
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        "worker": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "difficulty": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "profit": [
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        "worker": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "difficulty": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "profit": [
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        "worker": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "difficulty": [
+          -100,
+          -100
+        ],
+        "profit": [
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        "worker": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "difficulty": [
+          100,
+          100
+        ],
+        "profit": [
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        "worker": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "difficulty": [
+          2,
+          4,
+          6,
+          8,
+          10
+        ],
+        "profit": [
+          10
+        ],
+        "worker": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "difficulty": [
+          2,
+          4,
+          6,
+          8,
+          10
+        ],
+        "profit": [
+          -100,
+          100
+        ],
+        "worker": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "difficulty": [
+          2,
+          4,
+          6,
+          8,
+          10
+        ],
+        "profit": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "worker": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "difficulty": [
+          2,
+          4,
+          6,
+          8,
+          10
+        ],
+        "profit": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "worker": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "difficulty": [
+          2,
+          4,
+          6,
+          8,
+          10
+        ],
+        "profit": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "worker": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "difficulty": [
+          2,
+          4,
+          6,
+          8,
+          10
+        ],
+        "profit": [
+          -100,
+          -100
+        ],
+        "worker": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "difficulty": [
+          2,
+          4,
+          6,
+          8,
+          10
+        ],
+        "profit": [
+          100,
+          100
+        ],
+        "worker": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "difficulty": [
+          2,
+          4,
+          6,
+          8,
+          10
+        ],
+        "profit": [
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        "worker": [
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "difficulty": [
+          2,
+          4,
+          6,
+          8,
+          10
+        ],
+        "profit": [
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        "worker": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "difficulty": [
+          2,
+          4,
+          6,
+          8,
+          10
+        ],
+        "profit": [
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        "worker": [
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "difficulty": [
+          2,
+          4,
+          6,
+          8,
+          10
+        ],
+        "profit": [
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        "worker": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "difficulty": [
+          2,
+          4,
+          6,
+          8,
+          10
+        ],
+        "profit": [
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        "worker": [
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "difficulty": [
+          2,
+          4,
+          6,
+          8,
+          10
+        ],
+        "profit": [
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        "worker": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "difficulty": [
+          2,
+          4,
+          6,
+          8,
+          10
+        ],
+        "profit": [
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        "worker": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

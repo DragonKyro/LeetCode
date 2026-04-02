@@ -1,0 +1,46 @@
+{
+  "problem_id": 1568,
+  "title": "Minimum Number of Days to Disconnect Island",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-number-of-days-to-disconnect-island/",
+  "test_cases": [
+    {
+      "input": {
+        "grid": [
+          [
+            0,
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    }
+  ]
+}

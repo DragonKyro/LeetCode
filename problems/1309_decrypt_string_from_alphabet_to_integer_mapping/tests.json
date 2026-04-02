@@ -1,0 +1,50 @@
+{
+  "problem_id": 1309,
+  "title": "Decrypt String from Alphabet to Integer Mapping",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "10#11#12"
+      },
+      "expected": "jkab",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "1326#"
+      },
+      "expected": "acz",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "1"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "11111111"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "12121212"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "10#11#01"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

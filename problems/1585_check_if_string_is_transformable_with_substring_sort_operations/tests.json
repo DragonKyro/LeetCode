@@ -1,0 +1,96 @@
+{
+  "problem_id": 1585,
+  "title": "Check If String Is Transformable With Substring Sort Operations",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/check-if-string-is-transformable-with-substring-sort-operations/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "84532",
+        "t": "34852"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "34521",
+        "t": "23415"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "12345",
+        "t": "12435"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "8",
+        "t": "34852"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "88888",
+        "t": "34852"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "8989",
+        "t": "34852"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "8448",
+        "t": "34852"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "84532",
+        "t": "3"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "84532",
+        "t": "33333"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "84532",
+        "t": "3434"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "84532",
+        "t": "3443"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

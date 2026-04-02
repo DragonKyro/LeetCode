@@ -1,0 +1,56 @@
+{
+  "problem_id": 1725,
+  "title": "Number Of Rectangles That Can Form The Largest Square",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/number-of-rectangles-that-can-form-the-largest-square/",
+  "test_cases": [
+    {
+      "input": {
+        "rectangles": [
+          [
+            5,
+            8
+          ],
+          [
+            3,
+            9
+          ],
+          [
+            5,
+            12
+          ],
+          [
+            16,
+            5
+          ]
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "rectangles": [
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            3,
+            7
+          ]
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    }
+  ]
+}

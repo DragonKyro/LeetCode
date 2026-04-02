@@ -1,0 +1,88 @@
+{
+  "problem_id": 1935,
+  "title": "Maximum Number of Words You Can Type",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/maximum-number-of-words-you-can-type/",
+  "test_cases": [
+    {
+      "input": {
+        "text": "hello world",
+        "brokenLetters": "ad"
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "text": "leet code",
+        "brokenLetters": "lt"
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "text": "leet code",
+        "brokenLetters": "e"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "text": "h",
+        "brokenLetters": "ad"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "text": "hhhhhhhhhhh",
+        "brokenLetters": "ad"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "text": "hihihihihi",
+        "brokenLetters": "ad"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "text": "helloolleh",
+        "brokenLetters": "ad"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "text": "hello world",
+        "brokenLetters": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "text": "hello world",
+        "brokenLetters": "aa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "text": "hello world",
+        "brokenLetters": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

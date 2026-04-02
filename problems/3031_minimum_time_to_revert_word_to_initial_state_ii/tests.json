@@ -1,0 +1,64 @@
+{
+  "problem_id": 3031,
+  "title": "Minimum Time to Revert Word to Initial State II",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-time-to-revert-word-to-initial-state-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "word": "abacaba",
+        "k": 3
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word": "abacaba",
+        "k": 4
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word": "abcbabcd",
+        "k": 2
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word": "a",
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word": "aaaaaaa",
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word": "ababab",
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word": "abaaba",
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

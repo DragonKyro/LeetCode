@@ -1,0 +1,94 @@
+{
+  "problem_id": 2255,
+  "title": "Count Prefixes of a Given String",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/count-prefixes-of-a-given-string/",
+  "test_cases": [
+    {
+      "input": {
+        "words": [
+          "a",
+          "b",
+          "c",
+          "ab",
+          "bc",
+          "abc"
+        ],
+        "s": "abc"
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "a",
+          "a"
+        ],
+        "s": "aa"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "a",
+          "b",
+          "c",
+          "ab",
+          "bc",
+          "abc"
+        ],
+        "s": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "words": [
+          "a",
+          "b",
+          "c",
+          "ab",
+          "bc",
+          "abc"
+        ],
+        "s": "aaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "words": [
+          "a",
+          "b",
+          "c",
+          "ab",
+          "bc",
+          "abc"
+        ],
+        "s": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "words": [
+          "a",
+          "b",
+          "c",
+          "ab",
+          "bc",
+          "abc"
+        ],
+        "s": "aa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "problem_id": 1262,
+  "title": "Greatest Sum Divisible by Three",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/greatest-sum-divisible-by-three/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          3,
+          6,
+          5,
+          1,
+          8
+        ]
+      },
+      "expected": 18,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          4
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4,
+          4
+        ]
+      },
+      "expected": 12,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          10000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          10000,
+          10000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

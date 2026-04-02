@@ -1,0 +1,47 @@
+{
+  "problem_id": 1975,
+  "title": "Maximum Matrix Sum",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-matrix-sum/",
+  "test_cases": [
+    {
+      "input": {
+        "matrix": [
+          [
+            1,
+            -1
+          ],
+          [
+            -1,
+            1
+          ]
+        ]
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "matrix": [
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            -1,
+            -2,
+            -3
+          ],
+          [
+            1,
+            2,
+            3
+          ]
+        ]
+      },
+      "expected": 16,
+      "source": "example"
+    }
+  ]
+}

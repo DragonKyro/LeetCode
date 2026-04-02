@@ -1,0 +1,52 @@
+{
+  "problem_id": 3508,
+  "title": "Implement Router",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/implement-router/",
+  "test_cases": [
+    {
+      "input": {
+        "arg0": "[\"Router\", \"addPacket\", \"forwardPacket\", \"forwardPacket\"]\n\n[[2], [7, 4, 90], [], []]"
+      },
+      "expected": [
+        null,
+        true,
+        [
+          7,
+          4,
+          90
+        ],
+        []
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "arg0": "["
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arg0": "[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[["
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arg0": "[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arg0": "[\"Router\", \"addPacket\", \"forwardPacket\", \"\" ,\"tekcaPdrawrof\" ,\"tekcaPdda\" ,\"retuoR\"["
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "problem_id": 3045,
+  "title": "Count Prefix and Suffix Pairs II",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/count-prefix-and-suffix-pairs-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "words": [
+          "a",
+          "aba",
+          "ababa",
+          "aa"
+        ]
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "pa",
+          "papa",
+          "ma",
+          "mama"
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "abab",
+          "ab"
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    }
+  ]
+}

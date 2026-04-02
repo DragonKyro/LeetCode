@@ -1,0 +1,175 @@
+{
+  "problem_id": 475,
+  "title": "Heaters",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/heaters/",
+  "test_cases": [
+    {
+      "input": {
+        "houses": [
+          1,
+          2,
+          3
+        ],
+        "heaters": [
+          2
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "houses": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "heaters": [
+          1,
+          4
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "houses": [
+          1,
+          5
+        ],
+        "heaters": [
+          2
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "houses": [
+          1
+        ],
+        "heaters": [
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "houses": [
+          -100,
+          100
+        ],
+        "heaters": [
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "houses": [
+          1,
+          1,
+          1
+        ],
+        "heaters": [
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "houses": [
+          3,
+          2,
+          1
+        ],
+        "heaters": [
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "houses": [
+          -100,
+          -100
+        ],
+        "heaters": [
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "houses": [
+          100,
+          100
+        ],
+        "heaters": [
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "houses": [
+          1,
+          2,
+          3
+        ],
+        "heaters": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "houses": [
+          1,
+          2,
+          3
+        ],
+        "heaters": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "houses": [
+          1,
+          2,
+          3
+        ],
+        "heaters": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

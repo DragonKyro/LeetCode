@@ -1,0 +1,198 @@
+{
+  "problem_id": 3331,
+  "title": "Find Subtree Sizes After Changes",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-subtree-sizes-after-changes/",
+  "test_cases": [
+    {
+      "input": {
+        "parent": [
+          -1,
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        "s": "abaabc"
+      },
+      "expected": [
+        6,
+        3,
+        1,
+        1,
+        1,
+        1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "parent": [
+          -1,
+          0,
+          4,
+          0,
+          1
+        ],
+        "s": "abbba"
+      },
+      "expected": [
+        5,
+        2,
+        1,
+        1,
+        1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "parent": [
+          -1
+        ],
+        "s": "abaabc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "parent": [
+          -100,
+          100
+        ],
+        "s": "abaabc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "parent": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "s": "abaabc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "parent": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "s": "abaabc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "parent": [
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "s": "abaabc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "parent": [
+          -100,
+          -100
+        ],
+        "s": "abaabc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "parent": [
+          100,
+          100
+        ],
+        "s": "abaabc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "parent": [
+          -1,
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        "s": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "parent": [
+          -1,
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        "s": "aaaaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "parent": [
+          -1,
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        "s": "ababab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "parent": [
+          -1,
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        "s": "abaaba"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

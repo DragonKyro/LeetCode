@@ -1,0 +1,29 @@
+{
+  "problem_id": 3099,
+  "title": "Harshad Number",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/harshad-number/",
+  "test_cases": [
+    {
+      "input": {
+        "x": 18
+      },
+      "expected": 9,
+      "source": "example"
+    },
+    {
+      "input": {
+        "x": 23
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "x": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

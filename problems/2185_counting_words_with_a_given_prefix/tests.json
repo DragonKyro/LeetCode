@@ -1,0 +1,73 @@
+{
+  "problem_id": 2185,
+  "title": "Counting Words With a Given Prefix",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/counting-words-with-a-given-prefix/",
+  "test_cases": [
+    {
+      "input": {
+        "words": [
+          "pay",
+          "attention",
+          "practice",
+          "attend"
+        ],
+        "pref": "at"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "leetcode",
+          "win",
+          "loops",
+          "success"
+        ],
+        "pref": "code"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "pay",
+          "attention",
+          "practice",
+          "attend"
+        ],
+        "pref": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "words": [
+          "pay",
+          "attention",
+          "practice",
+          "attend"
+        ],
+        "pref": "aa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "words": [
+          "pay",
+          "attention",
+          "practice",
+          "attend"
+        ],
+        "pref": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

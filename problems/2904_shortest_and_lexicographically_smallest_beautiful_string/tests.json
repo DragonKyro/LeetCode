@@ -1,0 +1,64 @@
+{
+  "problem_id": 2904,
+  "title": "Shortest and Lexicographically Smallest Beautiful String",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "100011001",
+        "k": 3
+      },
+      "expected": "11001",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "1011",
+        "k": 2
+      },
+      "expected": "11",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "000",
+        "k": 1
+      },
+      "expected": "",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "1",
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "111111111",
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "12121212",
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "10000001",
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

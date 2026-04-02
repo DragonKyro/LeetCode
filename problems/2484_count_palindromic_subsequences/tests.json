@@ -1,0 +1,50 @@
+{
+  "problem_id": 2484,
+  "title": "Count Palindromic Subsequences",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/count-palindromic-subsequences/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "103301"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "0000000"
+      },
+      "expected": 21,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "9999900000"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "1"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "111111"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "121212"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

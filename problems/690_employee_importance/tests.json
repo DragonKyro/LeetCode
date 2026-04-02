@@ -1,0 +1,56 @@
+{
+  "problem_id": 690,
+  "title": "Employee Importance",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/employee-importance/",
+  "test_cases": [
+    {
+      "input": {
+        "employees": [
+          [
+            1,
+            5,
+            [
+              2,
+              3
+            ]
+          ],
+          [
+            2,
+            3,
+            []
+          ],
+          [
+            3,
+            3,
+            []
+          ]
+        ],
+        "id": 1
+      },
+      "expected": 11,
+      "source": "example"
+    },
+    {
+      "input": {
+        "employees": [
+          [
+            1,
+            2,
+            [
+              5
+            ]
+          ],
+          [
+            5,
+            -3,
+            []
+          ]
+        ],
+        "id": 5
+      },
+      "expected": -3,
+      "source": "example"
+    }
+  ]
+}

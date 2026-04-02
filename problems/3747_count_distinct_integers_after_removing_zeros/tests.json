@@ -1,0 +1,36 @@
+{
+  "problem_id": 3747,
+  "title": "Count Distinct Integers After Removing Zeros",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-distinct-integers-after-removing-zeros/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 10
+      },
+      "expected": 9,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 3
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 1000000000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "problem_id": 1850,
+  "title": "Minimum Adjacent Swaps to Reach the Kth Smallest Number",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-adjacent-swaps-to-reach-the-kth-smallest-number/",
+  "test_cases": [
+    {
+      "input": {
+        "num": "5489355142",
+        "k": 4
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": "11112",
+        "k": 4
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": "00123",
+        "k": 1
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": "5555555555",
+        "k": 4
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "5656565656",
+        "k": 4
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "5489339845",
+        "k": 4
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "5489355142",
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

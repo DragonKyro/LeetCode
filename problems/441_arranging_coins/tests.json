@@ -1,0 +1,36 @@
+{
+  "problem_id": 441,
+  "title": "Arranging Coins",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/arranging-coins/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 5
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 8
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 2147483648
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

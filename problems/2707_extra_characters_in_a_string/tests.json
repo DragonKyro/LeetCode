@@ -1,0 +1,79 @@
+{
+  "problem_id": 2707,
+  "title": "Extra Characters in a String",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/extra-characters-in-a-string/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "leetscode",
+        "dictionary": [
+          "leet",
+          "code",
+          "leetcode"
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "sayhelloworld",
+        "dictionary": [
+          "hello",
+          "world"
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "l",
+        "dictionary": [
+          "leet",
+          "code",
+          "leetcode"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "lllllllll",
+        "dictionary": [
+          "leet",
+          "code",
+          "leetcode"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "lmlmlmlm",
+        "dictionary": [
+          "leet",
+          "code",
+          "leetcode"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "leetteel",
+        "dictionary": [
+          "leet",
+          "code",
+          "leetcode"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

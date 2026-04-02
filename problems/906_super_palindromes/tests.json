@@ -1,0 +1,64 @@
+{
+  "problem_id": 906,
+  "title": "Super Palindromes",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/super-palindromes/",
+  "test_cases": [
+    {
+      "input": {
+        "left": "4",
+        "right": "1000"
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "left": "1",
+        "right": "2"
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "left": "4545",
+        "right": "1000"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "left": "4",
+        "right": "1"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "left": "4",
+        "right": "1111"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "left": "4",
+        "right": "1212"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "left": "4",
+        "right": "1001"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

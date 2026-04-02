@@ -1,0 +1,295 @@
+{
+  "problem_id": 2644,
+  "title": "Find the Maximum Divisibility Score",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/find-the-maximum-divisibility-score/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          2,
+          9,
+          15,
+          50
+        ],
+        "divisors": [
+          5,
+          3,
+          7,
+          2
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          7,
+          9,
+          3,
+          9
+        ],
+        "divisors": [
+          5,
+          2,
+          3
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          20,
+          14,
+          21,
+          10
+        ],
+        "divisors": [
+          10,
+          16,
+          20
+        ]
+      },
+      "expected": 10,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          2
+        ],
+        "divisors": [
+          5,
+          3,
+          7,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -100,
+          100
+        ],
+        "divisors": [
+          5,
+          3,
+          7,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "divisors": [
+          5,
+          3,
+          7,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "divisors": [
+          5,
+          3,
+          7,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "divisors": [
+          5,
+          3,
+          7,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -100,
+          -100
+        ],
+        "divisors": [
+          5,
+          3,
+          7,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          100,
+          100
+        ],
+        "divisors": [
+          5,
+          3,
+          7,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          9,
+          15,
+          50
+        ],
+        "divisors": [
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          9,
+          15,
+          50
+        ],
+        "divisors": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          9,
+          15,
+          50
+        ],
+        "divisors": [
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          9,
+          15,
+          50
+        ],
+        "divisors": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          9,
+          15,
+          50
+        ],
+        "divisors": [
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          9,
+          15,
+          50
+        ],
+        "divisors": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          9,
+          15,
+          50
+        ],
+        "divisors": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

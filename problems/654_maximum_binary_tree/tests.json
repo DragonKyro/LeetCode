@@ -1,0 +1,130 @@
+{
+  "problem_id": 654,
+  "title": "Maximum Binary Tree",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-binary-tree/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          3,
+          2,
+          1,
+          6,
+          0,
+          5
+        ]
+      },
+      "expected": [
+        6,
+        3,
+        5,
+        null,
+        2,
+        0,
+        null,
+        null,
+        1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": [
+        3,
+        null,
+        2,
+        null,
+        1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          0,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          0,
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

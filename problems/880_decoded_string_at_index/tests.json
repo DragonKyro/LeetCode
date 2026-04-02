@@ -1,0 +1,72 @@
+{
+  "problem_id": 880,
+  "title": "Decoded String at Index",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/decoded-string-at-index/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "leet2code3",
+        "k": 10
+      },
+      "expected": "o",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "ha22",
+        "k": 5
+      },
+      "expected": "h",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a2345678999999999999999",
+        "k": 1
+      },
+      "expected": "a",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "llllllllll",
+        "k": 10
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "lmlmlmlmlm",
+        "k": 10
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "leet22teel",
+        "k": 10
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "leet2code3",
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "leet2code3",
+        "k": 1000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

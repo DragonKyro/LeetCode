@@ -1,0 +1,104 @@
+{
+  "problem_id": 977,
+  "title": "Squares of a Sorted Array",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/squares-of-a-sorted-array/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          -4,
+          -1,
+          0,
+          3,
+          10
+        ]
+      },
+      "expected": [
+        0,
+        1,
+        9,
+        16,
+        100
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          -7,
+          -3,
+          2,
+          3,
+          11
+        ]
+      },
+      "expected": [
+        4,
+        9,
+        9,
+        49,
+        121
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          -4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          10000,
+          10000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -4,
+          -4,
+          -4,
+          -4,
+          -4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "problem_id": 1625,
+  "title": "Lexicographically Smallest String After Applying Operations",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/lexicographically-smallest-string-after-applying-operations/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "5525",
+        "a": 9,
+        "b": 2
+      },
+      "expected": "2050",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "74",
+        "a": 5,
+        "b": 1
+      },
+      "expected": "24",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "0011",
+        "a": 4,
+        "b": 2
+      },
+      "expected": "0011",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "5555",
+        "a": 9,
+        "b": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "5656",
+        "a": 9,
+        "b": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "5525",
+        "a": 1,
+        "b": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

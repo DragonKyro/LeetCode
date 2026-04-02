@@ -1,0 +1,174 @@
+{
+  "problem_id": 3152,
+  "title": "Special Array II",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/special-array-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          3,
+          4,
+          1,
+          2,
+          6
+        ],
+        "queries": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      "expected": [
+        false
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          3,
+          1,
+          6
+        ],
+        "queries": [
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      "expected": [
+        false,
+        true
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          3
+        ],
+        "queries": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          100000
+        ],
+        "queries": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "queries": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "queries": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "queries": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1
+        ],
+        "queries": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          100000,
+          100000
+        ],
+        "queries": [
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

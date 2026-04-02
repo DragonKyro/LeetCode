@@ -1,0 +1,102 @@
+{
+  "problem_id": 890,
+  "title": "Find and Replace Pattern",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-and-replace-pattern/",
+  "test_cases": [
+    {
+      "input": {
+        "words": [
+          "abc",
+          "deq",
+          "mee",
+          "aqq",
+          "dkd",
+          "ccc"
+        ],
+        "pattern": "abb"
+      },
+      "expected": [
+        "mee",
+        "aqq"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "a",
+          "b",
+          "c"
+        ],
+        "pattern": "a"
+      },
+      "expected": [
+        "a",
+        "b",
+        "c"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "abc",
+          "deq",
+          "mee",
+          "aqq",
+          "dkd",
+          "ccc"
+        ],
+        "pattern": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "words": [
+          "abc",
+          "deq",
+          "mee",
+          "aqq",
+          "dkd",
+          "ccc"
+        ],
+        "pattern": "aaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "words": [
+          "abc",
+          "deq",
+          "mee",
+          "aqq",
+          "dkd",
+          "ccc"
+        ],
+        "pattern": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "words": [
+          "abc",
+          "deq",
+          "mee",
+          "aqq",
+          "dkd",
+          "ccc"
+        ],
+        "pattern": "aa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

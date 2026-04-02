@@ -1,0 +1,53 @@
+{
+  "problem_id": 3882,
+  "title": "Minimum XOR Path in a Grid",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-xor-path-in-a-grid/",
+  "test_cases": [
+    {
+      "input": {
+        "grid": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            6,
+            7
+          ],
+          [
+            5,
+            8
+          ]
+        ]
+      },
+      "expected": 9,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            2,
+            7,
+            5
+          ]
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    }
+  ]
+}

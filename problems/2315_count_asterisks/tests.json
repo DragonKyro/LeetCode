@@ -1,0 +1,57 @@
+{
+  "problem_id": 2315,
+  "title": "Count Asterisks",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/count-asterisks/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "l|*e*et|c**o|*de|"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "iamprogrammer"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "yo|uar|e**|b|e***au|tifu|l"
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "l"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "lllllllllllllllll"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "lmlmlmlmlmlmlmlm"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "l|*e*et||te*e*|l"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

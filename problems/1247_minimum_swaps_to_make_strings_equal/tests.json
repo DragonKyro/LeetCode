@@ -1,0 +1,64 @@
+{
+  "problem_id": 1247,
+  "title": "Minimum Swaps to Make Strings Equal",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/",
+  "test_cases": [
+    {
+      "input": {
+        "s1": "xx",
+        "s2": "yy"
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s1": "xy",
+        "s2": "yx"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s1": "xx",
+        "s2": "xy"
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s1": "x",
+        "s2": "yy"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "xyxy",
+        "s2": "yy"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "xx",
+        "s2": "y"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "xx",
+        "s2": "yzyz"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

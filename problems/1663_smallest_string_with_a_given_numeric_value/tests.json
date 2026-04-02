@@ -1,0 +1,40 @@
+{
+  "problem_id": 1663,
+  "title": "Smallest String With A Given Numeric Value",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/smallest-string-with-a-given-numeric-value/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 3,
+        "k": 27
+      },
+      "expected": "aay",
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 5,
+        "k": 73
+      },
+      "expected": "aaszz",
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "k": 27
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 100000,
+        "k": 27
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

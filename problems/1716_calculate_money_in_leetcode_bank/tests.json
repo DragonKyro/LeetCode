@@ -1,0 +1,36 @@
+{
+  "problem_id": 1716,
+  "title": "Calculate Money in Leetcode Bank",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/calculate-money-in-leetcode-bank/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 4
+      },
+      "expected": 10,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 10
+      },
+      "expected": 37,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 20
+      },
+      "expected": 96,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

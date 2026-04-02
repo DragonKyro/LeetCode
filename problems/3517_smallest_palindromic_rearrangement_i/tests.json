@@ -1,0 +1,36 @@
+{
+  "problem_id": 3517,
+  "title": "Smallest Palindromic Rearrangement I",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/smallest-palindromic-rearrangement-i/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "z"
+      },
+      "expected": "z",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "babab"
+      },
+      "expected": "abbba",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "daccad"
+      },
+      "expected": "acddca",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "zaza"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

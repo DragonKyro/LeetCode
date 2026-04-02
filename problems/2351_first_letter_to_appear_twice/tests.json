@@ -1,0 +1,43 @@
+{
+  "problem_id": 2351,
+  "title": "First Letter to Appear Twice",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/first-letter-to-appear-twice/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "abccbaacz"
+      },
+      "expected": "c",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abcdd"
+      },
+      "expected": "d",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "aaaaaaaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abababab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abccccba"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

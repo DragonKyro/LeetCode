@@ -1,0 +1,50 @@
+{
+  "problem_id": 434,
+  "title": "Number of Segments in a String",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/number-of-segments-in-a-string/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "Hello, my name is John"
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "Hello"
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "H"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "HHHHHHHHHHHHHHHHHHHHHH"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "HIHIHIHIHIHIHIHIHIHIHI"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "Hello, my nn ym ,olleH"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

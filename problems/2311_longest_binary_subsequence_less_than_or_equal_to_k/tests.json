@@ -1,0 +1,72 @@
+{
+  "problem_id": 2311,
+  "title": "Longest Binary Subsequence Less Than or Equal to K",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/longest-binary-subsequence-less-than-or-equal-to-k/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "1001010",
+        "k": 5
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "00101001",
+        "k": 1
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "1",
+        "k": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "1111111",
+        "k": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "121212",
+        "k": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "100001",
+        "k": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "1001010",
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "1001010",
+        "k": 1000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

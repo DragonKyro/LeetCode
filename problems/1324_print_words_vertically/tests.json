@@ -1,0 +1,73 @@
+{
+  "problem_id": 1324,
+  "title": "Print Words Vertically",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/print-words-vertically/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "HOW ARE YOU"
+      },
+      "expected": [
+        "HAY",
+        "ORO",
+        "WEU"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "TO BE OR NOT TO BE"
+      },
+      "expected": [
+        "TBONTB",
+        "OEROOE",
+        "   T"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "CONTEST IS COMING"
+      },
+      "expected": [
+        "CIC",
+        "OSO",
+        "N M",
+        "T I",
+        "E N",
+        "S G",
+        "T"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "H"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "HHHHHHHHHHH"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "HIHIHIHIHI"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "HOW AA WOH"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

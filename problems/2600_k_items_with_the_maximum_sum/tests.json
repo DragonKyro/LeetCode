@@ -1,0 +1,28 @@
+{
+  "problem_id": 2600,
+  "title": "K Items With the Maximum Sum",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/k-items-with-the-maximum-sum/",
+  "test_cases": [
+    {
+      "input": {
+        "numOnes": 3,
+        "numZeros": 2,
+        "numNegOnes": 0,
+        "k": 2
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "numOnes": 3,
+        "numZeros": 2,
+        "numNegOnes": 0,
+        "k": 4
+      },
+      "expected": 3,
+      "source": "example"
+    }
+  ]
+}

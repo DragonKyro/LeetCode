@@ -1,0 +1,43 @@
+{
+  "problem_id": 3090,
+  "title": "Maximum Length Substring With Two Occurrences",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "bcbbbcba"
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "aaaa"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "bbbbbbbb"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "bcbcbcbc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "bcbbbbcb"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

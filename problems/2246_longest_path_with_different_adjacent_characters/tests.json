@@ -1,0 +1,184 @@
+{
+  "problem_id": 2246,
+  "title": "Longest Path With Different Adjacent Characters",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/longest-path-with-different-adjacent-characters/",
+  "test_cases": [
+    {
+      "input": {
+        "parent": [
+          -1,
+          0,
+          0,
+          1,
+          1,
+          2
+        ],
+        "s": "abacbe"
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "parent": [
+          -1,
+          0,
+          0,
+          0
+        ],
+        "s": "aabc"
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "parent": [
+          -1
+        ],
+        "s": "abacbe"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "parent": [
+          -100,
+          100
+        ],
+        "s": "abacbe"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "parent": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "s": "abacbe"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "parent": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "s": "abacbe"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "parent": [
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "s": "abacbe"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "parent": [
+          -100,
+          -100
+        ],
+        "s": "abacbe"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "parent": [
+          100,
+          100
+        ],
+        "s": "abacbe"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "parent": [
+          -1,
+          0,
+          0,
+          1,
+          1,
+          2
+        ],
+        "s": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "parent": [
+          -1,
+          0,
+          0,
+          1,
+          1,
+          2
+        ],
+        "s": "aaaaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "parent": [
+          -1,
+          0,
+          0,
+          1,
+          1,
+          2
+        ],
+        "s": "ababab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "parent": [
+          -1,
+          0,
+          0,
+          1,
+          1,
+          2
+        ],
+        "s": "abaaba"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

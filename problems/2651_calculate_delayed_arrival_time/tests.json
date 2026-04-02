@@ -1,0 +1,40 @@
+{
+  "problem_id": 2651,
+  "title": "Calculate Delayed Arrival Time",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/calculate-delayed-arrival-time/",
+  "test_cases": [
+    {
+      "input": {
+        "arrivalTime": 15,
+        "delayedTime": 5
+      },
+      "expected": 20,
+      "source": "example"
+    },
+    {
+      "input": {
+        "arrivalTime": 13,
+        "delayedTime": 11
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "arrivalTime": 15,
+        "delayedTime": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arrivalTime": 15,
+        "delayedTime": 24
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

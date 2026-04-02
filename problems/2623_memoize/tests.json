@@ -1,0 +1,222 @@
+{
+  "problem_id": 2623,
+  "title": "Memoize",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/memoize/",
+  "test_cases": [
+    {
+      "input": {
+        "fnName": "sum",
+        "actions": [
+          "call",
+          "call",
+          "getCallCount",
+          "call",
+          "getCallCount"
+        ],
+        "values": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [],
+          [
+            1,
+            2
+          ],
+          []
+        ]
+      },
+      "expected": [
+        4,
+        4,
+        1,
+        3,
+        2
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "fnName": "factorial",
+        "actions": [
+          "call",
+          "call",
+          "call",
+          "getCallCount",
+          "call",
+          "getCallCount"
+        ],
+        "values": [
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            2
+          ],
+          [],
+          [
+            3
+          ],
+          []
+        ]
+      },
+      "expected": [
+        2,
+        6,
+        2,
+        2,
+        6,
+        2
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "fnName": "fib",
+        "actions": [
+          "call",
+          "getCallCount"
+        ],
+        "values": [
+          [
+            5
+          ],
+          []
+        ]
+      },
+      "expected": [
+        8,
+        1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "fnName": "s",
+        "actions": [
+          "call",
+          "call",
+          "getCallCount",
+          "call",
+          "getCallCount"
+        ],
+        "values": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [],
+          [
+            1,
+            2
+          ],
+          []
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "fnName": "sss",
+        "actions": [
+          "call",
+          "call",
+          "getCallCount",
+          "call",
+          "getCallCount"
+        ],
+        "values": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [],
+          [
+            1,
+            2
+          ],
+          []
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "fnName": "stst",
+        "actions": [
+          "call",
+          "call",
+          "getCallCount",
+          "call",
+          "getCallCount"
+        ],
+        "values": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [],
+          [
+            1,
+            2
+          ],
+          []
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "fnName": "ss",
+        "actions": [
+          "call",
+          "call",
+          "getCallCount",
+          "call",
+          "getCallCount"
+        ],
+        "values": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [],
+          [
+            1,
+            2
+          ],
+          []
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

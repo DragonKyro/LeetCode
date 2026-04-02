@@ -1,0 +1,309 @@
+{
+  "problem_id": 1537,
+  "title": "Get the Maximum Score",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/get-the-maximum-score/",
+  "test_cases": [
+    {
+      "input": {
+        "nums1": [
+          2,
+          4,
+          5,
+          8,
+          10
+        ],
+        "nums2": [
+          4,
+          6,
+          8,
+          9
+        ]
+      },
+      "expected": 30,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          3,
+          5,
+          7,
+          9
+        ],
+        "nums2": [
+          3,
+          5,
+          100
+        ]
+      },
+      "expected": 109,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "nums2": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "expected": 40,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums1": [
+          2
+        ],
+        "nums2": [
+          4,
+          6,
+          8,
+          9
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          -100,
+          100
+        ],
+        "nums2": [
+          4,
+          6,
+          8,
+          9
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "nums2": [
+          4,
+          6,
+          8,
+          9
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "nums2": [
+          4,
+          6,
+          8,
+          9
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "nums2": [
+          4,
+          6,
+          8,
+          9
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          -100,
+          -100
+        ],
+        "nums2": [
+          4,
+          6,
+          8,
+          9
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          100,
+          100
+        ],
+        "nums2": [
+          4,
+          6,
+          8,
+          9
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          2,
+          4,
+          5,
+          8,
+          10
+        ],
+        "nums2": [
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          2,
+          4,
+          5,
+          8,
+          10
+        ],
+        "nums2": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          2,
+          4,
+          5,
+          8,
+          10
+        ],
+        "nums2": [
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          2,
+          4,
+          5,
+          8,
+          10
+        ],
+        "nums2": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          2,
+          4,
+          5,
+          8,
+          10
+        ],
+        "nums2": [
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          2,
+          4,
+          5,
+          8,
+          10
+        ],
+        "nums2": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          2,
+          4,
+          5,
+          8,
+          10
+        ],
+        "nums2": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

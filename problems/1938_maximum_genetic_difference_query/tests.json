@@ -1,0 +1,246 @@
+{
+  "problem_id": 1938,
+  "title": "Maximum Genetic Difference Query",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/maximum-genetic-difference-query/",
+  "test_cases": [
+    {
+      "input": {
+        "parents": [
+          -1,
+          0,
+          1,
+          1
+        ],
+        "queries": [
+          [
+            0,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            2,
+            5
+          ]
+        ]
+      },
+      "expected": [
+        2,
+        3,
+        7
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "parents": [
+          3,
+          7,
+          -1,
+          2,
+          0,
+          7,
+          0,
+          2
+        ],
+        "queries": [
+          [
+            4,
+            6
+          ],
+          [
+            1,
+            15
+          ],
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      "expected": [
+        6,
+        14,
+        7
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "parents": [
+          -1,
+          -1
+        ],
+        "queries": [
+          [
+            0,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            2,
+            5
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "parents": [
+          -100,
+          100
+        ],
+        "queries": [
+          [
+            0,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            2,
+            5
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "parents": [
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "queries": [
+          [
+            0,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            2,
+            5
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "parents": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "queries": [
+          [
+            0,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            2,
+            5
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "parents": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "queries": [
+          [
+            0,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            2,
+            5
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "parents": [
+          -100,
+          -100
+        ],
+        "queries": [
+          [
+            0,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            2,
+            5
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "parents": [
+          100,
+          100
+        ],
+        "queries": [
+          [
+            0,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            2,
+            5
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

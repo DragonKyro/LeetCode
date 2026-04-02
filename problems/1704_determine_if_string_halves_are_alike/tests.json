@@ -1,0 +1,43 @@
+{
+  "problem_id": 1704,
+  "title": "Determine if String Halves Are Alike",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/determine-if-string-halves-are-alike/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "book"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "textbook"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "bbbb"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "bcbc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "boob"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

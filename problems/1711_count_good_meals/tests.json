@@ -1,0 +1,114 @@
+{
+  "problem_id": 1711,
+  "title": "Count Good Meals",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-good-meals/",
+  "test_cases": [
+    {
+      "input": {
+        "deliciousness": [
+          1,
+          3,
+          5,
+          7,
+          9
+        ]
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "deliciousness": [
+          1,
+          1,
+          1,
+          3,
+          3,
+          3,
+          7
+        ]
+      },
+      "expected": 15,
+      "source": "example"
+    },
+    {
+      "input": {
+        "deliciousness": [
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "deliciousness": [
+          0,
+          1048576
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "deliciousness": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "deliciousness": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "deliciousness": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "deliciousness": [
+          0,
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "deliciousness": [
+          1048576,
+          1048576
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

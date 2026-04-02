@@ -1,0 +1,26 @@
+{
+  "problem_id": 1387,
+  "title": "Sort Integers by The Power Value",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/sort-integers-by-the-power-value/",
+  "test_cases": [
+    {
+      "input": {
+        "lo": 12,
+        "hi": 15,
+        "k": 2
+      },
+      "expected": 13,
+      "source": "example"
+    },
+    {
+      "input": {
+        "lo": 7,
+        "hi": 11,
+        "k": 4
+      },
+      "expected": 7,
+      "source": "example"
+    }
+  ]
+}

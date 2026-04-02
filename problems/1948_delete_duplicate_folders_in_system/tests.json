@@ -1,0 +1,137 @@
+{
+  "problem_id": 1948,
+  "title": "Delete Duplicate Folders in System",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/delete-duplicate-folders-in-system/",
+  "test_cases": [
+    {
+      "input": {
+        "paths": [
+          [
+            "a"
+          ],
+          [
+            "c"
+          ],
+          [
+            "d"
+          ],
+          [
+            "a",
+            "b"
+          ],
+          [
+            "c",
+            "b"
+          ],
+          [
+            "d",
+            "a"
+          ]
+        ]
+      },
+      "expected": [
+        [
+          "d"
+        ],
+        [
+          "d",
+          "a"
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "paths": [
+          [
+            "a"
+          ],
+          [
+            "c"
+          ],
+          [
+            "a",
+            "b"
+          ],
+          [
+            "c",
+            "b"
+          ],
+          [
+            "a",
+            "b",
+            "x"
+          ],
+          [
+            "a",
+            "b",
+            "x",
+            "y"
+          ],
+          [
+            "w"
+          ],
+          [
+            "w",
+            "y"
+          ]
+        ]
+      },
+      "expected": [
+        [
+          "c"
+        ],
+        [
+          "c",
+          "b"
+        ],
+        [
+          "a"
+        ],
+        [
+          "a",
+          "b"
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "paths": [
+          [
+            "a",
+            "b"
+          ],
+          [
+            "c",
+            "d"
+          ],
+          [
+            "c"
+          ],
+          [
+            "a"
+          ]
+        ]
+      },
+      "expected": [
+        [
+          "c"
+        ],
+        [
+          "c",
+          "d"
+        ],
+        [
+          "a"
+        ],
+        [
+          "a",
+          "b"
+        ]
+      ],
+      "source": "example"
+    }
+  ]
+}

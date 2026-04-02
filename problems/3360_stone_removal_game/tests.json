@@ -1,0 +1,29 @@
+{
+  "problem_id": 3360,
+  "title": "Stone Removal Game",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/stone-removal-game/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 12
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 50
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

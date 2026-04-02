@@ -1,0 +1,250 @@
+{
+  "problem_id": 3316,
+  "title": "Find Maximum Removals From Source String",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-maximum-removals-from-source-string/",
+  "test_cases": [
+    {
+      "input": {
+        "source": "abbaa",
+        "pattern": "aba",
+        "targetIndices": [
+          0,
+          1,
+          2
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "source": "bcda",
+        "pattern": "d",
+        "targetIndices": [
+          0,
+          3
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "source": "dda",
+        "pattern": "dda",
+        "targetIndices": [
+          0,
+          1,
+          2
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "source": "yeyeykyded",
+        "pattern": "yeyyd",
+        "targetIndices": [
+          0,
+          2,
+          3,
+          4
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "source": "a",
+        "pattern": "aba",
+        "targetIndices": [
+          0,
+          1,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "source": "aaaaa",
+        "pattern": "aba",
+        "targetIndices": [
+          0,
+          1,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "source": "abab",
+        "pattern": "aba",
+        "targetIndices": [
+          0,
+          1,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "source": "abba",
+        "pattern": "aba",
+        "targetIndices": [
+          0,
+          1,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "source": "abbaa",
+        "pattern": "a",
+        "targetIndices": [
+          0,
+          1,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "source": "abbaa",
+        "pattern": "aaa",
+        "targetIndices": [
+          0,
+          1,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "source": "abbaa",
+        "pattern": "abab",
+        "targetIndices": [
+          0,
+          1,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "source": "abbaa",
+        "pattern": "aa",
+        "targetIndices": [
+          0,
+          1,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "source": "abbaa",
+        "pattern": "aba",
+        "targetIndices": [
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "source": "abbaa",
+        "pattern": "aba",
+        "targetIndices": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "source": "abbaa",
+        "pattern": "aba",
+        "targetIndices": [
+          0,
+          0,
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "source": "abbaa",
+        "pattern": "aba",
+        "targetIndices": [
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "source": "abbaa",
+        "pattern": "aba",
+        "targetIndices": [
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "source": "abbaa",
+        "pattern": "aba",
+        "targetIndices": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "source": "abbaa",
+        "pattern": "aba",
+        "targetIndices": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "problem_id": 840,
+  "title": "Magic Squares In Grid",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/magic-squares-in-grid/",
+  "test_cases": [
+    {
+      "input": {
+        "grid": [
+          [
+            4,
+            3,
+            8,
+            4
+          ],
+          [
+            9,
+            5,
+            1,
+            9
+          ],
+          [
+            2,
+            7,
+            6,
+            2
+          ]
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            8
+          ]
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    }
+  ]
+}

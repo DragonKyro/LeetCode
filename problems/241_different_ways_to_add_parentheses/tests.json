@@ -1,0 +1,59 @@
+{
+  "problem_id": 241,
+  "title": "Different Ways to Add Parentheses",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/different-ways-to-add-parentheses/",
+  "test_cases": [
+    {
+      "input": {
+        "expression": "2-1-1"
+      },
+      "expected": [
+        0,
+        2
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "expression": "2*3-4*5"
+      },
+      "expected": [
+        -34,
+        -14,
+        -10,
+        -10,
+        10
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "expression": "2"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "expression": "22222"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "expression": "2323"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "expression": "2--2"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

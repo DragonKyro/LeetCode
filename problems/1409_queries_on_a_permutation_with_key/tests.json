@@ -1,0 +1,172 @@
+{
+  "problem_id": 1409,
+  "title": "Queries on a Permutation With Key",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/queries-on-a-permutation-with-key/",
+  "test_cases": [
+    {
+      "input": {
+        "queries": [
+          3,
+          1,
+          2,
+          1
+        ],
+        "m": 5
+      },
+      "expected": [
+        2,
+        1,
+        2,
+        1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "queries": [
+          4,
+          1,
+          2,
+          2
+        ],
+        "m": 4
+      },
+      "expected": [
+        3,
+        1,
+        2,
+        0
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "queries": [
+          7,
+          5,
+          5,
+          8,
+          3
+        ],
+        "m": 8
+      },
+      "expected": [
+        6,
+        5,
+        0,
+        7,
+        5
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "queries": [
+          3
+        ],
+        "m": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "queries": [
+          -100,
+          100
+        ],
+        "m": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "queries": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "m": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "queries": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "m": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "queries": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "m": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "queries": [
+          -100,
+          -100
+        ],
+        "m": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "queries": [
+          100,
+          100
+        ],
+        "m": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "queries": [
+          3,
+          1,
+          2,
+          1
+        ],
+        "m": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "queries": [
+          3,
+          1,
+          2,
+          1
+        ],
+        "m": 1000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

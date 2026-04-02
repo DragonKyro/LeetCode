@@ -1,0 +1,57 @@
+{
+  "problem_id": 709,
+  "title": "To Lower Case",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/to-lower-case/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "Hello"
+      },
+      "expected": "hello",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "here"
+      },
+      "expected": "here",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "LOVELY"
+      },
+      "expected": "lovely",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "H"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "HHHHH"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "HIHI"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "HeeH"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

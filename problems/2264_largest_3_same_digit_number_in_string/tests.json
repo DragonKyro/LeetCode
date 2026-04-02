@@ -1,0 +1,43 @@
+{
+  "problem_id": 2264,
+  "title": "Largest 3-Same-Digit Number in String",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/largest-3-same-digit-number-in-string/",
+  "test_cases": [
+    {
+      "input": {
+        "num": "6777133339"
+      },
+      "expected": "777",
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": "2300019"
+      },
+      "expected": "000",
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": "42352338"
+      },
+      "expected": "",
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": "6666666666"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "6777117776"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

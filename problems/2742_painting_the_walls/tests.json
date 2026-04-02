@@ -1,0 +1,278 @@
+{
+  "problem_id": 2742,
+  "title": "Painting the Walls",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/painting-the-walls/",
+  "test_cases": [
+    {
+      "input": {
+        "cost": [
+          1,
+          2,
+          3,
+          2
+        ],
+        "time": [
+          1,
+          2,
+          3,
+          2
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "cost": [
+          2,
+          3,
+          4,
+          2
+        ],
+        "time": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "cost": [
+          1
+        ],
+        "time": [
+          1,
+          2,
+          3,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "cost": [
+          1,
+          1000000
+        ],
+        "time": [
+          1,
+          2,
+          3,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "cost": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "time": [
+          1,
+          2,
+          3,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "cost": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "time": [
+          1,
+          2,
+          3,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "cost": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "time": [
+          1,
+          2,
+          3,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "cost": [
+          1,
+          1
+        ],
+        "time": [
+          1,
+          2,
+          3,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "cost": [
+          1000000,
+          1000000
+        ],
+        "time": [
+          1,
+          2,
+          3,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "cost": [
+          1,
+          2,
+          3,
+          2
+        ],
+        "time": [
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "cost": [
+          1,
+          2,
+          3,
+          2
+        ],
+        "time": [
+          1,
+          500
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "cost": [
+          1,
+          2,
+          3,
+          2
+        ],
+        "time": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "cost": [
+          1,
+          2,
+          3,
+          2
+        ],
+        "time": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "cost": [
+          1,
+          2,
+          3,
+          2
+        ],
+        "time": [
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "cost": [
+          1,
+          2,
+          3,
+          2
+        ],
+        "time": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "cost": [
+          1,
+          2,
+          3,
+          2
+        ],
+        "time": [
+          500,
+          500
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

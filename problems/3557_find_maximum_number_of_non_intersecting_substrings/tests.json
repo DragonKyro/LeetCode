@@ -1,0 +1,50 @@
+{
+  "problem_id": 3557,
+  "title": "Find Maximum Number of Non Intersecting Substrings",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-maximum-number-of-non-intersecting-substrings/",
+  "test_cases": [
+    {
+      "input": {
+        "word": "abcdeafdef"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word": "bcdaaaab"
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word": "aaaaaaaaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word": "ababababab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word": "abcdeedcba"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

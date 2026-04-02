@@ -1,0 +1,31 @@
+{
+  "problem_id": 2682,
+  "title": "Find the Losers of the Circular Game",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/find-the-losers-of-the-circular-game/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 5,
+        "k": 2
+      },
+      "expected": [
+        4,
+        5
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 4,
+        "k": 4
+      },
+      "expected": [
+        2,
+        3,
+        4
+      ],
+      "source": "example"
+    }
+  ]
+}

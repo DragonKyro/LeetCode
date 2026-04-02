@@ -1,0 +1,80 @@
+{
+  "problem_id": 809,
+  "title": "Expressive Words",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/expressive-words/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "heeellooo",
+        "words": [
+          "hello",
+          "hi",
+          "helo"
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "zzzzzyyyyy",
+        "words": [
+          "zzyy",
+          "zy",
+          "zyy"
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "h",
+        "words": [
+          "hello",
+          "hi",
+          "helo"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "hhhhhhhhh",
+        "words": [
+          "hello",
+          "hi",
+          "helo"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "hihihihi",
+        "words": [
+          "hello",
+          "hi",
+          "helo"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "heeeeeeh",
+        "words": [
+          "hello",
+          "hi",
+          "helo"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

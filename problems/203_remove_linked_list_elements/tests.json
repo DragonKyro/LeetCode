@@ -1,0 +1,190 @@
+{
+  "problem_id": 203,
+  "title": "Remove Linked List Elements",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/remove-linked-list-elements/",
+  "test_cases": [
+    {
+      "input": {
+        "head": [
+          1,
+          2,
+          6,
+          3,
+          4,
+          5,
+          6
+        ],
+        "val": 6
+      },
+      "expected": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "head": [],
+        "val": 1
+      },
+      "expected": [],
+      "source": "example"
+    },
+    {
+      "input": {
+        "head": [
+          7,
+          7,
+          7,
+          7
+        ],
+        "val": 7
+      },
+      "expected": [],
+      "source": "example"
+    },
+    {
+      "input": {
+        "head": [
+          1
+        ],
+        "val": 6
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "head": [
+          -100,
+          100
+        ],
+        "val": 6
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "head": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "val": 6
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "head": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "val": 6
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "head": [
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "val": 6
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "head": [
+          -100,
+          -100
+        ],
+        "val": 6
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "head": [
+          100,
+          100
+        ],
+        "val": 6
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "head": [
+          1,
+          2,
+          6,
+          3,
+          4,
+          5,
+          6
+        ],
+        "val": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "head": [
+          1,
+          2,
+          6,
+          3,
+          4,
+          5,
+          6
+        ],
+        "val": 50
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "head": [
+          1,
+          2,
+          6,
+          3,
+          4,
+          5,
+          6
+        ],
+        "val": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "problem_id": 2222,
+  "title": "Number of Ways to Select Buildings",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/number-of-ways-to-select-buildings/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "001101"
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "11100"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "000000"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "001100"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

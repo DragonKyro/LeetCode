@@ -1,0 +1,127 @@
+{
+  "problem_id": 82,
+  "title": "Remove Duplicates from Sorted List II",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "head": [
+          1,
+          2,
+          3,
+          3,
+          4,
+          4,
+          5
+        ]
+      },
+      "expected": [
+        1,
+        2,
+        5
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "head": [
+          1,
+          1,
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": [
+        2,
+        3
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "head": [
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "head": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "head": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "head": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "head": [
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "head": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "head": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

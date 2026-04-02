@@ -1,0 +1,57 @@
+{
+  "problem_id": 58,
+  "title": "Length of Last Word",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/length-of-last-word/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "Hello World"
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "   fly me   to   the moon  "
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "luffy is still joyboy"
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "H"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "HHHHHHHHHHH"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "HIHIHIHIHI"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "HelloolleH"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

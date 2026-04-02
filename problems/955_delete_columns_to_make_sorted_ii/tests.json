@@ -1,0 +1,41 @@
+{
+  "problem_id": 955,
+  "title": "Delete Columns to Make Sorted II",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/delete-columns-to-make-sorted-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "strs": [
+          "ca",
+          "bb",
+          "ac"
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "strs": [
+          "xc",
+          "yb",
+          "za"
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "strs": [
+          "zyx",
+          "wvu",
+          "tsr"
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    }
+  ]
+}

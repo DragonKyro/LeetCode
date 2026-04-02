@@ -1,0 +1,109 @@
+{
+  "problem_id": 2515,
+  "title": "Shortest Distance to Target String in a Circular Array",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/",
+  "test_cases": [
+    {
+      "input": {
+        "words": [
+          "hello",
+          "i",
+          "am",
+          "leetcode",
+          "hello"
+        ],
+        "target": "hello",
+        "startIndex": 1
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "a",
+          "b",
+          "leetcode"
+        ],
+        "target": "leetcode",
+        "startIndex": 0
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "i",
+          "eat",
+          "leetcode"
+        ],
+        "target": "ate",
+        "startIndex": 0
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "hello",
+          "i",
+          "am",
+          "leetcode",
+          "hello"
+        ],
+        "target": "h",
+        "startIndex": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "words": [
+          "hello",
+          "i",
+          "am",
+          "leetcode",
+          "hello"
+        ],
+        "target": "hhhhh",
+        "startIndex": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "words": [
+          "hello",
+          "i",
+          "am",
+          "leetcode",
+          "hello"
+        ],
+        "target": "hihi",
+        "startIndex": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "words": [
+          "hello",
+          "i",
+          "am",
+          "leetcode",
+          "hello"
+        ],
+        "target": "heeh",
+        "startIndex": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

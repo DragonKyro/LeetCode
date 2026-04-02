@@ -1,0 +1,57 @@
+{
+  "problem_id": 736,
+  "title": "Parse Lisp Expression",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/parse-lisp-expression/",
+  "test_cases": [
+    {
+      "input": {
+        "expression": "(let x 2 (mult x (let x 3 y 4 (add x y))))"
+      },
+      "expected": 14,
+      "source": "example"
+    },
+    {
+      "input": {
+        "expression": "(let x 3 x 2 x)"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "expression": "(let x 1 y 2 x (add x y) (add x y))"
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "expression": "("
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "expression": "(((((((((((((((((((((((((((((((((((((((((("
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "expression": "()()()()()()()()()()()()()()()()()()()()()"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "expression": "(let x 2 (mult x (lettel( x tlum( 2 x tel("
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

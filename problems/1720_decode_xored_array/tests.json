@@ -1,0 +1,135 @@
+{
+  "problem_id": 1720,
+  "title": "Decode XORed Array",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/decode-xored-array/",
+  "test_cases": [
+    {
+      "input": {
+        "encoded": [
+          1,
+          2,
+          3
+        ],
+        "first": 1
+      },
+      "expected": [
+        1,
+        0,
+        2,
+        1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "encoded": [
+          6,
+          2,
+          7,
+          3
+        ],
+        "first": 4
+      },
+      "expected": [
+        4,
+        2,
+        0,
+        7,
+        4
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "encoded": [
+          1
+        ],
+        "first": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "encoded": [
+          0,
+          100000
+        ],
+        "first": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "encoded": [
+          1,
+          1,
+          1
+        ],
+        "first": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "encoded": [
+          3,
+          2,
+          1
+        ],
+        "first": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "encoded": [
+          0,
+          0
+        ],
+        "first": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "encoded": [
+          100000,
+          100000
+        ],
+        "first": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "encoded": [
+          1,
+          2,
+          3
+        ],
+        "first": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "encoded": [
+          1,
+          2,
+          3
+        ],
+        "first": 100000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

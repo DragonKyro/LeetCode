@@ -1,0 +1,60 @@
+{
+  "problem_id": 3625,
+  "title": "Count Number of Trapezoids II",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/count-number-of-trapezoids-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "points": [
+          [
+            -3,
+            2
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            2,
+            -3
+          ]
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    }
+  ]
+}

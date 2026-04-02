@@ -1,0 +1,85 @@
+{
+  "problem_id": 1160,
+  "title": "Find Words That Can Be Formed by Characters",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/",
+  "test_cases": [
+    {
+      "input": {
+        "words": [
+          "cat",
+          "bt",
+          "hat",
+          "tree"
+        ],
+        "chars": "atach"
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "hello",
+          "world",
+          "leetcode"
+        ],
+        "chars": "welldonehoneyr"
+      },
+      "expected": 10,
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "cat",
+          "bt",
+          "hat",
+          "tree"
+        ],
+        "chars": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "words": [
+          "cat",
+          "bt",
+          "hat",
+          "tree"
+        ],
+        "chars": "aaaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "words": [
+          "cat",
+          "bt",
+          "hat",
+          "tree"
+        ],
+        "chars": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "words": [
+          "cat",
+          "bt",
+          "hat",
+          "tree"
+        ],
+        "chars": "atta"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

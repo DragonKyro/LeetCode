@@ -1,0 +1,50 @@
+{
+  "problem_id": 608,
+  "title": "Tree Node",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/tree-node/",
+  "test_cases": [
+    {
+      "input": {
+        "arg0": "Tree table:\n+----+------+\n| id | p_id |\n+----+------+\n| 1  | null |\n| 2  | 1    |\n| 3  | 1    |\n| 4  | 2    |\n| 5  | 2    |\n+----+------+"
+      },
+      "expected": "+----+-------+\n| id | type  |\n+----+-------+\n| 1  | Root  |\n| 2  | Inner |\n| 3  | Leaf  |\n| 4  | Leaf  |\n| 5  | Leaf  |\n+----+-------+",
+      "source": "example"
+    },
+    {
+      "input": {
+        "arg0": "Tree table:\n+----+------+\n| id | p_id |\n+----+------+\n| 1  | null |\n+----+------+"
+      },
+      "expected": "+----+-------+\n| id | type  |\n+----+-------+\n| 1  | Root  |\n+----+-------+",
+      "source": "example"
+    },
+    {
+      "input": {
+        "arg0": "T"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arg0": "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arg0": "TUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTUTU"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arg0": "Tree table:\n+----+------+\n| id | p_id |\n+----+------+\n| 1  | null |\n\n| llun |  1 |\n+------+----+\n| di_p | di |\n+------+----+\n:elbat eerT"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

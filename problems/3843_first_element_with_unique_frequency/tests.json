@@ -1,0 +1,121 @@
+{
+  "problem_id": 3843,
+  "title": "First Element with Unique Frequency",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/first-element-with-unique-frequency/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          20,
+          10,
+          30,
+          30
+        ]
+      },
+      "expected": 30,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          20,
+          20,
+          10,
+          30,
+          30,
+          30
+        ]
+      },
+      "expected": 20,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          10,
+          10,
+          20,
+          20
+        ]
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          20
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          100000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          20,
+          20,
+          20,
+          20
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          100000,
+          100000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

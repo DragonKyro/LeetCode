@@ -1,0 +1,64 @@
+{
+  "problem_id": 2531,
+  "title": "Make Number of Distinct Characters Equal",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/make-number-of-distinct-characters-equal/",
+  "test_cases": [
+    {
+      "input": {
+        "word1": "ac",
+        "word2": "b"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word1": "abcc",
+        "word2": "aab"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word1": "abcde",
+        "word2": "fghij"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word1": "a",
+        "word2": "b"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "aa",
+        "word2": "b"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "abab",
+        "word2": "b"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "ac",
+        "word2": "bcbc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

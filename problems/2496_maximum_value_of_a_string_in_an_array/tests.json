@@ -1,0 +1,33 @@
+{
+  "problem_id": 2496,
+  "title": "Maximum Value of a String in an Array",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/maximum-value-of-a-string-in-an-array/",
+  "test_cases": [
+    {
+      "input": {
+        "strs": [
+          "alic3",
+          "bob",
+          "3",
+          "4",
+          "00000"
+        ]
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "strs": [
+          "1",
+          "01",
+          "001",
+          "0001"
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    }
+  ]
+}

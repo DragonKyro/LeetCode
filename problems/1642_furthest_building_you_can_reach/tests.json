@@ -1,0 +1,207 @@
+{
+  "problem_id": 1642,
+  "title": "Furthest Building You Can Reach",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/furthest-building-you-can-reach/",
+  "test_cases": [
+    {
+      "input": {
+        "heights": [
+          4,
+          2,
+          7,
+          6,
+          9,
+          14,
+          12
+        ],
+        "bricks": 5,
+        "ladders": 1
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "heights": [
+          4,
+          12,
+          2,
+          7,
+          3,
+          18,
+          20,
+          3,
+          19
+        ],
+        "bricks": 10,
+        "ladders": 2
+      },
+      "expected": 7,
+      "source": "example"
+    },
+    {
+      "input": {
+        "heights": [
+          14,
+          3,
+          19,
+          3
+        ],
+        "bricks": 17,
+        "ladders": 0
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "heights": [
+          4
+        ],
+        "bricks": 5,
+        "ladders": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "heights": [
+          1,
+          1000000
+        ],
+        "bricks": 5,
+        "ladders": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "heights": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "bricks": 5,
+        "ladders": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "heights": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "bricks": 5,
+        "ladders": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "heights": [
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "bricks": 5,
+        "ladders": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "heights": [
+          1,
+          1
+        ],
+        "bricks": 5,
+        "ladders": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "heights": [
+          1000000,
+          1000000
+        ],
+        "bricks": 5,
+        "ladders": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "heights": [
+          4,
+          2,
+          7,
+          6,
+          9,
+          14,
+          12
+        ],
+        "bricks": 0,
+        "ladders": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "heights": [
+          4,
+          2,
+          7,
+          6,
+          9,
+          14,
+          12
+        ],
+        "bricks": 1000000000,
+        "ladders": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "heights": [
+          4,
+          2,
+          7,
+          6,
+          9,
+          14,
+          12
+        ],
+        "bricks": 1,
+        "ladders": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

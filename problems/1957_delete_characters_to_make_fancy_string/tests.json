@@ -1,0 +1,57 @@
+{
+  "problem_id": 1957,
+  "title": "Delete Characters to Make Fancy String",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/delete-characters-to-make-fancy-string/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "leeetcode"
+      },
+      "expected": "leetcode",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "aaabaaaa"
+      },
+      "expected": "aabaa",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "aab"
+      },
+      "expected": "aab",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "l"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "lllllllll"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "lmlmlmlm"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "leeeeeel"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

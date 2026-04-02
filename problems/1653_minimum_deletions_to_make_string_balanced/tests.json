@@ -1,0 +1,50 @@
+{
+  "problem_id": 1653,
+  "title": "Minimum Deletions to Make String Balanced",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "aababbab"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "bbaaaaabb"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaaaaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abababab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aabaabaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

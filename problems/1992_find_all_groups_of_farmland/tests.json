@@ -1,0 +1,78 @@
+{
+  "problem_id": 1992,
+  "title": "Find All Groups of Farmland",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-all-groups-of-farmland/",
+  "test_cases": [
+    {
+      "input": {
+        "land": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ]
+        ]
+      },
+      "expected": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          2,
+          2
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "land": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      "expected": [
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "land": [
+          [
+            0
+          ]
+        ]
+      },
+      "expected": [],
+      "source": "example"
+    }
+  ]
+}

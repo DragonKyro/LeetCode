@@ -1,0 +1,29 @@
+{
+  "problem_id": 264,
+  "title": "Ugly Number II",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/ugly-number-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 10
+      },
+      "expected": 12,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1690
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

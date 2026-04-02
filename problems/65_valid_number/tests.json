@@ -1,0 +1,36 @@
+{
+  "problem_id": 65,
+  "title": "Valid Number",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/valid-number/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "0"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "e"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "."
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "0101"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

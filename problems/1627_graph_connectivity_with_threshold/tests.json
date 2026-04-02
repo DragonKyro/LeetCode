@@ -1,0 +1,150 @@
+{
+  "problem_id": 1627,
+  "title": "Graph Connectivity With Threshold",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/graph-connectivity-with-threshold/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 6,
+        "threshold": 2,
+        "queries": [
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            6
+          ]
+        ]
+      },
+      "expected": [
+        false,
+        false,
+        true
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 6,
+        "threshold": 0,
+        "queries": [
+          [
+            4,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      "expected": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 5,
+        "threshold": 1,
+        "queries": [
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      "expected": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 2,
+        "threshold": 2,
+        "queries": [
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            6
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 10000,
+        "threshold": 2,
+        "queries": [
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            6
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

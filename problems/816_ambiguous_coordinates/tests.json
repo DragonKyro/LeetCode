@@ -1,0 +1,58 @@
+{
+  "problem_id": 816,
+  "title": "Ambiguous Coordinates",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/ambiguous-coordinates/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "(123)"
+      },
+      "expected": [
+        "(1, 2.3)",
+        "(1, 23)",
+        "(1.2, 3)",
+        "(12, 3)"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "(0123)"
+      },
+      "expected": [
+        "(0, 1.23)",
+        "(0, 12.3)",
+        "(0, 123)",
+        "(0.1, 2.3)",
+        "(0.1, 23)",
+        "(0.12, 3)"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "(00011)"
+      },
+      "expected": [
+        "(0, 0.011)",
+        "(0.001, 1)"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "((((("
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "(11("
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

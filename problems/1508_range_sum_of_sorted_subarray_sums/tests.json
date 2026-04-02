@@ -1,0 +1,108 @@
+{
+  "problem_id": 1508,
+  "title": "Range Sum of Sorted Subarray Sums",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "n": 4,
+        "left": 1,
+        "right": 5
+      },
+      "expected": 13,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "n": 4,
+        "left": 3,
+        "right": 4
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "n": 4,
+        "left": 1,
+        "right": 10
+      },
+      "expected": 50,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          1
+        ],
+        "n": 4,
+        "left": 1,
+        "right": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1
+        ],
+        "n": 4,
+        "left": 1,
+        "right": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "n": 4,
+        "left": 1,
+        "right": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "n": 4,
+        "left": 1,
+        "right": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "problem_id": 1505,
+  "title": "Minimum Possible Integer After at Most K Adjacent Swaps On Digits",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/",
+  "test_cases": [
+    {
+      "input": {
+        "num": "4321",
+        "k": 4
+      },
+      "expected": "1342",
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": "100",
+        "k": 1
+      },
+      "expected": "010",
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": "36789",
+        "k": 1000
+      },
+      "expected": "36789",
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": "4",
+        "k": 4
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "4444",
+        "k": 4
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "4545",
+        "k": 4
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "4334",
+        "k": 4
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "4321",
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "4321",
+        "k": 1000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

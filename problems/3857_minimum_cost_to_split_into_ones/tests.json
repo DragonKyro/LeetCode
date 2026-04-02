@@ -1,0 +1,36 @@
+{
+  "problem_id": 3857,
+  "title": "Minimum Cost to Split into Ones",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-cost-to-split-into-ones/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 3
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 4
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 500
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

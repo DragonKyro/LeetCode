@@ -1,0 +1,32 @@
+{
+  "problem_id": 3001,
+  "title": "Minimum Moves to Capture The Queen",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-moves-to-capture-the-queen/",
+  "test_cases": [
+    {
+      "input": {
+        "a": 1,
+        "b": 1,
+        "c": 8,
+        "d": 8,
+        "e": 2,
+        "f": 3
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "a": 5,
+        "b": 3,
+        "c": 3,
+        "d": 4,
+        "e": 5,
+        "f": 2
+      },
+      "expected": 1,
+      "source": "example"
+    }
+  ]
+}

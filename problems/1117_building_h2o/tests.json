@@ -1,0 +1,50 @@
+{
+  "problem_id": 1117,
+  "title": "Building H2O",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/building-h2o/",
+  "test_cases": [
+    {
+      "input": {
+        "water": "HOH"
+      },
+      "expected": "HHO",
+      "source": "example"
+    },
+    {
+      "input": {
+        "water": "OOHHHH"
+      },
+      "expected": "HHOHHO",
+      "source": "example"
+    },
+    {
+      "input": {
+        "water": "H"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "water": "HHH"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "water": "HIHI"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "water": "HH"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

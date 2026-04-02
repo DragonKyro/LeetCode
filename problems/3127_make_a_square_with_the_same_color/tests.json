@@ -1,0 +1,77 @@
+{
+  "problem_id": 3127,
+  "title": "Make a Square with the Same Color",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/make-a-square-with-the-same-color/",
+  "test_cases": [
+    {
+      "input": {
+        "grid": [
+          [
+            "B",
+            "W",
+            "B"
+          ],
+          [
+            "B",
+            "W",
+            "W"
+          ],
+          [
+            "B",
+            "W",
+            "B"
+          ]
+        ]
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            "B",
+            "W",
+            "B"
+          ],
+          [
+            "W",
+            "B",
+            "W"
+          ],
+          [
+            "B",
+            "W",
+            "B"
+          ]
+        ]
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            "B",
+            "W",
+            "B"
+          ],
+          [
+            "B",
+            "W",
+            "W"
+          ],
+          [
+            "B",
+            "W",
+            "W"
+          ]
+        ]
+      },
+      "expected": true,
+      "source": "example"
+    }
+  ]
+}

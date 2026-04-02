@@ -1,0 +1,57 @@
+{
+  "problem_id": 2697,
+  "title": "Lexicographically Smallest Palindrome",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/lexicographically-smallest-palindrome/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "egcfe"
+      },
+      "expected": "efcfe",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abcd"
+      },
+      "expected": "abba",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "seven"
+      },
+      "expected": "neven",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "e"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "eeeee"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "efef"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "egge"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

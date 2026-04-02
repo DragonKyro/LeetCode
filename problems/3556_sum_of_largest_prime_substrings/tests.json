@@ -1,0 +1,50 @@
+{
+  "problem_id": 3556,
+  "title": "Sum of Largest Prime Substrings",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/sum-of-largest-prime-substrings/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "12234"
+      },
+      "expected": 1469,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "111"
+      },
+      "expected": 11,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "1"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "11111"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "1212"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "1221"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

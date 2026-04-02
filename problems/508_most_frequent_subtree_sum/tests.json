@@ -1,0 +1,108 @@
+{
+  "problem_id": 508,
+  "title": "Most Frequent Subtree Sum",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/most-frequent-subtree-sum/",
+  "test_cases": [
+    {
+      "input": {
+        "root": [
+          5,
+          2,
+          -3
+        ]
+      },
+      "expected": [
+        2,
+        -3,
+        4
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "root": [
+          5,
+          2,
+          -5
+        ]
+      },
+      "expected": [
+        2
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "root": [
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          5,
+          5,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

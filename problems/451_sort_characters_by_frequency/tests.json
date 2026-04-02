@@ -1,0 +1,57 @@
+{
+  "problem_id": 451,
+  "title": "Sort Characters By Frequency",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/sort-characters-by-frequency/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "tree"
+      },
+      "expected": "eert",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "cccaaa"
+      },
+      "expected": "aaaccc",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "Aabb"
+      },
+      "expected": "bbAa",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "t"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "tttt"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "tutu"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "trrt"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

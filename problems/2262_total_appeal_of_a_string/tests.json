@@ -1,0 +1,50 @@
+{
+  "problem_id": 2262,
+  "title": "Total Appeal of A String",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/total-appeal-of-a-string/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "abbca"
+      },
+      "expected": 28,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "code"
+      },
+      "expected": 20,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abba"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

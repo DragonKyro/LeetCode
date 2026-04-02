@@ -1,0 +1,56 @@
+{
+  "problem_id": 2911,
+  "title": "Minimum Changes to Make K Semi-palindromes",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-changes-to-make-k-semi-palindromes/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "abcac",
+        "k": 2
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abcdef",
+        "k": 2
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "aabbaa",
+        "k": 3
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "aaaaa",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abab",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abba",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

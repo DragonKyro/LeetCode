@@ -1,0 +1,88 @@
+{
+  "problem_id": 712,
+  "title": "Minimum ASCII Delete Sum for Two Strings",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/",
+  "test_cases": [
+    {
+      "input": {
+        "s1": "sea",
+        "s2": "eat"
+      },
+      "expected": 231,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s1": "delete",
+        "s2": "leet"
+      },
+      "expected": 403,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s1": "s",
+        "s2": "eat"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "sss",
+        "s2": "eat"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "stst",
+        "s2": "eat"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "ss",
+        "s2": "eat"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "sea",
+        "s2": "e"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "sea",
+        "s2": "eee"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "sea",
+        "s2": "efef"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "sea",
+        "s2": "ee"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

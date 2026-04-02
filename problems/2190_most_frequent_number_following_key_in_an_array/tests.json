@@ -1,0 +1,89 @@
+{
+  "problem_id": 2190,
+  "title": "Most Frequent Number Following Key In an Array",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/most-frequent-number-following-key-in-an-array/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          1,
+          100,
+          200,
+          1,
+          100
+        ],
+        "key": 1
+      },
+      "expected": 100,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          2,
+          2,
+          2,
+          3
+        ],
+        "key": 2
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1
+        ],
+        "key": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "key": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "key": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "key": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

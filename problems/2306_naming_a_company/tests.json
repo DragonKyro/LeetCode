@@ -1,0 +1,30 @@
+{
+  "problem_id": 2306,
+  "title": "Naming a Company",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/naming-a-company/",
+  "test_cases": [
+    {
+      "input": {
+        "ideas": [
+          "coffee",
+          "donuts",
+          "time",
+          "toffee"
+        ]
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "ideas": [
+          "lack",
+          "back"
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    }
+  ]
+}

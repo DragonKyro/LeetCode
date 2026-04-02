@@ -1,0 +1,57 @@
+{
+  "problem_id": 1647,
+  "title": "Minimum Deletions to Make Character Frequencies Unique",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "aab"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "aaabbbcc"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "ceabaacb"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

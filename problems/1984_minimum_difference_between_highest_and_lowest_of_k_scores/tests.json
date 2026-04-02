@@ -1,0 +1,64 @@
+{
+  "problem_id": 1984,
+  "title": "Minimum Difference Between Highest and Lowest of K Scores",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          90
+        ],
+        "k": 1
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          9,
+          4,
+          1,
+          7
+        ],
+        "k": 2
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          0,
+          100000
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          0,
+          0
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          100000,
+          100000
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

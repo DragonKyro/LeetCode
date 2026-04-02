@@ -1,0 +1,57 @@
+{
+  "problem_id": 1513,
+  "title": "Number of Substrings With Only 1s",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/number-of-substrings-with-only-1s/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "0110111"
+      },
+      "expected": 9,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "101"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "111111"
+      },
+      "expected": 21,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "0"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "0000000"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "010101"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "011110"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

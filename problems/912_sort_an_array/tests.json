@@ -1,0 +1,121 @@
+{
+  "problem_id": 912,
+  "title": "Sort an Array",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/sort-an-array/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          5,
+          2,
+          3,
+          1
+        ]
+      },
+      "expected": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          5,
+          1,
+          1,
+          2,
+          0,
+          0
+        ]
+      },
+      "expected": [
+        0,
+        0,
+        1,
+        1,
+        2,
+        5
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          10000,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          10000,
+          10000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          5,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

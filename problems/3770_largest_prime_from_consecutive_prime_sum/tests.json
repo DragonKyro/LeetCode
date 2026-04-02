@@ -1,0 +1,36 @@
+{
+  "problem_id": 3770,
+  "title": "Largest Prime from Consecutive Prime Sum",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/largest-prime-from-consecutive-prime-sum/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 20
+      },
+      "expected": 17,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 2
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

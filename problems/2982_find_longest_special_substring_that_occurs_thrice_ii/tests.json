@@ -1,0 +1,29 @@
+{
+  "problem_id": 2982,
+  "title": "Find Longest Special Substring That Occurs Thrice II",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "aaaa"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abcdef"
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abcaba"
+      },
+      "expected": 1,
+      "source": "example"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "problem_id": 2000,
+  "title": "Reverse Prefix of Word",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/reverse-prefix-of-word/",
+  "test_cases": [
+    {
+      "input": {
+        "word": "abcdefd",
+        "ch": "d"
+      },
+      "expected": "dcbaefd",
+      "source": "example"
+    },
+    {
+      "input": {
+        "word": "xyxzxe",
+        "ch": "z"
+      },
+      "expected": "zxyxxe",
+      "source": "example"
+    },
+    {
+      "input": {
+        "word": "abcd",
+        "ch": "z"
+      },
+      "expected": "abcd",
+      "source": "example"
+    },
+    {
+      "input": {
+        "word": "a",
+        "ch": "d"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word": "aaaaaaa",
+        "ch": "d"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word": "ababab",
+        "ch": "d"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word": "abccba",
+        "ch": "d"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word": "abcdefd",
+        "ch": "dede"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

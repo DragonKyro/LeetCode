@@ -1,0 +1,64 @@
+{
+  "problem_id": 2781,
+  "title": "Length of the Longest Valid Substring",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/length-of-the-longest-valid-substring/",
+  "test_cases": [
+    {
+      "input": {
+        "word": "cbaaaabc",
+        "forbidden": [
+          "aaa",
+          "cb"
+        ]
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word": "leetcode",
+        "forbidden": [
+          "de",
+          "le",
+          "e"
+        ]
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word": "c",
+        "forbidden": [
+          "aaa",
+          "cb"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word": "cccccccc",
+        "forbidden": [
+          "aaa",
+          "cb"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word": "cdcdcdcd",
+        "forbidden": [
+          "aaa",
+          "cb"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

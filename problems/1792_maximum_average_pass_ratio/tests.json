@@ -1,0 +1,96 @@
+{
+  "problem_id": 1792,
+  "title": "Maximum Average Pass Ratio",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-average-pass-ratio/",
+  "test_cases": [
+    {
+      "input": {
+        "classes": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "extraStudents": 2
+      },
+      "expected": 0.78333,
+      "source": "example"
+    },
+    {
+      "input": {
+        "classes": [
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            9
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            2,
+            10
+          ]
+        ],
+        "extraStudents": 4
+      },
+      "expected": 0.53485,
+      "source": "example"
+    },
+    {
+      "input": {
+        "classes": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "extraStudents": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "classes": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "extraStudents": 100000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

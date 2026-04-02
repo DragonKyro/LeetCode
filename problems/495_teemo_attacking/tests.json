@@ -1,0 +1,84 @@
+{
+  "problem_id": 495,
+  "title": "Teemo Attacking",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/teemo-attacking/",
+  "test_cases": [
+    {
+      "input": {
+        "timeSeries": [
+          1,
+          4
+        ],
+        "duration": 2
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "timeSeries": [
+          1,
+          2
+        ],
+        "duration": 2
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "timeSeries": [
+          1
+        ],
+        "duration": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "timeSeries": [
+          -100,
+          100
+        ],
+        "duration": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "timeSeries": [
+          1,
+          1
+        ],
+        "duration": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "timeSeries": [
+          -100,
+          -100
+        ],
+        "duration": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "timeSeries": [
+          100,
+          100
+        ],
+        "duration": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "problem_id": 2698,
+  "title": "Find the Punishment Number of an Integer",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-the-punishment-number-of-an-integer/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 10
+      },
+      "expected": 182,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 37
+      },
+      "expected": 1478,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

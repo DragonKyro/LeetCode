@@ -1,0 +1,61 @@
+{
+  "problem_id": 3885,
+  "title": "Design Event Manager",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/design-event-manager/",
+  "test_cases": [
+    {
+      "input": {
+        "arg0": "[\"EventManager\", \"pollHighest\", \"updatePriority\", \"pollHighest\", \"pollHighest\"]\n\n[[[[5, 7], [2, 7], [9, 4]]], [], [9, 7], [], []]"
+      },
+      "expected": [
+        null,
+        2,
+        null,
+        5,
+        9
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "arg0": "[\"EventManager\", \"pollHighest\", \"pollHighest\", \"pollHighest\"]\n\n[[[[4, 1], [7, 2]]], [], [], []]"
+      },
+      "expected": [
+        null,
+        7,
+        4,
+        -1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "arg0": "["
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arg0": "[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[["
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arg0": "[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arg0": "[\"EventManager\", \"pollHighest\", \"updatePriority\", \"pollHighest\",,\"tsehgiHllop\" ,\"ytiroirPetadpu\" ,\"tsehgiHllop\" ,\"reganaMtnevE\"["
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

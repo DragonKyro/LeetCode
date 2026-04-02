@@ -1,0 +1,156 @@
+{
+  "problem_id": 2900,
+  "title": "Longest Unequal Adjacent Groups Subsequence I",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-i/",
+  "test_cases": [
+    {
+      "input": {
+        "words": [
+          "e",
+          "a",
+          "b"
+        ],
+        "groups": [
+          0,
+          0,
+          1
+        ]
+      },
+      "expected": [
+        "e",
+        "b"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ],
+        "groups": [
+          1,
+          0,
+          1,
+          1
+        ]
+      },
+      "expected": [
+        "a",
+        "b",
+        "c"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "e",
+          "a",
+          "b"
+        ],
+        "groups": [
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "words": [
+          "e",
+          "a",
+          "b"
+        ],
+        "groups": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "words": [
+          "e",
+          "a",
+          "b"
+        ],
+        "groups": [
+          0,
+          0,
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "words": [
+          "e",
+          "a",
+          "b"
+        ],
+        "groups": [
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "words": [
+          "e",
+          "a",
+          "b"
+        ],
+        "groups": [
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "words": [
+          "e",
+          "a",
+          "b"
+        ],
+        "groups": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "words": [
+          "e",
+          "a",
+          "b"
+        ],
+        "groups": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

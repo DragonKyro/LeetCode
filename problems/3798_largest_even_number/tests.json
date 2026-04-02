@@ -1,0 +1,43 @@
+{
+  "problem_id": 3798,
+  "title": "Largest Even Number",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/largest-even-number/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "1112"
+      },
+      "expected": "1112",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "221"
+      },
+      "expected": "22",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "1"
+      },
+      "expected": "",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "1111"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "1212"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "problem_id": 1594,
+  "title": "Maximum Non Negative Product in a Matrix",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix/",
+  "test_cases": [
+    {
+      "input": {
+        "grid": [
+          [
+            -1,
+            -2,
+            -3
+          ],
+          [
+            -2,
+            -3,
+            -3
+          ],
+          [
+            -3,
+            -3,
+            -2
+          ]
+        ]
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            1,
+            -2,
+            1
+          ],
+          [
+            1,
+            -2,
+            1
+          ],
+          [
+            3,
+            -4,
+            1
+          ]
+        ]
+      },
+      "expected": 8,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            1,
+            3
+          ],
+          [
+            0,
+            -4
+          ]
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    }
+  ]
+}

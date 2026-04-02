@@ -1,0 +1,80 @@
+{
+  "problem_id": 2627,
+  "title": "Debounce",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/debounce/",
+  "test_cases": [
+    {
+      "input": {
+        "t": 50,
+        "calls": "[\n  {\"t\": 50, inputs: [1]},\n  {\"t\": 75, inputs: [2]}\n]"
+      },
+      "expected": "[{\"t\": 125, inputs: [2]}]",
+      "source": "example"
+    },
+    {
+      "input": {
+        "t": 20,
+        "calls": "[\n  {\"t\": 50, inputs: [1]},\n  {\"t\": 100, inputs: [2]}\n]"
+      },
+      "expected": "[{\"t\": 70, inputs: [1]}, {\"t\": 120, inputs: [2]}]",
+      "source": "example"
+    },
+    {
+      "input": {
+        "t": 150,
+        "calls": "[\n  {\"t\": 50, inputs: [1, 2]},\n  {\"t\": 300, inputs: [3, 4]},\n  {\"t\": 300, inputs: [5, 6]}\n]"
+      },
+      "expected": "[{\"t\": 200, inputs: [1,2]}, {\"t\": 450, inputs: [5, 6]}]",
+      "source": "example"
+    },
+    {
+      "input": {
+        "t": 0,
+        "calls": "[\n  {\"t\": 50, inputs: [1]},\n  {\"t\": 75, inputs: [2]}\n]"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "t": 1,
+        "calls": "[\n  {\"t\": 50, inputs: [1]},\n  {\"t\": 75, inputs: [2]}\n]"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "t": 50,
+        "calls": "["
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "t": 50,
+        "calls": "[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[["
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "t": 50,
+        "calls": "[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "t": 50,
+        "calls": "[\n  {\"t\": 50, inputs: [1]},,}]1[ :stupni ,05 :\"t\"{  \n["
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

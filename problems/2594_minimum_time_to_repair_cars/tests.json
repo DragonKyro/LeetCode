@@ -1,0 +1,119 @@
+{
+  "problem_id": 2594,
+  "title": "Minimum Time to Repair Cars",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-time-to-repair-cars/",
+  "test_cases": [
+    {
+      "input": {
+        "ranks": [
+          4,
+          2,
+          3,
+          1
+        ],
+        "cars": 10
+      },
+      "expected": 16,
+      "source": "example"
+    },
+    {
+      "input": {
+        "ranks": [
+          5,
+          1,
+          8
+        ],
+        "cars": 6
+      },
+      "expected": 16,
+      "source": "example"
+    },
+    {
+      "input": {
+        "ranks": [
+          4
+        ],
+        "cars": 10
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "ranks": [
+          1,
+          1
+        ],
+        "cars": 10
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "ranks": [
+          4,
+          4,
+          4,
+          4
+        ],
+        "cars": 10
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "ranks": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "cars": 10
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "ranks": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "cars": 10
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "ranks": [
+          4,
+          2,
+          3,
+          1
+        ],
+        "cars": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "ranks": [
+          4,
+          2,
+          3,
+          1
+        ],
+        "cars": 1000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

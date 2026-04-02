@@ -1,0 +1,88 @@
+{
+  "problem_id": 967,
+  "title": "Numbers With Same Consecutive Differences",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/numbers-with-same-consecutive-differences/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 3,
+        "k": 7
+      },
+      "expected": [
+        181,
+        292,
+        707,
+        818,
+        929
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 2,
+        "k": 1
+      },
+      "expected": [
+        10,
+        12,
+        21,
+        23,
+        32,
+        34,
+        43,
+        45,
+        54,
+        56,
+        65,
+        67,
+        76,
+        78,
+        87,
+        89,
+        98
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 2,
+        "k": 7
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 9,
+        "k": 7
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 3,
+        "k": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 3,
+        "k": 9
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 3,
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

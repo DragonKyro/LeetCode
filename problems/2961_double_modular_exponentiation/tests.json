@@ -1,0 +1,134 @@
+{
+  "problem_id": 2961,
+  "title": "Double Modular Exponentiation",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/double-modular-exponentiation/",
+  "test_cases": [
+    {
+      "input": {
+        "variables": [
+          [
+            2,
+            3,
+            3,
+            10
+          ],
+          [
+            3,
+            3,
+            3,
+            1
+          ],
+          [
+            6,
+            1,
+            1,
+            4
+          ]
+        ],
+        "target": 2
+      },
+      "expected": [
+        0,
+        2
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "variables": [
+          [
+            39,
+            3,
+            1000,
+            1000
+          ]
+        ],
+        "target": 17
+      },
+      "expected": [],
+      "source": "example"
+    },
+    {
+      "input": {
+        "variables": [
+          [
+            2,
+            3,
+            3,
+            10
+          ],
+          [
+            3,
+            3,
+            3,
+            1
+          ],
+          [
+            6,
+            1,
+            1,
+            4
+          ]
+        ],
+        "target": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "variables": [
+          [
+            2,
+            3,
+            3,
+            10
+          ],
+          [
+            3,
+            3,
+            3,
+            1
+          ],
+          [
+            6,
+            1,
+            1,
+            4
+          ]
+        ],
+        "target": 1000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "variables": [
+          [
+            2,
+            3,
+            3,
+            10
+          ],
+          [
+            3,
+            3,
+            3,
+            1
+          ],
+          [
+            6,
+            1,
+            1,
+            4
+          ]
+        ],
+        "target": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

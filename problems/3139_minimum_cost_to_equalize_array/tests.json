@@ -1,0 +1,155 @@
+{
+  "problem_id": 3139,
+  "title": "Minimum Cost to Equalize Array",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-cost-to-equalize-array/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          4,
+          1
+        ],
+        "cost1": 5,
+        "cost2": 2
+      },
+      "expected": 15,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          3,
+          3,
+          3,
+          5
+        ],
+        "cost1": 2,
+        "cost2": 1
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          3,
+          5,
+          3
+        ],
+        "cost1": 1,
+        "cost2": 3
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          4
+        ],
+        "cost1": 5,
+        "cost2": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1000000
+        ],
+        "cost1": 5,
+        "cost2": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          4
+        ],
+        "cost1": 5,
+        "cost2": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1
+        ],
+        "cost1": 5,
+        "cost2": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1000000,
+          1000000
+        ],
+        "cost1": 5,
+        "cost2": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          1
+        ],
+        "cost1": 1,
+        "cost2": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          1
+        ],
+        "cost1": 1000000,
+        "cost2": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          1
+        ],
+        "cost1": 5,
+        "cost2": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          1
+        ],
+        "cost1": 5,
+        "cost2": 1000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "problem_id": 2705,
+  "title": "Compact Object",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/compact-object/",
+  "test_cases": [
+    {
+      "input": {
+        "obj": [
+          null,
+          0,
+          false,
+          1
+        ]
+      },
+      "expected": [
+        1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "obj": {
+          "a": null,
+          "b": [
+            false,
+            1
+          ]
+        }
+      },
+      "expected": {
+        "b": [
+          1
+        ]
+      },
+      "source": "example"
+    },
+    {
+      "input": {
+        "obj": [
+          null,
+          0,
+          5,
+          [
+            0
+          ],
+          [
+            false,
+            16
+          ]
+        ]
+      },
+      "expected": [
+        5,
+        [],
+        [
+          16
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "obj": [
+          null
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "obj": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "obj": [
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "obj": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "obj": [
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "obj": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "obj": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "problem_id": 624,
+  "title": "Maximum Distance in Arrays",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-distance-in-arrays/",
+  "test_cases": [
+    {
+      "input": {
+        "arrays": [
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            1,
+            2,
+            3
+          ]
+        ]
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "arrays": [
+          [
+            1
+          ],
+          [
+            1
+          ]
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    }
+  ]
+}

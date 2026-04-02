@@ -1,0 +1,60 @@
+{
+  "problem_id": 3603,
+  "title": "Minimum Cost Path with Alternating Directions II",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-cost-path-with-alternating-directions-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "m": 1,
+        "n": 2,
+        "waitCost": [
+          [
+            1,
+            2
+          ]
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "m": 2,
+        "n": 2,
+        "waitCost": [
+          [
+            3,
+            5
+          ],
+          [
+            2,
+            4
+          ]
+        ]
+      },
+      "expected": 9,
+      "source": "example"
+    },
+    {
+      "input": {
+        "m": 2,
+        "n": 3,
+        "waitCost": [
+          [
+            6,
+            1,
+            4
+          ],
+          [
+            3,
+            2,
+            5
+          ]
+        ]
+      },
+      "expected": 16,
+      "source": "example"
+    }
+  ]
+}

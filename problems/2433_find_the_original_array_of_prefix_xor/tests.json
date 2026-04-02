@@ -1,0 +1,116 @@
+{
+  "problem_id": 2433,
+  "title": "Find The Original Array of Prefix Xor",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-the-original-array-of-prefix-xor/",
+  "test_cases": [
+    {
+      "input": {
+        "pref": [
+          5,
+          2,
+          0,
+          3,
+          1
+        ]
+      },
+      "expected": [
+        5,
+        7,
+        2,
+        3,
+        2
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "pref": [
+          13
+        ]
+      },
+      "expected": [
+        13
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "pref": [
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "pref": [
+          0,
+          1000000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "pref": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "pref": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "pref": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "pref": [
+          0,
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "pref": [
+          1000000,
+          1000000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

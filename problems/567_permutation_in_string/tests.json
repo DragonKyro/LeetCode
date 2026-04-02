@@ -1,0 +1,80 @@
+{
+  "problem_id": 567,
+  "title": "Permutation in String",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/permutation-in-string/",
+  "test_cases": [
+    {
+      "input": {
+        "s1": "ab",
+        "s2": "eidbaooo"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s1": "ab",
+        "s2": "eidboaoo"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s1": "a",
+        "s2": "eidbaooo"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "aa",
+        "s2": "eidbaooo"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "abab",
+        "s2": "eidbaooo"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "ab",
+        "s2": "e"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "ab",
+        "s2": "eeeeeeee"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "ab",
+        "s2": "efefefef"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "ab",
+        "s2": "eidbbdie"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

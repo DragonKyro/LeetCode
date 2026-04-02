@@ -1,0 +1,43 @@
+{
+  "problem_id": 657,
+  "title": "Robot Return to Origin",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/robot-return-to-origin/",
+  "test_cases": [
+    {
+      "input": {
+        "moves": "UD"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "moves": "LL"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "moves": "U"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "moves": "UU"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "moves": "UVUV"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

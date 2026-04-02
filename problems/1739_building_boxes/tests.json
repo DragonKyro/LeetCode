@@ -1,0 +1,43 @@
+{
+  "problem_id": 1739,
+  "title": "Building Boxes",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/building-boxes/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 3
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 4
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 10
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 1000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

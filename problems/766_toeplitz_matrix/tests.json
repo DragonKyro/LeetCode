@@ -1,0 +1,50 @@
+{
+  "problem_id": 766,
+  "title": "Toeplitz Matrix",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/toeplitz-matrix/",
+  "test_cases": [
+    {
+      "input": {
+        "matrix": [
+          [
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            5,
+            1,
+            2,
+            3
+          ],
+          [
+            9,
+            5,
+            1,
+            2
+          ]
+        ]
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "matrix": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      },
+      "expected": false,
+      "source": "example"
+    }
+  ]
+}

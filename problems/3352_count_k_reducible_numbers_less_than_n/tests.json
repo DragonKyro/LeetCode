@@ -1,0 +1,64 @@
+{
+  "problem_id": 3352,
+  "title": "Count K-Reducible Numbers Less Than N",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/count-k-reducible-numbers-less-than-n/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "111",
+        "k": 1
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "1000",
+        "k": 2
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "1",
+        "k": 3
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "1",
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "1212",
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "11",
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "111",
+        "k": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

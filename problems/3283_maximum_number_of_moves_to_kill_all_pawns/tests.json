@@ -1,0 +1,62 @@
+{
+  "problem_id": 3283,
+  "title": "Maximum Number of Moves to Kill All Pawns",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/maximum-number-of-moves-to-kill-all-pawns/",
+  "test_cases": [
+    {
+      "input": {
+        "kx": 1,
+        "ky": 1,
+        "positions": [
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "kx": 0,
+        "ky": 2,
+        "positions": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      "expected": 8,
+      "source": "example"
+    },
+    {
+      "input": {
+        "kx": 0,
+        "ky": 0,
+        "positions": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            4
+          ]
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    }
+  ]
+}

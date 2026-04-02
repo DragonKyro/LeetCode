@@ -1,0 +1,50 @@
+{
+  "problem_id": 2514,
+  "title": "Count Anagrams",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/count-anagrams/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "too hot"
+      },
+      "expected": 18,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "aa"
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "t"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ttttttt"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "tututu"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "toooot"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

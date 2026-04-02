@@ -1,0 +1,282 @@
+{
+  "problem_id": 1700,
+  "title": "Number of Students Unable to Eat Lunch",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/",
+  "test_cases": [
+    {
+      "input": {
+        "students": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "sandwiches": [
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "students": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        "sandwiches": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "students": [
+          1
+        ],
+        "sandwiches": [
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "students": [
+          -100,
+          100
+        ],
+        "sandwiches": [
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "students": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "sandwiches": [
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "students": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "sandwiches": [
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "students": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "sandwiches": [
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "students": [
+          -100,
+          -100
+        ],
+        "sandwiches": [
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "students": [
+          100,
+          100
+        ],
+        "sandwiches": [
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "students": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "sandwiches": [
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "students": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "sandwiches": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "students": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "sandwiches": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "students": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "sandwiches": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "students": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "sandwiches": [
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "students": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "sandwiches": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "students": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "sandwiches": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

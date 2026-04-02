@@ -1,0 +1,35 @@
+{
+  "problem_id": 1185,
+  "title": "Day of the Week",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/day-of-the-week/",
+  "test_cases": [
+    {
+      "input": {
+        "day": 31,
+        "month": 8,
+        "year": 2019
+      },
+      "expected": "Saturday",
+      "source": "example"
+    },
+    {
+      "input": {
+        "day": 18,
+        "month": 7,
+        "year": 1999
+      },
+      "expected": "Sunday",
+      "source": "example"
+    },
+    {
+      "input": {
+        "day": 15,
+        "month": 8,
+        "year": 1993
+      },
+      "expected": "Sunday",
+      "source": "example"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "problem_id": 1723,
+  "title": "Find Minimum Time to Finish All Jobs",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/",
+  "test_cases": [
+    {
+      "input": {
+        "jobs": [
+          3,
+          2,
+          3
+        ],
+        "k": 3
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "jobs": [
+          1,
+          2,
+          4,
+          7,
+          8
+        ],
+        "k": 2
+      },
+      "expected": 11,
+      "source": "example"
+    },
+    {
+      "input": {
+        "jobs": [
+          3
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "jobs": [
+          1,
+          10000000
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "jobs": [
+          3,
+          3,
+          3
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "jobs": [
+          1,
+          2,
+          3
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "jobs": [
+          3,
+          2,
+          1
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "jobs": [
+          1,
+          1
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "jobs": [
+          10000000,
+          10000000
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

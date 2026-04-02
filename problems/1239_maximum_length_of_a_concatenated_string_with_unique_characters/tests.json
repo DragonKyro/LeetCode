@@ -1,0 +1,40 @@
+{
+  "problem_id": 1239,
+  "title": "Maximum Length of a Concatenated String with Unique Characters",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/",
+  "test_cases": [
+    {
+      "input": {
+        "arr": [
+          "un",
+          "iq",
+          "ue"
+        ]
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "arr": [
+          "cha",
+          "r",
+          "act",
+          "ers"
+        ]
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "arr": [
+          "abcdefghijklmnopqrstuvwxyz"
+        ]
+      },
+      "expected": 26,
+      "source": "example"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "problem_id": 3307,
+  "title": "Find the K-th Character in String Game II",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/find-the-k-th-character-in-string-game-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "k": 5,
+        "operations": [
+          0,
+          0,
+          0
+        ]
+      },
+      "expected": "a",
+      "source": "example"
+    },
+    {
+      "input": {
+        "k": 10,
+        "operations": [
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      "expected": "b",
+      "source": "example"
+    },
+    {
+      "input": {
+        "k": 1,
+        "operations": [
+          0,
+          0,
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "k": 100000000000000,
+        "operations": [
+          0,
+          0,
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "k": 5,
+        "operations": [
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "k": 5,
+        "operations": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "k": 5,
+        "operations": [
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "k": 5,
+        "operations": [
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "k": 5,
+        "operations": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "k": 5,
+        "operations": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

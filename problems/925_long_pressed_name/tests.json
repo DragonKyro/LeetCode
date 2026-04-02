@@ -1,0 +1,88 @@
+{
+  "problem_id": 925,
+  "title": "Long Pressed Name",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/long-pressed-name/",
+  "test_cases": [
+    {
+      "input": {
+        "name": "alex",
+        "typed": "aaleex"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "name": "saeed",
+        "typed": "ssaaedd"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "name": "a",
+        "typed": "aaleex"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "name": "aaaa",
+        "typed": "aaleex"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "name": "abab",
+        "typed": "aaleex"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "name": "alla",
+        "typed": "aaleex"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "name": "alex",
+        "typed": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "name": "alex",
+        "typed": "aaaaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "name": "alex",
+        "typed": "ababab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "name": "alex",
+        "typed": "aallaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

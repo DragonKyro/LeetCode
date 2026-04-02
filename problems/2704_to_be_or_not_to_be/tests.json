@@ -1,0 +1,63 @@
+{
+  "problem_id": 2704,
+  "title": "To Be Or Not To Be",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/to-be-or-not-to-be/",
+  "test_cases": [
+    {
+      "input": {
+        "func": "() => expect(5).toBe(5)"
+      },
+      "expected": {
+        "value": true
+      },
+      "source": "example"
+    },
+    {
+      "input": {
+        "func": "() => expect(5).toBe(null)"
+      },
+      "expected": {
+        "error": "Not Equal"
+      },
+      "source": "example"
+    },
+    {
+      "input": {
+        "func": "() => expect(5).notToBe(null)"
+      },
+      "expected": {
+        "value": true
+      },
+      "source": "example"
+    },
+    {
+      "input": {
+        "func": "("
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "func": "((((((((((((((((((((((("
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "func": "()()()()()()()()()()()"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "func": "() => expeccepxe >= )("
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

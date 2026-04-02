@@ -1,0 +1,62 @@
+{
+  "problem_id": 773,
+  "title": "Sliding Puzzle",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/sliding-puzzle/",
+  "test_cases": [
+    {
+      "input": {
+        "board": [
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            4,
+            0,
+            5
+          ]
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "board": [
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            5,
+            4,
+            0
+          ]
+        ]
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "board": [
+          [
+            4,
+            1,
+            2
+          ],
+          [
+            5,
+            0,
+            3
+          ]
+        ]
+      },
+      "expected": 5,
+      "source": "example"
+    }
+  ]
+}

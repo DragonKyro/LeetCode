@@ -1,0 +1,49 @@
+{
+  "problem_id": 318,
+  "title": "Maximum Product of Word Lengths",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-product-of-word-lengths/",
+  "test_cases": [
+    {
+      "input": {
+        "words": [
+          "abcw",
+          "baz",
+          "foo",
+          "bar",
+          "xtfn",
+          "abcdef"
+        ]
+      },
+      "expected": 16,
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "a",
+          "ab",
+          "abc",
+          "d",
+          "cd",
+          "bcd",
+          "abcd"
+        ]
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "a",
+          "aa",
+          "aaa",
+          "aaaa"
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    }
+  ]
+}

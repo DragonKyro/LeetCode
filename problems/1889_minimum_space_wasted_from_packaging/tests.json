@@ -1,0 +1,224 @@
+{
+  "problem_id": 1889,
+  "title": "Minimum Space Wasted From Packaging",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-space-wasted-from-packaging/",
+  "test_cases": [
+    {
+      "input": {
+        "packages": [
+          2,
+          3,
+          5
+        ],
+        "boxes": [
+          [
+            4,
+            8
+          ],
+          [
+            2,
+            8
+          ]
+        ]
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "packages": [
+          2,
+          3,
+          5
+        ],
+        "boxes": [
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "packages": [
+          3,
+          5,
+          8,
+          10,
+          11,
+          12
+        ],
+        "boxes": [
+          [
+            12
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            10,
+            5,
+            14
+          ]
+        ]
+      },
+      "expected": 9,
+      "source": "example"
+    },
+    {
+      "input": {
+        "packages": [
+          2
+        ],
+        "boxes": [
+          [
+            4,
+            8
+          ],
+          [
+            2,
+            8
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "packages": [
+          1,
+          100000
+        ],
+        "boxes": [
+          [
+            4,
+            8
+          ],
+          [
+            2,
+            8
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "packages": [
+          2,
+          2,
+          2
+        ],
+        "boxes": [
+          [
+            4,
+            8
+          ],
+          [
+            2,
+            8
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "packages": [
+          1,
+          2,
+          3
+        ],
+        "boxes": [
+          [
+            4,
+            8
+          ],
+          [
+            2,
+            8
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "packages": [
+          3,
+          2,
+          1
+        ],
+        "boxes": [
+          [
+            4,
+            8
+          ],
+          [
+            2,
+            8
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "packages": [
+          1,
+          1
+        ],
+        "boxes": [
+          [
+            4,
+            8
+          ],
+          [
+            2,
+            8
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "packages": [
+          100000,
+          100000
+        ],
+        "boxes": [
+          [
+            4,
+            8
+          ],
+          [
+            2,
+            8
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

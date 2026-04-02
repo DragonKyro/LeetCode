@@ -1,0 +1,54 @@
+{
+  "problem_id": 2133,
+  "title": "Check if Every Row and Column Contains All Numbers",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers/",
+  "test_cases": [
+    {
+      "input": {
+        "matrix": [
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            3,
+            1,
+            2
+          ],
+          [
+            2,
+            3,
+            1
+          ]
+        ]
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "matrix": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            2,
+            3
+          ]
+        ]
+      },
+      "expected": false,
+      "source": "example"
+    }
+  ]
+}

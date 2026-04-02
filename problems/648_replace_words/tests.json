@@ -1,0 +1,80 @@
+{
+  "problem_id": 648,
+  "title": "Replace Words",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/replace-words/",
+  "test_cases": [
+    {
+      "input": {
+        "dictionary": [
+          "cat",
+          "bat",
+          "rat"
+        ],
+        "sentence": "the cattle was rattled by the battery"
+      },
+      "expected": "the cat was rat by the bat",
+      "source": "example"
+    },
+    {
+      "input": {
+        "dictionary": [
+          "a",
+          "b",
+          "c"
+        ],
+        "sentence": "aadsfasf absbs bbab cadsfafs"
+      },
+      "expected": "a a b c",
+      "source": "example"
+    },
+    {
+      "input": {
+        "dictionary": [
+          "cat",
+          "bat",
+          "rat"
+        ],
+        "sentence": "t"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "dictionary": [
+          "cat",
+          "bat",
+          "rat"
+        ],
+        "sentence": "ttttttttttttttttttttttttttttttttttttt"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "dictionary": [
+          "cat",
+          "bat",
+          "rat"
+        ],
+        "sentence": "tutututututututututututututututututu"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "dictionary": [
+          "cat",
+          "bat",
+          "rat"
+        ],
+        "sentence": "the cattle was rattar saw elttac eht"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

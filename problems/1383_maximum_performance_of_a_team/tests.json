@@ -1,0 +1,382 @@
+{
+  "problem_id": 1383,
+  "title": "Maximum Performance of a Team",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/maximum-performance-of-a-team/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 6,
+        "speed": [
+          2,
+          10,
+          3,
+          1,
+          5,
+          8
+        ],
+        "efficiency": [
+          5,
+          4,
+          3,
+          9,
+          7,
+          2
+        ],
+        "k": 2
+      },
+      "expected": 60,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 6,
+        "speed": [
+          2,
+          10,
+          3,
+          1,
+          5,
+          8
+        ],
+        "efficiency": [
+          5,
+          4,
+          3,
+          9,
+          7,
+          2
+        ],
+        "k": 3
+      },
+      "expected": 68,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 6,
+        "speed": [
+          2,
+          10,
+          3,
+          1,
+          5,
+          8
+        ],
+        "efficiency": [
+          5,
+          4,
+          3,
+          9,
+          7,
+          2
+        ],
+        "k": 4
+      },
+      "expected": 72,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 6,
+        "speed": [
+          2
+        ],
+        "efficiency": [
+          5,
+          4,
+          3,
+          9,
+          7,
+          2
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 6,
+        "speed": [
+          1,
+          100000
+        ],
+        "efficiency": [
+          5,
+          4,
+          3,
+          9,
+          7,
+          2
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 6,
+        "speed": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "efficiency": [
+          5,
+          4,
+          3,
+          9,
+          7,
+          2
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 6,
+        "speed": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "efficiency": [
+          5,
+          4,
+          3,
+          9,
+          7,
+          2
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 6,
+        "speed": [
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "efficiency": [
+          5,
+          4,
+          3,
+          9,
+          7,
+          2
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 6,
+        "speed": [
+          1,
+          1
+        ],
+        "efficiency": [
+          5,
+          4,
+          3,
+          9,
+          7,
+          2
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 6,
+        "speed": [
+          100000,
+          100000
+        ],
+        "efficiency": [
+          5,
+          4,
+          3,
+          9,
+          7,
+          2
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 6,
+        "speed": [
+          2,
+          10,
+          3,
+          1,
+          5,
+          8
+        ],
+        "efficiency": [
+          5
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 6,
+        "speed": [
+          2,
+          10,
+          3,
+          1,
+          5,
+          8
+        ],
+        "efficiency": [
+          1,
+          100000000
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 6,
+        "speed": [
+          2,
+          10,
+          3,
+          1,
+          5,
+          8
+        ],
+        "efficiency": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 6,
+        "speed": [
+          2,
+          10,
+          3,
+          1,
+          5,
+          8
+        ],
+        "efficiency": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 6,
+        "speed": [
+          2,
+          10,
+          3,
+          1,
+          5,
+          8
+        ],
+        "efficiency": [
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 6,
+        "speed": [
+          2,
+          10,
+          3,
+          1,
+          5,
+          8
+        ],
+        "efficiency": [
+          1,
+          1
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 6,
+        "speed": [
+          2,
+          10,
+          3,
+          1,
+          5,
+          8
+        ],
+        "efficiency": [
+          100000000,
+          100000000
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

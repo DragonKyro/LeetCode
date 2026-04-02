@@ -1,0 +1,36 @@
+{
+  "problem_id": 2416,
+  "title": "Sum of Prefix Scores of Strings",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/sum-of-prefix-scores-of-strings/",
+  "test_cases": [
+    {
+      "input": {
+        "words": [
+          "abc",
+          "ab",
+          "bc",
+          "b"
+        ]
+      },
+      "expected": [
+        5,
+        4,
+        3,
+        2
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "abcd"
+        ]
+      },
+      "expected": [
+        4
+      ],
+      "source": "example"
+    }
+  ]
+}

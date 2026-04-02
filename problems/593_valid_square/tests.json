@@ -1,0 +1,466 @@
+{
+  "problem_id": 593,
+  "title": "Valid Square",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/valid-square/",
+  "test_cases": [
+    {
+      "input": {
+        "p1": [
+          0,
+          0
+        ],
+        "p2": [
+          1,
+          1
+        ],
+        "p3": [
+          1,
+          0
+        ],
+        "p4": [
+          0,
+          1
+        ]
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "p1": [
+          0,
+          0
+        ],
+        "p2": [
+          1,
+          1
+        ],
+        "p3": [
+          1,
+          0
+        ],
+        "p4": [
+          0,
+          12
+        ]
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "p1": [
+          1,
+          0
+        ],
+        "p2": [
+          -1,
+          0
+        ],
+        "p3": [
+          0,
+          1
+        ],
+        "p4": [
+          0,
+          -1
+        ]
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "p1": [
+          0
+        ],
+        "p2": [
+          1,
+          1
+        ],
+        "p3": [
+          1,
+          0
+        ],
+        "p4": [
+          0,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "p1": [
+          -100,
+          100
+        ],
+        "p2": [
+          1,
+          1
+        ],
+        "p3": [
+          1,
+          0
+        ],
+        "p4": [
+          0,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "p1": [
+          -100,
+          -100
+        ],
+        "p2": [
+          1,
+          1
+        ],
+        "p3": [
+          1,
+          0
+        ],
+        "p4": [
+          0,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "p1": [
+          100,
+          100
+        ],
+        "p2": [
+          1,
+          1
+        ],
+        "p3": [
+          1,
+          0
+        ],
+        "p4": [
+          0,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "p1": [
+          0,
+          0
+        ],
+        "p2": [
+          1
+        ],
+        "p3": [
+          1,
+          0
+        ],
+        "p4": [
+          0,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "p1": [
+          0,
+          0
+        ],
+        "p2": [
+          -100,
+          100
+        ],
+        "p3": [
+          1,
+          0
+        ],
+        "p4": [
+          0,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "p1": [
+          0,
+          0
+        ],
+        "p2": [
+          -100,
+          -100
+        ],
+        "p3": [
+          1,
+          0
+        ],
+        "p4": [
+          0,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "p1": [
+          0,
+          0
+        ],
+        "p2": [
+          100,
+          100
+        ],
+        "p3": [
+          1,
+          0
+        ],
+        "p4": [
+          0,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "p1": [
+          0,
+          0
+        ],
+        "p2": [
+          1,
+          1
+        ],
+        "p3": [
+          1
+        ],
+        "p4": [
+          0,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "p1": [
+          0,
+          0
+        ],
+        "p2": [
+          1,
+          1
+        ],
+        "p3": [
+          -100,
+          100
+        ],
+        "p4": [
+          0,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "p1": [
+          0,
+          0
+        ],
+        "p2": [
+          1,
+          1
+        ],
+        "p3": [
+          1,
+          1
+        ],
+        "p4": [
+          0,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "p1": [
+          0,
+          0
+        ],
+        "p2": [
+          1,
+          1
+        ],
+        "p3": [
+          -100,
+          -100
+        ],
+        "p4": [
+          0,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "p1": [
+          0,
+          0
+        ],
+        "p2": [
+          1,
+          1
+        ],
+        "p3": [
+          100,
+          100
+        ],
+        "p4": [
+          0,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "p1": [
+          0,
+          0
+        ],
+        "p2": [
+          1,
+          1
+        ],
+        "p3": [
+          1,
+          0
+        ],
+        "p4": [
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "p1": [
+          0,
+          0
+        ],
+        "p2": [
+          1,
+          1
+        ],
+        "p3": [
+          1,
+          0
+        ],
+        "p4": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "p1": [
+          0,
+          0
+        ],
+        "p2": [
+          1,
+          1
+        ],
+        "p3": [
+          1,
+          0
+        ],
+        "p4": [
+          0,
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "p1": [
+          0,
+          0
+        ],
+        "p2": [
+          1,
+          1
+        ],
+        "p3": [
+          1,
+          0
+        ],
+        "p4": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "p1": [
+          0,
+          0
+        ],
+        "p2": [
+          1,
+          1
+        ],
+        "p3": [
+          1,
+          0
+        ],
+        "p4": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

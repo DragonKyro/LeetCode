@@ -1,0 +1,43 @@
+{
+  "problem_id": 664,
+  "title": "Strange Printer",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/strange-printer/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "aaabbb"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "aba"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ababab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "problem_id": 1897,
+  "title": "Redistribute Characters to Make All Strings Equal",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/",
+  "test_cases": [
+    {
+      "input": {
+        "words": [
+          "abc",
+          "aabc",
+          "bc"
+        ]
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "ab",
+          "a"
+        ]
+      },
+      "expected": false,
+      "source": "example"
+    }
+  ]
+}

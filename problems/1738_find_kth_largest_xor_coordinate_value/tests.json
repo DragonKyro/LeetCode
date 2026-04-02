@@ -1,0 +1,59 @@
+{
+  "problem_id": 1738,
+  "title": "Find Kth Largest XOR Coordinate Value",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-kth-largest-xor-coordinate-value/",
+  "test_cases": [
+    {
+      "input": {
+        "matrix": [
+          [
+            5,
+            2
+          ],
+          [
+            1,
+            6
+          ]
+        ],
+        "k": 1
+      },
+      "expected": 7,
+      "source": "example"
+    },
+    {
+      "input": {
+        "matrix": [
+          [
+            5,
+            2
+          ],
+          [
+            1,
+            6
+          ]
+        ],
+        "k": 2
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "matrix": [
+          [
+            5,
+            2
+          ],
+          [
+            1,
+            6
+          ]
+        ],
+        "k": 3
+      },
+      "expected": 4,
+      "source": "example"
+    }
+  ]
+}

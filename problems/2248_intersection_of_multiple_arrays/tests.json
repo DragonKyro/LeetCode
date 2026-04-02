@@ -1,0 +1,56 @@
+{
+  "problem_id": 2248,
+  "title": "Intersection of Multiple Arrays",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/intersection-of-multiple-arrays/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          [
+            3,
+            1,
+            2,
+            4,
+            5
+          ],
+          [
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            3,
+            4,
+            5,
+            6
+          ]
+        ]
+      },
+      "expected": [
+        3,
+        4
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            4,
+            5,
+            6
+          ]
+        ]
+      },
+      "expected": [],
+      "source": "example"
+    }
+  ]
+}

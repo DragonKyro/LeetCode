@@ -1,0 +1,134 @@
+{
+  "problem_id": 2079,
+  "title": "Watering Plants",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/watering-plants/",
+  "test_cases": [
+    {
+      "input": {
+        "plants": [
+          2,
+          2,
+          3,
+          3
+        ],
+        "capacity": 5
+      },
+      "expected": 14,
+      "source": "example"
+    },
+    {
+      "input": {
+        "plants": [
+          1,
+          1,
+          1,
+          4,
+          2,
+          3
+        ],
+        "capacity": 4
+      },
+      "expected": 30,
+      "source": "example"
+    },
+    {
+      "input": {
+        "plants": [
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "capacity": 8
+      },
+      "expected": 49,
+      "source": "example"
+    },
+    {
+      "input": {
+        "plants": [
+          2
+        ],
+        "capacity": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "plants": [
+          1,
+          1000000
+        ],
+        "capacity": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "plants": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "capacity": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "plants": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "capacity": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "plants": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "capacity": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "plants": [
+          1,
+          1
+        ],
+        "capacity": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "plants": [
+          1000000,
+          1000000
+        ],
+        "capacity": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

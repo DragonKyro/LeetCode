@@ -1,0 +1,248 @@
+{
+  "problem_id": 3529,
+  "title": "Count Cells in Overlapping Horizontal and Vertical Substrings",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-cells-in-overlapping-horizontal-and-vertical-substrings/",
+  "test_cases": [
+    {
+      "input": {
+        "grid": [
+          [
+            "a",
+            "a",
+            "c",
+            "c"
+          ],
+          [
+            "b",
+            "b",
+            "b",
+            "c"
+          ],
+          [
+            "a",
+            "a",
+            "b",
+            "a"
+          ],
+          [
+            "c",
+            "a",
+            "a",
+            "c"
+          ],
+          [
+            "a",
+            "a",
+            "b",
+            "a"
+          ]
+        ],
+        "pattern": "abaca"
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            "c",
+            "a",
+            "a",
+            "a"
+          ],
+          [
+            "a",
+            "a",
+            "b",
+            "a"
+          ],
+          [
+            "b",
+            "b",
+            "a",
+            "a"
+          ],
+          [
+            "a",
+            "a",
+            "b",
+            "a"
+          ]
+        ],
+        "pattern": "aba"
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            "a"
+          ]
+        ],
+        "pattern": "a"
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            "a",
+            "a",
+            "c",
+            "c"
+          ],
+          [
+            "b",
+            "b",
+            "b",
+            "c"
+          ],
+          [
+            "a",
+            "a",
+            "b",
+            "a"
+          ],
+          [
+            "c",
+            "a",
+            "a",
+            "c"
+          ],
+          [
+            "a",
+            "a",
+            "b",
+            "a"
+          ]
+        ],
+        "pattern": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            "a",
+            "a",
+            "c",
+            "c"
+          ],
+          [
+            "b",
+            "b",
+            "b",
+            "c"
+          ],
+          [
+            "a",
+            "a",
+            "b",
+            "a"
+          ],
+          [
+            "c",
+            "a",
+            "a",
+            "c"
+          ],
+          [
+            "a",
+            "a",
+            "b",
+            "a"
+          ]
+        ],
+        "pattern": "aaaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            "a",
+            "a",
+            "c",
+            "c"
+          ],
+          [
+            "b",
+            "b",
+            "b",
+            "c"
+          ],
+          [
+            "a",
+            "a",
+            "b",
+            "a"
+          ],
+          [
+            "c",
+            "a",
+            "a",
+            "c"
+          ],
+          [
+            "a",
+            "a",
+            "b",
+            "a"
+          ]
+        ],
+        "pattern": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            "a",
+            "a",
+            "c",
+            "c"
+          ],
+          [
+            "b",
+            "b",
+            "b",
+            "c"
+          ],
+          [
+            "a",
+            "a",
+            "b",
+            "a"
+          ],
+          [
+            "c",
+            "a",
+            "a",
+            "c"
+          ],
+          [
+            "a",
+            "a",
+            "b",
+            "a"
+          ]
+        ],
+        "pattern": "abba"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

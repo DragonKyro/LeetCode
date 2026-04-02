@@ -1,0 +1,88 @@
+{
+  "problem_id": 3458,
+  "title": "Select K Disjoint Special Substrings",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/select-k-disjoint-special-substrings/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "abcdbaefab",
+        "k": 2
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "cdefdc",
+        "k": 3
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abeabe",
+        "k": 0
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaaaaaaaa",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ababababab",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abcdbbdcba",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abcdbaefab",
+        "k": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abcdbaefab",
+        "k": 26
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abcdbaefab",
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

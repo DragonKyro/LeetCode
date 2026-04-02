@@ -1,0 +1,57 @@
+{
+  "problem_id": 2299,
+  "title": "Strong Password Checker II",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/strong-password-checker-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "password": "IloveLe3tcode!"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "password": "Me+You--IsMyDream"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "password": "1aB!"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "password": "I"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "password": "IIIIIIIIIIIIII"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "password": "IJIJIJIJIJIJIJ"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "password": "IloveLeeLevolI"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

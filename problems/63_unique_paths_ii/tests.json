@@ -1,0 +1,47 @@
+{
+  "problem_id": 63,
+  "title": "Unique Paths II",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/unique-paths-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "obstacleGrid": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "obstacleGrid": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    }
+  ]
+}

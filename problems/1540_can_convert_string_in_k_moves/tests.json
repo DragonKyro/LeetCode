@@ -1,0 +1,134 @@
+{
+  "problem_id": 1540,
+  "title": "Can Convert String in K Moves",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/can-convert-string-in-k-moves/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "input",
+        "t": "ouput",
+        "k": 9
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abc",
+        "t": "bcd",
+        "k": 10
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "aab",
+        "t": "bbb",
+        "k": 27
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "i",
+        "t": "ouput",
+        "k": 9
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "iiiii",
+        "t": "ouput",
+        "k": 9
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ijij",
+        "t": "ouput",
+        "k": 9
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "inni",
+        "t": "ouput",
+        "k": 9
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "input",
+        "t": "o",
+        "k": 9
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "input",
+        "t": "ooooo",
+        "k": 9
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "input",
+        "t": "opop",
+        "k": 9
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "input",
+        "t": "ouuo",
+        "k": 9
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "input",
+        "t": "ouput",
+        "k": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "input",
+        "t": "ouput",
+        "k": 1000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "input",
+        "t": "ouput",
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

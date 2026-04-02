@@ -1,0 +1,47 @@
+{
+  "problem_id": 2053,
+  "title": "Kth Distinct String in an Array",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/kth-distinct-string-in-an-array/",
+  "test_cases": [
+    {
+      "input": {
+        "arr": [
+          "d",
+          "b",
+          "c",
+          "b",
+          "c",
+          "a"
+        ],
+        "k": 2
+      },
+      "expected": "a",
+      "source": "example"
+    },
+    {
+      "input": {
+        "arr": [
+          "aaa",
+          "aa",
+          "a"
+        ],
+        "k": 1
+      },
+      "expected": "aaa",
+      "source": "example"
+    },
+    {
+      "input": {
+        "arr": [
+          "a",
+          "b",
+          "a"
+        ],
+        "k": 3
+      },
+      "expected": "",
+      "source": "example"
+    }
+  ]
+}

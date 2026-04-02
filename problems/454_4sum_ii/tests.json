@@ -1,0 +1,484 @@
+{
+  "problem_id": 454,
+  "title": "4Sum II",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/4sum-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "nums1": [
+          1,
+          2
+        ],
+        "nums2": [
+          -2,
+          -1
+        ],
+        "nums3": [
+          -1,
+          2
+        ],
+        "nums4": [
+          0,
+          2
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums1": [
+          0
+        ],
+        "nums2": [
+          0
+        ],
+        "nums3": [
+          0
+        ],
+        "nums4": [
+          0
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums1": [
+          1
+        ],
+        "nums2": [
+          -2,
+          -1
+        ],
+        "nums3": [
+          -1,
+          2
+        ],
+        "nums4": [
+          0,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          -100,
+          100
+        ],
+        "nums2": [
+          -2,
+          -1
+        ],
+        "nums3": [
+          -1,
+          2
+        ],
+        "nums4": [
+          0,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          1
+        ],
+        "nums2": [
+          -2,
+          -1
+        ],
+        "nums3": [
+          -1,
+          2
+        ],
+        "nums4": [
+          0,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          -100,
+          -100
+        ],
+        "nums2": [
+          -2,
+          -1
+        ],
+        "nums3": [
+          -1,
+          2
+        ],
+        "nums4": [
+          0,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          100,
+          100
+        ],
+        "nums2": [
+          -2,
+          -1
+        ],
+        "nums3": [
+          -1,
+          2
+        ],
+        "nums4": [
+          0,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          2
+        ],
+        "nums2": [
+          -2
+        ],
+        "nums3": [
+          -1,
+          2
+        ],
+        "nums4": [
+          0,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          2
+        ],
+        "nums2": [
+          -100,
+          100
+        ],
+        "nums3": [
+          -1,
+          2
+        ],
+        "nums4": [
+          0,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          2
+        ],
+        "nums2": [
+          -2,
+          -2
+        ],
+        "nums3": [
+          -1,
+          2
+        ],
+        "nums4": [
+          0,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          2
+        ],
+        "nums2": [
+          -100,
+          -100
+        ],
+        "nums3": [
+          -1,
+          2
+        ],
+        "nums4": [
+          0,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          2
+        ],
+        "nums2": [
+          100,
+          100
+        ],
+        "nums3": [
+          -1,
+          2
+        ],
+        "nums4": [
+          0,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          2
+        ],
+        "nums2": [
+          -2,
+          -1
+        ],
+        "nums3": [
+          -1
+        ],
+        "nums4": [
+          0,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          2
+        ],
+        "nums2": [
+          -2,
+          -1
+        ],
+        "nums3": [
+          -100,
+          100
+        ],
+        "nums4": [
+          0,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          2
+        ],
+        "nums2": [
+          -2,
+          -1
+        ],
+        "nums3": [
+          -1,
+          -1
+        ],
+        "nums4": [
+          0,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          2
+        ],
+        "nums2": [
+          -2,
+          -1
+        ],
+        "nums3": [
+          -100,
+          -100
+        ],
+        "nums4": [
+          0,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          2
+        ],
+        "nums2": [
+          -2,
+          -1
+        ],
+        "nums3": [
+          100,
+          100
+        ],
+        "nums4": [
+          0,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          2
+        ],
+        "nums2": [
+          -2,
+          -1
+        ],
+        "nums3": [
+          -1,
+          2
+        ],
+        "nums4": [
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          2
+        ],
+        "nums2": [
+          -2,
+          -1
+        ],
+        "nums3": [
+          -1,
+          2
+        ],
+        "nums4": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          2
+        ],
+        "nums2": [
+          -2,
+          -1
+        ],
+        "nums3": [
+          -1,
+          2
+        ],
+        "nums4": [
+          0,
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          2
+        ],
+        "nums2": [
+          -2,
+          -1
+        ],
+        "nums3": [
+          -1,
+          2
+        ],
+        "nums4": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          2
+        ],
+        "nums2": [
+          -2,
+          -1
+        ],
+        "nums3": [
+          -1,
+          2
+        ],
+        "nums4": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "problem_id": 3216,
+  "title": "Lexicographically Smallest String After a Swap",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/lexicographically-smallest-string-after-a-swap/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "45320"
+      },
+      "expected": "43520",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "001"
+      },
+      "expected": "001",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "44444"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "4545"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "4554"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

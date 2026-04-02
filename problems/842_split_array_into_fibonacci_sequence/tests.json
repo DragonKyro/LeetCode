@@ -1,0 +1,62 @@
+{
+  "problem_id": 842,
+  "title": "Split Array into Fibonacci Sequence",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/split-array-into-fibonacci-sequence/",
+  "test_cases": [
+    {
+      "input": {
+        "num": "1101111"
+      },
+      "expected": [
+        11,
+        0,
+        11,
+        11
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": "112358130"
+      },
+      "expected": [],
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": "0123"
+      },
+      "expected": [],
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": "1"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "1111111"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "121212"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "110011"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

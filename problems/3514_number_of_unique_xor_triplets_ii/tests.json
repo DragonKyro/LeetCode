@@ -1,0 +1,69 @@
+{
+  "problem_id": 3514,
+  "title": "Number of Unique XOR Triplets II",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/number-of-unique-xor-triplets-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          1,
+          3
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1500
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1500,
+          1500
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

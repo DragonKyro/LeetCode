@@ -1,0 +1,57 @@
+{
+  "problem_id": 3722,
+  "title": "Lexicographically Smallest String After Reverse",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/lexicographically-smallest-string-after-reverse/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "dcab"
+      },
+      "expected": "acdb",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abba"
+      },
+      "expected": "aabb",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "zxy"
+      },
+      "expected": "xzy",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "d"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "dddd"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "dede"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "dccd"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

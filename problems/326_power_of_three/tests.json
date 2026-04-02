@@ -1,0 +1,50 @@
+{
+  "problem_id": 326,
+  "title": "Power of Three",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/power-of-three/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 27
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 0
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": -1
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": -2147483648
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 2147483648
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "problem_id": 233,
+  "title": "Number of Digit One",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/number-of-digit-one/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 13
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 0
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

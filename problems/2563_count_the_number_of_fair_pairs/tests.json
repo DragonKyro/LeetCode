@@ -1,0 +1,134 @@
+{
+  "problem_id": 2563,
+  "title": "Count the Number of Fair Pairs",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-the-number-of-fair-pairs/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          0,
+          1,
+          7,
+          4,
+          4,
+          5
+        ],
+        "lower": 3,
+        "upper": 6
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          7,
+          9,
+          2,
+          5
+        ],
+        "lower": 11,
+        "upper": 11
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          0
+        ],
+        "lower": 3,
+        "upper": 6
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -1000000000,
+          1000000000
+        ],
+        "lower": 3,
+        "upper": 6
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "lower": 3,
+        "upper": 6
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "lower": 3,
+        "upper": 6
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "lower": 3,
+        "upper": 6
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -1000000000,
+          -1000000000
+        ],
+        "lower": 3,
+        "upper": 6
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1000000000,
+          1000000000
+        ],
+        "lower": 3,
+        "upper": 6
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

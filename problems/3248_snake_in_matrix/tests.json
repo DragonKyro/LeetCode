@@ -1,0 +1,42 @@
+{
+  "problem_id": 3248,
+  "title": "Snake in Matrix",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/snake-in-matrix/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 2,
+        "commands": [
+          "RIGHT",
+          "DOWN"
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 3,
+        "commands": [
+          "DOWN",
+          "RIGHT",
+          "UP"
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 10,
+        "commands": [
+          "RIGHT",
+          "DOWN"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

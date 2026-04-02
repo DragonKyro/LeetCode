@@ -1,0 +1,72 @@
+{
+  "problem_id": 541,
+  "title": "Reverse String II",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/reverse-string-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "abcdefg",
+        "k": 2
+      },
+      "expected": "bacdfeg",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abcd",
+        "k": 2
+      },
+      "expected": "bacd",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaaaaa",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ababab",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abccba",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abcdefg",
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abcdefg",
+        "k": 10000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

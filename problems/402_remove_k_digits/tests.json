@@ -1,0 +1,64 @@
+{
+  "problem_id": 402,
+  "title": "Remove K Digits",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/remove-k-digits/",
+  "test_cases": [
+    {
+      "input": {
+        "num": "1432219",
+        "k": 3
+      },
+      "expected": "1219",
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": "10200",
+        "k": 1
+      },
+      "expected": "200",
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": "10",
+        "k": 2
+      },
+      "expected": "0",
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": "1",
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "1111111",
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "121212",
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "143341",
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

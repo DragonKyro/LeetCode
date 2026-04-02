@@ -1,0 +1,36 @@
+{
+  "problem_id": 204,
+  "title": "Count Primes",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-primes/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 10
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 0
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

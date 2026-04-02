@@ -1,0 +1,56 @@
+{
+  "problem_id": 2591,
+  "title": "Distribute Money to Maximum Children",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/distribute-money-to-maximum-children/",
+  "test_cases": [
+    {
+      "input": {
+        "money": 20,
+        "children": 3
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "money": 16,
+        "children": 2
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "money": 1,
+        "children": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "money": 200,
+        "children": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "money": 20,
+        "children": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "money": 20,
+        "children": 30
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

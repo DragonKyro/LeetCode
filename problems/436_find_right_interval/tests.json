@@ -1,0 +1,70 @@
+{
+  "problem_id": 436,
+  "title": "Find Right Interval",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-right-interval/",
+  "test_cases": [
+    {
+      "input": {
+        "intervals": [
+          [
+            1,
+            2
+          ]
+        ]
+      },
+      "expected": [
+        -1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "intervals": [
+          [
+            3,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      },
+      "expected": [
+        -1,
+        0,
+        1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "intervals": [
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      "expected": [
+        -1,
+        2,
+        -1
+      ],
+      "source": "example"
+    }
+  ]
+}

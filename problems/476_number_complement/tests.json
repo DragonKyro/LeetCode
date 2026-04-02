@@ -1,0 +1,22 @@
+{
+  "problem_id": 476,
+  "title": "Number Complement",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/number-complement/",
+  "test_cases": [
+    {
+      "input": {
+        "num": 5
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 1
+      },
+      "expected": 0,
+      "source": "example"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "problem_id": 3144,
+  "title": "Minimum Substring Partition of Equal Character Frequency",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-substring-partition-of-equal-character-frequency/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "fabccddg"
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abababaccddb"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "f"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ffffffff"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "fgfgfgfg"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "fabccbaf"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

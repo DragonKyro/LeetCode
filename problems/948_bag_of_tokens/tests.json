@@ -1,0 +1,75 @@
+{
+  "problem_id": 948,
+  "title": "Bag of Tokens",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/bag-of-tokens/",
+  "test_cases": [
+    {
+      "input": {
+        "tokens": [
+          100
+        ],
+        "power": 50
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "tokens": [
+          200,
+          100
+        ],
+        "power": 150
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "tokens": [
+          100,
+          200,
+          300,
+          400
+        ],
+        "power": 200
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "tokens": [
+          -100,
+          100
+        ],
+        "power": 50
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "tokens": [
+          -100,
+          -100
+        ],
+        "power": 50
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "tokens": [
+          100,
+          100
+        ],
+        "power": 50
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

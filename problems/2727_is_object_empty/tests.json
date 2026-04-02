@@ -1,0 +1,36 @@
+{
+  "problem_id": 2727,
+  "title": "Is Object Empty",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/is-object-empty/",
+  "test_cases": [
+    {
+      "input": {
+        "obj": {
+          "x": 5,
+          "y": 42
+        }
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "obj": {}
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "obj": [
+          null,
+          false,
+          0
+        ]
+      },
+      "expected": false,
+      "source": "example"
+    }
+  ]
+}

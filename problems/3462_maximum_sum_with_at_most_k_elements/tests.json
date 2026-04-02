@@ -1,0 +1,156 @@
+{
+  "problem_id": 3462,
+  "title": "Maximum Sum With at Most K Elements",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-sum-with-at-most-k-elements/",
+  "test_cases": [
+    {
+      "input": {
+        "grid": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "limits": [
+          1,
+          2
+        ],
+        "k": 2
+      },
+      "expected": 7,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            5,
+            3,
+            7
+          ],
+          [
+            8,
+            2,
+            6
+          ]
+        ],
+        "limits": [
+          2,
+          2
+        ],
+        "k": 3
+      },
+      "expected": 21,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "limits": [
+          1
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "limits": [
+          -100,
+          100
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "limits": [
+          1,
+          1
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "limits": [
+          -100,
+          -100
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "limits": [
+          100,
+          100
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

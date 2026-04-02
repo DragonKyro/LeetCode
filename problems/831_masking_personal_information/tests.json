@@ -1,0 +1,43 @@
+{
+  "problem_id": 831,
+  "title": "Masking Personal Information",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/masking-personal-information/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "LeetCode@LeetCode.com"
+      },
+      "expected": "l*****e@leetcode.com",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "AB@qq.com"
+      },
+      "expected": "a*****b@qq.com",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "1(234)567-890"
+      },
+      "expected": "***-***-7890",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "LLLLLLLLLLLLLLLLLLLLL"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "LeetCode@LL@edoCteeL"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

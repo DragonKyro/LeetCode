@@ -1,0 +1,57 @@
+{
+  "problem_id": 1079,
+  "title": "Letter Tile Possibilities",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/letter-tile-possibilities/",
+  "test_cases": [
+    {
+      "input": {
+        "tiles": "AAB"
+      },
+      "expected": 8,
+      "source": "example"
+    },
+    {
+      "input": {
+        "tiles": "AAABBC"
+      },
+      "expected": 188,
+      "source": "example"
+    },
+    {
+      "input": {
+        "tiles": "V"
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "tiles": "A"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "tiles": "AAA"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "tiles": "ABAB"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "tiles": "AA"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

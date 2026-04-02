@@ -1,0 +1,93 @@
+{
+  "problem_id": 2115,
+  "title": "Find All Possible Recipes from Given Supplies",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/",
+  "test_cases": [
+    {
+      "input": {
+        "recipes": [
+          "bread"
+        ],
+        "ingredients": [
+          [
+            "yeast",
+            "flour"
+          ]
+        ],
+        "supplies": [
+          "yeast",
+          "flour",
+          "corn"
+        ]
+      },
+      "expected": [
+        "bread"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "recipes": [
+          "bread",
+          "sandwich"
+        ],
+        "ingredients": [
+          [
+            "yeast",
+            "flour"
+          ],
+          [
+            "bread",
+            "meat"
+          ]
+        ],
+        "supplies": [
+          "yeast",
+          "flour",
+          "meat"
+        ]
+      },
+      "expected": [
+        "bread",
+        "sandwich"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "recipes": [
+          "bread",
+          "sandwich",
+          "burger"
+        ],
+        "ingredients": [
+          [
+            "yeast",
+            "flour"
+          ],
+          [
+            "bread",
+            "meat"
+          ],
+          [
+            "sandwich",
+            "meat",
+            "bread"
+          ]
+        ],
+        "supplies": [
+          "yeast",
+          "flour",
+          "meat"
+        ]
+      },
+      "expected": [
+        "bread",
+        "sandwich",
+        "burger"
+      ],
+      "source": "example"
+    }
+  ]
+}

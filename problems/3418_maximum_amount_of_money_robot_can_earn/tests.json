@@ -1,0 +1,49 @@
+{
+  "problem_id": 3418,
+  "title": "Maximum Amount of Money Robot Can Earn",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-amount-of-money-robot-can-earn/",
+  "test_cases": [
+    {
+      "input": {
+        "coins": [
+          [
+            0,
+            1,
+            -1
+          ],
+          [
+            1,
+            -2,
+            3
+          ],
+          [
+            2,
+            -3,
+            4
+          ]
+        ]
+      },
+      "expected": 8,
+      "source": "example"
+    },
+    {
+      "input": {
+        "coins": [
+          [
+            10,
+            10,
+            10
+          ],
+          [
+            10,
+            10,
+            10
+          ]
+        ]
+      },
+      "expected": 40,
+      "source": "example"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "problem_id": 423,
+  "title": "Reconstruct Original Digits from English",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/reconstruct-original-digits-from-english/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "owoztneoer"
+      },
+      "expected": "012",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "fviefuro"
+      },
+      "expected": "45",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "o"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "oooooooooo"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "opopopopop"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "owozttzowo"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

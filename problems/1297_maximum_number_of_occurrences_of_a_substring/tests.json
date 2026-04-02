@@ -1,0 +1,88 @@
+{
+  "problem_id": 1297,
+  "title": "Maximum Number of Occurrences of a Substring",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "aababcaab",
+        "maxLetters": 2,
+        "minSize": 3,
+        "maxSize": 4
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "aaaa",
+        "maxLetters": 1,
+        "minSize": 3,
+        "maxSize": 3
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a",
+        "maxLetters": 2,
+        "minSize": 3,
+        "maxSize": 4
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaaaaaaa",
+        "maxLetters": 2,
+        "minSize": 3,
+        "maxSize": 4
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abababab",
+        "maxLetters": 2,
+        "minSize": 3,
+        "maxSize": 4
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aabaabaa",
+        "maxLetters": 2,
+        "minSize": 3,
+        "maxSize": 4
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aababcaab",
+        "maxLetters": 1,
+        "minSize": 3,
+        "maxSize": 4
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aababcaab",
+        "maxLetters": 26,
+        "minSize": 3,
+        "maxSize": 4
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

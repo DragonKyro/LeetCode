@@ -1,0 +1,36 @@
+{
+  "problem_id": 3304,
+  "title": "Find the K-th Character in String Game I",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/",
+  "test_cases": [
+    {
+      "input": {
+        "k": 5
+      },
+      "expected": "b",
+      "source": "example"
+    },
+    {
+      "input": {
+        "k": 10
+      },
+      "expected": "c",
+      "source": "example"
+    },
+    {
+      "input": {
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "k": 500
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

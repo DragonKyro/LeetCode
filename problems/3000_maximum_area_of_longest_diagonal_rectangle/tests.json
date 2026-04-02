@@ -1,0 +1,40 @@
+{
+  "problem_id": 3000,
+  "title": "Maximum Area of Longest Diagonal Rectangle",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/maximum-area-of-longest-diagonal-rectangle/",
+  "test_cases": [
+    {
+      "input": {
+        "dimensions": [
+          [
+            9,
+            3
+          ],
+          [
+            8,
+            6
+          ]
+        ]
+      },
+      "expected": 48,
+      "source": "example"
+    },
+    {
+      "input": {
+        "dimensions": [
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            3
+          ]
+        ]
+      },
+      "expected": 12,
+      "source": "example"
+    }
+  ]
+}

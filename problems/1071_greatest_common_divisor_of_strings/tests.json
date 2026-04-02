@@ -1,0 +1,104 @@
+{
+  "problem_id": 1071,
+  "title": "Greatest Common Divisor of Strings",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/greatest-common-divisor-of-strings/",
+  "test_cases": [
+    {
+      "input": {
+        "str1": "ABCABC",
+        "str2": "ABC"
+      },
+      "expected": "ABC",
+      "source": "example"
+    },
+    {
+      "input": {
+        "str1": "ABABAB",
+        "str2": "ABAB"
+      },
+      "expected": "AB",
+      "source": "example"
+    },
+    {
+      "input": {
+        "str1": "LEET",
+        "str2": "CODE"
+      },
+      "expected": "",
+      "source": "example"
+    },
+    {
+      "input": {
+        "str1": "AAAAAB",
+        "str2": "AAA"
+      },
+      "expected": "\"\"​​​​​​​",
+      "source": "example"
+    },
+    {
+      "input": {
+        "str1": "A",
+        "str2": "ABC"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "str1": "AAAAAA",
+        "str2": "ABC"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "str1": "ABABAB",
+        "str2": "ABC"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "str1": "ABCCBA",
+        "str2": "ABC"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "str1": "ABCABC",
+        "str2": "A"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "str1": "ABCABC",
+        "str2": "AAA"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "str1": "ABCABC",
+        "str2": "ABAB"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "str1": "ABCABC",
+        "str2": "AA"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

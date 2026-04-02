@@ -1,0 +1,58 @@
+{
+  "problem_id": 1520,
+  "title": "Maximum Number of Non-Overlapping Substrings",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/maximum-number-of-non-overlapping-substrings/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "adefaddaccc"
+      },
+      "expected": [
+        "e",
+        "f",
+        "ccc"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abbaccd"
+      },
+      "expected": [
+        "d",
+        "bb",
+        "cc"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaaaaaaaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ababababab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "adefaafeda"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

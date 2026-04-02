@@ -1,0 +1,29 @@
+{
+  "problem_id": 390,
+  "title": "Elimination Game",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/elimination-game/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 9
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

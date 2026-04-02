@@ -1,0 +1,26 @@
+{
+  "problem_id": 2745,
+  "title": "Construct the Longest New String",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/construct-the-longest-new-string/",
+  "test_cases": [
+    {
+      "input": {
+        "x": 2,
+        "y": 5,
+        "z": 1
+      },
+      "expected": 12,
+      "source": "example"
+    },
+    {
+      "input": {
+        "x": 3,
+        "y": 2,
+        "z": 2
+      },
+      "expected": 14,
+      "source": "example"
+    }
+  ]
+}

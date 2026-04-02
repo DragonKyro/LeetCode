@@ -1,0 +1,329 @@
+{
+  "problem_id": 1514,
+  "title": "Path with Maximum Probability",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/path-with-maximum-probability/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 3,
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "succProb": [
+          0.5,
+          0.5,
+          0.2
+        ],
+        "start": 0,
+        "end": 2
+      },
+      "expected": 0.25,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 3,
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "succProb": [
+          0.5,
+          0.5,
+          0.3
+        ],
+        "start": 0,
+        "end": 2
+      },
+      "expected": 0.3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 3,
+        "edges": [
+          [
+            0,
+            1
+          ]
+        ],
+        "succProb": [
+          0.5
+        ],
+        "start": 0,
+        "end": 2
+      },
+      "expected": 0.0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 2,
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "succProb": [
+          0.5,
+          0.5,
+          0.2
+        ],
+        "start": 0,
+        "end": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 10000,
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "succProb": [
+          0.5,
+          0.5,
+          0.2
+        ],
+        "start": 0,
+        "end": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 3,
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "succProb": [
+          0.5
+        ],
+        "start": 0,
+        "end": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 3,
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "succProb": [
+          0,
+          1
+        ],
+        "start": 0,
+        "end": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 3,
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "succProb": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "start": 0,
+        "end": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 3,
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "succProb": [
+          1,
+          2,
+          3
+        ],
+        "start": 0,
+        "end": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 3,
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "succProb": [
+          3,
+          2,
+          1
+        ],
+        "start": 0,
+        "end": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 3,
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "succProb": [
+          0,
+          0
+        ],
+        "start": 0,
+        "end": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 3,
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "succProb": [
+          1,
+          1
+        ],
+        "start": 0,
+        "end": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

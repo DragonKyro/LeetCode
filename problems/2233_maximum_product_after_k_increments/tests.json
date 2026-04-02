@@ -1,0 +1,75 @@
+{
+  "problem_id": 2233,
+  "title": "Maximum Product After K Increments",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-product-after-k-increments/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          0,
+          4
+        ],
+        "k": 5
+      },
+      "expected": 20,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          6,
+          3,
+          3,
+          2
+        ],
+        "k": 2
+      },
+      "expected": 216,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          0
+        ],
+        "k": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          0,
+          1000000
+        ],
+        "k": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          0,
+          0
+        ],
+        "k": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1000000,
+          1000000
+        ],
+        "k": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "problem_id": 3470,
+  "title": "Permutations IV",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/permutations-iv/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 4,
+        "k": 6
+      },
+      "expected": [
+        3,
+        4,
+        1,
+        2
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 3,
+        "k": 2
+      },
+      "expected": [
+        3,
+        2,
+        1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 2,
+        "k": 3
+      },
+      "expected": [],
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "k": 6
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 4,
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 4,
+        "k": 1000000000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

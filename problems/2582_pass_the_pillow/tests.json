@@ -1,0 +1,48 @@
+{
+  "problem_id": 2582,
+  "title": "Pass the Pillow",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/pass-the-pillow/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 4,
+        "time": 5
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 3,
+        "time": 2
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 2,
+        "time": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 1,
+        "time": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 4,
+        "time": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

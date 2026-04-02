@@ -1,0 +1,116 @@
+{
+  "problem_id": 2897,
+  "title": "Apply Operations on Array to Maximize Sum of Squares",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/apply-operations-on-array-to-maximize-sum-of-squares/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          2,
+          6,
+          5,
+          8
+        ],
+        "k": 2
+      },
+      "expected": 261,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          5,
+          4,
+          7
+        ],
+        "k": 3
+      },
+      "expected": 90,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          2
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1000000000
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1000000000,
+          1000000000
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

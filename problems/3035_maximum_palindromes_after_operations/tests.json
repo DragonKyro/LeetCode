@@ -1,0 +1,40 @@
+{
+  "problem_id": 3035,
+  "title": "Maximum Palindromes After Operations",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-palindromes-after-operations/",
+  "test_cases": [
+    {
+      "input": {
+        "words": [
+          "abbb",
+          "ba",
+          "aa"
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "abc",
+          "ab"
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "cd",
+          "ef",
+          "a"
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    }
+  ]
+}

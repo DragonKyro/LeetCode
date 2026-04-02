@@ -1,0 +1,43 @@
+{
+  "problem_id": 2520,
+  "title": "Count the Digits That Divide a Number",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/count-the-digits-that-divide-a-number/",
+  "test_cases": [
+    {
+      "input": {
+        "num": 7
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 121
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 1248
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": 1000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "problem_id": 2435,
+  "title": "Paths in Matrix Whose Sum Is Divisible by K",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/paths-in-matrix-whose-sum-is-divisible-by-k/",
+  "test_cases": [
+    {
+      "input": {
+        "grid": [
+          [
+            5,
+            2,
+            4
+          ],
+          [
+            3,
+            0,
+            5
+          ],
+          [
+            0,
+            7,
+            2
+          ]
+        ],
+        "k": 3
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            0,
+            0
+          ]
+        ],
+        "k": 5
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            7,
+            3,
+            4,
+            9
+          ],
+          [
+            2,
+            3,
+            6,
+            2
+          ],
+          [
+            2,
+            3,
+            7,
+            0
+          ]
+        ],
+        "k": 1
+      },
+      "expected": 10,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            5,
+            2,
+            4
+          ],
+          [
+            3,
+            0,
+            5
+          ],
+          [
+            0,
+            7,
+            2
+          ]
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            5,
+            2,
+            4
+          ],
+          [
+            3,
+            0,
+            5
+          ],
+          [
+            0,
+            7,
+            2
+          ]
+        ],
+        "k": 50
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

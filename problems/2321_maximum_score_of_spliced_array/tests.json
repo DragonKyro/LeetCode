@@ -1,0 +1,258 @@
+{
+  "problem_id": 2321,
+  "title": "Maximum Score Of Spliced Array",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/maximum-score-of-spliced-array/",
+  "test_cases": [
+    {
+      "input": {
+        "nums1": [
+          60,
+          60,
+          60
+        ],
+        "nums2": [
+          10,
+          90,
+          10
+        ]
+      },
+      "expected": 210,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums1": [
+          20,
+          40,
+          20,
+          70,
+          30
+        ],
+        "nums2": [
+          50,
+          20,
+          50,
+          40,
+          20
+        ]
+      },
+      "expected": 220,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums1": [
+          7,
+          11,
+          13
+        ],
+        "nums2": [
+          1,
+          1,
+          1
+        ]
+      },
+      "expected": 31,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums1": [
+          60
+        ],
+        "nums2": [
+          10,
+          90,
+          10
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          -100,
+          100
+        ],
+        "nums2": [
+          10,
+          90,
+          10
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          2,
+          3
+        ],
+        "nums2": [
+          10,
+          90,
+          10
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          3,
+          2,
+          1
+        ],
+        "nums2": [
+          10,
+          90,
+          10
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          -100,
+          -100
+        ],
+        "nums2": [
+          10,
+          90,
+          10
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          100,
+          100
+        ],
+        "nums2": [
+          10,
+          90,
+          10
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          60,
+          60,
+          60
+        ],
+        "nums2": [
+          10
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          60,
+          60,
+          60
+        ],
+        "nums2": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          60,
+          60,
+          60
+        ],
+        "nums2": [
+          10,
+          10,
+          10
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          60,
+          60,
+          60
+        ],
+        "nums2": [
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          60,
+          60,
+          60
+        ],
+        "nums2": [
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          60,
+          60,
+          60
+        ],
+        "nums2": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          60,
+          60,
+          60
+        ],
+        "nums2": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

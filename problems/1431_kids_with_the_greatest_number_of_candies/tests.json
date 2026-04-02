@@ -1,0 +1,155 @@
+{
+  "problem_id": 1431,
+  "title": "Kids With the Greatest Number of Candies",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/",
+  "test_cases": [
+    {
+      "input": {
+        "candies": [
+          2,
+          3,
+          5,
+          1,
+          3
+        ],
+        "extraCandies": 3
+      },
+      "expected": [
+        true,
+        true,
+        true,
+        false,
+        true
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "candies": [
+          4,
+          2,
+          1,
+          1,
+          2
+        ],
+        "extraCandies": 1
+      },
+      "expected": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "candies": [
+          12,
+          1,
+          12
+        ],
+        "extraCandies": 10
+      },
+      "expected": [
+        true,
+        false,
+        true
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "candies": [
+          2
+        ],
+        "extraCandies": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "candies": [
+          1,
+          1
+        ],
+        "extraCandies": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "candies": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "extraCandies": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "candies": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "extraCandies": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "candies": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "extraCandies": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "candies": [
+          2,
+          3,
+          5,
+          1,
+          3
+        ],
+        "extraCandies": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "candies": [
+          2,
+          3,
+          5,
+          1,
+          3
+        ],
+        "extraCandies": 50
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

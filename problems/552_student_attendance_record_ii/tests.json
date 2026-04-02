@@ -1,0 +1,36 @@
+{
+  "problem_id": 552,
+  "title": "Student Attendance Record II",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/student-attendance-record-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 2
+      },
+      "expected": 8,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 10101
+      },
+      "expected": 183236316,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 100000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

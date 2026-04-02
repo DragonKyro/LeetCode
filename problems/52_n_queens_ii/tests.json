@@ -1,0 +1,29 @@
+{
+  "problem_id": 52,
+  "title": "N-Queens II",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/n-queens-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 4
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 9
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

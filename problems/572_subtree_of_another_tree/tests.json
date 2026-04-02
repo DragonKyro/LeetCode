@@ -1,0 +1,283 @@
+{
+  "problem_id": 572,
+  "title": "Subtree of Another Tree",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/subtree-of-another-tree/",
+  "test_cases": [
+    {
+      "input": {
+        "root": [
+          3,
+          4,
+          5,
+          1,
+          2
+        ],
+        "subRoot": [
+          4,
+          1,
+          2
+        ]
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "root": [
+          3,
+          4,
+          5,
+          1,
+          2,
+          null,
+          null,
+          null,
+          null,
+          0
+        ],
+        "subRoot": [
+          4,
+          1,
+          2
+        ]
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "root": [
+          3
+        ],
+        "subRoot": [
+          4,
+          1,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          -100,
+          100
+        ],
+        "subRoot": [
+          4,
+          1,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "subRoot": [
+          4,
+          1,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "subRoot": [
+          4,
+          1,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "subRoot": [
+          4,
+          1,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          -100,
+          -100
+        ],
+        "subRoot": [
+          4,
+          1,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          100,
+          100
+        ],
+        "subRoot": [
+          4,
+          1,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          3,
+          4,
+          5,
+          1,
+          2
+        ],
+        "subRoot": [
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          3,
+          4,
+          5,
+          1,
+          2
+        ],
+        "subRoot": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          3,
+          4,
+          5,
+          1,
+          2
+        ],
+        "subRoot": [
+          4,
+          4,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          3,
+          4,
+          5,
+          1,
+          2
+        ],
+        "subRoot": [
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          3,
+          4,
+          5,
+          1,
+          2
+        ],
+        "subRoot": [
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          3,
+          4,
+          5,
+          1,
+          2
+        ],
+        "subRoot": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          3,
+          4,
+          5,
+          1,
+          2
+        ],
+        "subRoot": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

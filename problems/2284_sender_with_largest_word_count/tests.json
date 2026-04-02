@@ -1,0 +1,40 @@
+{
+  "problem_id": 2284,
+  "title": "Sender With Largest Word Count",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/sender-with-largest-word-count/",
+  "test_cases": [
+    {
+      "input": {
+        "messages": [
+          "Hello userTwooo",
+          "Hi userThree",
+          "Wonderful day Alice",
+          "Nice day userThree"
+        ],
+        "senders": [
+          "Alice",
+          "userTwo",
+          "userThree",
+          "Alice"
+        ]
+      },
+      "expected": "Alice",
+      "source": "example"
+    },
+    {
+      "input": {
+        "messages": [
+          "How is leetcode for everyone",
+          "Leetcode is useful for practice"
+        ],
+        "senders": [
+          "Bob",
+          "Charlie"
+        ]
+      },
+      "expected": "Charlie",
+      "source": "example"
+    }
+  ]
+}

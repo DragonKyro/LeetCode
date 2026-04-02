@@ -1,0 +1,64 @@
+{
+  "problem_id": 3853,
+  "title": "Merge Close Characters",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/merge-close-characters/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "abca",
+        "k": 3
+      },
+      "expected": "abc",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "aabca",
+        "k": 2
+      },
+      "expected": "abca",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "yybyzybz",
+        "k": 2
+      },
+      "expected": "ybzybz",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a",
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaa",
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abab",
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abba",
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

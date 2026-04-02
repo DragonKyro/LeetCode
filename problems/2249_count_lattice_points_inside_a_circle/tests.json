@@ -1,0 +1,39 @@
+{
+  "problem_id": 2249,
+  "title": "Count Lattice Points Inside a Circle",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-lattice-points-inside-a-circle/",
+  "test_cases": [
+    {
+      "input": {
+        "circles": [
+          [
+            2,
+            2,
+            1
+          ]
+        ]
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "circles": [
+          [
+            2,
+            2,
+            2
+          ],
+          [
+            3,
+            4,
+            1
+          ]
+        ]
+      },
+      "expected": 16,
+      "source": "example"
+    }
+  ]
+}

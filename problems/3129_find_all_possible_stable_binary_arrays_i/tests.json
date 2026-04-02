@@ -1,0 +1,35 @@
+{
+  "problem_id": 3129,
+  "title": "Find All Possible Stable Binary Arrays I",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-all-possible-stable-binary-arrays-i/",
+  "test_cases": [
+    {
+      "input": {
+        "zero": 1,
+        "one": 1,
+        "limit": 2
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "zero": 1,
+        "one": 2,
+        "limit": 1
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "zero": 3,
+        "one": 3,
+        "limit": 2
+      },
+      "expected": 14,
+      "source": "example"
+    }
+  ]
+}

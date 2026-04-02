@@ -1,0 +1,56 @@
+{
+  "problem_id": 812,
+  "title": "Largest Triangle Area",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/largest-triangle-area/",
+  "test_cases": [
+    {
+      "input": {
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      },
+      "expected": 2.0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "points": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      "expected": 0.5,
+      "source": "example"
+    }
+  ]
+}

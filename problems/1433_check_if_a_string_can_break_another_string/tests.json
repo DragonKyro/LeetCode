@@ -1,0 +1,96 @@
+{
+  "problem_id": 1433,
+  "title": "Check If a String Can Break Another String",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/check-if-a-string-can-break-another-string/",
+  "test_cases": [
+    {
+      "input": {
+        "s1": "abc",
+        "s2": "xya"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s1": "abe",
+        "s2": "acd"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s1": "leetcodee",
+        "s2": "interview"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s1": "a",
+        "s2": "xya"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "aaa",
+        "s2": "xya"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "abab",
+        "s2": "xya"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "aa",
+        "s2": "xya"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "abc",
+        "s2": "x"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "abc",
+        "s2": "xxx"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "abc",
+        "s2": "xyxy"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "abc",
+        "s2": "xx"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

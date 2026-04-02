@@ -1,0 +1,319 @@
+{
+  "problem_id": 2300,
+  "title": "Successful Pairs of Spells and Potions",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/successful-pairs-of-spells-and-potions/",
+  "test_cases": [
+    {
+      "input": {
+        "spells": [
+          5,
+          1,
+          3
+        ],
+        "potions": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "success": 7
+      },
+      "expected": [
+        4,
+        0,
+        3
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "spells": [
+          3,
+          1,
+          2
+        ],
+        "potions": [
+          8,
+          5,
+          8
+        ],
+        "success": 16
+      },
+      "expected": [
+        2,
+        0,
+        2
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "spells": [
+          5
+        ],
+        "potions": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "success": 7
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "spells": [
+          -100,
+          100
+        ],
+        "potions": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "success": 7
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "spells": [
+          5,
+          5,
+          5
+        ],
+        "potions": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "success": 7
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "spells": [
+          1,
+          2,
+          3
+        ],
+        "potions": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "success": 7
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "spells": [
+          3,
+          2,
+          1
+        ],
+        "potions": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "success": 7
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "spells": [
+          -100,
+          -100
+        ],
+        "potions": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "success": 7
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "spells": [
+          100,
+          100
+        ],
+        "potions": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "success": 7
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "spells": [
+          5,
+          1,
+          3
+        ],
+        "potions": [
+          1
+        ],
+        "success": 7
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "spells": [
+          5,
+          1,
+          3
+        ],
+        "potions": [
+          -100,
+          100
+        ],
+        "success": 7
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "spells": [
+          5,
+          1,
+          3
+        ],
+        "potions": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "success": 7
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "spells": [
+          5,
+          1,
+          3
+        ],
+        "potions": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "success": 7
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "spells": [
+          5,
+          1,
+          3
+        ],
+        "potions": [
+          -100,
+          -100
+        ],
+        "success": 7
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "spells": [
+          5,
+          1,
+          3
+        ],
+        "potions": [
+          100,
+          100
+        ],
+        "success": 7
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "spells": [
+          5,
+          1,
+          3
+        ],
+        "potions": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "success": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "spells": [
+          5,
+          1,
+          3
+        ],
+        "potions": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "success": 10000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

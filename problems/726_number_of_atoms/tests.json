@@ -1,0 +1,57 @@
+{
+  "problem_id": 726,
+  "title": "Number of Atoms",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/number-of-atoms/",
+  "test_cases": [
+    {
+      "input": {
+        "formula": "H2O"
+      },
+      "expected": "H2O",
+      "source": "example"
+    },
+    {
+      "input": {
+        "formula": "Mg(OH)2"
+      },
+      "expected": "H2MgO2",
+      "source": "example"
+    },
+    {
+      "input": {
+        "formula": "K4(ON(SO3)2)2"
+      },
+      "expected": "K4N2O14S4",
+      "source": "example"
+    },
+    {
+      "input": {
+        "formula": "H"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "formula": "HHH"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "formula": "HIHI"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "formula": "HH"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

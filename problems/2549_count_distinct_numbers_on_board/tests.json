@@ -1,0 +1,29 @@
+{
+  "problem_id": 2549,
+  "title": "Count Distinct Numbers on Board",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/count-distinct-numbers-on-board/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 5
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 3
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

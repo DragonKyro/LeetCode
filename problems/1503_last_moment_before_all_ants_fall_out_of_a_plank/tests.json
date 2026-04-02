@@ -1,0 +1,237 @@
+{
+  "problem_id": 1503,
+  "title": "Last Moment Before All Ants Fall Out of a Plank",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 4,
+        "left": [
+          4,
+          3
+        ],
+        "right": [
+          0,
+          1
+        ]
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 7,
+        "left": [],
+        "right": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "expected": 7,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 7,
+        "left": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "right": []
+      },
+      "expected": 7,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "left": [
+          4,
+          3
+        ],
+        "right": [
+          0,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 10000,
+        "left": [
+          4,
+          3
+        ],
+        "right": [
+          0,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 4,
+        "left": [
+          4
+        ],
+        "right": [
+          0,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 4,
+        "left": [
+          -100,
+          100
+        ],
+        "right": [
+          0,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 4,
+        "left": [
+          4,
+          4
+        ],
+        "right": [
+          0,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 4,
+        "left": [
+          -100,
+          -100
+        ],
+        "right": [
+          0,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 4,
+        "left": [
+          100,
+          100
+        ],
+        "right": [
+          0,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 4,
+        "left": [
+          4,
+          3
+        ],
+        "right": [
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 4,
+        "left": [
+          4,
+          3
+        ],
+        "right": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 4,
+        "left": [
+          4,
+          3
+        ],
+        "right": [
+          0,
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 4,
+        "left": [
+          4,
+          3
+        ],
+        "right": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 4,
+        "left": [
+          4,
+          3
+        ],
+        "right": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

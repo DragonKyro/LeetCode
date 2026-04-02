@@ -1,0 +1,80 @@
+{
+  "problem_id": 1400,
+  "title": "Construct K Palindrome Strings",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/construct-k-palindrome-strings/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "annabelle",
+        "k": 2
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "leetcode",
+        "k": 3
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "true",
+        "k": 4
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaaaaaaa",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abababab",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "annaanna",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "annabelle",
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "annabelle",
+        "k": 100000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

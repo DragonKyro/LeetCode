@@ -1,0 +1,80 @@
+{
+  "problem_id": 3648,
+  "title": "Minimum Sensors to Cover Grid",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-sensors-to-cover-grid/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 5,
+        "m": 5,
+        "k": 1
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 2,
+        "m": 2,
+        "k": 2
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "m": 5,
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 1000,
+        "m": 5,
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 5,
+        "m": 1,
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 5,
+        "m": 1000,
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 5,
+        "m": 5,
+        "k": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 5,
+        "m": 5,
+        "k": 1000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

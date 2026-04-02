@@ -1,0 +1,96 @@
+{
+  "problem_id": 1768,
+  "title": "Merge Strings Alternately",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/merge-strings-alternately/",
+  "test_cases": [
+    {
+      "input": {
+        "word1": "abc",
+        "word2": "pqr"
+      },
+      "expected": "apbqcr",
+      "source": "example"
+    },
+    {
+      "input": {
+        "word1": "ab",
+        "word2": "pqrs"
+      },
+      "expected": "apbqrs",
+      "source": "example"
+    },
+    {
+      "input": {
+        "word1": "abcd",
+        "word2": "pq"
+      },
+      "expected": "apbqcd",
+      "source": "example"
+    },
+    {
+      "input": {
+        "word1": "a",
+        "word2": "pqr"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "aaa",
+        "word2": "pqr"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "abab",
+        "word2": "pqr"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "aa",
+        "word2": "pqr"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "abc",
+        "word2": "p"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "abc",
+        "word2": "ppp"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "abc",
+        "word2": "pqpq"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "abc",
+        "word2": "pp"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

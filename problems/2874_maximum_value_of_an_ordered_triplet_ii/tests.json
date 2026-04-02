@@ -1,0 +1,106 @@
+{
+  "problem_id": 2874,
+  "title": "Maximum Value of an Ordered Triplet II",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          12,
+          6,
+          1,
+          2,
+          7
+        ]
+      },
+      "expected": 77,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          10,
+          3,
+          4,
+          19
+        ]
+      },
+      "expected": 133,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          12,
+          12,
+          12,
+          12,
+          12
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1000000,
+          1000000,
+          1000000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

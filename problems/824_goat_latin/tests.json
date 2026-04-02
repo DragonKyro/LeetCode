@@ -1,0 +1,50 @@
+{
+  "problem_id": 824,
+  "title": "Goat Latin",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/goat-latin/",
+  "test_cases": [
+    {
+      "input": {
+        "sentence": "I speak Goat Latin"
+      },
+      "expected": "Imaa peaksmaaa oatGmaaaa atinLmaaaaa",
+      "source": "example"
+    },
+    {
+      "input": {
+        "sentence": "The quick brown fox jumped over the lazy dog"
+      },
+      "expected": "heTmaa uickqmaaa rownbmaaaa oxfmaaaaa umpedjmaaaaaa overmaaaaaaa hetmaaaaaaaa azylmaaaaaaaaa ogdmaaaaaaaaaa",
+      "source": "example"
+    },
+    {
+      "input": {
+        "sentence": "I"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "sentence": "IIIIIIIIIIIIIIIIII"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "sentence": "IJIJIJIJIJIJIJIJIJ"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "sentence": "I speak GG kaeps I"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

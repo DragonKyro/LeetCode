@@ -1,0 +1,50 @@
+{
+  "problem_id": 692,
+  "title": "Top K Frequent Words",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/top-k-frequent-words/",
+  "test_cases": [
+    {
+      "input": {
+        "words": [
+          "i",
+          "love",
+          "leetcode",
+          "i",
+          "love",
+          "coding"
+        ],
+        "k": 2
+      },
+      "expected": [
+        "i",
+        "love"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "the",
+          "day",
+          "is",
+          "sunny",
+          "the",
+          "the",
+          "the",
+          "sunny",
+          "is",
+          "is"
+        ],
+        "k": 4
+      },
+      "expected": [
+        "the",
+        "is",
+        "sunny",
+        "day"
+      ],
+      "source": "example"
+    }
+  ]
+}

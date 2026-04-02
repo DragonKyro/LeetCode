@@ -1,0 +1,72 @@
+{
+  "problem_id": 782,
+  "title": "Transform to Chessboard",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/transform-to-chessboard/",
+  "test_cases": [
+    {
+      "input": {
+        "board": [
+          [
+            0,
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            0,
+            1
+          ]
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "board": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "board": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      "expected": -1,
+      "source": "example"
+    }
+  ]
+}

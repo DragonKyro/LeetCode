@@ -1,0 +1,99 @@
+{
+  "problem_id": 881,
+  "title": "Boats to Save People",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/boats-to-save-people/",
+  "test_cases": [
+    {
+      "input": {
+        "people": [
+          1,
+          2
+        ],
+        "limit": 3
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "people": [
+          3,
+          2,
+          2,
+          1
+        ],
+        "limit": 3
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "people": [
+          3,
+          5,
+          3,
+          4
+        ],
+        "limit": 5
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "people": [
+          1
+        ],
+        "limit": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "people": [
+          -100,
+          100
+        ],
+        "limit": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "people": [
+          1,
+          1
+        ],
+        "limit": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "people": [
+          -100,
+          -100
+        ],
+        "limit": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "people": [
+          100,
+          100
+        ],
+        "limit": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "problem_id": 1680,
+  "title": "Concatenation of Consecutive Binary Numbers",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 3
+      },
+      "expected": 27,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 12
+      },
+      "expected": 505379714,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 100000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

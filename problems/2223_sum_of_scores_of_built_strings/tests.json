@@ -1,0 +1,50 @@
+{
+  "problem_id": 2223,
+  "title": "Sum of Scores of Built Strings",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/sum-of-scores-of-built-strings/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "babab"
+      },
+      "expected": 9,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "azbazbzaz"
+      },
+      "expected": 14,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "b"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "bbbbb"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "bcbc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "baab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

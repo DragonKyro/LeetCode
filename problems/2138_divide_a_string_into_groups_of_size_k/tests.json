@@ -1,0 +1,89 @@
+{
+  "problem_id": 2138,
+  "title": "Divide a String Into Groups of Size k",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "abcdefghi",
+        "k": 3,
+        "fill": "x"
+      },
+      "expected": [
+        "abc",
+        "def",
+        "ghi"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abcdefghij",
+        "k": 3,
+        "fill": "x"
+      },
+      "expected": [
+        "abc",
+        "def",
+        "ghi",
+        "jxx"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a",
+        "k": 3,
+        "fill": "x"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaaaaaaa",
+        "k": 3,
+        "fill": "x"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abababab",
+        "k": 3,
+        "fill": "x"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abcddcba",
+        "k": 3,
+        "fill": "x"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abcdefghi",
+        "k": 1,
+        "fill": "x"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abcdefghi",
+        "k": 3,
+        "fill": "xyxy"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

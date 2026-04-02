@@ -1,0 +1,29 @@
+{
+  "problem_id": 481,
+  "title": "Magical String",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/magical-string/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 6
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 100000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

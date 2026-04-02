@@ -1,0 +1,311 @@
+{
+  "problem_id": 1669,
+  "title": "Merge In Between Linked Lists",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/merge-in-between-linked-lists/",
+  "test_cases": [
+    {
+      "input": {
+        "list1": [
+          10,
+          1,
+          13,
+          6,
+          9,
+          5
+        ],
+        "a": 3,
+        "b": 4,
+        "list2": [
+          1000000,
+          1000001,
+          1000002
+        ]
+      },
+      "expected": [
+        10,
+        1,
+        13,
+        1000000,
+        1000001,
+        1000002,
+        5
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "list1": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "a": 2,
+        "b": 5,
+        "list2": [
+          1000000,
+          1000001,
+          1000002,
+          1000003,
+          1000004
+        ]
+      },
+      "expected": [
+        0,
+        1,
+        1000000,
+        1000001,
+        1000002,
+        1000003,
+        1000004,
+        6
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "list1": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "a": 3,
+        "b": 4,
+        "list2": [
+          1000000,
+          1000001,
+          1000002
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "list1": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "a": 3,
+        "b": 4,
+        "list2": [
+          1000000,
+          1000001,
+          1000002
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "list1": [
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "a": 3,
+        "b": 4,
+        "list2": [
+          1000000,
+          1000001,
+          1000002
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "list1": [
+          -100,
+          -100,
+          -100
+        ],
+        "a": 3,
+        "b": 4,
+        "list2": [
+          1000000,
+          1000001,
+          1000002
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "list1": [
+          100,
+          100,
+          100
+        ],
+        "a": 3,
+        "b": 4,
+        "list2": [
+          1000000,
+          1000001,
+          1000002
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "list1": [
+          10,
+          1,
+          13,
+          6,
+          9,
+          5
+        ],
+        "a": 3,
+        "b": 4,
+        "list2": [
+          1000000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "list1": [
+          10,
+          1,
+          13,
+          6,
+          9,
+          5
+        ],
+        "a": 3,
+        "b": 4,
+        "list2": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "list1": [
+          10,
+          1,
+          13,
+          6,
+          9,
+          5
+        ],
+        "a": 3,
+        "b": 4,
+        "list2": [
+          1000000,
+          1000000,
+          1000000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "list1": [
+          10,
+          1,
+          13,
+          6,
+          9,
+          5
+        ],
+        "a": 3,
+        "b": 4,
+        "list2": [
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "list1": [
+          10,
+          1,
+          13,
+          6,
+          9,
+          5
+        ],
+        "a": 3,
+        "b": 4,
+        "list2": [
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "list1": [
+          10,
+          1,
+          13,
+          6,
+          9,
+          5
+        ],
+        "a": 3,
+        "b": 4,
+        "list2": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "list1": [
+          10,
+          1,
+          13,
+          6,
+          9,
+          5
+        ],
+        "a": 3,
+        "b": 4,
+        "list2": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

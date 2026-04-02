@@ -1,0 +1,57 @@
+{
+  "problem_id": 1371,
+  "title": "Find the Longest Substring Containing Vowels in Even Counts",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "eleetminicoworoep"
+      },
+      "expected": 13,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "leetcodeisgreat"
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "bcbcbc"
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "e"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "eeeeeeeeeeeeeeeee"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "efefefefefefefef"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "eleetminnimteele"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

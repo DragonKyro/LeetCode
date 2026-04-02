@@ -1,0 +1,88 @@
+{
+  "problem_id": 1737,
+  "title": "Change Minimum Characters to Satisfy One of Three Conditions",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/change-minimum-characters-to-satisfy-one-of-three-conditions/",
+  "test_cases": [
+    {
+      "input": {
+        "a": "aba",
+        "b": "caa"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "a": "dabadd",
+        "b": "cda"
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "a": "a",
+        "b": "caa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "a": "aaa",
+        "b": "caa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "a": "abab",
+        "b": "caa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "a": "aa",
+        "b": "caa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "a": "aba",
+        "b": "c"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "a": "aba",
+        "b": "ccc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "a": "aba",
+        "b": "cdcd"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "a": "aba",
+        "b": "cc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

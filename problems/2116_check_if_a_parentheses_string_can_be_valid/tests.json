@@ -1,0 +1,104 @@
+{
+  "problem_id": 2116,
+  "title": "Check if a Parentheses String Can Be Valid",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "))()))",
+        "locked": "010100"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "()()",
+        "locked": "0000"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": ")",
+        "locked": "0"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "(((())(((())",
+        "locked": "111111010111"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": ")",
+        "locked": "010100"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "))))))",
+        "locked": "010100"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": ")*)*)*",
+        "locked": "010100"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "))(())",
+        "locked": "010100"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "))()))",
+        "locked": "0"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "))()))",
+        "locked": "000000"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "))()))",
+        "locked": "010101"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "))()))",
+        "locked": "010010"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "problem_id": 619,
+  "title": "Biggest Single Number",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/biggest-single-number/",
+  "test_cases": [
+    {
+      "input": {
+        "arg0": "MyNumbers table:\n+-----+\n| num |\n+-----+\n| 8   |\n| 8   |\n| 3   |\n| 3   |\n| 1   |\n| 4   |\n| 5   |\n| 6   |\n+-----+"
+      },
+      "expected": "+-----+\n| num |\n+-----+\n| 6   |\n+-----+",
+      "source": "example"
+    },
+    {
+      "input": {
+        "arg0": "MyNumbers table:\n+-----+\n| num |\n+-----+\n| 8   |\n| 8   |\n| 7   |\n| 7   |\n| 3   |\n| 3   |\n| 3   |\n+-----+"
+      },
+      "expected": "+------+\n| num  |\n+------+\n| null |\n+------+",
+      "source": "example"
+    },
+    {
+      "input": {
+        "arg0": "M"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arg0": "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arg0": "MNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMN"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arg0": "MyNumbers table:\n+-----+\n| num |\n+-----+\n| 8   |\n| 8   ||   8 |\n|   8 |\n+-----+\n| mun |\n+-----+\n:elbat srebmuNyM"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

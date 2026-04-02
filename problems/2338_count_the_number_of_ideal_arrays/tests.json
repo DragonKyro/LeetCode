@@ -1,0 +1,48 @@
+{
+  "problem_id": 2338,
+  "title": "Count the Number of Ideal Arrays",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/count-the-number-of-ideal-arrays/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 2,
+        "maxValue": 5
+      },
+      "expected": 10,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 5,
+        "maxValue": 3
+      },
+      "expected": 11,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 10000,
+        "maxValue": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 2,
+        "maxValue": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 2,
+        "maxValue": 10000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

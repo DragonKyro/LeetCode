@@ -1,0 +1,51 @@
+{
+  "problem_id": 1937,
+  "title": "Maximum Number of Points with Cost",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-number-of-points-with-cost/",
+  "test_cases": [
+    {
+      "input": {
+        "points": [
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            5,
+            1
+          ],
+          [
+            3,
+            1,
+            1
+          ]
+        ]
+      },
+      "expected": 9,
+      "source": "example"
+    },
+    {
+      "input": {
+        "points": [
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            4,
+            2
+          ]
+        ]
+      },
+      "expected": 11,
+      "source": "example"
+    }
+  ]
+}

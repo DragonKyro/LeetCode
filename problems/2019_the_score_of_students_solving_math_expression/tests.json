@@ -1,0 +1,154 @@
+{
+  "problem_id": 2019,
+  "title": "The Score of Students Solving Math Expression",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/the-score-of-students-solving-math-expression/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "7+3*1*2",
+        "answers": [
+          20,
+          13,
+          42
+        ]
+      },
+      "expected": 7,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "3+5*2",
+        "answers": [
+          13,
+          0,
+          10,
+          13,
+          13,
+          16,
+          16
+        ]
+      },
+      "expected": 19,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "6+0*1",
+        "answers": [
+          12,
+          9,
+          6,
+          4,
+          8,
+          6
+        ]
+      },
+      "expected": 10,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "7777777",
+        "answers": [
+          20,
+          13,
+          42
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "7+33+7",
+        "answers": [
+          20,
+          13,
+          42
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "7+3*1*2",
+        "answers": [
+          20
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "7+3*1*2",
+        "answers": [
+          0,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "7+3*1*2",
+        "answers": [
+          20,
+          20,
+          20
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "7+3*1*2",
+        "answers": [
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "7+3*1*2",
+        "answers": [
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "7+3*1*2",
+        "answers": [
+          0,
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "7+3*1*2",
+        "answers": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

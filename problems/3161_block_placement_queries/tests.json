@@ -1,0 +1,74 @@
+{
+  "problem_id": 3161,
+  "title": "Block Placement Queries",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/block-placement-queries/",
+  "test_cases": [
+    {
+      "input": {
+        "queries": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3,
+            3
+          ],
+          [
+            2,
+            3,
+            1
+          ],
+          [
+            2,
+            2,
+            2
+          ]
+        ]
+      },
+      "expected": [
+        false,
+        true,
+        true
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "queries": [
+          [
+            1,
+            7
+          ],
+          [
+            2,
+            7,
+            6
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            7,
+            5
+          ],
+          [
+            2,
+            7,
+            6
+          ]
+        ]
+      },
+      "expected": [
+        true,
+        true,
+        false
+      ],
+      "source": "example"
+    }
+  ]
+}

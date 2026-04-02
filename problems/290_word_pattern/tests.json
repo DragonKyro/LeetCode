@@ -1,0 +1,80 @@
+{
+  "problem_id": 290,
+  "title": "Word Pattern",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/word-pattern/",
+  "test_cases": [
+    {
+      "input": {
+        "pattern": "abba",
+        "s": "dog cat cat dog"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "pattern": "abba",
+        "s": "dog cat cat fish"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "pattern": "aaaa",
+        "s": "dog cat cat dog"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "pattern": "a",
+        "s": "dog cat cat dog"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "pattern": "abab",
+        "s": "dog cat cat dog"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "pattern": "abba",
+        "s": "d"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "pattern": "abba",
+        "s": "ddddddddddddddd"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "pattern": "abba",
+        "s": "dedededededede"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "pattern": "abba",
+        "s": "dog cattac god"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

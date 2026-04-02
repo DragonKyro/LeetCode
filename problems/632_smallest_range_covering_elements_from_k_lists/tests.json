@@ -1,0 +1,64 @@
+{
+  "problem_id": 632,
+  "title": "Smallest Range Covering Elements from K Lists",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          [
+            4,
+            10,
+            15,
+            24,
+            26
+          ],
+          [
+            0,
+            9,
+            12,
+            20
+          ],
+          [
+            5,
+            18,
+            22,
+            30
+          ]
+        ]
+      },
+      "expected": [
+        20,
+        24
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            2,
+            3
+          ]
+        ]
+      },
+      "expected": [
+        1,
+        1
+      ],
+      "source": "example"
+    }
+  ]
+}

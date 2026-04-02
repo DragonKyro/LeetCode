@@ -1,0 +1,88 @@
+{
+  "problem_id": 2565,
+  "title": "Subsequence With the Minimum Score",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/subsequence-with-the-minimum-score/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "abacaba",
+        "t": "bzaa"
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "cde",
+        "t": "xyz"
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a",
+        "t": "bzaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaaaaa",
+        "t": "bzaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ababab",
+        "t": "bzaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abaaba",
+        "t": "bzaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abacaba",
+        "t": "b"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abacaba",
+        "t": "bbbb"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abacaba",
+        "t": "bcbc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abacaba",
+        "t": "bzzb"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

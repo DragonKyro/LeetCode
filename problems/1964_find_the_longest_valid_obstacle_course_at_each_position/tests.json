@@ -1,0 +1,136 @@
+{
+  "problem_id": 1964,
+  "title": "Find the Longest Valid Obstacle Course at Each Position",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/find-the-longest-valid-obstacle-course-at-each-position/",
+  "test_cases": [
+    {
+      "input": {
+        "obstacles": [
+          1,
+          2,
+          3,
+          2
+        ]
+      },
+      "expected": [
+        1,
+        2,
+        3,
+        3
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "obstacles": [
+          2,
+          2,
+          1
+        ]
+      },
+      "expected": [
+        1,
+        2,
+        1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "obstacles": [
+          3,
+          1,
+          5,
+          6,
+          4,
+          2
+        ]
+      },
+      "expected": [
+        1,
+        1,
+        2,
+        3,
+        2,
+        2
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "obstacles": [
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "obstacles": [
+          1,
+          10000000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "obstacles": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "obstacles": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "obstacles": [
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "obstacles": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "obstacles": [
+          10000000,
+          10000000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "problem_id": 1486,
+  "title": "XOR Operation in an Array",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/xor-operation-in-an-array/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 5,
+        "start": 0
+      },
+      "expected": 8,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 4,
+        "start": 3
+      },
+      "expected": 8,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "start": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 5,
+        "start": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

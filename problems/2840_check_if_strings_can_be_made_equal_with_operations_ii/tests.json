@@ -1,0 +1,88 @@
+{
+  "problem_id": 2840,
+  "title": "Check if Strings Can be Made Equal With Operations II",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "s1": "abcdba",
+        "s2": "cabdab"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s1": "abe",
+        "s2": "bea"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s1": "a",
+        "s2": "cabdab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "aaaaaa",
+        "s2": "cabdab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "ababab",
+        "s2": "cabdab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "abccba",
+        "s2": "cabdab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "abcdba",
+        "s2": "c"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "abcdba",
+        "s2": "cccccc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "abcdba",
+        "s2": "cdcdcd"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "abcdba",
+        "s2": "cabbac"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

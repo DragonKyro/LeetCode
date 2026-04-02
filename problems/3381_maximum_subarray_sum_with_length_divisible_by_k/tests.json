@@ -1,0 +1,101 @@
+{
+  "problem_id": 3381,
+  "title": "Maximum Subarray Sum With Length Divisible by K",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-subarray-sum-with-length-divisible-by-k/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          1,
+          2
+        ],
+        "k": 1
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          -1,
+          -2,
+          -3,
+          -4,
+          -5
+        ],
+        "k": 4
+      },
+      "expected": -10,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          -5,
+          1,
+          2,
+          -3,
+          4
+        ],
+        "k": 2
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          1
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -1000000000,
+          1000000000
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -1000000000,
+          -1000000000
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1000000000,
+          1000000000
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

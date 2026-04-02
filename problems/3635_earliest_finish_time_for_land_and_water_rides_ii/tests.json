@@ -1,0 +1,370 @@
+{
+  "problem_id": 3635,
+  "title": "Earliest Finish Time for Land and Water Rides II",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "landStartTime": [
+          2,
+          8
+        ],
+        "landDuration": [
+          4,
+          1
+        ],
+        "waterStartTime": [
+          6
+        ],
+        "waterDuration": [
+          3
+        ]
+      },
+      "expected": 9,
+      "source": "example"
+    },
+    {
+      "input": {
+        "landStartTime": [
+          5
+        ],
+        "landDuration": [
+          3
+        ],
+        "waterStartTime": [
+          1
+        ],
+        "waterDuration": [
+          10
+        ]
+      },
+      "expected": 14,
+      "source": "example"
+    },
+    {
+      "input": {
+        "landStartTime": [
+          2
+        ],
+        "landDuration": [
+          4,
+          1
+        ],
+        "waterStartTime": [
+          6
+        ],
+        "waterDuration": [
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "landStartTime": [
+          -100,
+          100
+        ],
+        "landDuration": [
+          4,
+          1
+        ],
+        "waterStartTime": [
+          6
+        ],
+        "waterDuration": [
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "landStartTime": [
+          2,
+          2
+        ],
+        "landDuration": [
+          4,
+          1
+        ],
+        "waterStartTime": [
+          6
+        ],
+        "waterDuration": [
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "landStartTime": [
+          -100,
+          -100
+        ],
+        "landDuration": [
+          4,
+          1
+        ],
+        "waterStartTime": [
+          6
+        ],
+        "waterDuration": [
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "landStartTime": [
+          100,
+          100
+        ],
+        "landDuration": [
+          4,
+          1
+        ],
+        "waterStartTime": [
+          6
+        ],
+        "waterDuration": [
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "landStartTime": [
+          2,
+          8
+        ],
+        "landDuration": [
+          4
+        ],
+        "waterStartTime": [
+          6
+        ],
+        "waterDuration": [
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "landStartTime": [
+          2,
+          8
+        ],
+        "landDuration": [
+          -100,
+          100
+        ],
+        "waterStartTime": [
+          6
+        ],
+        "waterDuration": [
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "landStartTime": [
+          2,
+          8
+        ],
+        "landDuration": [
+          4,
+          4
+        ],
+        "waterStartTime": [
+          6
+        ],
+        "waterDuration": [
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "landStartTime": [
+          2,
+          8
+        ],
+        "landDuration": [
+          -100,
+          -100
+        ],
+        "waterStartTime": [
+          6
+        ],
+        "waterDuration": [
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "landStartTime": [
+          2,
+          8
+        ],
+        "landDuration": [
+          100,
+          100
+        ],
+        "waterStartTime": [
+          6
+        ],
+        "waterDuration": [
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "landStartTime": [
+          2,
+          8
+        ],
+        "landDuration": [
+          4,
+          1
+        ],
+        "waterStartTime": [
+          -100,
+          100
+        ],
+        "waterDuration": [
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "landStartTime": [
+          2,
+          8
+        ],
+        "landDuration": [
+          4,
+          1
+        ],
+        "waterStartTime": [
+          -100,
+          -100
+        ],
+        "waterDuration": [
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "landStartTime": [
+          2,
+          8
+        ],
+        "landDuration": [
+          4,
+          1
+        ],
+        "waterStartTime": [
+          100,
+          100
+        ],
+        "waterDuration": [
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "landStartTime": [
+          2,
+          8
+        ],
+        "landDuration": [
+          4,
+          1
+        ],
+        "waterStartTime": [
+          6
+        ],
+        "waterDuration": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "landStartTime": [
+          2,
+          8
+        ],
+        "landDuration": [
+          4,
+          1
+        ],
+        "waterStartTime": [
+          6
+        ],
+        "waterDuration": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "landStartTime": [
+          2,
+          8
+        ],
+        "landDuration": [
+          4,
+          1
+        ],
+        "waterStartTime": [
+          6
+        ],
+        "waterDuration": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

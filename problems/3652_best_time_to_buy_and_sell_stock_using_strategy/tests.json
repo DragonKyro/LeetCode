@@ -1,0 +1,270 @@
+{
+  "problem_id": 3652,
+  "title": "Best Time to Buy and Sell Stock using Strategy",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-using-strategy/",
+  "test_cases": [
+    {
+      "input": {
+        "prices": [
+          4,
+          2,
+          8
+        ],
+        "strategy": [
+          -1,
+          0,
+          1
+        ],
+        "k": 2
+      },
+      "expected": 10,
+      "source": "example"
+    },
+    {
+      "input": {
+        "prices": [
+          5,
+          4,
+          3
+        ],
+        "strategy": [
+          1,
+          1,
+          0
+        ],
+        "k": 2
+      },
+      "expected": 9,
+      "source": "example"
+    },
+    {
+      "input": {
+        "prices": [
+          4
+        ],
+        "strategy": [
+          -1,
+          0,
+          1
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "prices": [
+          1,
+          100000
+        ],
+        "strategy": [
+          -1,
+          0,
+          1
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "prices": [
+          4,
+          4,
+          4
+        ],
+        "strategy": [
+          -1,
+          0,
+          1
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "prices": [
+          1,
+          2,
+          3
+        ],
+        "strategy": [
+          -1,
+          0,
+          1
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "prices": [
+          3,
+          2,
+          1
+        ],
+        "strategy": [
+          -1,
+          0,
+          1
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "prices": [
+          1,
+          1
+        ],
+        "strategy": [
+          -1,
+          0,
+          1
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "prices": [
+          100000,
+          100000
+        ],
+        "strategy": [
+          -1,
+          0,
+          1
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "prices": [
+          4,
+          2,
+          8
+        ],
+        "strategy": [
+          -1
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "prices": [
+          4,
+          2,
+          8
+        ],
+        "strategy": [
+          -1,
+          1
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "prices": [
+          4,
+          2,
+          8
+        ],
+        "strategy": [
+          -1,
+          -1,
+          -1
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "prices": [
+          4,
+          2,
+          8
+        ],
+        "strategy": [
+          1,
+          2,
+          3
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "prices": [
+          4,
+          2,
+          8
+        ],
+        "strategy": [
+          3,
+          2,
+          1
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "prices": [
+          4,
+          2,
+          8
+        ],
+        "strategy": [
+          -1,
+          -1
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "prices": [
+          4,
+          2,
+          8
+        ],
+        "strategy": [
+          1,
+          1
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

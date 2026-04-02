@@ -1,0 +1,50 @@
+{
+  "problem_id": 306,
+  "title": "Additive Number",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/additive-number/",
+  "test_cases": [
+    {
+      "input": {
+        "arg0": "112358"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "arg0": "199100199"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "arg0": "1"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arg0": "111111"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arg0": "121212"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arg0": "112211"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "problem_id": 2696,
+  "title": "Minimum String Length After Removing Substrings",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/minimum-string-length-after-removing-substrings/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "ABFCACDB"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "ACBBD"
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "A"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "AAAAAAAA"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ABABABAB"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ABFCCFBA"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

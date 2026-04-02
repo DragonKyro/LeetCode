@@ -1,0 +1,80 @@
+{
+  "problem_id": 3614,
+  "title": "Process String with Special Operations II",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/process-string-with-special-operations-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "a#b%*",
+        "k": 1
+      },
+      "expected": "a",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "cd%#*#",
+        "k": 3
+      },
+      "expected": "d",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "z*#",
+        "k": 0
+      },
+      "expected": ".",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a",
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaaa",
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abab",
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "a##a",
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "a#b%*",
+        "k": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "a#b%*",
+        "k": 1000000000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "problem_id": 2864,
+  "title": "Maximum Odd Binary Number",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/maximum-odd-binary-number/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "010"
+      },
+      "expected": "001",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "0101"
+      },
+      "expected": "1001",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "0"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "000"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "00"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

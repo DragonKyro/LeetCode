@@ -1,0 +1,130 @@
+{
+  "problem_id": 3600,
+  "title": "Maximize Spanning Tree Stability with Upgrades",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/maximize-spanning-tree-stability-with-upgrades/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 3,
+        "edges": [
+          [
+            0,
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            3,
+            0
+          ]
+        ],
+        "k": 1
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 3,
+        "edges": [
+          [
+            0,
+            1,
+            4,
+            0
+          ],
+          [
+            1,
+            2,
+            3,
+            0
+          ],
+          [
+            0,
+            2,
+            1,
+            0
+          ]
+        ],
+        "k": 2
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 3,
+        "edges": [
+          [
+            0,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            0,
+            1,
+            1
+          ]
+        ],
+        "k": 0
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 2,
+        "edges": [
+          [
+            0,
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            3,
+            0
+          ]
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 100000,
+        "edges": [
+          [
+            0,
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            3,
+            0
+          ]
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

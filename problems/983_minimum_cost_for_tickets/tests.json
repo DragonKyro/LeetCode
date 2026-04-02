@@ -1,0 +1,260 @@
+{
+  "problem_id": 983,
+  "title": "Minimum Cost For Tickets",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-cost-for-tickets/",
+  "test_cases": [
+    {
+      "input": {
+        "days": [
+          1,
+          4,
+          6,
+          7,
+          8,
+          20
+        ],
+        "costs": [
+          2,
+          7,
+          15
+        ]
+      },
+      "expected": 11,
+      "source": "example"
+    },
+    {
+      "input": {
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          30,
+          31
+        ],
+        "costs": [
+          2,
+          7,
+          15
+        ]
+      },
+      "expected": 17,
+      "source": "example"
+    },
+    {
+      "input": {
+        "days": [
+          1
+        ],
+        "costs": [
+          2,
+          7,
+          15
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "days": [
+          1,
+          365
+        ],
+        "costs": [
+          2,
+          7,
+          15
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "days": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "costs": [
+          2,
+          7,
+          15
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "costs": [
+          2,
+          7,
+          15
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "days": [
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "costs": [
+          2,
+          7,
+          15
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "days": [
+          1,
+          1
+        ],
+        "costs": [
+          2,
+          7,
+          15
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "days": [
+          365,
+          365
+        ],
+        "costs": [
+          2,
+          7,
+          15
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "days": [
+          1,
+          4,
+          6,
+          7,
+          8,
+          20
+        ],
+        "costs": [
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "days": [
+          1,
+          4,
+          6,
+          7,
+          8,
+          20
+        ],
+        "costs": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "days": [
+          1,
+          4,
+          6,
+          7,
+          8,
+          20
+        ],
+        "costs": [
+          2,
+          2,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "days": [
+          1,
+          4,
+          6,
+          7,
+          8,
+          20
+        ],
+        "costs": [
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "days": [
+          1,
+          4,
+          6,
+          7,
+          8,
+          20
+        ],
+        "costs": [
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

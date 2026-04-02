@@ -1,0 +1,104 @@
+{
+  "problem_id": 1872,
+  "title": "Stone Game VIII",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/stone-game-viii/",
+  "test_cases": [
+    {
+      "input": {
+        "stones": [
+          -1,
+          2,
+          -3,
+          4,
+          -5
+        ]
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "stones": [
+          7,
+          -6,
+          5,
+          10,
+          5,
+          -2,
+          -6
+        ]
+      },
+      "expected": 13,
+      "source": "example"
+    },
+    {
+      "input": {
+        "stones": [
+          -10,
+          -12
+        ]
+      },
+      "expected": -22,
+      "source": "example"
+    },
+    {
+      "input": {
+        "stones": [
+          -1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "stones": [
+          10000,
+          10000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "stones": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "stones": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "stones": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

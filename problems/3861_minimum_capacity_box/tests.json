@@ -1,0 +1,117 @@
+{
+  "problem_id": 3861,
+  "title": "Minimum Capacity Box",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/minimum-capacity-box/",
+  "test_cases": [
+    {
+      "input": {
+        "capacity": [
+          1,
+          5,
+          3,
+          7
+        ],
+        "itemSize": 3
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "capacity": [
+          3,
+          5,
+          4,
+          3
+        ],
+        "itemSize": 2
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "capacity": [
+          4
+        ],
+        "itemSize": 5
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "capacity": [
+          1
+        ],
+        "itemSize": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "capacity": [
+          1,
+          1
+        ],
+        "itemSize": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "capacity": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "itemSize": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "capacity": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "itemSize": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "capacity": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "itemSize": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "capacity": [
+          1,
+          5,
+          3,
+          7
+        ],
+        "itemSize": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

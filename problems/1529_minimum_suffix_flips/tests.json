@@ -1,0 +1,57 @@
+{
+  "problem_id": 1529,
+  "title": "Minimum Suffix Flips",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-suffix-flips/",
+  "test_cases": [
+    {
+      "input": {
+        "target": "10111"
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "target": "101"
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "target": "00000"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "target": "1"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "target": "11111"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "target": "1212"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "target": "1001"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

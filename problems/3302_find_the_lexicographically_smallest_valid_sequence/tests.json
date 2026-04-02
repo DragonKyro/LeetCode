@@ -1,0 +1,115 @@
+{
+  "problem_id": 3302,
+  "title": "Find the Lexicographically Smallest Valid Sequence",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-the-lexicographically-smallest-valid-sequence/",
+  "test_cases": [
+    {
+      "input": {
+        "word1": "vbcca",
+        "word2": "abc"
+      },
+      "expected": [
+        0,
+        1,
+        2
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "word1": "bacdc",
+        "word2": "abc"
+      },
+      "expected": [
+        1,
+        2,
+        4
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "word1": "aaaaaa",
+        "word2": "aaabc"
+      },
+      "expected": [],
+      "source": "example"
+    },
+    {
+      "input": {
+        "word1": "abc",
+        "word2": "ab"
+      },
+      "expected": [
+        0,
+        1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "word1": "v",
+        "word2": "abc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "vvvvv",
+        "word2": "abc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "vwvw",
+        "word2": "abc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "vbbv",
+        "word2": "abc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "vbcca",
+        "word2": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "vbcca",
+        "word2": "aaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "vbcca",
+        "word2": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "vbcca",
+        "word2": "aa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

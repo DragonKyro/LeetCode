@@ -1,0 +1,184 @@
+{
+  "problem_id": 1575,
+  "title": "Count All Possible Routes",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/count-all-possible-routes/",
+  "test_cases": [
+    {
+      "input": {
+        "locations": [
+          2,
+          3,
+          6,
+          8,
+          4
+        ],
+        "start": 1,
+        "finish": 3,
+        "fuel": 5
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "locations": [
+          4,
+          3,
+          1
+        ],
+        "start": 1,
+        "finish": 0,
+        "fuel": 6
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "locations": [
+          5,
+          2,
+          1
+        ],
+        "start": 0,
+        "finish": 2,
+        "fuel": 3
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "locations": [
+          2,
+          2
+        ],
+        "start": 1,
+        "finish": 3,
+        "fuel": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "locations": [
+          1,
+          1000000000
+        ],
+        "start": 1,
+        "finish": 3,
+        "fuel": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "locations": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "start": 1,
+        "finish": 3,
+        "fuel": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "locations": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": 1,
+        "finish": 3,
+        "fuel": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "locations": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "start": 1,
+        "finish": 3,
+        "fuel": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "locations": [
+          1,
+          1
+        ],
+        "start": 1,
+        "finish": 3,
+        "fuel": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "locations": [
+          1000000000,
+          1000000000
+        ],
+        "start": 1,
+        "finish": 3,
+        "fuel": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "locations": [
+          2,
+          3,
+          6,
+          8,
+          4
+        ],
+        "start": 1,
+        "finish": 3,
+        "fuel": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "locations": [
+          2,
+          3,
+          6,
+          8,
+          4
+        ],
+        "start": 1,
+        "finish": 3,
+        "fuel": 200
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

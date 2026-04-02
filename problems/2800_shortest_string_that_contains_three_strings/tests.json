@@ -1,0 +1,125 @@
+{
+  "problem_id": 2800,
+  "title": "Shortest String That Contains Three Strings",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/shortest-string-that-contains-three-strings/",
+  "test_cases": [
+    {
+      "input": {
+        "a": "abc",
+        "b": "bca",
+        "c": "aaa"
+      },
+      "expected": "aaabca",
+      "source": "example"
+    },
+    {
+      "input": {
+        "a": "ab",
+        "b": "ba",
+        "c": "aba"
+      },
+      "expected": "aba",
+      "source": "example"
+    },
+    {
+      "input": {
+        "a": "a",
+        "b": "bca",
+        "c": "aaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "a": "aaa",
+        "b": "bca",
+        "c": "aaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "a": "abab",
+        "b": "bca",
+        "c": "aaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "a": "aa",
+        "b": "bca",
+        "c": "aaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "a": "abc",
+        "b": "b",
+        "c": "aaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "a": "abc",
+        "b": "bbb",
+        "c": "aaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "a": "abc",
+        "b": "bcbc",
+        "c": "aaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "a": "abc",
+        "b": "bb",
+        "c": "aaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "a": "abc",
+        "b": "bca",
+        "c": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "a": "abc",
+        "b": "bca",
+        "c": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "a": "abc",
+        "b": "bca",
+        "c": "aa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

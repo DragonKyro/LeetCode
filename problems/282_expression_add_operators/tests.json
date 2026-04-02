@@ -1,0 +1,102 @@
+{
+  "problem_id": 282,
+  "title": "Expression Add Operators",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/expression-add-operators/",
+  "test_cases": [
+    {
+      "input": {
+        "num": "123",
+        "target": 6
+      },
+      "expected": [
+        "1*2*3",
+        "1+2+3"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": "232",
+        "target": 8
+      },
+      "expected": [
+        "2*3+2",
+        "2+3*2"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": "3456237490",
+        "target": 9191
+      },
+      "expected": [],
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": "1",
+        "target": 6
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "111",
+        "target": 6
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "1212",
+        "target": 6
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "11",
+        "target": 6
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "123",
+        "target": -2147483648
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "123",
+        "target": 2147483648
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "123",
+        "target": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "123",
+        "target": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "problem_id": 1657,
+  "title": "Determine if Two Strings Are Close",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/determine-if-two-strings-are-close/",
+  "test_cases": [
+    {
+      "input": {
+        "word1": "abc",
+        "word2": "bca"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word1": "a",
+        "word2": "aa"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word1": "cabbba",
+        "word2": "abbccc"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word1": "a",
+        "word2": "bca"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "aaa",
+        "word2": "bca"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "abab",
+        "word2": "bca"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "aa",
+        "word2": "bca"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "abc",
+        "word2": "b"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "abc",
+        "word2": "bbb"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "abc",
+        "word2": "bcbc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word1": "abc",
+        "word2": "bb"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,349 @@
+{
+  "problem_id": 3814,
+  "title": "Maximum Capacity Within Budget",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-capacity-within-budget/",
+  "test_cases": [
+    {
+      "input": {
+        "costs": [
+          4,
+          8,
+          5,
+          3
+        ],
+        "capacity": [
+          1,
+          5,
+          2,
+          7
+        ],
+        "budget": 8
+      },
+      "expected": 8,
+      "source": "example"
+    },
+    {
+      "input": {
+        "costs": [
+          3,
+          5,
+          7,
+          4
+        ],
+        "capacity": [
+          2,
+          4,
+          3,
+          6
+        ],
+        "budget": 7
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "costs": [
+          2,
+          2,
+          2
+        ],
+        "capacity": [
+          3,
+          5,
+          4
+        ],
+        "budget": 5
+      },
+      "expected": 9,
+      "source": "example"
+    },
+    {
+      "input": {
+        "costs": [
+          4
+        ],
+        "capacity": [
+          1,
+          5,
+          2,
+          7
+        ],
+        "budget": 8
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "costs": [
+          -100,
+          100
+        ],
+        "capacity": [
+          1,
+          5,
+          2,
+          7
+        ],
+        "budget": 8
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "costs": [
+          4,
+          4,
+          4,
+          4
+        ],
+        "capacity": [
+          1,
+          5,
+          2,
+          7
+        ],
+        "budget": 8
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "costs": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "capacity": [
+          1,
+          5,
+          2,
+          7
+        ],
+        "budget": 8
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "costs": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "capacity": [
+          1,
+          5,
+          2,
+          7
+        ],
+        "budget": 8
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "costs": [
+          -100,
+          -100
+        ],
+        "capacity": [
+          1,
+          5,
+          2,
+          7
+        ],
+        "budget": 8
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "costs": [
+          100,
+          100
+        ],
+        "capacity": [
+          1,
+          5,
+          2,
+          7
+        ],
+        "budget": 8
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "costs": [
+          4,
+          8,
+          5,
+          3
+        ],
+        "capacity": [
+          1
+        ],
+        "budget": 8
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "costs": [
+          4,
+          8,
+          5,
+          3
+        ],
+        "capacity": [
+          -100,
+          100
+        ],
+        "budget": 8
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "costs": [
+          4,
+          8,
+          5,
+          3
+        ],
+        "capacity": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "budget": 8
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "costs": [
+          4,
+          8,
+          5,
+          3
+        ],
+        "capacity": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "budget": 8
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "costs": [
+          4,
+          8,
+          5,
+          3
+        ],
+        "capacity": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "budget": 8
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "costs": [
+          4,
+          8,
+          5,
+          3
+        ],
+        "capacity": [
+          -100,
+          -100
+        ],
+        "budget": 8
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "costs": [
+          4,
+          8,
+          5,
+          3
+        ],
+        "capacity": [
+          100,
+          100
+        ],
+        "budget": 8
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "costs": [
+          4,
+          8,
+          5,
+          3
+        ],
+        "capacity": [
+          1,
+          5,
+          2,
+          7
+        ],
+        "budget": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "costs": [
+          4,
+          8,
+          5,
+          3
+        ],
+        "capacity": [
+          1,
+          5,
+          2,
+          7
+        ],
+        "budget": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "problem_id": 3628,
+  "title": "Maximum Number of Subsequences After One Inserting",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-number-of-subsequences-after-one-inserting/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "LMCT"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "LCCT"
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "L"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "LLLL"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "LMLM"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "LMML"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

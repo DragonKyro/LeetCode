@@ -1,0 +1,36 @@
+{
+  "problem_id": 1808,
+  "title": "Maximize Number of Nice Divisors",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/maximize-number-of-nice-divisors/",
+  "test_cases": [
+    {
+      "input": {
+        "primeFactors": 5
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "primeFactors": 8
+      },
+      "expected": 18,
+      "source": "example"
+    },
+    {
+      "input": {
+        "primeFactors": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "primeFactors": 1000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

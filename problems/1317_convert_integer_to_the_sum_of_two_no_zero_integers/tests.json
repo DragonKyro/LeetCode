@@ -1,0 +1,35 @@
+{
+  "problem_id": 1317,
+  "title": "Convert Integer to the Sum of Two No-Zero Integers",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 2
+      },
+      "expected": [
+        1,
+        1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 11
+      },
+      "expected": [
+        2,
+        9
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 10000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

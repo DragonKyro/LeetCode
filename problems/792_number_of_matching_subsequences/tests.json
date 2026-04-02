@@ -1,0 +1,86 @@
+{
+  "problem_id": 792,
+  "title": "Number of Matching Subsequences",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/number-of-matching-subsequences/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "abcde",
+        "words": [
+          "a",
+          "bb",
+          "acd",
+          "ace"
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "dsahjpjauf",
+        "words": [
+          "ahjpjau",
+          "ja",
+          "ahbwzgqnuk",
+          "tnmlanowax"
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a",
+        "words": [
+          "a",
+          "bb",
+          "acd",
+          "ace"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaaa",
+        "words": [
+          "a",
+          "bb",
+          "acd",
+          "ace"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abab",
+        "words": [
+          "a",
+          "bb",
+          "acd",
+          "ace"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abba",
+        "words": [
+          "a",
+          "bb",
+          "acd",
+          "ace"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

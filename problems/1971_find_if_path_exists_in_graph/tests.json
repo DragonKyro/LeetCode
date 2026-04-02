@@ -1,0 +1,108 @@
+{
+  "problem_id": 1971,
+  "title": "Find if Path Exists in Graph",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/find-if-path-exists-in-graph/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 3,
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "source": 0,
+        "destination": 2
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 6,
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "source": 0,
+        "destination": 5
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "source": 0,
+        "destination": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 2,
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "source": 0,
+        "destination": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

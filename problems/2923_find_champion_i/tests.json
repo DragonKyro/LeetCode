@@ -1,0 +1,47 @@
+{
+  "problem_id": 2923,
+  "title": "Find Champion I",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/find-champion-i/",
+  "test_cases": [
+    {
+      "input": {
+        "grid": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "problem_id": 2469,
+  "title": "Convert the Temperature",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/convert-the-temperature/",
+  "test_cases": [
+    {
+      "input": {
+        "celsius": 36.5
+      },
+      "expected": [
+        309.65,
+        97.7
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "celsius": 122.11
+      },
+      "expected": [
+        395.26,
+        251.798
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "celsius": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "celsius": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "celsius": 0.5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

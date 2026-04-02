@@ -1,0 +1,95 @@
+{
+  "problem_id": 30,
+  "title": "Substring with Concatenation of All Words",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/substring-with-concatenation-of-all-words/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "barfoothefoobarman",
+        "words": [
+          "foo",
+          "bar"
+        ]
+      },
+      "expected": [
+        0,
+        9
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "wordgoodgoodgoodbestword",
+        "words": [
+          "word",
+          "good",
+          "best",
+          "word"
+        ]
+      },
+      "expected": [],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "barfoofoobarthefoobarman",
+        "words": [
+          "bar",
+          "foo",
+          "the"
+        ]
+      },
+      "expected": [
+        6,
+        9,
+        12
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "b",
+        "words": [
+          "foo",
+          "bar"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "bbbbbbbbbbbbbbbbbb",
+        "words": [
+          "foo",
+          "bar"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "bcbcbcbcbcbcbcbcbc",
+        "words": [
+          "foo",
+          "bar"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "barfootheehtoofrab",
+        "words": [
+          "foo",
+          "bar"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

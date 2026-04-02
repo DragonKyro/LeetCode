@@ -1,0 +1,80 @@
+{
+  "problem_id": 947,
+  "title": "Most Stones Removed with Same Row or Column",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/",
+  "test_cases": [
+    {
+      "input": {
+        "stones": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "stones": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "stones": [
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    }
+  ]
+}

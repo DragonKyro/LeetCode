@@ -1,0 +1,29 @@
+{
+  "problem_id": 38,
+  "title": "Count and Say",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-and-say/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 4
+      },
+      "expected": "1211",
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": "1",
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 30
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

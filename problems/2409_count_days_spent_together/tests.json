@@ -1,0 +1,188 @@
+{
+  "problem_id": 2409,
+  "title": "Count Days Spent Together",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/count-days-spent-together/",
+  "test_cases": [
+    {
+      "input": {
+        "arriveAlice": "08-15",
+        "leaveAlice": "08-18",
+        "arriveBob": "08-16",
+        "leaveBob": "08-19"
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "arriveAlice": "10-01",
+        "leaveAlice": "10-31",
+        "arriveBob": "11-01",
+        "leaveBob": "12-31"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "arriveAlice": "0",
+        "leaveAlice": "08-18",
+        "arriveBob": "08-16",
+        "leaveBob": "08-19"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arriveAlice": "00000",
+        "leaveAlice": "08-18",
+        "arriveBob": "08-16",
+        "leaveBob": "08-19"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arriveAlice": "0101",
+        "leaveAlice": "08-18",
+        "arriveBob": "08-16",
+        "leaveBob": "08-19"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arriveAlice": "0880",
+        "leaveAlice": "08-18",
+        "arriveBob": "08-16",
+        "leaveBob": "08-19"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arriveAlice": "08-15",
+        "leaveAlice": "0",
+        "arriveBob": "08-16",
+        "leaveBob": "08-19"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arriveAlice": "08-15",
+        "leaveAlice": "00000",
+        "arriveBob": "08-16",
+        "leaveBob": "08-19"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arriveAlice": "08-15",
+        "leaveAlice": "0101",
+        "arriveBob": "08-16",
+        "leaveBob": "08-19"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arriveAlice": "08-15",
+        "leaveAlice": "0880",
+        "arriveBob": "08-16",
+        "leaveBob": "08-19"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arriveAlice": "08-15",
+        "leaveAlice": "08-18",
+        "arriveBob": "0",
+        "leaveBob": "08-19"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arriveAlice": "08-15",
+        "leaveAlice": "08-18",
+        "arriveBob": "00000",
+        "leaveBob": "08-19"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arriveAlice": "08-15",
+        "leaveAlice": "08-18",
+        "arriveBob": "0101",
+        "leaveBob": "08-19"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arriveAlice": "08-15",
+        "leaveAlice": "08-18",
+        "arriveBob": "0880",
+        "leaveBob": "08-19"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arriveAlice": "08-15",
+        "leaveAlice": "08-18",
+        "arriveBob": "08-16",
+        "leaveBob": "0"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arriveAlice": "08-15",
+        "leaveAlice": "08-18",
+        "arriveBob": "08-16",
+        "leaveBob": "00000"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arriveAlice": "08-15",
+        "leaveAlice": "08-18",
+        "arriveBob": "08-16",
+        "leaveBob": "0101"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arriveAlice": "08-15",
+        "leaveAlice": "08-18",
+        "arriveBob": "08-16",
+        "leaveBob": "0880"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "problem_id": 823,
+  "title": "Binary Trees With Factors",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/binary-trees-with-factors/",
+  "test_cases": [
+    {
+      "input": {
+        "arr": [
+          2,
+          4
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "arr": [
+          2,
+          4,
+          5,
+          10
+        ]
+      },
+      "expected": 7,
+      "source": "example"
+    },
+    {
+      "input": {
+        "arr": [
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          2,
+          1000000000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          2,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          1000000000,
+          1000000000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

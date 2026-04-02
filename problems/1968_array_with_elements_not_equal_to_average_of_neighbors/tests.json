@@ -1,0 +1,94 @@
+{
+  "problem_id": 1968,
+  "title": "Array With Elements Not Equal to Average of Neighbors",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/array-with-elements-not-equal-to-average-of-neighbors/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "expected": [
+        1,
+        2,
+        4,
+        5,
+        3
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          6,
+          2,
+          0,
+          9,
+          7
+        ]
+      },
+      "expected": [
+        9,
+        7,
+        6,
+        2,
+        0
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          0,
+          0,
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          100000,
+          100000,
+          100000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

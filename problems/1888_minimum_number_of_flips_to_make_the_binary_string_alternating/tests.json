@@ -1,0 +1,50 @@
+{
+  "problem_id": 1888,
+  "title": "Minimum Number of Flips to Make the Binary String Alternating",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-number-of-flips-to-make-the-binary-string-alternating/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "111000"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "010"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "1110"
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "1"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "111111"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "121212"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

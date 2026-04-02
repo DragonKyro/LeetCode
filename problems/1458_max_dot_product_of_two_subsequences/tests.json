@@ -1,0 +1,278 @@
+{
+  "problem_id": 1458,
+  "title": "Max Dot Product of Two Subsequences",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/max-dot-product-of-two-subsequences/",
+  "test_cases": [
+    {
+      "input": {
+        "nums1": [
+          2,
+          1,
+          -2,
+          5
+        ],
+        "nums2": [
+          3,
+          0,
+          -6
+        ]
+      },
+      "expected": 18,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums1": [
+          3,
+          -2
+        ],
+        "nums2": [
+          2,
+          -6,
+          7
+        ]
+      },
+      "expected": 21,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums1": [
+          -1,
+          -1
+        ],
+        "nums2": [
+          1,
+          1
+        ]
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums1": [
+          2
+        ],
+        "nums2": [
+          3,
+          0,
+          -6
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          -100,
+          100
+        ],
+        "nums2": [
+          3,
+          0,
+          -6
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "nums2": [
+          3,
+          0,
+          -6
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "nums2": [
+          3,
+          0,
+          -6
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "nums2": [
+          3,
+          0,
+          -6
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          -100,
+          -100
+        ],
+        "nums2": [
+          3,
+          0,
+          -6
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          100,
+          100
+        ],
+        "nums2": [
+          3,
+          0,
+          -6
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          2,
+          1,
+          -2,
+          5
+        ],
+        "nums2": [
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          2,
+          1,
+          -2,
+          5
+        ],
+        "nums2": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          2,
+          1,
+          -2,
+          5
+        ],
+        "nums2": [
+          3,
+          3,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          2,
+          1,
+          -2,
+          5
+        ],
+        "nums2": [
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          2,
+          1,
+          -2,
+          5
+        ],
+        "nums2": [
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          2,
+          1,
+          -2,
+          5
+        ],
+        "nums2": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          2,
+          1,
+          -2,
+          5
+        ],
+        "nums2": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "problem_id": 1397,
+  "title": "Find All Good Strings",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/find-all-good-strings/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 2,
+        "s1": "aa",
+        "s2": "da",
+        "evil": "b"
+      },
+      "expected": 51,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 8,
+        "s1": "leetcode",
+        "s2": "leetgoes",
+        "evil": "leet"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 2,
+        "s1": "gx",
+        "s2": "gz",
+        "evil": "x"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "s1": "aa",
+        "s2": "da",
+        "evil": "b"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 500,
+        "s1": "aa",
+        "s2": "da",
+        "evil": "b"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 2,
+        "s1": "a",
+        "s2": "da",
+        "evil": "b"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 2,
+        "s1": "abab",
+        "s2": "da",
+        "evil": "b"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 2,
+        "s1": "aa",
+        "s2": "d",
+        "evil": "b"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 2,
+        "s1": "aa",
+        "s2": "dd",
+        "evil": "b"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 2,
+        "s1": "aa",
+        "s2": "dede",
+        "evil": "b"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 2,
+        "s1": "aa",
+        "s2": "da",
+        "evil": "bcbc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

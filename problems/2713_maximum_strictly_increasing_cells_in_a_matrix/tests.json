@@ -1,0 +1,58 @@
+{
+  "problem_id": 2713,
+  "title": "Maximum Strictly Increasing Cells in a Matrix",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/maximum-strictly-increasing-cells-in-a-matrix/",
+  "test_cases": [
+    {
+      "input": {
+        "mat": [
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "mat": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "mat": [
+          [
+            3,
+            1,
+            6
+          ],
+          [
+            -9,
+            5,
+            7
+          ]
+        ]
+      },
+      "expected": 4,
+      "source": "example"
+    }
+  ]
+}

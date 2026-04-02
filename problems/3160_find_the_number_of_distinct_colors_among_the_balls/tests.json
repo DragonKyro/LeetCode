@@ -1,0 +1,123 @@
+{
+  "problem_id": 3160,
+  "title": "Find the Number of Distinct Colors Among the Balls",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-the-number-of-distinct-colors-among-the-balls/",
+  "test_cases": [
+    {
+      "input": {
+        "limit": 4,
+        "queries": [
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      "expected": [
+        1,
+        2,
+        2,
+        3
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "limit": 4,
+        "queries": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ]
+      },
+      "expected": [
+        1,
+        2,
+        2,
+        3,
+        4
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "limit": 1,
+        "queries": [
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "limit": 1000000000,
+        "queries": [
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "problem_id": 1415,
+  "title": "The k-th Lexicographical String of All Happy Strings of Length n",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 1,
+        "k": 3
+      },
+      "expected": "c",
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "k": 4
+      },
+      "expected": "",
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 3,
+        "k": 9
+      },
+      "expected": "cab",
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 10,
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 1,
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

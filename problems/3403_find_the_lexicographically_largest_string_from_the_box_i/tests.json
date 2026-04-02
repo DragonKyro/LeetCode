@@ -1,0 +1,56 @@
+{
+  "problem_id": 3403,
+  "title": "Find the Lexicographically Largest String From the Box I",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-the-lexicographically-largest-string-from-the-box-i/",
+  "test_cases": [
+    {
+      "input": {
+        "word": "dbca",
+        "numFriends": 2
+      },
+      "expected": "dbc",
+      "source": "example"
+    },
+    {
+      "input": {
+        "word": "gggg",
+        "numFriends": 4
+      },
+      "expected": "g",
+      "source": "example"
+    },
+    {
+      "input": {
+        "word": "d",
+        "numFriends": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word": "dddd",
+        "numFriends": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word": "dede",
+        "numFriends": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word": "dbbd",
+        "numFriends": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

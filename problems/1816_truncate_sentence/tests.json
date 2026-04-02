@@ -1,0 +1,64 @@
+{
+  "problem_id": 1816,
+  "title": "Truncate Sentence",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/truncate-sentence/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "Hello how are you Contestant",
+        "k": 4
+      },
+      "expected": "Hello how are you",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "What is the solution to this problem",
+        "k": 4
+      },
+      "expected": "What is the solution",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "chopper is not a tanuki",
+        "k": 5
+      },
+      "expected": "chopper is not a tanuki",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "H",
+        "k": 4
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "HHHHHHHHHHHHHHHHHHHHHHHHHHHH",
+        "k": 4
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "HIHIHIHIHIHIHIHIHIHIHIHIHIHI",
+        "k": 4
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "Hello how are  era woh olleH",
+        "k": 4
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

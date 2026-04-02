@@ -1,0 +1,64 @@
+{
+  "problem_id": 1016,
+  "title": "Binary String With Substrings Representing 1 To N",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "0110",
+        "n": 3
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "0110",
+        "n": 4
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "0",
+        "n": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "0000",
+        "n": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "0101",
+        "n": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "0110",
+        "n": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "0110",
+        "n": 1000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

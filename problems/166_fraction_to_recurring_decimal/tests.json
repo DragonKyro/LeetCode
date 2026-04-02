@@ -1,0 +1,32 @@
+{
+  "problem_id": 166,
+  "title": "Fraction to Recurring Decimal",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/fraction-to-recurring-decimal/",
+  "test_cases": [
+    {
+      "input": {
+        "numerator": 1,
+        "denominator": 2
+      },
+      "expected": "0.5",
+      "source": "example"
+    },
+    {
+      "input": {
+        "numerator": 2,
+        "denominator": 1
+      },
+      "expected": "2",
+      "source": "example"
+    },
+    {
+      "input": {
+        "numerator": 4,
+        "denominator": 333
+      },
+      "expected": "0.(012)",
+      "source": "example"
+    }
+  ]
+}

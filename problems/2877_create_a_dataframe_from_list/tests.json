@@ -1,0 +1,43 @@
+{
+  "problem_id": 2877,
+  "title": "Create a DataFrame from List",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/create-a-dataframe-from-list/",
+  "test_cases": [
+    {
+      "input": {
+        "arg0": "student_data:\n[\n  [1, 15],\n  [2, 11],\n  [3, 11],\n  [4, 20]\n]"
+      },
+      "expected": "+------------+-----+\n| student_id | age |\n+------------+-----+\n| 1          | 15  |\n| 2          | 11  |\n| 3          | 11  |\n| 4          | 20  |\n+------------+-----+",
+      "source": "example"
+    },
+    {
+      "input": {
+        "arg0": "s"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arg0": "ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arg0": "stststststststststststststststststststststststststststststst"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arg0": "student_data:\n[\n  [1, 15],\n  [[  \n,]51 ,1[  \n[\n:atad_tneduts"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

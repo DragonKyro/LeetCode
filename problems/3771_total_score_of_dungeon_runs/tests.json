@@ -1,0 +1,302 @@
+{
+  "problem_id": 3771,
+  "title": "Total Score of Dungeon Runs",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/total-score-of-dungeon-runs/",
+  "test_cases": [
+    {
+      "input": {
+        "hp": 11,
+        "damage": [
+          3,
+          6,
+          7
+        ],
+        "requirement": [
+          4,
+          2,
+          5
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "hp": 2,
+        "damage": [
+          10000,
+          1
+        ],
+        "requirement": [
+          1,
+          1
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "hp": 1,
+        "damage": [
+          3,
+          6,
+          7
+        ],
+        "requirement": [
+          4,
+          2,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "hp": 1000000000,
+        "damage": [
+          3,
+          6,
+          7
+        ],
+        "requirement": [
+          4,
+          2,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "hp": 11,
+        "damage": [
+          3
+        ],
+        "requirement": [
+          4,
+          2,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "hp": 11,
+        "damage": [
+          -100,
+          100
+        ],
+        "requirement": [
+          4,
+          2,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "hp": 11,
+        "damage": [
+          3,
+          3,
+          3
+        ],
+        "requirement": [
+          4,
+          2,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "hp": 11,
+        "damage": [
+          1,
+          2,
+          3
+        ],
+        "requirement": [
+          4,
+          2,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "hp": 11,
+        "damage": [
+          3,
+          2,
+          1
+        ],
+        "requirement": [
+          4,
+          2,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "hp": 11,
+        "damage": [
+          -100,
+          -100
+        ],
+        "requirement": [
+          4,
+          2,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "hp": 11,
+        "damage": [
+          100,
+          100
+        ],
+        "requirement": [
+          4,
+          2,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "hp": 11,
+        "damage": [
+          3,
+          6,
+          7
+        ],
+        "requirement": [
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "hp": 11,
+        "damage": [
+          3,
+          6,
+          7
+        ],
+        "requirement": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "hp": 11,
+        "damage": [
+          3,
+          6,
+          7
+        ],
+        "requirement": [
+          4,
+          4,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "hp": 11,
+        "damage": [
+          3,
+          6,
+          7
+        ],
+        "requirement": [
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "hp": 11,
+        "damage": [
+          3,
+          6,
+          7
+        ],
+        "requirement": [
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "hp": 11,
+        "damage": [
+          3,
+          6,
+          7
+        ],
+        "requirement": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "hp": 11,
+        "damage": [
+          3,
+          6,
+          7
+        ],
+        "requirement": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

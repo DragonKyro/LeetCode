@@ -1,0 +1,43 @@
+{
+  "problem_id": 2119,
+  "title": "A Number After a Double Reversal",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/a-number-after-a-double-reversal/",
+  "test_cases": [
+    {
+      "input": {
+        "num": 526
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 1800
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 0
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 1000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

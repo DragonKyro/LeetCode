@@ -1,0 +1,50 @@
+{
+  "problem_id": 1041,
+  "title": "Robot Bounded In Circle",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/robot-bounded-in-circle/",
+  "test_cases": [
+    {
+      "input": {
+        "instructions": "GGLLGG"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "instructions": "GG"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "instructions": "GL"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "instructions": "G"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "instructions": "GGGGGG"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "instructions": "GHGHGH"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

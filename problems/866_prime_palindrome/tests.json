@@ -1,0 +1,43 @@
+{
+  "problem_id": 866,
+  "title": "Prime Palindrome",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/prime-palindrome/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 6
+      },
+      "expected": 7,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 8
+      },
+      "expected": 11,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 13
+      },
+      "expected": 101,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 100000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

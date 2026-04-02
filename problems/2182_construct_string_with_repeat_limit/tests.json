@@ -1,0 +1,56 @@
+{
+  "problem_id": 2182,
+  "title": "Construct String With Repeat Limit",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/construct-string-with-repeat-limit/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "cczazcc",
+        "repeatLimit": 3
+      },
+      "expected": "zzcccac",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "aababab",
+        "repeatLimit": 2
+      },
+      "expected": "bbabaa",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "c",
+        "repeatLimit": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ccccccc",
+        "repeatLimit": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "cdcdcd",
+        "repeatLimit": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "cczzcc",
+        "repeatLimit": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

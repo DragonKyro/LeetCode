@@ -1,0 +1,215 @@
+{
+  "problem_id": 2903,
+  "title": "Find Indices With Index and Value Difference I",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/find-indices-with-index-and-value-difference-i/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          5,
+          1,
+          4,
+          1
+        ],
+        "indexDifference": 2,
+        "valueDifference": 4
+      },
+      "expected": [
+        0,
+        3
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          1
+        ],
+        "indexDifference": 0,
+        "valueDifference": 0
+      },
+      "expected": [
+        0,
+        0
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3
+        ],
+        "indexDifference": 2,
+        "valueDifference": 4
+      },
+      "expected": [
+        -1,
+        -1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          5
+        ],
+        "indexDifference": 2,
+        "valueDifference": 4
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          0,
+          50
+        ],
+        "indexDifference": 2,
+        "valueDifference": 4
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          5,
+          5,
+          5,
+          5
+        ],
+        "indexDifference": 2,
+        "valueDifference": 4
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "indexDifference": 2,
+        "valueDifference": 4
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "indexDifference": 2,
+        "valueDifference": 4
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          0,
+          0
+        ],
+        "indexDifference": 2,
+        "valueDifference": 4
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          50,
+          50
+        ],
+        "indexDifference": 2,
+        "valueDifference": 4
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          5,
+          1,
+          4,
+          1
+        ],
+        "indexDifference": 0,
+        "valueDifference": 4
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          5,
+          1,
+          4,
+          1
+        ],
+        "indexDifference": 1,
+        "valueDifference": 4
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          5,
+          1,
+          4,
+          1
+        ],
+        "indexDifference": 2,
+        "valueDifference": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          5,
+          1,
+          4,
+          1
+        ],
+        "indexDifference": 2,
+        "valueDifference": 50
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          5,
+          1,
+          4,
+          1
+        ],
+        "indexDifference": 2,
+        "valueDifference": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

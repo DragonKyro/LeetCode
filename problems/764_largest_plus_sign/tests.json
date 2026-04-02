@@ -1,0 +1,60 @@
+{
+  "problem_id": 764,
+  "title": "Largest Plus Sign",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/largest-plus-sign/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 5,
+        "mines": [
+          [
+            4,
+            2
+          ]
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "mines": [
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "mines": [
+          [
+            4,
+            2
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 500,
+        "mines": [
+          [
+            4,
+            2
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

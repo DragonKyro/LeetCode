@@ -1,0 +1,57 @@
+{
+  "problem_id": 3823,
+  "title": "Reverse Letters Then Special Characters in a String",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/reverse-letters-then-special-characters-in-a-string/",
+  "test_cases": [
+    {
+      "input": {
+        "s": ")ebc#da@f("
+      },
+      "expected": "(fad@cb#e)",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "z"
+      },
+      "expected": "z",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "!@#$%^&*()"
+      },
+      "expected": ")(*&^%$#@!",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": ")"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "))))))))))"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": ")*)*)*)*)*"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": ")ebc##cbe)"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

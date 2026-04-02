@@ -1,0 +1,57 @@
+{
+  "problem_id": 1544,
+  "title": "Make The String Great",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/make-the-string-great/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "leEeetcode"
+      },
+      "expected": "leetcode",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abBAcC"
+      },
+      "expected": "",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "s"
+      },
+      "expected": "s",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "l"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "llllllllll"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "lmlmlmlmlm"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "leEeeeeEel"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

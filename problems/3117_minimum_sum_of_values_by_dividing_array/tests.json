@@ -1,0 +1,306 @@
+{
+  "problem_id": 3117,
+  "title": "Minimum Sum of Values by Dividing Array",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-sum-of-values-by-dividing-array/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          1,
+          4,
+          3,
+          3,
+          2
+        ],
+        "andValues": [
+          0,
+          3,
+          3,
+          2
+        ]
+      },
+      "expected": 12,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          3,
+          5,
+          7,
+          7,
+          7,
+          5
+        ],
+        "andValues": [
+          0,
+          7,
+          5
+        ]
+      },
+      "expected": 17,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "andValues": [
+          2
+        ]
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          1
+        ],
+        "andValues": [
+          0,
+          3,
+          3,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -100,
+          100
+        ],
+        "andValues": [
+          0,
+          3,
+          3,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "andValues": [
+          0,
+          3,
+          3,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "andValues": [
+          0,
+          3,
+          3,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "andValues": [
+          0,
+          3,
+          3,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -100,
+          -100
+        ],
+        "andValues": [
+          0,
+          3,
+          3,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          100,
+          100
+        ],
+        "andValues": [
+          0,
+          3,
+          3,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          4,
+          3,
+          3,
+          2
+        ],
+        "andValues": [
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          4,
+          3,
+          3,
+          2
+        ],
+        "andValues": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          4,
+          3,
+          3,
+          2
+        ],
+        "andValues": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          4,
+          3,
+          3,
+          2
+        ],
+        "andValues": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          4,
+          3,
+          3,
+          2
+        ],
+        "andValues": [
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          4,
+          3,
+          3,
+          2
+        ],
+        "andValues": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          4,
+          3,
+          3,
+          2
+        ],
+        "andValues": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

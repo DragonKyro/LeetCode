@@ -1,0 +1,88 @@
+{
+  "problem_id": 2825,
+  "title": "Make String a Subsequence Using Cyclic Increments",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/make-string-a-subsequence-using-cyclic-increments/",
+  "test_cases": [
+    {
+      "input": {
+        "str1": "abc",
+        "str2": "ad"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "str1": "zc",
+        "str2": "ad"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "str1": "ab",
+        "str2": "d"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "str1": "a",
+        "str2": "ad"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "str1": "aaa",
+        "str2": "ad"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "str1": "abab",
+        "str2": "ad"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "str1": "aa",
+        "str2": "ad"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "str1": "abc",
+        "str2": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "str1": "abc",
+        "str2": "aa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "str1": "abc",
+        "str2": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

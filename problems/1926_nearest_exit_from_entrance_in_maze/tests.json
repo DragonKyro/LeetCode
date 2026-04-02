@@ -1,0 +1,230 @@
+{
+  "problem_id": 1926,
+  "title": "Nearest Exit from Entrance in Maze",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/",
+  "test_cases": [
+    {
+      "input": {
+        "maze": [
+          [
+            "+",
+            "+",
+            ".",
+            "+"
+          ],
+          [
+            ".",
+            ".",
+            ".",
+            "+"
+          ],
+          [
+            "+",
+            "+",
+            "+",
+            "."
+          ]
+        ],
+        "entrance": [
+          1,
+          2
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "maze": [
+          [
+            "+",
+            "+",
+            "+"
+          ],
+          [
+            ".",
+            ".",
+            "."
+          ],
+          [
+            "+",
+            "+",
+            "+"
+          ]
+        ],
+        "entrance": [
+          1,
+          0
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "maze": [
+          [
+            ".",
+            "+"
+          ]
+        ],
+        "entrance": [
+          0,
+          0
+        ]
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "maze": [
+          [
+            "+",
+            "+",
+            ".",
+            "+"
+          ],
+          [
+            ".",
+            ".",
+            ".",
+            "+"
+          ],
+          [
+            "+",
+            "+",
+            "+",
+            "."
+          ]
+        ],
+        "entrance": [
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "maze": [
+          [
+            "+",
+            "+",
+            ".",
+            "+"
+          ],
+          [
+            ".",
+            ".",
+            ".",
+            "+"
+          ],
+          [
+            "+",
+            "+",
+            "+",
+            "."
+          ]
+        ],
+        "entrance": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "maze": [
+          [
+            "+",
+            "+",
+            ".",
+            "+"
+          ],
+          [
+            ".",
+            ".",
+            ".",
+            "+"
+          ],
+          [
+            "+",
+            "+",
+            "+",
+            "."
+          ]
+        ],
+        "entrance": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "maze": [
+          [
+            "+",
+            "+",
+            ".",
+            "+"
+          ],
+          [
+            ".",
+            ".",
+            ".",
+            "+"
+          ],
+          [
+            "+",
+            "+",
+            "+",
+            "."
+          ]
+        ],
+        "entrance": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "maze": [
+          [
+            "+",
+            "+",
+            ".",
+            "+"
+          ],
+          [
+            ".",
+            ".",
+            ".",
+            "+"
+          ],
+          [
+            "+",
+            "+",
+            "+",
+            "."
+          ]
+        ],
+        "entrance": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

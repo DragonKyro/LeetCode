@@ -1,0 +1,52 @@
+{
+  "problem_id": 3710,
+  "title": "Maximum Partition Factor",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/maximum-partition-factor/",
+  "test_cases": [
+    {
+      "input": {
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            10,
+            0
+          ]
+        ]
+      },
+      "expected": 11,
+      "source": "example"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "problem_id": 1624,
+  "title": "Largest Substring Between Two Equal Characters",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/largest-substring-between-two-equal-characters/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "aa"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abca"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "cbzxy"
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

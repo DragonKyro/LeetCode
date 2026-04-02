@@ -1,0 +1,56 @@
+{
+  "problem_id": 3723,
+  "title": "Maximize Sum of Squares of Digits",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximize-sum-of-squares-of-digits/",
+  "test_cases": [
+    {
+      "input": {
+        "num": 2,
+        "sum": 3
+      },
+      "expected": "30",
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 2,
+        "sum": 17
+      },
+      "expected": "98",
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 1,
+        "sum": 10
+      },
+      "expected": "",
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 1,
+        "sum": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": 2,
+        "sum": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": 2,
+        "sum": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

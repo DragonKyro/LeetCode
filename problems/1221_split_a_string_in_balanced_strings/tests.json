@@ -1,0 +1,50 @@
+{
+  "problem_id": 1221,
+  "title": "Split a String in Balanced Strings",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/split-a-string-in-balanced-strings/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "RLRRLLRLRL"
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "RLRRRLLRLL"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "LLLLRRRR"
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "RRRRRRRRRR"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "RSRSRSRSRS"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "RLRRLLRRLR"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

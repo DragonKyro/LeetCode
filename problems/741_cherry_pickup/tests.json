@@ -1,0 +1,54 @@
+{
+  "problem_id": 741,
+  "title": "Cherry Pickup",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/cherry-pickup/",
+  "test_cases": [
+    {
+      "input": {
+        "grid": [
+          [
+            0,
+            1,
+            -1
+          ],
+          [
+            1,
+            0,
+            -1
+          ],
+          [
+            1,
+            1,
+            1
+          ]
+        ]
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            1,
+            1,
+            -1
+          ],
+          [
+            1,
+            -1,
+            1
+          ],
+          [
+            -1,
+            1,
+            1
+          ]
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    }
+  ]
+}

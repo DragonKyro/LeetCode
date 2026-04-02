@@ -1,0 +1,64 @@
+{
+  "problem_id": 1760,
+  "title": "Minimum Limit of Balls in a Bag",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-limit-of-balls-in-a-bag/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          9
+        ],
+        "maxOperations": 2
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          4,
+          8,
+          2
+        ],
+        "maxOperations": 4
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          -100,
+          100
+        ],
+        "maxOperations": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -100,
+          -100
+        ],
+        "maxOperations": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          100,
+          100
+        ],
+        "maxOperations": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

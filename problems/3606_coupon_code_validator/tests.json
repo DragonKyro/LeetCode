@@ -1,0 +1,193 @@
+{
+  "problem_id": 3606,
+  "title": "Coupon Code Validator",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/coupon-code-validator/",
+  "test_cases": [
+    {
+      "input": {
+        "code": [
+          "SAVE20",
+          "",
+          "PHARMA5",
+          "SAVE@20"
+        ],
+        "businessLine": [
+          "restaurant",
+          "grocery",
+          "pharmacy",
+          "restaurant"
+        ],
+        "isActive": [
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "expected": [
+        "PHARMA5",
+        "SAVE20"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "code": [
+          "GROCERY15",
+          "ELECTRONICS_50",
+          "DISCOUNT10"
+        ],
+        "businessLine": [
+          "grocery",
+          "electronics",
+          "invalid"
+        ],
+        "isActive": [
+          false,
+          true,
+          true
+        ]
+      },
+      "expected": [
+        "ELECTRONICS_50"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "code": [
+          "SAVE20",
+          "",
+          "PHARMA5",
+          "SAVE@20"
+        ],
+        "businessLine": [
+          "restaurant",
+          "grocery",
+          "pharmacy",
+          "restaurant"
+        ],
+        "isActive": [
+          true
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "code": [
+          "SAVE20",
+          "",
+          "PHARMA5",
+          "SAVE@20"
+        ],
+        "businessLine": [
+          "restaurant",
+          "grocery",
+          "pharmacy",
+          "restaurant"
+        ],
+        "isActive": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "code": [
+          "SAVE20",
+          "",
+          "PHARMA5",
+          "SAVE@20"
+        ],
+        "businessLine": [
+          "restaurant",
+          "grocery",
+          "pharmacy",
+          "restaurant"
+        ],
+        "isActive": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "code": [
+          "SAVE20",
+          "",
+          "PHARMA5",
+          "SAVE@20"
+        ],
+        "businessLine": [
+          "restaurant",
+          "grocery",
+          "pharmacy",
+          "restaurant"
+        ],
+        "isActive": [
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "code": [
+          "SAVE20",
+          "",
+          "PHARMA5",
+          "SAVE@20"
+        ],
+        "businessLine": [
+          "restaurant",
+          "grocery",
+          "pharmacy",
+          "restaurant"
+        ],
+        "isActive": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "code": [
+          "SAVE20",
+          "",
+          "PHARMA5",
+          "SAVE@20"
+        ],
+        "businessLine": [
+          "restaurant",
+          "grocery",
+          "pharmacy",
+          "restaurant"
+        ],
+        "isActive": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

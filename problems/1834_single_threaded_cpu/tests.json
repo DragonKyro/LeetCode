@@ -1,0 +1,71 @@
+{
+  "problem_id": 1834,
+  "title": "Single-Threaded CPU",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/single-threaded-cpu/",
+  "test_cases": [
+    {
+      "input": {
+        "tasks": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            1
+          ]
+        ]
+      },
+      "expected": [
+        0,
+        2,
+        3,
+        1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "tasks": [
+          [
+            7,
+            10
+          ],
+          [
+            7,
+            12
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            7,
+            4
+          ],
+          [
+            7,
+            2
+          ]
+        ]
+      },
+      "expected": [
+        4,
+        3,
+        2,
+        0,
+        1
+      ],
+      "source": "example"
+    }
+  ]
+}

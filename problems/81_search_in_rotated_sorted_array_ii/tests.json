@@ -1,0 +1,125 @@
+{
+  "problem_id": 81,
+  "title": "Search in Rotated Sorted Array II",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/search-in-rotated-sorted-array-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          2,
+          5,
+          6,
+          0,
+          0,
+          1,
+          2
+        ],
+        "target": 0
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          5,
+          6,
+          0,
+          0,
+          1,
+          2
+        ],
+        "target": 3
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          2
+        ],
+        "target": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          10000,
+          10000
+        ],
+        "target": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "target": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "target": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "target": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          5,
+          6,
+          0,
+          0,
+          1,
+          2
+        ],
+        "target": 10000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

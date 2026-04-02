@@ -1,0 +1,50 @@
+{
+  "problem_id": 2147,
+  "title": "Number of Ways to Divide a Long Corridor",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/number-of-ways-to-divide-a-long-corridor/",
+  "test_cases": [
+    {
+      "input": {
+        "corridor": "SSPPSPS"
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "corridor": "PPSPSP"
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "corridor": "S"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "corridor": "SSSSSSS"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "corridor": "STSTST"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "corridor": "SSPPSS"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

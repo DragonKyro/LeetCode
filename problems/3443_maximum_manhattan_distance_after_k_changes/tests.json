@@ -1,0 +1,56 @@
+{
+  "problem_id": 3443,
+  "title": "Maximum Manhattan Distance After K Changes",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-manhattan-distance-after-k-changes/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "NWSE",
+        "k": 1
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "NSWWEW",
+        "k": 3
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "N",
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "NNNN",
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "NONO",
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "NWWN",
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "problem_id": 1728,
+  "title": "Cat and Mouse II",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/cat-and-mouse-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "grid": [
+          "####F",
+          "#C...",
+          "M...."
+        ],
+        "catJump": 1,
+        "mouseJump": 2
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          "M.C...F"
+        ],
+        "catJump": 1,
+        "mouseJump": 4
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          "M.C...F"
+        ],
+        "catJump": 1,
+        "mouseJump": 3
+      },
+      "expected": false,
+      "source": "example"
+    }
+  ]
+}

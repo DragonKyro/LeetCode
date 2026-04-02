@@ -1,0 +1,60 @@
+{
+  "problem_id": 3839,
+  "title": "Number of Prefix Connected Groups",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/number-of-prefix-connected-groups/",
+  "test_cases": [
+    {
+      "input": {
+        "words": [
+          "apple",
+          "apply",
+          "banana",
+          "bandit"
+        ],
+        "k": 2
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "car",
+          "cat",
+          "cartoon"
+        ],
+        "k": 3
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "bat",
+          "dog",
+          "dog",
+          "doggy",
+          "bat"
+        ],
+        "k": 3
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "apple",
+          "apply",
+          "banana",
+          "bandit"
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

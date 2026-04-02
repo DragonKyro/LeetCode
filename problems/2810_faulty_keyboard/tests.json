@@ -1,0 +1,50 @@
+{
+  "problem_id": 2810,
+  "title": "Faulty Keyboard",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/faulty-keyboard/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "string"
+      },
+      "expected": "rtsng",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "poiinter"
+      },
+      "expected": "ponter",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "s"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ssssss"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ststst"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "strrts"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

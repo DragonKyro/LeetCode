@@ -1,0 +1,95 @@
+{
+  "problem_id": 1643,
+  "title": "Kth Smallest Instructions",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/kth-smallest-instructions/",
+  "test_cases": [
+    {
+      "input": {
+        "destination": [
+          2,
+          3
+        ],
+        "k": 1
+      },
+      "expected": "HHHVV",
+      "source": "example"
+    },
+    {
+      "input": {
+        "destination": [
+          2,
+          3
+        ],
+        "k": 2
+      },
+      "expected": "HHVHV",
+      "source": "example"
+    },
+    {
+      "input": {
+        "destination": [
+          2,
+          3
+        ],
+        "k": 3
+      },
+      "expected": "HHVVH",
+      "source": "example"
+    },
+    {
+      "input": {
+        "destination": [
+          2
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "destination": [
+          -100,
+          100
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "destination": [
+          2,
+          2
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "destination": [
+          -100,
+          -100
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "destination": [
+          100,
+          100
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

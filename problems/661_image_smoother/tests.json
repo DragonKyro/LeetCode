@@ -1,0 +1,86 @@
+{
+  "problem_id": 661,
+  "title": "Image Smoother",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/image-smoother/",
+  "test_cases": [
+    {
+      "input": {
+        "img": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ]
+        ]
+      },
+      "expected": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "img": [
+          [
+            100,
+            200,
+            100
+          ],
+          [
+            200,
+            50,
+            200
+          ],
+          [
+            100,
+            200,
+            100
+          ]
+        ]
+      },
+      "expected": [
+        [
+          137,
+          141,
+          137
+        ],
+        [
+          141,
+          138,
+          141
+        ],
+        [
+          137,
+          141,
+          137
+        ]
+      ],
+      "source": "example"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "problem_id": 771,
+  "title": "Jewels and Stones",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/jewels-and-stones/",
+  "test_cases": [
+    {
+      "input": {
+        "jewels": "aA",
+        "stones": "aAAbbbb"
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "jewels": "z",
+        "stones": "ZZ"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "jewels": "a",
+        "stones": "aAAbbbb"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "jewels": "aa",
+        "stones": "aAAbbbb"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "jewels": "abab",
+        "stones": "aAAbbbb"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "jewels": "aA",
+        "stones": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "jewels": "aA",
+        "stones": "aaaaaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "jewels": "aA",
+        "stones": "ababab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "jewels": "aA",
+        "stones": "aAAAAa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "problem_id": 2673,
+  "title": "Make Costs of Paths Equal in a Binary Tree",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/make-costs-of-paths-equal-in-a-binary-tree/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 7,
+        "cost": [
+          1,
+          5,
+          2,
+          2,
+          3,
+          3,
+          1
+        ]
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 3,
+        "cost": [
+          5,
+          3,
+          3
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 3,
+        "cost": [
+          1,
+          5,
+          2,
+          2,
+          3,
+          3,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 100000,
+        "cost": [
+          1,
+          5,
+          2,
+          2,
+          3,
+          3,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 7,
+        "cost": [
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 7,
+        "cost": [
+          1,
+          10000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 7,
+        "cost": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 7,
+        "cost": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 7,
+        "cost": [
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 7,
+        "cost": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 7,
+        "cost": [
+          10000,
+          10000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "problem_id": 3271,
+  "title": "Hash Divided String",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/hash-divided-string/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "abcd",
+        "k": 2
+      },
+      "expected": "bf",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "mxz",
+        "k": 3
+      },
+      "expected": "i",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaa",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abab",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abba",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abcd",
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

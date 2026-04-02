@@ -1,0 +1,57 @@
+{
+  "problem_id": 1391,
+  "title": "Check if There is a Valid Path in a Grid",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/",
+  "test_cases": [
+    {
+      "input": {
+        "grid": [
+          [
+            2,
+            4,
+            3
+          ],
+          [
+            6,
+            5,
+            2
+          ]
+        ]
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            1
+          ]
+        ]
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            1,
+            1,
+            2
+          ]
+        ]
+      },
+      "expected": false,
+      "source": "example"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "problem_id": 2075,
+  "title": "Decode the Slanted Ciphertext",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/decode-the-slanted-ciphertext/",
+  "test_cases": [
+    {
+      "input": {
+        "encodedText": "ch   ie   pr",
+        "rows": 3
+      },
+      "expected": "cipher",
+      "source": "example"
+    },
+    {
+      "input": {
+        "encodedText": "iveo    eed   l te   olc",
+        "rows": 4
+      },
+      "expected": "i love leetcode",
+      "source": "example"
+    },
+    {
+      "input": {
+        "encodedText": "coding",
+        "rows": 1
+      },
+      "expected": "coding",
+      "source": "example"
+    },
+    {
+      "input": {
+        "encodedText": "c",
+        "rows": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "encodedText": "cccccccccccc",
+        "rows": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "encodedText": "cdcdcdcdcdcd",
+        "rows": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "encodedText": "ch   ii   hc",
+        "rows": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "encodedText": "ch   ie   pr",
+        "rows": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

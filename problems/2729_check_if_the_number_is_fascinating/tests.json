@@ -1,0 +1,36 @@
+{
+  "problem_id": 2729,
+  "title": "Check if The Number is Fascinating",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/check-if-the-number-is-fascinating/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 192
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 100
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 999
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

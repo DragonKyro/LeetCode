@@ -1,0 +1,159 @@
+{
+  "problem_id": 848,
+  "title": "Shifting Letters",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/shifting-letters/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "abc",
+        "shifts": [
+          3,
+          5,
+          9
+        ]
+      },
+      "expected": "rpl",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "aaa",
+        "shifts": [
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": "gfd",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a",
+        "shifts": [
+          3,
+          5,
+          9
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaa",
+        "shifts": [
+          3,
+          5,
+          9
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abab",
+        "shifts": [
+          3,
+          5,
+          9
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aa",
+        "shifts": [
+          3,
+          5,
+          9
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abc",
+        "shifts": [
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abc",
+        "shifts": [
+          0,
+          1000000000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abc",
+        "shifts": [
+          3,
+          3,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abc",
+        "shifts": [
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abc",
+        "shifts": [
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abc",
+        "shifts": [
+          0,
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abc",
+        "shifts": [
+          1000000000,
+          1000000000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

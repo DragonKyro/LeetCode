@@ -1,0 +1,50 @@
+{
+  "problem_id": 13,
+  "title": "Roman to Integer",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/roman-to-integer/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "III"
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "LVIII"
+      },
+      "expected": 58,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "MCMXCIV"
+      },
+      "expected": 1994,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "I"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "IJIJ"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "II"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

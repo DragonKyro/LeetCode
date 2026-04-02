@@ -1,0 +1,88 @@
+{
+  "problem_id": 777,
+  "title": "Swap Adjacent in LR String",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/swap-adjacent-in-lr-string/",
+  "test_cases": [
+    {
+      "input": {
+        "start": "RXXLRXRXL",
+        "result": "XRLXXRRLX"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "start": "X",
+        "result": "L"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "start": "R",
+        "result": "XRLXXRRLX"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "start": "RRRRRRRRR",
+        "result": "XRLXXRRLX"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "start": "RSRSRSRS",
+        "result": "XRLXXRRLX"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "start": "RXXLLXXR",
+        "result": "XRLXXRRLX"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "start": "RXXLRXRXL",
+        "result": "X"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "start": "RXXLRXRXL",
+        "result": "XXXXXXXXX"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "start": "RXXLRXRXL",
+        "result": "XYXYXYXY"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "start": "RXXLRXRXL",
+        "result": "XRLXXLRX"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "problem_id": 953,
+  "title": "Verifying an Alien Dictionary",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/verifying-an-alien-dictionary/",
+  "test_cases": [
+    {
+      "input": {
+        "words": [
+          "hello",
+          "leetcode"
+        ],
+        "order": "hlabcdefgijkmnopqrstuvwxyz"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "word",
+          "world",
+          "row"
+        ],
+        "order": "worldabcefghijkmnpqstuvxyz"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "apple",
+          "app"
+        ],
+        "order": "abcdefghijklmnopqrstuvwxyz"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "hello",
+          "leetcode"
+        ],
+        "order": "h"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "words": [
+          "hello",
+          "leetcode"
+        ],
+        "order": "hhhhhhhhhhhhhhhhhhhhhhhhhh"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "words": [
+          "hello",
+          "leetcode"
+        ],
+        "order": "hihihihihihihihihihihihihi"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "words": [
+          "hello",
+          "leetcode"
+        ],
+        "order": "hlabcdefgijkmmkjigfedcbalh"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

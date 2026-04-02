@@ -1,0 +1,49 @@
+{
+  "problem_id": 1146,
+  "title": "Snapshot Array",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/snapshot-array/",
+  "test_cases": [
+    {
+      "input": {
+        "arg0": "[\"SnapshotArray\",\"set\",\"snap\",\"set\",\"get\"]\n[[3],[0,5],[],[0,6],[0,0]]"
+      },
+      "expected": [
+        null,
+        null,
+        0,
+        null,
+        5
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "arg0": "["
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arg0": "[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[["
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arg0": "[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arg0": "[\"SnapshotArray\",\"set\",\"snap\",\"settes\",\"pans\",\"tes\",\"yarrAtohspanS\"["
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

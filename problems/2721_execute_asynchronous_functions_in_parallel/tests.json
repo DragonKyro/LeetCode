@@ -1,0 +1,111 @@
+{
+  "problem_id": 2721,
+  "title": "Execute Asynchronous Functions in Parallel",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/execute-asynchronous-functions-in-parallel/",
+  "test_cases": [
+    {
+      "input": {
+        "functions": "[\n  () => new Promise(",
+        "resolve": "> setTimeout(() => resolve(5), 200))\n]"
+      },
+      "expected": {
+        "t": 200,
+        "resolved": [
+          5
+        ]
+      },
+      "source": "example"
+    },
+    {
+      "input": {
+        "functions": "[\n    () => new Promise(",
+        "resolve": "> setTimeout(() => resolve(1), 200)), \n    () => new Promise((resolve, reject) => setTimeout(() => reject(\"Error\"), 100))\n]"
+      },
+      "expected": {
+        "t": 100,
+        "rejected": "Error"
+      },
+      "source": "example"
+    },
+    {
+      "input": {
+        "functions": "[\n    () => new Promise(",
+        "resolve": "> setTimeout(() => resolve(16), 100))\n]"
+      },
+      "expected": {
+        "t": 150,
+        "resolved": [
+          4,
+          10,
+          16
+        ]
+      },
+      "source": "example"
+    },
+    {
+      "input": {
+        "functions": "[",
+        "resolve": "> setTimeout(() => resolve(5), 200))\n]"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "functions": "[[[[[[[[[[[[[[[[[[[[[[",
+        "resolve": "> setTimeout(() => resolve(5), 200))\n]"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "functions": "[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\",
+        "resolve": "> setTimeout(() => resolve(5), 200))\n]"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "functions": "[\n  () => nn >= )(  \n[",
+        "resolve": "> setTimeout(() => resolve(5), 200))\n]"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "functions": "[\n  () => new Promise(",
+        "resolve": ">"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "functions": "[\n  () => new Promise(",
+        "resolve": ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "functions": "[\n  () => new Promise(",
+        "resolve": ">?>?>?>?>?>?>?>?>?>?>?>?>?>?>?>?>?>?>?"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "functions": "[\n  () => new Promise(",
+        "resolve": "> setTimeout(() =>  >= )((tuoemiTtes >"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

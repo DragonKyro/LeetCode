@@ -1,0 +1,50 @@
+{
+  "problem_id": 1781,
+  "title": "Sum of Beauty of All Substrings",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/sum-of-beauty-of-all-substrings/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "aabcb"
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "aabcbaa"
+      },
+      "expected": 17,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

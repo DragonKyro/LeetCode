@@ -1,0 +1,176 @@
+{
+  "problem_id": 2555,
+  "title": "Maximize Win From Two Segments",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximize-win-from-two-segments/",
+  "test_cases": [
+    {
+      "input": {
+        "prizePositions": [
+          1,
+          1,
+          2,
+          2,
+          3,
+          3,
+          5
+        ],
+        "k": 2
+      },
+      "expected": 7,
+      "source": "example"
+    },
+    {
+      "input": {
+        "prizePositions": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "k": 0
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "prizePositions": [
+          1
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "prizePositions": [
+          1,
+          1000000000
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "prizePositions": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "prizePositions": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "prizePositions": [
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "prizePositions": [
+          1,
+          1
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "prizePositions": [
+          1000000000,
+          1000000000
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "prizePositions": [
+          1,
+          1,
+          2,
+          2,
+          3,
+          3,
+          5
+        ],
+        "k": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "prizePositions": [
+          1,
+          1,
+          2,
+          2,
+          3,
+          3,
+          5
+        ],
+        "k": 1000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "prizePositions": [
+          1,
+          1,
+          2,
+          2,
+          3,
+          3,
+          5
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

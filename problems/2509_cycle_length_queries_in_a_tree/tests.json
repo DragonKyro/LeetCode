@@ -1,0 +1,90 @@
+{
+  "problem_id": 2509,
+  "title": "Cycle Length Queries in a Tree",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/cycle-length-queries-in-a-tree/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 3,
+        "queries": [
+          [
+            5,
+            3
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      "expected": [
+        4,
+        5,
+        3
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 2,
+        "queries": [
+          [
+            1,
+            2
+          ]
+        ]
+      },
+      "expected": [
+        2
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 2,
+        "queries": [
+          [
+            5,
+            3
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 30,
+        "queries": [
+          [
+            5,
+            3
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

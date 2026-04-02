@@ -1,0 +1,52 @@
+{
+  "problem_id": 1362,
+  "title": "Closest Divisors",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/closest-divisors/",
+  "test_cases": [
+    {
+      "input": {
+        "num": 8
+      },
+      "expected": [
+        3,
+        3
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 123
+      },
+      "expected": [
+        5,
+        25
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 999
+      },
+      "expected": [
+        40,
+        25
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": 1000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "problem_id": 3453,
+  "title": "Separate Squares I",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/separate-squares-i/",
+  "test_cases": [
+    {
+      "input": {
+        "squares": [
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            2,
+            2,
+            1
+          ]
+        ]
+      },
+      "expected": 1.0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "squares": [
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            1,
+            1,
+            1
+          ]
+        ]
+      },
+      "expected": 1.16667,
+      "source": "example"
+    }
+  ]
+}

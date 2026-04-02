@@ -1,0 +1,47 @@
+{
+  "problem_id": 1598,
+  "title": "Crawler Log Folder",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/crawler-log-folder/",
+  "test_cases": [
+    {
+      "input": {
+        "logs": [
+          "d1/",
+          "d2/",
+          "../",
+          "d21/",
+          "./"
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "logs": [
+          "d1/",
+          "d2/",
+          "./",
+          "d3/",
+          "../",
+          "d31/"
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "logs": [
+          "d1/",
+          "../",
+          "../",
+          "../"
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    }
+  ]
+}

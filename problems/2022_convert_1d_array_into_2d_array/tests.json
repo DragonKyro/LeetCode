@@ -1,0 +1,137 @@
+{
+  "problem_id": 2022,
+  "title": "Convert 1D Array Into 2D Array",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/convert-1d-array-into-2d-array/",
+  "test_cases": [
+    {
+      "input": {
+        "original": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "m": 2,
+        "n": 2
+      },
+      "expected": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "original": [
+          1,
+          2,
+          3
+        ],
+        "m": 1,
+        "n": 3
+      },
+      "expected": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "original": [
+          1,
+          2
+        ],
+        "m": 1,
+        "n": 1
+      },
+      "expected": [],
+      "source": "example"
+    },
+    {
+      "input": {
+        "original": [
+          1
+        ],
+        "m": 2,
+        "n": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "original": [
+          1,
+          100000
+        ],
+        "m": 2,
+        "n": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "original": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "m": 2,
+        "n": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "original": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "m": 2,
+        "n": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "original": [
+          1,
+          1
+        ],
+        "m": 2,
+        "n": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "original": [
+          100000,
+          100000
+        ],
+        "m": 2,
+        "n": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

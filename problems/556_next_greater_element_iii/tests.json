@@ -1,0 +1,36 @@
+{
+  "problem_id": 556,
+  "title": "Next Greater Element III",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/next-greater-element-iii/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 12
+      },
+      "expected": 21,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 21
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 2147483648
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

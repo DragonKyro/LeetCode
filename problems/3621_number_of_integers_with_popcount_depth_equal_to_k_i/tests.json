@@ -1,0 +1,56 @@
+{
+  "problem_id": 3621,
+  "title": "Number of Integers With Popcount-Depth Equal to K I",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/number-of-integers-with-popcount-depth-equal-to-k-i/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 4,
+        "k": 1
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 7,
+        "k": 2
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 1000000000000000,
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 4,
+        "k": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 4,
+        "k": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

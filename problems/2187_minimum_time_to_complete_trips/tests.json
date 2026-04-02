@@ -1,0 +1,97 @@
+{
+  "problem_id": 2187,
+  "title": "Minimum Time to Complete Trips",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-time-to-complete-trips/",
+  "test_cases": [
+    {
+      "input": {
+        "time": [
+          1,
+          2,
+          3
+        ],
+        "totalTrips": 5
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "time": [
+          2
+        ],
+        "totalTrips": 1
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "time": [
+          1
+        ],
+        "totalTrips": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "time": [
+          -100,
+          100
+        ],
+        "totalTrips": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "time": [
+          1,
+          1,
+          1
+        ],
+        "totalTrips": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "time": [
+          3,
+          2,
+          1
+        ],
+        "totalTrips": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "time": [
+          -100,
+          -100
+        ],
+        "totalTrips": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "time": [
+          100,
+          100
+        ],
+        "totalTrips": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

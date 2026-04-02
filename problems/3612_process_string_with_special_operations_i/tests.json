@@ -1,0 +1,50 @@
+{
+  "problem_id": 3612,
+  "title": "Process String with Special Operations I",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/process-string-with-special-operations-i/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "a#b%*"
+      },
+      "expected": "ba",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "z*#"
+      },
+      "expected": "",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "a##a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

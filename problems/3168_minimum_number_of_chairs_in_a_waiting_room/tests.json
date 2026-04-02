@@ -1,0 +1,50 @@
+{
+  "problem_id": 3168,
+  "title": "Minimum Number of Chairs in a Waiting Room",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/minimum-number-of-chairs-in-a-waiting-room/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "EEEEEEE"
+      },
+      "expected": 7,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "ELELEEL"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "ELEELEELLL"
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "E"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "EFEFEF"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "EEEEEE"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

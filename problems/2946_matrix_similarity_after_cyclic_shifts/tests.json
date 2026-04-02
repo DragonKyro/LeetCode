@@ -1,0 +1,124 @@
+{
+  "problem_id": 2946,
+  "title": "Matrix Similarity After Cyclic Shifts",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts/",
+  "test_cases": [
+    {
+      "input": {
+        "mat": [
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            4,
+            5,
+            6
+          ],
+          [
+            7,
+            8,
+            9
+          ]
+        ],
+        "k": 4
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "mat": [
+          [
+            1,
+            2,
+            1,
+            2
+          ],
+          [
+            5,
+            5,
+            5,
+            5
+          ],
+          [
+            6,
+            3,
+            6,
+            3
+          ]
+        ],
+        "k": 2
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "mat": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "k": 3
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "mat": [
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            4,
+            5,
+            6
+          ],
+          [
+            7,
+            8,
+            9
+          ]
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "mat": [
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            4,
+            5,
+            6
+          ],
+          [
+            7,
+            8,
+            9
+          ]
+        ],
+        "k": 50
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

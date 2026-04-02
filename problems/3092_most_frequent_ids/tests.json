@@ -1,0 +1,285 @@
+{
+  "problem_id": 3092,
+  "title": "Most Frequent IDs",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/most-frequent-ids/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          2,
+          3,
+          2,
+          1
+        ],
+        "freq": [
+          3,
+          2,
+          -3,
+          1
+        ]
+      },
+      "expected": [
+        3,
+        3,
+        2,
+        2
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          5,
+          5,
+          3
+        ],
+        "freq": [
+          2,
+          -2,
+          1
+        ]
+      },
+      "expected": [
+        2,
+        0,
+        1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          2
+        ],
+        "freq": [
+          3,
+          2,
+          -3,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          100000
+        ],
+        "freq": [
+          3,
+          2,
+          -3,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "freq": [
+          3,
+          2,
+          -3,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "freq": [
+          3,
+          2,
+          -3,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "freq": [
+          3,
+          2,
+          -3,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1
+        ],
+        "freq": [
+          3,
+          2,
+          -3,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          100000,
+          100000
+        ],
+        "freq": [
+          3,
+          2,
+          -3,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          3,
+          2,
+          1
+        ],
+        "freq": [
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          3,
+          2,
+          1
+        ],
+        "freq": [
+          -100000,
+          100000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          3,
+          2,
+          1
+        ],
+        "freq": [
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          3,
+          2,
+          1
+        ],
+        "freq": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          3,
+          2,
+          1
+        ],
+        "freq": [
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          3,
+          2,
+          1
+        ],
+        "freq": [
+          -100000,
+          -100000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          3,
+          2,
+          1
+        ],
+        "freq": [
+          100000,
+          100000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

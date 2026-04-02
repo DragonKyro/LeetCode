@@ -1,0 +1,88 @@
+{
+  "problem_id": 389,
+  "title": "Find the Difference",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/find-the-difference/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "abcd",
+        "t": "abcde"
+      },
+      "expected": "e",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "",
+        "t": "y"
+      },
+      "expected": "y",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a",
+        "t": "abcde"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaa",
+        "t": "abcde"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abab",
+        "t": "abcde"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abba",
+        "t": "abcde"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abcd",
+        "t": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abcd",
+        "t": "aaaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abcd",
+        "t": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abcd",
+        "t": "abba"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

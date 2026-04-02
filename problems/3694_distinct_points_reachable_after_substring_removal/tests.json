@@ -1,0 +1,64 @@
+{
+  "problem_id": 3694,
+  "title": "Distinct Points Reachable After Substring Removal",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/distinct-points-reachable-after-substring-removal/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "LUL",
+        "k": 1
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "UDLR",
+        "k": 4
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "UU",
+        "k": 1
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "L",
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "LLL",
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "LMLM",
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "LL",
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

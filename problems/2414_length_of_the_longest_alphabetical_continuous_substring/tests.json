@@ -1,0 +1,50 @@
+{
+  "problem_id": 2414,
+  "title": "Length of the Longest Alphabetical Continuous Substring",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/length-of-the-longest-alphabetical-continuous-substring/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "abacaba"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abcde"
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaaaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ababab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abaaba"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

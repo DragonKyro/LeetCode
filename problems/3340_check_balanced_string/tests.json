@@ -1,0 +1,43 @@
+{
+  "problem_id": 3340,
+  "title": "Check Balanced String",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/check-balanced-string/",
+  "test_cases": [
+    {
+      "input": {
+        "num": "1234"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": "24123"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": "1111"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "1212"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "1221"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

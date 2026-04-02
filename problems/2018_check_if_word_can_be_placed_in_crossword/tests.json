@@ -1,0 +1,176 @@
+{
+  "problem_id": 2018,
+  "title": "Check if Word Can Be Placed In Crossword",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/check-if-word-can-be-placed-in-crossword/",
+  "test_cases": [
+    {
+      "input": {
+        "board": [
+          [
+            "#",
+            " ",
+            "#"
+          ],
+          [
+            " ",
+            " ",
+            "#"
+          ],
+          [
+            "#",
+            "c",
+            " "
+          ]
+        ],
+        "word": "abc"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "board": [
+          [
+            " ",
+            "#",
+            "a"
+          ],
+          [
+            " ",
+            "#",
+            "c"
+          ],
+          [
+            " ",
+            "#",
+            "a"
+          ]
+        ],
+        "word": "ac"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "board": [
+          [
+            "#",
+            " ",
+            "#"
+          ],
+          [
+            " ",
+            " ",
+            "#"
+          ],
+          [
+            "#",
+            " ",
+            "c"
+          ]
+        ],
+        "word": "ca"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "board": [
+          [
+            "#",
+            " ",
+            "#"
+          ],
+          [
+            " ",
+            " ",
+            "#"
+          ],
+          [
+            "#",
+            "c",
+            " "
+          ]
+        ],
+        "word": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "board": [
+          [
+            "#",
+            " ",
+            "#"
+          ],
+          [
+            " ",
+            " ",
+            "#"
+          ],
+          [
+            "#",
+            "c",
+            " "
+          ]
+        ],
+        "word": "aaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "board": [
+          [
+            "#",
+            " ",
+            "#"
+          ],
+          [
+            " ",
+            " ",
+            "#"
+          ],
+          [
+            "#",
+            "c",
+            " "
+          ]
+        ],
+        "word": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "board": [
+          [
+            "#",
+            " ",
+            "#"
+          ],
+          [
+            " ",
+            " ",
+            "#"
+          ],
+          [
+            "#",
+            "c",
+            " "
+          ]
+        ],
+        "word": "aa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

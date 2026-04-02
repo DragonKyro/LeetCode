@@ -1,0 +1,117 @@
+{
+  "problem_id": 3208,
+  "title": "Alternating Groups II",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/alternating-groups-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "colors": [
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "k": 3
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "colors": [
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "k": 6
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "colors": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "k": 4
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "colors": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "colors": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "colors": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "colors": [
+          0,
+          0,
+          0
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "colors": [
+          1,
+          1,
+          1
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

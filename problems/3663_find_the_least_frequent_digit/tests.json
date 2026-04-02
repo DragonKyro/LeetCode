@@ -1,0 +1,36 @@
+{
+  "problem_id": 3663,
+  "title": "Find The Least Frequent Digit",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/find-the-least-frequent-digit/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 1553322
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 723344511
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 2147483648
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

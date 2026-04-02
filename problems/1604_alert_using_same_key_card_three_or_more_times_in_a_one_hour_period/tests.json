@@ -1,0 +1,60 @@
+{
+  "problem_id": 1604,
+  "title": "Alert Using Same Key-Card Three or More Times in a One Hour Period",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/",
+  "test_cases": [
+    {
+      "input": {
+        "keyName": [
+          "daniel",
+          "daniel",
+          "daniel",
+          "luis",
+          "luis",
+          "luis",
+          "luis"
+        ],
+        "keyTime": [
+          "10:00",
+          "10:40",
+          "11:00",
+          "09:00",
+          "11:00",
+          "13:00",
+          "15:00"
+        ]
+      },
+      "expected": [
+        "daniel"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "keyName": [
+          "alice",
+          "alice",
+          "alice",
+          "bob",
+          "bob",
+          "bob",
+          "bob"
+        ],
+        "keyTime": [
+          "12:01",
+          "12:00",
+          "18:00",
+          "21:00",
+          "21:20",
+          "21:30",
+          "23:00"
+        ]
+      },
+      "expected": [
+        "bob"
+      ],
+      "source": "example"
+    }
+  ]
+}

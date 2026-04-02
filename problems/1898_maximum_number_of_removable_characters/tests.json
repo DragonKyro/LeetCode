@@ -1,0 +1,229 @@
+{
+  "problem_id": 1898,
+  "title": "Maximum Number of Removable Characters",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-number-of-removable-characters/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "abcacb",
+        "p": "ab",
+        "removable": [
+          3,
+          1,
+          0
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abcbddddd",
+        "p": "abcd",
+        "removable": [
+          3,
+          2,
+          1,
+          4,
+          5,
+          6
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abcab",
+        "p": "abc",
+        "removable": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a",
+        "p": "ab",
+        "removable": [
+          3,
+          1,
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaaaa",
+        "p": "ab",
+        "removable": [
+          3,
+          1,
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ababab",
+        "p": "ab",
+        "removable": [
+          3,
+          1,
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abccba",
+        "p": "ab",
+        "removable": [
+          3,
+          1,
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abcacb",
+        "p": "a",
+        "removable": [
+          3,
+          1,
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abcacb",
+        "p": "aa",
+        "removable": [
+          3,
+          1,
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abcacb",
+        "p": "abab",
+        "removable": [
+          3,
+          1,
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abcacb",
+        "p": "ab",
+        "removable": [
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abcacb",
+        "p": "ab",
+        "removable": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abcacb",
+        "p": "ab",
+        "removable": [
+          3,
+          3,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abcacb",
+        "p": "ab",
+        "removable": [
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abcacb",
+        "p": "ab",
+        "removable": [
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abcacb",
+        "p": "ab",
+        "removable": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abcacb",
+        "p": "ab",
+        "removable": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

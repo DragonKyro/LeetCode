@@ -1,0 +1,58 @@
+{
+  "problem_id": 3829,
+  "title": "Design Ride Sharing System",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/design-ride-sharing-system/",
+  "test_cases": [
+    {
+      "input": {
+        "arg0": "[\"RideSharingSystem\", \"addRider\", \"addDriver\", \"addDriver\", \"matchDriverWithRider\", \"addRider\", \"cancelRider\", \"matchDriverWithRider\"]\n\n[[], [8], [8], [6], [], [2], [2], []]"
+      },
+      "expected": [
+        null,
+        null,
+        null,
+        null,
+        [
+          8,
+          8
+        ],
+        null,
+        null,
+        [
+          -1,
+          -1
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "arg0": "["
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arg0": "[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[["
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arg0": "[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arg0": "[\"RideSharingSystem\", \"addRider\", \"addDriver\", \"addDriver\", \"matchDriverWithRider\", \"aa\" ,\"rediRhtiWrevirDhctam\" ,\"revirDdda\" ,\"revirDdda\" ,\"rediRdda\" ,\"metsySgnirahSediR\"["
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

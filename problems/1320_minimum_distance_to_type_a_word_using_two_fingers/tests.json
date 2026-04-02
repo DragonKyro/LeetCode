@@ -1,0 +1,43 @@
+{
+  "problem_id": 1320,
+  "title": "Minimum Distance to Type a Word Using Two Fingers",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-distance-to-type-a-word-using-two-fingers/",
+  "test_cases": [
+    {
+      "input": {
+        "word": "CAKE"
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word": "HAPPY"
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word": "CCCC"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word": "CDCD"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word": "CAAC"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

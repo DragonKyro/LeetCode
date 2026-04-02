@@ -1,0 +1,43 @@
+{
+  "problem_id": 3707,
+  "title": "Equal Score Substrings",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/equal-score-substrings/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "adcb"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "bace"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "aaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "adda"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

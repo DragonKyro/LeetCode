@@ -1,0 +1,58 @@
+{
+  "problem_id": 3148,
+  "title": "Maximum Difference Score in a Grid",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-difference-score-in-a-grid/",
+  "test_cases": [
+    {
+      "input": {
+        "grid": [
+          [
+            9,
+            5,
+            7,
+            3
+          ],
+          [
+            8,
+            9,
+            6,
+            1
+          ],
+          [
+            6,
+            7,
+            14,
+            3
+          ],
+          [
+            2,
+            5,
+            3,
+            1
+          ]
+        ]
+      },
+      "expected": 9,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            4,
+            3,
+            2
+          ],
+          [
+            3,
+            2,
+            1
+          ]
+        ]
+      },
+      "expected": -1,
+      "source": "example"
+    }
+  ]
+}

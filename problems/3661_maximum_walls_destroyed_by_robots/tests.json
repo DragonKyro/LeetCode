@@ -1,0 +1,241 @@
+{
+  "problem_id": 3661,
+  "title": "Maximum Walls Destroyed by Robots",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/maximum-walls-destroyed-by-robots/",
+  "test_cases": [
+    {
+      "input": {
+        "robots": [
+          4
+        ],
+        "distance": [
+          3
+        ],
+        "walls": [
+          1,
+          10
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "robots": [
+          10,
+          2
+        ],
+        "distance": [
+          5,
+          1
+        ],
+        "walls": [
+          5,
+          2,
+          7
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "robots": [
+          1,
+          2
+        ],
+        "distance": [
+          100,
+          1
+        ],
+        "walls": [
+          10
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "robots": [
+          -100,
+          100
+        ],
+        "distance": [
+          3
+        ],
+        "walls": [
+          1,
+          10
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "robots": [
+          -100,
+          -100
+        ],
+        "distance": [
+          3
+        ],
+        "walls": [
+          1,
+          10
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "robots": [
+          100,
+          100
+        ],
+        "distance": [
+          3
+        ],
+        "walls": [
+          1,
+          10
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "robots": [
+          4
+        ],
+        "distance": [
+          1,
+          100000
+        ],
+        "walls": [
+          1,
+          10
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "robots": [
+          4
+        ],
+        "distance": [
+          1,
+          1
+        ],
+        "walls": [
+          1,
+          10
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "robots": [
+          4
+        ],
+        "distance": [
+          100000,
+          100000
+        ],
+        "walls": [
+          1,
+          10
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "robots": [
+          4
+        ],
+        "distance": [
+          3
+        ],
+        "walls": [
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "robots": [
+          4
+        ],
+        "distance": [
+          3
+        ],
+        "walls": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "robots": [
+          4
+        ],
+        "distance": [
+          3
+        ],
+        "walls": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "robots": [
+          4
+        ],
+        "distance": [
+          3
+        ],
+        "walls": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "robots": [
+          4
+        ],
+        "distance": [
+          3
+        ],
+        "walls": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

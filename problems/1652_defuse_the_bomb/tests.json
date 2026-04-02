@@ -1,0 +1,122 @@
+{
+  "problem_id": 1652,
+  "title": "Defuse the Bomb",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/defuse-the-bomb/",
+  "test_cases": [
+    {
+      "input": {
+        "code": [
+          5,
+          7,
+          1,
+          4
+        ],
+        "k": 3
+      },
+      "expected": [
+        12,
+        10,
+        16,
+        13
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "code": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "k": 0
+      },
+      "expected": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "code": [
+          2,
+          4,
+          9,
+          3
+        ],
+        "k": -2
+      },
+      "expected": [
+        12,
+        5,
+        6,
+        13
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "code": [
+          5
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "code": [
+          1,
+          1
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "code": [
+          5,
+          5,
+          5,
+          5
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "code": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "code": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

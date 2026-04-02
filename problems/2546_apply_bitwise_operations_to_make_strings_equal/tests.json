@@ -1,0 +1,80 @@
+{
+  "problem_id": 2546,
+  "title": "Apply Bitwise Operations to Make Strings Equal",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/apply-bitwise-operations-to-make-strings-equal/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "1010",
+        "target": "0110"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "11",
+        "target": "00"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "1",
+        "target": "0110"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "1111",
+        "target": "0110"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "1212",
+        "target": "0110"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "1001",
+        "target": "0110"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "1010",
+        "target": "0"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "1010",
+        "target": "0000"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "1010",
+        "target": "0101"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

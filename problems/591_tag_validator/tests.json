@@ -1,0 +1,57 @@
+{
+  "problem_id": 591,
+  "title": "Tag Validator",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/tag-validator/",
+  "test_cases": [
+    {
+      "input": {
+        "code": "<DIV>This is the first line <![CDATA[<div>]]></DIV>"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "code": "<DIV>>>  ![cdata[]] <![CDATA[<div>]>]]>]]>>]</DIV>"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "code": "<A>  <B> </A>   </B>"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "code": "<"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "code": "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "code": "<=<=<=<=<=<=<=<=<=<=<=<=<=<=<=<=<=<=<=<=<=<=<=<=<="
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "code": "<DIV>This is the first liil tsrif eht si sihT>VID<"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

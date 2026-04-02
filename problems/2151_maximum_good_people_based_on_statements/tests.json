@@ -1,0 +1,47 @@
+{
+  "problem_id": 2151,
+  "title": "Maximum Good People Based on Statements",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/maximum-good-people-based-on-statements/",
+  "test_cases": [
+    {
+      "input": {
+        "statements": [
+          [
+            2,
+            1,
+            2
+          ],
+          [
+            1,
+            2,
+            2
+          ],
+          [
+            2,
+            0,
+            2
+          ]
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "statements": [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    }
+  ]
+}

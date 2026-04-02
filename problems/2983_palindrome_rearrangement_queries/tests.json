@@ -1,0 +1,150 @@
+{
+  "problem_id": 2983,
+  "title": "Palindrome Rearrangement Queries",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/palindrome-rearrangement-queries/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "abcabc",
+        "queries": [
+          [
+            1,
+            1,
+            3,
+            5
+          ],
+          [
+            0,
+            2,
+            5,
+            5
+          ]
+        ]
+      },
+      "expected": [
+        true,
+        true
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abbcdecbba",
+        "queries": [
+          [
+            0,
+            2,
+            7,
+            9
+          ]
+        ]
+      },
+      "expected": [
+        false
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "acbcab",
+        "queries": [
+          [
+            1,
+            2,
+            4,
+            5
+          ]
+        ]
+      },
+      "expected": [
+        true
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a",
+        "queries": [
+          [
+            1,
+            1,
+            3,
+            5
+          ],
+          [
+            0,
+            2,
+            5,
+            5
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaaaa",
+        "queries": [
+          [
+            1,
+            1,
+            3,
+            5
+          ],
+          [
+            0,
+            2,
+            5,
+            5
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ababab",
+        "queries": [
+          [
+            1,
+            1,
+            3,
+            5
+          ],
+          [
+            0,
+            2,
+            5,
+            5
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abccba",
+        "queries": [
+          [
+            1,
+            1,
+            3,
+            5
+          ],
+          [
+            0,
+            2,
+            5,
+            5
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

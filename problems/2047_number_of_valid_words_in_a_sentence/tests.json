@@ -1,0 +1,57 @@
+{
+  "problem_id": 2047,
+  "title": "Number of Valid Words in a Sentence",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/number-of-valid-words-in-a-sentence/",
+  "test_cases": [
+    {
+      "input": {
+        "sentence": "cat and  dog"
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "sentence": "!this  1-s b8d!"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "sentence": "alice and  bob are playing stone-game10"
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "sentence": "c"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "sentence": "cccccccccccc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "sentence": "cdcdcdcdcdcd"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "sentence": "cat anna tac"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

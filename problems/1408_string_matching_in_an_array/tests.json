@@ -1,0 +1,48 @@
+{
+  "problem_id": 1408,
+  "title": "String Matching in an Array",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/string-matching-in-an-array/",
+  "test_cases": [
+    {
+      "input": {
+        "words": [
+          "mass",
+          "as",
+          "hero",
+          "superhero"
+        ]
+      },
+      "expected": [
+        "as",
+        "hero"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "leetcode",
+          "et",
+          "code"
+        ]
+      },
+      "expected": [
+        "et",
+        "code"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "blue",
+          "green",
+          "bu"
+        ]
+      },
+      "expected": [],
+      "source": "example"
+    }
+  ]
+}

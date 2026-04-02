@@ -1,0 +1,36 @@
+{
+  "problem_id": 400,
+  "title": "Nth Digit",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/nth-digit/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 3
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 11
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 2147483648
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

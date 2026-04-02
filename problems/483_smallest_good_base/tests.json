@@ -1,0 +1,50 @@
+{
+  "problem_id": 483,
+  "title": "Smallest Good Base",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/smallest-good-base/",
+  "test_cases": [
+    {
+      "input": {
+        "n": "13"
+      },
+      "expected": "3",
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": "4681"
+      },
+      "expected": "8",
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": "1000000000000000000"
+      },
+      "expected": "999999999999999999",
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": "1"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": "11"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": "1212"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

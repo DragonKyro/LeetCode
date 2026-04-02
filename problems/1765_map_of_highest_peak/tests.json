@@ -1,0 +1,72 @@
+{
+  "problem_id": 1765,
+  "title": "Map of Highest Peak",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/map-of-highest-peak/",
+  "test_cases": [
+    {
+      "input": {
+        "isWater": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "expected": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "isWater": [
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "expected": [
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          2,
+          2
+        ]
+      ],
+      "source": "example"
+    }
+  ]
+}

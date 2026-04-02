@@ -1,0 +1,225 @@
+{
+  "problem_id": 2637,
+  "title": "Promise Time Limit",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/promise-time-limit/",
+  "test_cases": [
+    {
+      "input": {
+        "fn": "async (n) => { \n  await new Promise(",
+        "res": "> setTimeout(res, 100)); \n  return n * n; \n}",
+        "inputs": [
+          5
+        ],
+        "t": 50
+      },
+      "expected": {
+        "rejected": "Time Limit Exceeded",
+        "time": 50
+      },
+      "source": "example"
+    },
+    {
+      "input": {
+        "fn": "async (n) => { \n  await new Promise(",
+        "res": "> setTimeout(res, 100)); \n  return n * n; \n}",
+        "inputs": [
+          5
+        ],
+        "t": 150
+      },
+      "expected": {
+        "resolved": 25,
+        "time": 100
+      },
+      "source": "example"
+    },
+    {
+      "input": {
+        "fn": "async (a, b) => { \n  await new Promise(",
+        "res": "> setTimeout(res, 120)); \n  return a + b; \n}",
+        "inputs": [
+          5,
+          10
+        ],
+        "t": 150
+      },
+      "expected": {
+        "resolved": 15,
+        "time": 120
+      },
+      "source": "example"
+    },
+    {
+      "input": {
+        "fn": "async () => { \n  throw \"Error\";\n}",
+        "inputs": [],
+        "t": 1000
+      },
+      "expected": {
+        "rejected": "Error",
+        "time": 0
+      },
+      "source": "example"
+    },
+    {
+      "input": {
+        "fn": "a",
+        "res": "> setTimeout(res, 100)); \n  return n * n; \n}",
+        "inputs": [
+          5
+        ],
+        "t": 50
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "fn": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "res": "> setTimeout(res, 100)); \n  return n * n; \n}",
+        "inputs": [
+          5
+        ],
+        "t": 50
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "fn": "abababababababababababababababababab",
+        "res": "> setTimeout(res, 100)); \n  return n * n; \n}",
+        "inputs": [
+          5
+        ],
+        "t": 50
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "fn": "async (n) => { \n    \n { >= )n( cnysa",
+        "res": "> setTimeout(res, 100)); \n  return n * n; \n}",
+        "inputs": [
+          5
+        ],
+        "t": 50
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "fn": "async (n) => { \n  await new Promise(",
+        "res": ">",
+        "inputs": [
+          5
+        ],
+        "t": 50
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "fn": "async (n) => { \n  await new Promise(",
+        "res": ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>",
+        "inputs": [
+          5
+        ],
+        "t": 50
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "fn": "async (n) => { \n  await new Promise(",
+        "res": ">?>?>?>?>?>?>?>?>?>?>?>?>?>?>?>?>?>?>?>?>?>?",
+        "inputs": [
+          5
+        ],
+        "t": 50
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "fn": "async (n) => { \n  await new Promise(",
+        "res": "> setTimeout(res, 100))001 ,ser(tuoemiTtes >",
+        "inputs": [
+          5
+        ],
+        "t": 50
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "fn": "async (n) => { \n  await new Promise(",
+        "res": "> setTimeout(res, 100)); \n  return n * n; \n}",
+        "inputs": [
+          -100,
+          100
+        ],
+        "t": 50
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "fn": "async (n) => { \n  await new Promise(",
+        "res": "> setTimeout(res, 100)); \n  return n * n; \n}",
+        "inputs": [
+          -100,
+          -100
+        ],
+        "t": 50
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "fn": "async (n) => { \n  await new Promise(",
+        "res": "> setTimeout(res, 100)); \n  return n * n; \n}",
+        "inputs": [
+          100,
+          100
+        ],
+        "t": 50
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "fn": "async (n) => { \n  await new Promise(",
+        "res": "> setTimeout(res, 100)); \n  return n * n; \n}",
+        "inputs": [
+          5
+        ],
+        "t": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "fn": "async (n) => { \n  await new Promise(",
+        "res": "> setTimeout(res, 100)); \n  return n * n; \n}",
+        "inputs": [
+          5
+        ],
+        "t": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

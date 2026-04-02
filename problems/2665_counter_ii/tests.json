@@ -1,0 +1,80 @@
+{
+  "problem_id": 2665,
+  "title": "Counter II",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/counter-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "init": 5,
+        "calls": [
+          "increment",
+          "reset",
+          "decrement"
+        ]
+      },
+      "expected": [
+        6,
+        5,
+        4
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "init": 0,
+        "calls": [
+          "increment",
+          "increment",
+          "decrement",
+          "reset",
+          "reset"
+        ]
+      },
+      "expected": [
+        1,
+        2,
+        1,
+        0,
+        0
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "init": -1000,
+        "calls": [
+          "increment",
+          "reset",
+          "decrement"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "init": 1,
+        "calls": [
+          "increment",
+          "reset",
+          "decrement"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "init": 0,
+        "calls": [
+          "increment",
+          "reset",
+          "decrement"
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

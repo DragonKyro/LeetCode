@@ -1,0 +1,123 @@
+{
+  "problem_id": 2606,
+  "title": "Find the Substring With Maximum Cost",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-the-substring-with-maximum-cost/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "adaa",
+        "chars": "d",
+        "vals": [
+          -1000
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abc",
+        "chars": "abc",
+        "vals": [
+          -1,
+          -1,
+          -1
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a",
+        "chars": "d",
+        "vals": [
+          -1000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaa",
+        "chars": "d",
+        "vals": [
+          -1000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abab",
+        "chars": "d",
+        "vals": [
+          -1000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "adda",
+        "chars": "d",
+        "vals": [
+          -1000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "adaa",
+        "chars": "dede",
+        "vals": [
+          -1000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "adaa",
+        "chars": "d",
+        "vals": [
+          -1000,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "adaa",
+        "chars": "d",
+        "vals": [
+          -1000,
+          -1000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "adaa",
+        "chars": "d",
+        "vals": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

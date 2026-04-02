@@ -1,0 +1,96 @@
+{
+  "problem_id": 3455,
+  "title": "Shortest Matching Substring",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/shortest-matching-substring/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "abaacbaecebce",
+        "p": "ba*c*ce"
+      },
+      "expected": 8,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "baccbaadbc",
+        "p": "cc*baa*adb"
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a",
+        "p": "**"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "madlogic",
+        "p": "*adlogi*"
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a",
+        "p": "ba*c*ce"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaaaaaaaaaaa",
+        "p": "ba*c*ce"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abababababab",
+        "p": "ba*c*ce"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abaacbbcaaba",
+        "p": "ba*c*ce"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abaacbaecebce",
+        "p": "bbbbbbb"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abaacbaecebce",
+        "p": "bcbcbc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abaacbaecebce",
+        "p": "ba**ab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

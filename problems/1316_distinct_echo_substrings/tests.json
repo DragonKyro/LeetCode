@@ -1,0 +1,50 @@
+{
+  "problem_id": 1316,
+  "title": "Distinct Echo Substrings",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/distinct-echo-substrings/",
+  "test_cases": [
+    {
+      "input": {
+        "text": "abcabcabc"
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "text": "leetcodeleetcode"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "text": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "text": "aaaaaaaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "text": "abababab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "text": "abcaacba"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

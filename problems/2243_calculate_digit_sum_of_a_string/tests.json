@@ -1,0 +1,72 @@
+{
+  "problem_id": 2243,
+  "title": "Calculate Digit Sum of a String",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/calculate-digit-sum-of-a-string/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "11111222223",
+        "k": 3
+      },
+      "expected": "135",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "00000000",
+        "k": 3
+      },
+      "expected": "000",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "1",
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "11111111111",
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "1212121212",
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "1111111111",
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "11111222223",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "11111222223",
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,304 @@
+{
+  "problem_id": 1705,
+  "title": "Maximum Number of Eaten Apples",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-number-of-eaten-apples/",
+  "test_cases": [
+    {
+      "input": {
+        "apples": [
+          1,
+          2,
+          3,
+          5,
+          2
+        ],
+        "days": [
+          3,
+          2,
+          1,
+          4,
+          2
+        ]
+      },
+      "expected": 7,
+      "source": "example"
+    },
+    {
+      "input": {
+        "apples": [
+          3,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        "days": [
+          3,
+          0,
+          0,
+          0,
+          0,
+          2
+        ]
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "apples": [
+          1
+        ],
+        "days": [
+          3,
+          2,
+          1,
+          4,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "apples": [
+          -100,
+          100
+        ],
+        "days": [
+          3,
+          2,
+          1,
+          4,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "apples": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "days": [
+          3,
+          2,
+          1,
+          4,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "apples": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "days": [
+          3,
+          2,
+          1,
+          4,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "apples": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "days": [
+          3,
+          2,
+          1,
+          4,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "apples": [
+          -100,
+          -100
+        ],
+        "days": [
+          3,
+          2,
+          1,
+          4,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "apples": [
+          100,
+          100
+        ],
+        "days": [
+          3,
+          2,
+          1,
+          4,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "apples": [
+          1,
+          2,
+          3,
+          5,
+          2
+        ],
+        "days": [
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "apples": [
+          1,
+          2,
+          3,
+          5,
+          2
+        ],
+        "days": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "apples": [
+          1,
+          2,
+          3,
+          5,
+          2
+        ],
+        "days": [
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "apples": [
+          1,
+          2,
+          3,
+          5,
+          2
+        ],
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "apples": [
+          1,
+          2,
+          3,
+          5,
+          2
+        ],
+        "days": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "apples": [
+          1,
+          2,
+          3,
+          5,
+          2
+        ],
+        "days": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "apples": [
+          1,
+          2,
+          3,
+          5,
+          2
+        ],
+        "days": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

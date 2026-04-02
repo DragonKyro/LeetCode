@@ -1,0 +1,50 @@
+{
+  "problem_id": 3438,
+  "title": "Find Valid Pair of Adjacent Digits in String",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/find-valid-pair-of-adjacent-digits-in-string/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "2523533"
+      },
+      "expected": "23",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "221"
+      },
+      "expected": "21",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "22"
+      },
+      "expected": "",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "2222222"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "232323"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "252252"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

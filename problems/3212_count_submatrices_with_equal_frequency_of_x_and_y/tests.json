@@ -1,0 +1,58 @@
+{
+  "problem_id": 3212,
+  "title": "Count Submatrices With Equal Frequency of X and Y",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-submatrices-with-equal-frequency-of-x-and-y/",
+  "test_cases": [
+    {
+      "input": {
+        "grid": [
+          [
+            "X",
+            "Y",
+            "."
+          ],
+          [
+            "Y",
+            ".",
+            "."
+          ]
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            "X",
+            "X"
+          ],
+          [
+            "X",
+            "Y"
+          ]
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            ".",
+            "."
+          ],
+          [
+            ".",
+            "."
+          ]
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    }
+  ]
+}

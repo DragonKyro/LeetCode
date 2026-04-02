@@ -1,0 +1,26 @@
+{
+  "problem_id": 3426,
+  "title": "Manhattan Distances of All Arrangements of Pieces",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/manhattan-distances-of-all-arrangements-of-pieces/",
+  "test_cases": [
+    {
+      "input": {
+        "m": 2,
+        "n": 2,
+        "k": 2
+      },
+      "expected": 8,
+      "source": "example"
+    },
+    {
+      "input": {
+        "m": 1,
+        "n": 4,
+        "k": 3
+      },
+      "expected": 20,
+      "source": "example"
+    }
+  ]
+}

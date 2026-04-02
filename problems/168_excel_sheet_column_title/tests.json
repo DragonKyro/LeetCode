@@ -1,0 +1,36 @@
+{
+  "problem_id": 168,
+  "title": "Excel Sheet Column Title",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/excel-sheet-column-title/",
+  "test_cases": [
+    {
+      "input": {
+        "columnNumber": 1
+      },
+      "expected": "A",
+      "source": "example"
+    },
+    {
+      "input": {
+        "columnNumber": 28
+      },
+      "expected": "AB",
+      "source": "example"
+    },
+    {
+      "input": {
+        "columnNumber": 701
+      },
+      "expected": "ZY",
+      "source": "example"
+    },
+    {
+      "input": {
+        "columnNumber": 2147483648
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

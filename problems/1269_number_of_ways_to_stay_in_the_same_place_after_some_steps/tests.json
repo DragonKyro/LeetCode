@@ -1,0 +1,64 @@
+{
+  "problem_id": 1269,
+  "title": "Number of Ways to Stay in the Same Place After Some Steps",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/",
+  "test_cases": [
+    {
+      "input": {
+        "steps": 3,
+        "arrLen": 2
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "steps": 2,
+        "arrLen": 4
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "steps": 4,
+        "arrLen": 2
+      },
+      "expected": 8,
+      "source": "example"
+    },
+    {
+      "input": {
+        "steps": 1,
+        "arrLen": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "steps": 500,
+        "arrLen": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "steps": 3,
+        "arrLen": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "steps": 3,
+        "arrLen": 1000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

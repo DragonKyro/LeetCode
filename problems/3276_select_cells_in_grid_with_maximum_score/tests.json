@@ -1,0 +1,49 @@
+{
+  "problem_id": 3276,
+  "title": "Select Cells in Grid With Maximum Score",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/select-cells-in-grid-with-maximum-score/",
+  "test_cases": [
+    {
+      "input": {
+        "grid": [
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            4,
+            3,
+            2
+          ],
+          [
+            1,
+            1,
+            1
+          ]
+        ]
+      },
+      "expected": 8,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            8,
+            7,
+            6
+          ],
+          [
+            8,
+            3,
+            2
+          ]
+        ]
+      },
+      "expected": 15,
+      "source": "example"
+    }
+  ]
+}

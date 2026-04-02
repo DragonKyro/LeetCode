@@ -1,0 +1,87 @@
+{
+  "problem_id": 2402,
+  "title": "Meeting Rooms III",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/meeting-rooms-iii/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 2,
+        "meetings": [
+          [
+            0,
+            10
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 3,
+        "meetings": [
+          [
+            1,
+            20
+          ],
+          [
+            2,
+            10
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            9
+          ],
+          [
+            6,
+            8
+          ]
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "meetings": [
+          [
+            0,
+            10
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

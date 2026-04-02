@@ -1,0 +1,118 @@
+{
+  "problem_id": 327,
+  "title": "Count of Range Sum",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/count-of-range-sum/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          -2,
+          5,
+          -1
+        ],
+        "lower": -2,
+        "upper": 2
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          0
+        ],
+        "lower": 0,
+        "upper": 0
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          -2
+        ],
+        "lower": -2,
+        "upper": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -2147483648,
+          2147483648
+        ],
+        "lower": -2,
+        "upper": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -2,
+          -2,
+          -2
+        ],
+        "lower": -2,
+        "upper": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3
+        ],
+        "lower": -2,
+        "upper": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          3,
+          2,
+          1
+        ],
+        "lower": -2,
+        "upper": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -2147483648,
+          -2147483648
+        ],
+        "lower": -2,
+        "upper": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          2147483648,
+          2147483648
+        ],
+        "lower": -2,
+        "upper": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

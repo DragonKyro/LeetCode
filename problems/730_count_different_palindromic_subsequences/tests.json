@@ -1,0 +1,43 @@
+{
+  "problem_id": 730,
+  "title": "Count Different Palindromic Subsequences",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/count-different-palindromic-subsequences/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "bccb"
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abcdabcdabcdabcdabcdabcdabcdabcddcbadcbadcbadcbadcbadcbadcbadcba"
+      },
+      "expected": 104860361,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "b"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "bbbb"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "bcbc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

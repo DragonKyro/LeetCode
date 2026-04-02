@@ -1,0 +1,95 @@
+{
+  "problem_id": 936,
+  "title": "Stamping The Sequence",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/stamping-the-sequence/",
+  "test_cases": [
+    {
+      "input": {
+        "stamp": "abc",
+        "target": "ababc"
+      },
+      "expected": [
+        0,
+        2
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "stamp": "abca",
+        "target": "aabcaca"
+      },
+      "expected": [
+        3,
+        0,
+        1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "stamp": "a",
+        "target": "ababc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "stamp": "aaa",
+        "target": "ababc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "stamp": "abab",
+        "target": "ababc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "stamp": "aa",
+        "target": "ababc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "stamp": "abc",
+        "target": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "stamp": "abc",
+        "target": "aaaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "stamp": "abc",
+        "target": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "stamp": "abc",
+        "target": "abba"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "problem_id": 3364,
+  "title": "Minimum Positive Sum Subarray ",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/minimum-positive-sum-subarray/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          3,
+          -2,
+          1,
+          4
+        ],
+        "l": 2,
+        "r": 3
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          -2,
+          2,
+          -3,
+          1
+        ],
+        "l": 2,
+        "r": 3
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "l": 2,
+        "r": 4
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          3
+        ],
+        "l": 2,
+        "r": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -1000,
+          1
+        ],
+        "l": 2,
+        "r": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "l": 2,
+        "r": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "l": 2,
+        "r": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "l": 2,
+        "r": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -1000,
+          -1000
+        ],
+        "l": 2,
+        "r": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1
+        ],
+        "l": 2,
+        "r": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

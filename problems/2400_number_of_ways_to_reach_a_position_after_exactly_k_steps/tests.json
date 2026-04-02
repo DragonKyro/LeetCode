@@ -1,0 +1,26 @@
+{
+  "problem_id": 2400,
+  "title": "Number of Ways to Reach a Position After Exactly k Steps",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/number-of-ways-to-reach-a-position-after-exactly-k-steps/",
+  "test_cases": [
+    {
+      "input": {
+        "startPos": 1,
+        "endPos": 2,
+        "k": 3
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "startPos": 2,
+        "endPos": 5,
+        "k": 10
+      },
+      "expected": 0,
+      "source": "example"
+    }
+  ]
+}

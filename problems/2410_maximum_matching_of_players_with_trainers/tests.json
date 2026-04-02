@@ -1,0 +1,263 @@
+{
+  "problem_id": 2410,
+  "title": "Maximum Matching of Players With Trainers",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-matching-of-players-with-trainers/",
+  "test_cases": [
+    {
+      "input": {
+        "players": [
+          4,
+          7,
+          9
+        ],
+        "trainers": [
+          8,
+          2,
+          5,
+          8
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "players": [
+          1,
+          1,
+          1
+        ],
+        "trainers": [
+          10
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "players": [
+          4
+        ],
+        "trainers": [
+          8,
+          2,
+          5,
+          8
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "players": [
+          -100,
+          100
+        ],
+        "trainers": [
+          8,
+          2,
+          5,
+          8
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "players": [
+          4,
+          4,
+          4
+        ],
+        "trainers": [
+          8,
+          2,
+          5,
+          8
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "players": [
+          1,
+          2,
+          3
+        ],
+        "trainers": [
+          8,
+          2,
+          5,
+          8
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "players": [
+          3,
+          2,
+          1
+        ],
+        "trainers": [
+          8,
+          2,
+          5,
+          8
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "players": [
+          -100,
+          -100
+        ],
+        "trainers": [
+          8,
+          2,
+          5,
+          8
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "players": [
+          100,
+          100
+        ],
+        "trainers": [
+          8,
+          2,
+          5,
+          8
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "players": [
+          4,
+          7,
+          9
+        ],
+        "trainers": [
+          8
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "players": [
+          4,
+          7,
+          9
+        ],
+        "trainers": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "players": [
+          4,
+          7,
+          9
+        ],
+        "trainers": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "players": [
+          4,
+          7,
+          9
+        ],
+        "trainers": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "players": [
+          4,
+          7,
+          9
+        ],
+        "trainers": [
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "players": [
+          4,
+          7,
+          9
+        ],
+        "trainers": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "players": [
+          4,
+          7,
+          9
+        ],
+        "trainers": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

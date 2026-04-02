@@ -1,0 +1,126 @@
+{
+  "problem_id": 1803,
+  "title": "Count Pairs With XOR in a Range",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/count-pairs-with-xor-in-a-range/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          1,
+          4,
+          2,
+          7
+        ],
+        "low": 2,
+        "high": 6
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          9,
+          8,
+          4,
+          2,
+          1
+        ],
+        "low": 5,
+        "high": 14
+      },
+      "expected": 8,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          1
+        ],
+        "low": 2,
+        "high": 6
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2
+        ],
+        "low": 2,
+        "high": 6
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "low": 2,
+        "high": 6
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "low": 2,
+        "high": 6
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "low": 2,
+        "high": 6
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1
+        ],
+        "low": 2,
+        "high": 6
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          2
+        ],
+        "low": 2,
+        "high": 6
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "problem_id": 1467,
+  "title": "Probability of a Two Boxes Having The Same Number of Distinct Balls",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/",
+  "test_cases": [
+    {
+      "input": {
+        "balls": [
+          1,
+          1
+        ]
+      },
+      "expected": 1.0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "balls": [
+          2,
+          1,
+          1
+        ]
+      },
+      "expected": 0.66667,
+      "source": "example"
+    },
+    {
+      "input": {
+        "balls": [
+          1,
+          2,
+          1,
+          2
+        ]
+      },
+      "expected": 0.6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "balls": [
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "balls": [
+          1,
+          6
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "balls": [
+          6,
+          6
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "problem_id": 739,
+  "title": "Daily Temperatures",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/daily-temperatures/",
+  "test_cases": [
+    {
+      "input": {
+        "temperatures": [
+          73,
+          74,
+          75,
+          71,
+          69,
+          72,
+          76,
+          73
+        ]
+      },
+      "expected": [
+        1,
+        1,
+        4,
+        2,
+        1,
+        1,
+        0,
+        0
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "temperatures": [
+          30,
+          40,
+          50,
+          60
+        ]
+      },
+      "expected": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "temperatures": [
+          30,
+          60,
+          90
+        ]
+      },
+      "expected": [
+        1,
+        1,
+        0
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "temperatures": [
+          73
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "temperatures": [
+          30,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "temperatures": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "temperatures": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "temperatures": [
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "temperatures": [
+          30,
+          30
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "temperatures": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

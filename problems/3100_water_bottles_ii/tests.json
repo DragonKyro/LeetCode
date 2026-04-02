@@ -1,0 +1,40 @@
+{
+  "problem_id": 3100,
+  "title": "Water Bottles II",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/water-bottles-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "numBottles": 13,
+        "numExchange": 6
+      },
+      "expected": 15,
+      "source": "example"
+    },
+    {
+      "input": {
+        "numBottles": 10,
+        "numExchange": 3
+      },
+      "expected": 13,
+      "source": "example"
+    },
+    {
+      "input": {
+        "numBottles": 1,
+        "numExchange": 6
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "numBottles": 13,
+        "numExchange": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

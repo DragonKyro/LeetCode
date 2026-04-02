@@ -1,0 +1,52 @@
+{
+  "problem_id": 3709,
+  "title": "Design Exam Scores Tracker",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/design-exam-scores-tracker/",
+  "test_cases": [
+    {
+      "input": {
+        "arg0": "[\"ExamTracker\", \"record\", \"totalScore\", \"record\", \"totalScore\", \"totalScore\", \"totalScore\", \"totalScore\"]\n\n[[], [1, 98], [1, 1], [5, 99], [1, 3], [1, 5], [3, 4], [2, 5]]"
+      },
+      "expected": [
+        null,
+        null,
+        98,
+        null,
+        98,
+        197,
+        0,
+        99
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "arg0": "["
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arg0": "[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[["
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arg0": "[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arg0": "[\"ExamTracker\", \"record\", \"totalScore\", \"record\", \"totalScore\", \"totalScore\", \"totallatot\" ,\"erocSlatot\" ,\"erocSlatot\" ,\"drocer\" ,\"erocSlatot\" ,\"drocer\" ,\"rekcarTmaxE\"["
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

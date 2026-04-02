@@ -1,0 +1,24 @@
+{
+  "problem_id": 29,
+  "title": "Divide Two Integers",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/divide-two-integers/",
+  "test_cases": [
+    {
+      "input": {
+        "dividend": 10,
+        "divisor": 3
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "dividend": 7,
+        "divisor": -3
+      },
+      "expected": -2,
+      "source": "example"
+    }
+  ]
+}

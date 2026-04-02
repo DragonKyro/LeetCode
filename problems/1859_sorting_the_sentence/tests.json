@@ -1,0 +1,43 @@
+{
+  "problem_id": 1859,
+  "title": "Sorting the Sentence",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/sorting-the-sentence/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "is2 sentence4 This1 a3"
+      },
+      "expected": "This is a sentence",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "Myself2 Me1 I4 and3"
+      },
+      "expected": "Me Myself and I",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "iiiiiiiiiiiiiiiiiiiiii"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ijijijijijijijijijijij"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "is2 sentenccnetnes 2si"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "problem_id": 2193,
+  "title": "Minimum Number of Moves to Make Palindrome",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-number-of-moves-to-make-palindrome/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "aabb"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "letelt"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

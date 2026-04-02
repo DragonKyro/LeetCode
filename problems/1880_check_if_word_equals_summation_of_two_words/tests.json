@@ -1,0 +1,143 @@
+{
+  "problem_id": 1880,
+  "title": "Check if Word Equals Summation of Two Words",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/check-if-word-equals-summation-of-two-words/",
+  "test_cases": [
+    {
+      "input": {
+        "firstWord": "acb",
+        "secondWord": "cba",
+        "targetWord": "cdb"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "firstWord": "aaa",
+        "secondWord": "a",
+        "targetWord": "aab"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "firstWord": "aaa",
+        "secondWord": "a",
+        "targetWord": "aaaa"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "firstWord": "a",
+        "secondWord": "cba",
+        "targetWord": "cdb"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "firstWord": "aaa",
+        "secondWord": "cba",
+        "targetWord": "cdb"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "firstWord": "abab",
+        "secondWord": "cba",
+        "targetWord": "cdb"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "firstWord": "aa",
+        "secondWord": "cba",
+        "targetWord": "cdb"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "firstWord": "acb",
+        "secondWord": "c",
+        "targetWord": "cdb"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "firstWord": "acb",
+        "secondWord": "ccc",
+        "targetWord": "cdb"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "firstWord": "acb",
+        "secondWord": "cdcd",
+        "targetWord": "cdb"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "firstWord": "acb",
+        "secondWord": "cc",
+        "targetWord": "cdb"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "firstWord": "acb",
+        "secondWord": "cba",
+        "targetWord": "c"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "firstWord": "acb",
+        "secondWord": "cba",
+        "targetWord": "ccc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "firstWord": "acb",
+        "secondWord": "cba",
+        "targetWord": "cdcd"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "firstWord": "acb",
+        "secondWord": "cba",
+        "targetWord": "cc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

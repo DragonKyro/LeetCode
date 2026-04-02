@@ -1,0 +1,52 @@
+{
+  "problem_id": 1701,
+  "title": "Average Waiting Time",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/average-waiting-time/",
+  "test_cases": [
+    {
+      "input": {
+        "customers": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            4,
+            3
+          ]
+        ]
+      },
+      "expected": 5.0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "customers": [
+          [
+            5,
+            2
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            10,
+            3
+          ],
+          [
+            20,
+            1
+          ]
+        ]
+      },
+      "expected": 3.25,
+      "source": "example"
+    }
+  ]
+}

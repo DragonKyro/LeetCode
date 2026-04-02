@@ -1,0 +1,64 @@
+{
+  "problem_id": 8,
+  "title": "String to Integer (atoi)",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/string-to-integer-atoi/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "42"
+      },
+      "expected": 42,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": " -042"
+      },
+      "expected": -42,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "1337c0d3"
+      },
+      "expected": 1337,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "0-1"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "words and 987"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "4"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "44"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "4545"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

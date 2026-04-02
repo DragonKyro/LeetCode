@@ -1,0 +1,50 @@
+{
+  "problem_id": 1694,
+  "title": "Reformat Phone Number",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/reformat-phone-number/",
+  "test_cases": [
+    {
+      "input": {
+        "number": "1-23-45 6"
+      },
+      "expected": "123-456",
+      "source": "example"
+    },
+    {
+      "input": {
+        "number": "123 4-567"
+      },
+      "expected": "123-45-67",
+      "source": "example"
+    },
+    {
+      "input": {
+        "number": "123 4-5678"
+      },
+      "expected": "123-456-78",
+      "source": "example"
+    },
+    {
+      "input": {
+        "number": "111111111"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "number": "12121212"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "number": "1-2332-1"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

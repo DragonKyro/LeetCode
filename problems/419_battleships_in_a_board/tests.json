@@ -1,0 +1,45 @@
+{
+  "problem_id": 419,
+  "title": "Battleships in a Board",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/battleships-in-a-board/",
+  "test_cases": [
+    {
+      "input": {
+        "board": [
+          [
+            "X",
+            ".",
+            ".",
+            "X"
+          ],
+          [
+            ".",
+            ".",
+            ".",
+            "X"
+          ],
+          [
+            ".",
+            ".",
+            ".",
+            "X"
+          ]
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "board": [
+          [
+            "."
+          ]
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    }
+  ]
+}

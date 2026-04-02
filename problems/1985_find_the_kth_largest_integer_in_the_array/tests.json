@@ -1,0 +1,45 @@
+{
+  "problem_id": 1985,
+  "title": "Find the Kth Largest Integer in the Array",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          "3",
+          "6",
+          "7",
+          "10"
+        ],
+        "k": 4
+      },
+      "expected": "3",
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          "2",
+          "21",
+          "12",
+          "1"
+        ],
+        "k": 3
+      },
+      "expected": "2",
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          "0",
+          "0"
+        ],
+        "k": 2
+      },
+      "expected": "0",
+      "source": "example"
+    }
+  ]
+}

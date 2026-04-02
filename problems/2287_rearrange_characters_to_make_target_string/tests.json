@@ -1,0 +1,96 @@
+{
+  "problem_id": 2287,
+  "title": "Rearrange Characters to Make Target String",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/rearrange-characters-to-make-target-string/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "ilovecodingonleetcode",
+        "target": "code"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abcba",
+        "target": "abc"
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abbaccaddaeea",
+        "target": "aaaaa"
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "i",
+        "target": "code"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "iiiiiiiiiiiiiiiiiiiii",
+        "target": "code"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ijijijijijijijijijij",
+        "target": "code"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ilovecodinnidocevoli",
+        "target": "code"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ilovecodingonleetcode",
+        "target": "c"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ilovecodingonleetcode",
+        "target": "cccc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ilovecodingonleetcode",
+        "target": "cdcd"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ilovecodingonleetcode",
+        "target": "cooc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

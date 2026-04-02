@@ -1,0 +1,302 @@
+{
+  "problem_id": 3382,
+  "title": "Maximum Area Rectangle With Point Constraints II",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/maximum-area-rectangle-with-point-constraints-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "xCoord": [
+          1,
+          1,
+          3,
+          3
+        ],
+        "yCoord": [
+          1,
+          3,
+          1,
+          3
+        ]
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "xCoord": [
+          1,
+          1,
+          3,
+          3,
+          2
+        ],
+        "yCoord": [
+          1,
+          3,
+          1,
+          3,
+          2
+        ]
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "xCoord": [
+          1,
+          1,
+          3,
+          3,
+          1,
+          3
+        ],
+        "yCoord": [
+          1,
+          3,
+          1,
+          3,
+          2,
+          2
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "xCoord": [
+          1
+        ],
+        "yCoord": [
+          1,
+          3,
+          1,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "xCoord": [
+          -100,
+          100
+        ],
+        "yCoord": [
+          1,
+          3,
+          1,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "xCoord": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "yCoord": [
+          1,
+          3,
+          1,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "xCoord": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "yCoord": [
+          1,
+          3,
+          1,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "xCoord": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "yCoord": [
+          1,
+          3,
+          1,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "xCoord": [
+          -100,
+          -100
+        ],
+        "yCoord": [
+          1,
+          3,
+          1,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "xCoord": [
+          100,
+          100
+        ],
+        "yCoord": [
+          1,
+          3,
+          1,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "xCoord": [
+          1,
+          1,
+          3,
+          3
+        ],
+        "yCoord": [
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "xCoord": [
+          1,
+          1,
+          3,
+          3
+        ],
+        "yCoord": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "xCoord": [
+          1,
+          1,
+          3,
+          3
+        ],
+        "yCoord": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "xCoord": [
+          1,
+          1,
+          3,
+          3
+        ],
+        "yCoord": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "xCoord": [
+          1,
+          1,
+          3,
+          3
+        ],
+        "yCoord": [
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "xCoord": [
+          1,
+          1,
+          3,
+          3
+        ],
+        "yCoord": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "xCoord": [
+          1,
+          1,
+          3,
+          3
+        ],
+        "yCoord": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

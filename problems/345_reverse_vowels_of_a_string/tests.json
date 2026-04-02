@@ -1,0 +1,50 @@
+{
+  "problem_id": 345,
+  "title": "Reverse Vowels of a String",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/reverse-vowels-of-a-string/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "IceCreAm"
+      },
+      "expected": "AceCreIm",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "leetcode"
+      },
+      "expected": "leotcede",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "I"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "IIIIIIII"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "IJIJIJIJ"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "IceCCecI"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

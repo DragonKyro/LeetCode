@@ -1,0 +1,48 @@
+{
+  "problem_id": 1837,
+  "title": "Sum of Digits in Base K",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/sum-of-digits-in-base-k/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 34,
+        "k": 6
+      },
+      "expected": 9,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 10,
+        "k": 10
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "k": 6
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 34,
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 34,
+        "k": 10
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

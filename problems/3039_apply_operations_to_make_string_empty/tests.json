@@ -1,0 +1,50 @@
+{
+  "problem_id": 3039,
+  "title": "Apply Operations to Make String Empty",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/apply-operations-to-make-string-empty/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "aabcbbca"
+      },
+      "expected": "ba",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abcd"
+      },
+      "expected": "abcd",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaaaaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abababab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aabccbaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

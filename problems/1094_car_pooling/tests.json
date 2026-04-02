@@ -1,0 +1,84 @@
+{
+  "problem_id": 1094,
+  "title": "Car Pooling",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/car-pooling/",
+  "test_cases": [
+    {
+      "input": {
+        "trips": [
+          [
+            2,
+            1,
+            5
+          ],
+          [
+            3,
+            3,
+            7
+          ]
+        ],
+        "capacity": 4
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "trips": [
+          [
+            2,
+            1,
+            5
+          ],
+          [
+            3,
+            3,
+            7
+          ]
+        ],
+        "capacity": 5
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "trips": [
+          [
+            2,
+            1,
+            5
+          ],
+          [
+            3,
+            3,
+            7
+          ]
+        ],
+        "capacity": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "trips": [
+          [
+            2,
+            1,
+            5
+          ],
+          [
+            3,
+            3,
+            7
+          ]
+        ],
+        "capacity": 100000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

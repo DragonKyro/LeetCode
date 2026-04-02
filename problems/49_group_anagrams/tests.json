@@ -1,0 +1,61 @@
+{
+  "problem_id": 49,
+  "title": "Group Anagrams",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/group-anagrams/",
+  "test_cases": [
+    {
+      "input": {
+        "strs": [
+          "eat",
+          "tea",
+          "tan",
+          "ate",
+          "nat",
+          "bat"
+        ]
+      },
+      "expected": [
+        [
+          "bat"
+        ],
+        [
+          "nat",
+          "tan"
+        ],
+        [
+          "ate",
+          "eat",
+          "tea"
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "strs": [
+          ""
+        ]
+      },
+      "expected": [
+        [
+          ""
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "strs": [
+          "a"
+        ]
+      },
+      "expected": [
+        [
+          "a"
+        ]
+      ],
+      "source": "example"
+    }
+  ]
+}

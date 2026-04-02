@@ -1,0 +1,29 @@
+{
+  "problem_id": 3726,
+  "title": "Remove Zeros in Decimal Representation",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/remove-zeros-in-decimal-representation/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 1020030
+      },
+      "expected": 123,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1000000000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

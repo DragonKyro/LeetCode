@@ -1,0 +1,42 @@
+{
+  "problem_id": 3598,
+  "title": "Longest Common Prefix Between Adjacent Strings After Removals",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/longest-common-prefix-between-adjacent-strings-after-removals/",
+  "test_cases": [
+    {
+      "input": {
+        "words": [
+          "jump",
+          "run",
+          "run",
+          "jump",
+          "run"
+        ]
+      },
+      "expected": [
+        3,
+        0,
+        0,
+        3,
+        3
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "dog",
+          "racer",
+          "car"
+        ]
+      },
+      "expected": [
+        0,
+        0,
+        0
+      ],
+      "source": "example"
+    }
+  ]
+}

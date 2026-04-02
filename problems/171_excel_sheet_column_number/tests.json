@@ -1,0 +1,36 @@
+{
+  "problem_id": 171,
+  "title": "Excel Sheet Column Number",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/excel-sheet-column-number/",
+  "test_cases": [
+    {
+      "input": {
+        "columnTitle": "A"
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "columnTitle": "AB"
+      },
+      "expected": 28,
+      "source": "example"
+    },
+    {
+      "input": {
+        "columnTitle": "ZY"
+      },
+      "expected": 701,
+      "source": "example"
+    },
+    {
+      "input": {
+        "columnTitle": "ABAB"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

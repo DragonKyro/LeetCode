@@ -1,0 +1,327 @@
+{
+  "problem_id": 3478,
+  "title": "Choose K Elements With Maximum Sum",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/choose-k-elements-with-maximum-sum/",
+  "test_cases": [
+    {
+      "input": {
+        "nums1": [
+          4,
+          2,
+          1,
+          5,
+          3
+        ],
+        "nums2": [
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        "k": 2
+      },
+      "expected": [
+        80,
+        30,
+        0,
+        80,
+        50
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums1": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "nums2": [
+          3,
+          1,
+          2,
+          3
+        ],
+        "k": 1
+      },
+      "expected": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums1": [
+          4
+        ],
+        "nums2": [
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          -100,
+          100
+        ],
+        "nums2": [
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "nums2": [
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "nums2": [
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "nums2": [
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          -100,
+          -100
+        ],
+        "nums2": [
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          100,
+          100
+        ],
+        "nums2": [
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          4,
+          2,
+          1,
+          5,
+          3
+        ],
+        "nums2": [
+          10
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          4,
+          2,
+          1,
+          5,
+          3
+        ],
+        "nums2": [
+          -100,
+          100
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          4,
+          2,
+          1,
+          5,
+          3
+        ],
+        "nums2": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          4,
+          2,
+          1,
+          5,
+          3
+        ],
+        "nums2": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          4,
+          2,
+          1,
+          5,
+          3
+        ],
+        "nums2": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          4,
+          2,
+          1,
+          5,
+          3
+        ],
+        "nums2": [
+          -100,
+          -100
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          4,
+          2,
+          1,
+          5,
+          3
+        ],
+        "nums2": [
+          100,
+          100
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

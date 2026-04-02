@@ -1,0 +1,68 @@
+{
+  "problem_id": 1444,
+  "title": "Number of Ways of Cutting a Pizza",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza/",
+  "test_cases": [
+    {
+      "input": {
+        "pizza": [
+          "A..",
+          "AAA",
+          "..."
+        ],
+        "k": 3
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "pizza": [
+          "A..",
+          "AA.",
+          "..."
+        ],
+        "k": 3
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "pizza": [
+          "A..",
+          "A..",
+          "..."
+        ],
+        "k": 1
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "pizza": [
+          "A..",
+          "AAA",
+          "..."
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "pizza": [
+          "A..",
+          "AAA",
+          "..."
+        ],
+        "k": 10
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

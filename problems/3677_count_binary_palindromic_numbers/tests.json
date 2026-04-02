@@ -1,0 +1,36 @@
+{
+  "problem_id": 3677,
+  "title": "Count Binary Palindromic Numbers",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/count-binary-palindromic-numbers/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 9
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 0
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1000000000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "problem_id": 443,
+  "title": "String Compression",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/string-compression/",
+  "test_cases": [
+    {
+      "input": {
+        "chars": [
+          "a",
+          "a",
+          "b",
+          "b",
+          "c",
+          "c",
+          "c"
+        ]
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "chars": [
+          "a"
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "chars": [
+          "a",
+          "b",
+          "b",
+          "b",
+          "b",
+          "b",
+          "b",
+          "b",
+          "b",
+          "b",
+          "b",
+          "b",
+          "b"
+        ]
+      },
+      "expected": 4,
+      "source": "example"
+    }
+  ]
+}

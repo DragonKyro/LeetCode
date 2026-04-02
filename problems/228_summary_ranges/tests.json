@@ -1,0 +1,127 @@
+{
+  "problem_id": 228,
+  "title": "Summary Ranges",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/summary-ranges/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          7
+        ]
+      },
+      "expected": [
+        "0->2",
+        "4->5",
+        "7"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          0,
+          2,
+          3,
+          4,
+          6,
+          8,
+          9
+        ]
+      },
+      "expected": [
+        "0",
+        "2->4",
+        "6",
+        "8->9"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -2147483648,
+          2147483648
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -2147483648,
+          -2147483648
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          2147483648,
+          2147483648
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

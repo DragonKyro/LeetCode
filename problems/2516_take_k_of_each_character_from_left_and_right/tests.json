@@ -1,0 +1,56 @@
+{
+  "problem_id": 2516,
+  "title": "Take K of Each Character From Left and Right",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/take-k-of-each-character-from-left-and-right/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "aabaaaacaabc",
+        "k": 2
+      },
+      "expected": 8,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a",
+        "k": 1
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaaaaaaaaaa",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abababababab",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aabaaaaaabaa",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "problem_id": 864,
+  "title": "Shortest Path to Get All Keys",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/shortest-path-to-get-all-keys/",
+  "test_cases": [
+    {
+      "input": {
+        "grid": [
+          "@.a..",
+          "###.#",
+          "b.A.B"
+        ]
+      },
+      "expected": 8,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          "@..aA",
+          "..B#.",
+          "....b"
+        ]
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          "@Aa"
+        ]
+      },
+      "expected": -1,
+      "source": "example"
+    }
+  ]
+}

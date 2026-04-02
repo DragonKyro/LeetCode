@@ -1,0 +1,113 @@
+{
+  "problem_id": 3275,
+  "title": "K-th Nearest Obstacle Queries",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/k-th-nearest-obstacle-queries/",
+  "test_cases": [
+    {
+      "input": {
+        "queries": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            -3,
+            0
+          ]
+        ],
+        "k": 2
+      },
+      "expected": [
+        -1,
+        7,
+        5,
+        3
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "queries": [
+          [
+            5,
+            5
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "k": 1
+      },
+      "expected": [
+        10,
+        8,
+        6
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "queries": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            -3,
+            0
+          ]
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "queries": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            -3,
+            0
+          ]
+        ],
+        "k": 100000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

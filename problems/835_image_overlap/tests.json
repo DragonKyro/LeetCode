@@ -1,0 +1,80 @@
+{
+  "problem_id": 835,
+  "title": "Image Overlap",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/image-overlap/",
+  "test_cases": [
+    {
+      "input": {
+        "img1": [
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "img2": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "img1": [
+          [
+            1
+          ]
+        ],
+        "img2": [
+          [
+            1
+          ]
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "img1": [
+          [
+            0
+          ]
+        ],
+        "img2": [
+          [
+            0
+          ]
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "problem_id": 3699,
+  "title": "Number of ZigZag Arrays I",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/number-of-zigzag-arrays-i/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 3,
+        "l": 4,
+        "r": 5
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 3,
+        "l": 1,
+        "r": 3
+      },
+      "expected": 10,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 2000,
+        "l": 4,
+        "r": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

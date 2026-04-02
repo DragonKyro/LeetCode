@@ -1,0 +1,136 @@
+{
+  "problem_id": 1962,
+  "title": "Remove Stones to Minimize the Total",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/remove-stones-to-minimize-the-total/",
+  "test_cases": [
+    {
+      "input": {
+        "piles": [
+          5,
+          4,
+          9
+        ],
+        "k": 2
+      },
+      "expected": 12,
+      "source": "example"
+    },
+    {
+      "input": {
+        "piles": [
+          4,
+          3,
+          6,
+          7
+        ],
+        "k": 3
+      },
+      "expected": 12,
+      "source": "example"
+    },
+    {
+      "input": {
+        "piles": [
+          5
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "piles": [
+          1,
+          10000
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "piles": [
+          5,
+          5,
+          5
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "piles": [
+          1,
+          2,
+          3
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "piles": [
+          3,
+          2,
+          1
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "piles": [
+          1,
+          1
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "piles": [
+          10000,
+          10000
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "piles": [
+          5,
+          4,
+          9
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "piles": [
+          5,
+          4,
+          9
+        ],
+        "k": 100000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

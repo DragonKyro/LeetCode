@@ -1,0 +1,143 @@
+{
+  "problem_id": 97,
+  "title": "Interleaving String",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/interleaving-string/",
+  "test_cases": [
+    {
+      "input": {
+        "s1": "aabcc",
+        "s2": "dbbca",
+        "s3": "aadbbcbcac"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s1": "aabcc",
+        "s2": "dbbca",
+        "s3": "aadbbbaccc"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s1": "",
+        "s2": "",
+        "s3": ""
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s1": "a",
+        "s2": "dbbca",
+        "s3": "aadbbcbcac"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "aaaaa",
+        "s2": "dbbca",
+        "s3": "aadbbcbcac"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "abab",
+        "s2": "dbbca",
+        "s3": "aadbbcbcac"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "aaaa",
+        "s2": "dbbca",
+        "s3": "aadbbcbcac"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "aabcc",
+        "s2": "d",
+        "s3": "aadbbcbcac"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "aabcc",
+        "s2": "ddddd",
+        "s3": "aadbbcbcac"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "aabcc",
+        "s2": "dede",
+        "s3": "aadbbcbcac"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "aabcc",
+        "s2": "dbbd",
+        "s3": "aadbbcbcac"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "aabcc",
+        "s2": "dbbca",
+        "s3": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "aabcc",
+        "s2": "dbbca",
+        "s3": "aaaaaaaaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "aabcc",
+        "s2": "dbbca",
+        "s3": "ababababab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "aabcc",
+        "s2": "dbbca",
+        "s3": "aadbbbbdaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

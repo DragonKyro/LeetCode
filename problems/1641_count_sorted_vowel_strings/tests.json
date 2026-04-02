@@ -1,0 +1,36 @@
+{
+  "problem_id": 1641,
+  "title": "Count Sorted Vowel Strings",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-sorted-vowel-strings/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 2
+      },
+      "expected": 15,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 33
+      },
+      "expected": 66045,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 50
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

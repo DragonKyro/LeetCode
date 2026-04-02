@@ -1,0 +1,79 @@
+{
+  "problem_id": 1639,
+  "title": "Number of Ways to Form a Target String Given a Dictionary",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/number-of-ways-to-form-a-target-string-given-a-dictionary/",
+  "test_cases": [
+    {
+      "input": {
+        "words": [
+          "acca",
+          "bbbb",
+          "caca"
+        ],
+        "target": "aba"
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "abba",
+          "baab"
+        ],
+        "target": "bab"
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "acca",
+          "bbbb",
+          "caca"
+        ],
+        "target": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "words": [
+          "acca",
+          "bbbb",
+          "caca"
+        ],
+        "target": "aaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "words": [
+          "acca",
+          "bbbb",
+          "caca"
+        ],
+        "target": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "words": [
+          "acca",
+          "bbbb",
+          "caca"
+        ],
+        "target": "aa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

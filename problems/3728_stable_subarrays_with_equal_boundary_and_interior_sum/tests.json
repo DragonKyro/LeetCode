@@ -1,0 +1,96 @@
+{
+  "problem_id": 3728,
+  "title": "Stable Subarrays With Equal Boundary and Interior Sum",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/stable-subarrays-with-equal-boundary-and-interior-sum/",
+  "test_cases": [
+    {
+      "input": {
+        "capacity": [
+          9,
+          3,
+          3,
+          3,
+          9
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "capacity": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "capacity": [
+          -4,
+          4,
+          0,
+          0,
+          -8,
+          -4
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "capacity": [
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "capacity": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "capacity": [
+          -1000000000,
+          -1000000000,
+          -1000000000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "capacity": [
+          1000000000,
+          1000000000,
+          1000000000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

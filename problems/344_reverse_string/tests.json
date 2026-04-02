@@ -1,0 +1,48 @@
+{
+  "problem_id": 344,
+  "title": "Reverse String",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/reverse-string/",
+  "test_cases": [
+    {
+      "input": {
+        "s": [
+          "h",
+          "e",
+          "l",
+          "l",
+          "o"
+        ]
+      },
+      "expected": [
+        "o",
+        "l",
+        "l",
+        "e",
+        "h"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": [
+          "H",
+          "a",
+          "n",
+          "n",
+          "a",
+          "h"
+        ]
+      },
+      "expected": [
+        "h",
+        "a",
+        "n",
+        "n",
+        "a",
+        "H"
+      ],
+      "source": "example"
+    }
+  ]
+}

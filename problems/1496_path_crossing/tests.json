@@ -1,0 +1,50 @@
+{
+  "problem_id": 1496,
+  "title": "Path Crossing",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/path-crossing/",
+  "test_cases": [
+    {
+      "input": {
+        "path": "NES"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "path": "NESWW"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "path": "N"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "path": "NNN"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "path": "NONO"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "path": "NN"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

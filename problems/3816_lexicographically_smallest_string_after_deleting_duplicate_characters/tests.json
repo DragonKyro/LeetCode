@@ -1,0 +1,50 @@
+{
+  "problem_id": 3816,
+  "title": "Lexicographically Smallest String After Deleting Duplicate Characters",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/lexicographically-smallest-string-after-deleting-duplicate-characters/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "aaccb"
+      },
+      "expected": "aacb",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "z"
+      },
+      "expected": "z",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

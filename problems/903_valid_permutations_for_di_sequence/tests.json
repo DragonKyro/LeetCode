@@ -1,0 +1,43 @@
+{
+  "problem_id": 903,
+  "title": "Valid Permutations for DI Sequence",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/valid-permutations-for-di-sequence/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "DID"
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "D"
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "DDD"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "DEDE"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "DD"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "problem_id": 3777,
+  "title": "Minimum Deletions to Make Alternating Substring",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-deletions-to-make-alternating-substring/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "ABA",
+        "queries": [
+          [
+            2,
+            1,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0,
+            2
+          ]
+        ]
+      },
+      "expected": [
+        0,
+        2
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "ABB",
+        "queries": [
+          [
+            2,
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            0,
+            2
+          ]
+        ]
+      },
+      "expected": [
+        1,
+        0
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "BABA",
+        "queries": [
+          [
+            2,
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            3
+          ]
+        ]
+      },
+      "expected": [
+        0,
+        1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "A",
+        "queries": [
+          [
+            2,
+            1,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0,
+            2
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "AAA",
+        "queries": [
+          [
+            2,
+            1,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0,
+            2
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ABAB",
+        "queries": [
+          [
+            2,
+            1,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0,
+            2
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "AA",
+        "queries": [
+          [
+            2,
+            1,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0,
+            2
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

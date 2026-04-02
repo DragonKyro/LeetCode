@@ -1,0 +1,50 @@
+{
+  "problem_id": 3151,
+  "title": "Special Array I",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/special-array-i/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          1
+        ]
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          1,
+          4
+        ]
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          3,
+          1,
+          6
+        ]
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

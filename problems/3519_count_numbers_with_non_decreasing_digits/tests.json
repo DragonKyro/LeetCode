@@ -1,0 +1,98 @@
+{
+  "problem_id": 3519,
+  "title": "Count Numbers with Non-Decreasing Digits ",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/count-numbers-with-non-decreasing-digits/",
+  "test_cases": [
+    {
+      "input": {
+        "l": "23",
+        "r": "28",
+        "b": 8
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "l": "2",
+        "r": "7",
+        "b": 2
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "l": "2",
+        "r": "28",
+        "b": 8
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "l": "22",
+        "r": "28",
+        "b": 8
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "l": "2323",
+        "r": "28",
+        "b": 8
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "l": "23",
+        "r": "2",
+        "b": 8
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "l": "23",
+        "r": "22",
+        "b": 8
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "l": "23",
+        "r": "2323",
+        "b": 8
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "l": "23",
+        "r": "28",
+        "b": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "l": "23",
+        "r": "28",
+        "b": 10
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

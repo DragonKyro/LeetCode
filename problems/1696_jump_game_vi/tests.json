@@ -1,0 +1,121 @@
+{
+  "problem_id": 1696,
+  "title": "Jump Game VI",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/jump-game-vi/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          1,
+          -1,
+          -2,
+          4,
+          -7,
+          3
+        ],
+        "k": 2
+      },
+      "expected": 7,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          10,
+          -5,
+          -2,
+          4,
+          0,
+          3
+        ],
+        "k": 3
+      },
+      "expected": 17,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          -5,
+          -20,
+          4,
+          -1,
+          3,
+          -6,
+          -3
+        ],
+        "k": 2
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          1
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          10000,
+          10000
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

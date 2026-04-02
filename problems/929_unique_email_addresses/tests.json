@@ -1,0 +1,30 @@
+{
+  "problem_id": 929,
+  "title": "Unique Email Addresses",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/unique-email-addresses/",
+  "test_cases": [
+    {
+      "input": {
+        "emails": [
+          "test.email+alex@leetcode.com",
+          "test.e.mail+bob.cathy@leetcode.com",
+          "testemail+david@lee.tcode.com"
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "emails": [
+          "a@leetcode.com",
+          "b@leetcode.com",
+          "c@leetcode.com"
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "problem_id": 1840,
+  "title": "Maximum Building Height",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/maximum-building-height/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 5,
+        "restrictions": [
+          [
+            2,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 6,
+        "restrictions": []
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 10,
+        "restrictions": [
+          [
+            5,
+            3
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            7,
+            4
+          ],
+          [
+            10,
+            3
+          ]
+        ]
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 2,
+        "restrictions": [
+          [
+            2,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 1000000000,
+        "restrictions": [
+          [
+            2,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

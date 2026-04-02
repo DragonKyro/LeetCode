@@ -1,0 +1,87 @@
+{
+  "problem_id": 3883,
+  "title": "Count Non Decreasing Arrays With Given Digit Sums",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/count-non-decreasing-arrays-with-given-digit-sums/",
+  "test_cases": [
+    {
+      "input": {
+        "digitSum": [
+          25,
+          1
+        ]
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "digitSum": [
+          1
+        ]
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "digitSum": [
+          2,
+          49,
+          23
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "digitSum": [
+          25
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "digitSum": [
+          0,
+          50
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "digitSum": [
+          25,
+          25
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "digitSum": [
+          0,
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "digitSum": [
+          50,
+          50
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

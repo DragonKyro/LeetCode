@@ -1,0 +1,37 @@
+{
+  "problem_id": 2500,
+  "title": "Delete Greatest Value in Each Row",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/delete-greatest-value-in-each-row/",
+  "test_cases": [
+    {
+      "input": {
+        "grid": [
+          [
+            1,
+            2,
+            4
+          ],
+          [
+            3,
+            3,
+            1
+          ]
+        ]
+      },
+      "expected": 8,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            10
+          ]
+        ]
+      },
+      "expected": 10,
+      "source": "example"
+    }
+  ]
+}

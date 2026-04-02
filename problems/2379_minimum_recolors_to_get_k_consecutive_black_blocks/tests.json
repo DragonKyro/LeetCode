@@ -1,0 +1,56 @@
+{
+  "problem_id": 2379,
+  "title": "Minimum Recolors to Get K Consecutive Black Blocks",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/",
+  "test_cases": [
+    {
+      "input": {
+        "blocks": "WBBWWBBWBW",
+        "k": 7
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "blocks": "WBWBBBW",
+        "k": 2
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "blocks": "W",
+        "k": 7
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "blocks": "WWWWWWWWWW",
+        "k": 7
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "blocks": "WXWXWXWXWX",
+        "k": 7
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "blocks": "WBBWWWWBBW",
+        "k": 7
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

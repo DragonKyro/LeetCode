@@ -1,0 +1,43 @@
+{
+  "problem_id": 535,
+  "title": "Encode and Decode TinyURL",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/encode-and-decode-tinyurl/",
+  "test_cases": [
+    {
+      "input": {
+        "url": "https://leetcode.com/problems/design-tinyurl"
+      },
+      "expected": "https://leetcode.com/problems/design-tinyurl",
+      "source": "example"
+    },
+    {
+      "input": {
+        "url": "h"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "url": "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "url": "hihihihihihihihihihihihihihihihihihihihihihi"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "url": "https://leetcode.com/pp/moc.edocteel//:sptth"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

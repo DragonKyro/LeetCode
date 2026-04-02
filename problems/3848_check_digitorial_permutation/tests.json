@@ -1,0 +1,36 @@
+{
+  "problem_id": 3848,
+  "title": "Check Digitorial Permutation",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/check-digitorial-permutation/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 145
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 10
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 1000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

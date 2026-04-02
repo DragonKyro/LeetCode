@@ -1,0 +1,362 @@
+{
+  "problem_id": 1606,
+  "title": "Find Servers That Handled Most Number of Requests",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/find-servers-that-handled-most-number-of-requests/",
+  "test_cases": [
+    {
+      "input": {
+        "k": 3,
+        "arrival": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "load": [
+          5,
+          2,
+          3,
+          3,
+          3
+        ]
+      },
+      "expected": [
+        1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "k": 3,
+        "arrival": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "load": [
+          1,
+          2,
+          1,
+          2
+        ]
+      },
+      "expected": [
+        0
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "k": 3,
+        "arrival": [
+          1,
+          2,
+          3
+        ],
+        "load": [
+          10,
+          12,
+          11
+        ]
+      },
+      "expected": [
+        0,
+        1,
+        2
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "k": 1,
+        "arrival": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "load": [
+          5,
+          2,
+          3,
+          3,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "k": 100000,
+        "arrival": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "load": [
+          5,
+          2,
+          3,
+          3,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "k": 3,
+        "arrival": [
+          1
+        ],
+        "load": [
+          5,
+          2,
+          3,
+          3,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "k": 3,
+        "arrival": [
+          -100,
+          100
+        ],
+        "load": [
+          5,
+          2,
+          3,
+          3,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "k": 3,
+        "arrival": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "load": [
+          5,
+          2,
+          3,
+          3,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "k": 3,
+        "arrival": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "load": [
+          5,
+          2,
+          3,
+          3,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "k": 3,
+        "arrival": [
+          -100,
+          -100
+        ],
+        "load": [
+          5,
+          2,
+          3,
+          3,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "k": 3,
+        "arrival": [
+          100,
+          100
+        ],
+        "load": [
+          5,
+          2,
+          3,
+          3,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "k": 3,
+        "arrival": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "load": [
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "k": 3,
+        "arrival": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "load": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "k": 3,
+        "arrival": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "load": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "k": 3,
+        "arrival": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "load": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "k": 3,
+        "arrival": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "load": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "k": 3,
+        "arrival": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "load": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "k": 3,
+        "arrival": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "load": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

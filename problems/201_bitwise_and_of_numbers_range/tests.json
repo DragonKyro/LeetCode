@@ -1,0 +1,32 @@
+{
+  "problem_id": 201,
+  "title": "Bitwise AND of Numbers Range",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/bitwise-and-of-numbers-range/",
+  "test_cases": [
+    {
+      "input": {
+        "left": 5,
+        "right": 7
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "left": 0,
+        "right": 0
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "left": 1,
+        "right": 2147483647
+      },
+      "expected": 0,
+      "source": "example"
+    }
+  ]
+}

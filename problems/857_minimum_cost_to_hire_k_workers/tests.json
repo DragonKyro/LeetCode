@@ -1,0 +1,274 @@
+{
+  "problem_id": 857,
+  "title": "Minimum Cost to Hire K Workers",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-cost-to-hire-k-workers/",
+  "test_cases": [
+    {
+      "input": {
+        "quality": [
+          10,
+          20,
+          5
+        ],
+        "wage": [
+          70,
+          50,
+          30
+        ],
+        "k": 2
+      },
+      "expected": 105.0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "quality": [
+          3,
+          1,
+          10,
+          10,
+          1
+        ],
+        "wage": [
+          4,
+          8,
+          2,
+          2,
+          7
+        ],
+        "k": 3
+      },
+      "expected": 30.66667,
+      "source": "example"
+    },
+    {
+      "input": {
+        "quality": [
+          10
+        ],
+        "wage": [
+          70,
+          50,
+          30
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "quality": [
+          -100,
+          100
+        ],
+        "wage": [
+          70,
+          50,
+          30
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "quality": [
+          10,
+          10,
+          10
+        ],
+        "wage": [
+          70,
+          50,
+          30
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "quality": [
+          1,
+          2,
+          3
+        ],
+        "wage": [
+          70,
+          50,
+          30
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "quality": [
+          3,
+          2,
+          1
+        ],
+        "wage": [
+          70,
+          50,
+          30
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "quality": [
+          -100,
+          -100
+        ],
+        "wage": [
+          70,
+          50,
+          30
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "quality": [
+          100,
+          100
+        ],
+        "wage": [
+          70,
+          50,
+          30
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "quality": [
+          10,
+          20,
+          5
+        ],
+        "wage": [
+          70
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "quality": [
+          10,
+          20,
+          5
+        ],
+        "wage": [
+          -100,
+          100
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "quality": [
+          10,
+          20,
+          5
+        ],
+        "wage": [
+          70,
+          70,
+          70
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "quality": [
+          10,
+          20,
+          5
+        ],
+        "wage": [
+          1,
+          2,
+          3
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "quality": [
+          10,
+          20,
+          5
+        ],
+        "wage": [
+          3,
+          2,
+          1
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "quality": [
+          10,
+          20,
+          5
+        ],
+        "wage": [
+          -100,
+          -100
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "quality": [
+          10,
+          20,
+          5
+        ],
+        "wage": [
+          100,
+          100
+        ],
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

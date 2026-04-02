@@ -1,0 +1,45 @@
+{
+  "problem_id": 861,
+  "title": "Score After Flipping Matrix",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/score-after-flipping-matrix/",
+  "test_cases": [
+    {
+      "input": {
+        "grid": [
+          [
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            0,
+            0
+          ]
+        ]
+      },
+      "expected": 39,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            0
+          ]
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    }
+  ]
+}

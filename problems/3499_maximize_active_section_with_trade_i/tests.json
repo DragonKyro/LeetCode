@@ -1,0 +1,57 @@
+{
+  "problem_id": 3499,
+  "title": "Maximize Active Section with Trade I",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximize-active-section-with-trade-i/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "01"
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "0100"
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "1000100"
+      },
+      "expected": 7,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "01010"
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "0"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "00"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "0101"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

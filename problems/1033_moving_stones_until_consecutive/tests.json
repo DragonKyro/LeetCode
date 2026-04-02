@@ -1,0 +1,44 @@
+{
+  "problem_id": 1033,
+  "title": "Moving Stones Until Consecutive",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/moving-stones-until-consecutive/",
+  "test_cases": [
+    {
+      "input": {
+        "a": 1,
+        "b": 2,
+        "c": 5
+      },
+      "expected": [
+        1,
+        2
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "a": 4,
+        "b": 3,
+        "c": 2
+      },
+      "expected": [
+        0,
+        0
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "a": 3,
+        "b": 5,
+        "c": 1
+      },
+      "expected": [
+        1,
+        2
+      ],
+      "source": "example"
+    }
+  ]
+}

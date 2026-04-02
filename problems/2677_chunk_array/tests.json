@@ -1,0 +1,164 @@
+{
+  "problem_id": 2677,
+  "title": "Chunk Array",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/chunk-array/",
+  "test_cases": [
+    {
+      "input": {
+        "arr": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "size": 1
+      },
+      "expected": [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "arr": [
+          1,
+          9,
+          6,
+          3,
+          2
+        ],
+        "size": 3
+      },
+      "expected": [
+        [
+          1,
+          9,
+          6
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "arr": [
+          8,
+          5,
+          3,
+          2,
+          6
+        ],
+        "size": 6
+      },
+      "expected": [
+        [
+          8,
+          5,
+          3,
+          2,
+          6
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "arr": [],
+        "size": 1
+      },
+      "expected": [],
+      "source": "example"
+    },
+    {
+      "input": {
+        "arr": [
+          1,
+          1
+        ],
+        "size": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          -100,
+          100
+        ],
+        "size": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "size": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "size": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          -100,
+          -100
+        ],
+        "size": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          100,
+          100
+        ],
+        "size": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "problem_id": 609,
+  "title": "Find Duplicate File in System",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-duplicate-file-in-system/",
+  "test_cases": [
+    {
+      "input": {
+        "paths": [
+          "root/a 1.txt(abcd) 2.txt(efgh)",
+          "root/c 3.txt(abcd)",
+          "root/c/d 4.txt(efgh)",
+          "root 4.txt(efgh)"
+        ]
+      },
+      "expected": [
+        [
+          "root/a/2.txt",
+          "root/c/d/4.txt",
+          "root/4.txt"
+        ],
+        [
+          "root/a/1.txt",
+          "root/c/3.txt"
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "paths": [
+          "root/a 1.txt(abcd) 2.txt(efgh)",
+          "root/c 3.txt(abcd)",
+          "root/c/d 4.txt(efgh)"
+        ]
+      },
+      "expected": [
+        [
+          "root/a/2.txt",
+          "root/c/d/4.txt"
+        ],
+        [
+          "root/a/1.txt",
+          "root/c/3.txt"
+        ]
+      ],
+      "source": "example"
+    }
+  ]
+}

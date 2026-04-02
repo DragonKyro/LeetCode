@@ -1,0 +1,43 @@
+{
+  "problem_id": 633,
+  "title": "Sum of Square Numbers",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/sum-of-square-numbers/",
+  "test_cases": [
+    {
+      "input": {
+        "c": 5
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "c": 3
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "c": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "c": 2147483648
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "c": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

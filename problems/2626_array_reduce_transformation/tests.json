@@ -1,0 +1,190 @@
+{
+  "problem_id": 2626,
+  "title": "Array Reduce Transformation",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/array-reduce-transformation/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "fn": "function sum(accum, curr) { return accum + curr; }",
+        "init": 0
+      },
+      "expected": 10,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "fn": "function sum(accum, curr) { return accum + curr * curr; }",
+        "init": 100
+      },
+      "expected": 130,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [],
+        "fn": "function sum(accum, curr) { return 0; }",
+        "init": 25
+      },
+      "expected": 25,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          1
+        ],
+        "fn": "function sum(accum, curr) { return accum + curr; }",
+        "init": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          0,
+          1
+        ],
+        "fn": "function sum(accum, curr) { return accum + curr; }",
+        "init": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "fn": "function sum(accum, curr) { return accum + curr; }",
+        "init": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "fn": "function sum(accum, curr) { return accum + curr; }",
+        "init": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          0,
+          0
+        ],
+        "fn": "function sum(accum, curr) { return accum + curr; }",
+        "init": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1
+        ],
+        "fn": "function sum(accum, curr) { return accum + curr; }",
+        "init": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "fn": "f",
+        "init": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "fn": "ffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "init": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "fn": "fgfgfgfgfgfgfgfgfgfgfgfgfgfgfgfgfgfgfgfgfgfgfgfgfg",
+        "init": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "fn": "function sum(accum, curr))rruc ,mucca(mus noitcnuf",
+        "init": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "fn": "function sum(accum, curr) { return accum + curr; }",
+        "init": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

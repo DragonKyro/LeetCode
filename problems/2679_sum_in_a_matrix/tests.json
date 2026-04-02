@@ -1,0 +1,47 @@
+{
+  "problem_id": 2679,
+  "title": "Sum in a Matrix",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/sum-in-a-matrix/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          [
+            7,
+            2,
+            1
+          ],
+          [
+            6,
+            4,
+            2
+          ],
+          [
+            6,
+            5,
+            3
+          ],
+          [
+            3,
+            2,
+            1
+          ]
+        ]
+      },
+      "expected": 15,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          [
+            1
+          ]
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "problem_id": 2283,
+  "title": "Check if Number Has Equal Digit Count and Digit Value",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/",
+  "test_cases": [
+    {
+      "input": {
+        "num": "1210"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": "030"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": "1"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "1111"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "1212"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "1221"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

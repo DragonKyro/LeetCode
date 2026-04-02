@@ -1,0 +1,119 @@
+{
+  "problem_id": 2944,
+  "title": "Minimum Number of Coins for Fruits",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-number-of-coins-for-fruits/",
+  "test_cases": [
+    {
+      "input": {
+        "prices": [
+          3,
+          1,
+          2
+        ]
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "prices": [
+          1,
+          10,
+          1,
+          1
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "prices": [
+          26,
+          18,
+          6,
+          12,
+          49,
+          7,
+          45,
+          45
+        ]
+      },
+      "expected": 39,
+      "source": "example"
+    },
+    {
+      "input": {
+        "prices": [
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "prices": [
+          1,
+          100000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "prices": [
+          3,
+          3,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "prices": [
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "prices": [
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "prices": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "prices": [
+          100000,
+          100000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

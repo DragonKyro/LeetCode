@@ -1,0 +1,325 @@
+{
+  "problem_id": 1007,
+  "title": "Minimum Domino Rotations For Equal Row",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/",
+  "test_cases": [
+    {
+      "input": {
+        "tops": [
+          2,
+          1,
+          2,
+          4,
+          2,
+          2
+        ],
+        "bottoms": [
+          5,
+          2,
+          6,
+          2,
+          3,
+          2
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "tops": [
+          3,
+          5,
+          1,
+          2,
+          3
+        ],
+        "bottoms": [
+          3,
+          6,
+          3,
+          3,
+          4
+        ]
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "tops": [
+          2,
+          2
+        ],
+        "bottoms": [
+          5,
+          2,
+          6,
+          2,
+          3,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "tops": [
+          -100,
+          100
+        ],
+        "bottoms": [
+          5,
+          2,
+          6,
+          2,
+          3,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "tops": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "bottoms": [
+          5,
+          2,
+          6,
+          2,
+          3,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "tops": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "bottoms": [
+          5,
+          2,
+          6,
+          2,
+          3,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "tops": [
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "bottoms": [
+          5,
+          2,
+          6,
+          2,
+          3,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "tops": [
+          -100,
+          -100
+        ],
+        "bottoms": [
+          5,
+          2,
+          6,
+          2,
+          3,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "tops": [
+          100,
+          100
+        ],
+        "bottoms": [
+          5,
+          2,
+          6,
+          2,
+          3,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "tops": [
+          2,
+          1,
+          2,
+          4,
+          2,
+          2
+        ],
+        "bottoms": [
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "tops": [
+          2,
+          1,
+          2,
+          4,
+          2,
+          2
+        ],
+        "bottoms": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "tops": [
+          2,
+          1,
+          2,
+          4,
+          2,
+          2
+        ],
+        "bottoms": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "tops": [
+          2,
+          1,
+          2,
+          4,
+          2,
+          2
+        ],
+        "bottoms": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "tops": [
+          2,
+          1,
+          2,
+          4,
+          2,
+          2
+        ],
+        "bottoms": [
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "tops": [
+          2,
+          1,
+          2,
+          4,
+          2,
+          2
+        ],
+        "bottoms": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "tops": [
+          2,
+          1,
+          2,
+          4,
+          2,
+          2
+        ],
+        "bottoms": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

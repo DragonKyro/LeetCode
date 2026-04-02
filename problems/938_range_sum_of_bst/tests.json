@@ -1,0 +1,143 @@
+{
+  "problem_id": 938,
+  "title": "Range Sum of BST",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/range-sum-of-bst/",
+  "test_cases": [
+    {
+      "input": {
+        "root": [
+          10,
+          5,
+          15,
+          3,
+          7,
+          null,
+          18
+        ],
+        "low": 7,
+        "high": 15
+      },
+      "expected": 32,
+      "source": "example"
+    },
+    {
+      "input": {
+        "root": [
+          10,
+          5,
+          15,
+          3,
+          7,
+          13,
+          18,
+          1,
+          null,
+          6
+        ],
+        "low": 6,
+        "high": 10
+      },
+      "expected": 23,
+      "source": "example"
+    },
+    {
+      "input": {
+        "root": [
+          10
+        ],
+        "low": 7,
+        "high": 15
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          -100,
+          100
+        ],
+        "low": 7,
+        "high": 15
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "low": 7,
+        "high": 15
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "low": 7,
+        "high": 15
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "low": 7,
+        "high": 15
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          -100,
+          -100
+        ],
+        "low": 7,
+        "high": 15
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          100,
+          100
+        ],
+        "low": 7,
+        "high": 15
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

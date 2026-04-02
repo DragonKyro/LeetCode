@@ -1,0 +1,88 @@
+{
+  "problem_id": 3474,
+  "title": "Lexicographically Smallest Generated String",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/lexicographically-smallest-generated-string/",
+  "test_cases": [
+    {
+      "input": {
+        "str1": "TFTF",
+        "str2": "ab"
+      },
+      "expected": "ababa",
+      "source": "example"
+    },
+    {
+      "input": {
+        "str1": "TFTF",
+        "str2": "abc"
+      },
+      "expected": "",
+      "source": "example"
+    },
+    {
+      "input": {
+        "str1": "F",
+        "str2": "d"
+      },
+      "expected": "a",
+      "source": "example"
+    },
+    {
+      "input": {
+        "str1": "T",
+        "str2": "ab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "str1": "TTTT",
+        "str2": "ab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "str1": "TUTU",
+        "str2": "ab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "str1": "TFFT",
+        "str2": "ab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "str1": "TFTF",
+        "str2": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "str1": "TFTF",
+        "str2": "aa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "str1": "TFTF",
+        "str2": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

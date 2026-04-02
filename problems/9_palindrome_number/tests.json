@@ -1,0 +1,57 @@
+{
+  "problem_id": 9,
+  "title": "Palindrome Number",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/palindrome-number/",
+  "test_cases": [
+    {
+      "input": {
+        "x": 121
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "x": -121
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "x": 10
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "x": -2147483648
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "x": 2147483648
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "x": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "x": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

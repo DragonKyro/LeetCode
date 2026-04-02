@@ -1,0 +1,122 @@
+{
+  "problem_id": 406,
+  "title": "Queue Reconstruction by Height",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/queue-reconstruction-by-height/",
+  "test_cases": [
+    {
+      "input": {
+        "people": [
+          [
+            7,
+            0
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            5,
+            2
+          ]
+        ]
+      },
+      "expected": [
+        [
+          5,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "people": [
+          [
+            6,
+            0
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            1,
+            4
+          ]
+        ]
+      },
+      "expected": [
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          6,
+          0
+        ]
+      ],
+      "source": "example"
+    }
+  ]
+}

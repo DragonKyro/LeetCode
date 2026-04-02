@@ -1,0 +1,50 @@
+{
+  "problem_id": 3138,
+  "title": "Minimum Length of Anagram Concatenation",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-length-of-anagram-concatenation/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "abba"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "cdef"
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abcbcacabbaccba"
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

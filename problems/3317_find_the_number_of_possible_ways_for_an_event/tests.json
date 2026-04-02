@@ -1,0 +1,35 @@
+{
+  "problem_id": 3317,
+  "title": "Find the Number of Possible Ways for an Event",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/find-the-number-of-possible-ways-for-an-event/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 1,
+        "x": 2,
+        "y": 3
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 5,
+        "x": 2,
+        "y": 1
+      },
+      "expected": 32,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 3,
+        "x": 3,
+        "y": 4
+      },
+      "expected": 684,
+      "source": "example"
+    }
+  ]
+}

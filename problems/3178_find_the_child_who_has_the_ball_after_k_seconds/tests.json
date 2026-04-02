@@ -1,0 +1,64 @@
+{
+  "problem_id": 3178,
+  "title": "Find the Child Who Has the Ball After K Seconds",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/find-the-child-who-has-the-ball-after-k-seconds/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 3,
+        "k": 5
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 5,
+        "k": 6
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 4,
+        "k": 2
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 2,
+        "k": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 50,
+        "k": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 3,
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 3,
+        "k": 50
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

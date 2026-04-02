@@ -1,0 +1,88 @@
+{
+  "problem_id": 1314,
+  "title": "Matrix Block Sum",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/matrix-block-sum/",
+  "test_cases": [
+    {
+      "input": {
+        "mat": [
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            4,
+            5,
+            6
+          ],
+          [
+            7,
+            8,
+            9
+          ]
+        ],
+        "k": 1
+      },
+      "expected": [
+        [
+          12,
+          21,
+          16
+        ],
+        [
+          27,
+          45,
+          33
+        ],
+        [
+          24,
+          39,
+          28
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "mat": [
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            4,
+            5,
+            6
+          ],
+          [
+            7,
+            8,
+            9
+          ]
+        ],
+        "k": 2
+      },
+      "expected": [
+        [
+          45,
+          45,
+          45
+        ],
+        [
+          45,
+          45,
+          45
+        ],
+        [
+          45,
+          45,
+          45
+        ]
+      ],
+      "source": "example"
+    }
+  ]
+}

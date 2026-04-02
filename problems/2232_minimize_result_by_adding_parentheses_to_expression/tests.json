@@ -1,0 +1,43 @@
+{
+  "problem_id": 2232,
+  "title": "Minimize Result by Adding Parentheses to Expression",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimize-result-by-adding-parentheses-to-expression/",
+  "test_cases": [
+    {
+      "input": {
+        "expression": "247+38"
+      },
+      "expected": "2(47+38)",
+      "source": "example"
+    },
+    {
+      "input": {
+        "expression": "12+34"
+      },
+      "expected": "1(2+3)4",
+      "source": "example"
+    },
+    {
+      "input": {
+        "expression": "999+999"
+      },
+      "expected": "(999+999)",
+      "source": "example"
+    },
+    {
+      "input": {
+        "expression": "222222"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "expression": "247742"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

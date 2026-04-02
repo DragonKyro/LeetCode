@@ -1,0 +1,37 @@
+{
+  "problem_id": 22,
+  "title": "Generate Parentheses",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/generate-parentheses/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 3
+      },
+      "expected": [
+        "((()))",
+        "(()())",
+        "(())()",
+        "()(())",
+        "()()()"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": [
+        "()"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 8
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

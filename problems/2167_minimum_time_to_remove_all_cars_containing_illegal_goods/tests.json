@@ -1,0 +1,50 @@
+{
+  "problem_id": 2167,
+  "title": "Minimum Time to Remove All Cars Containing Illegal Goods",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-time-to-remove-all-cars-containing-illegal-goods/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "1100101"
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "0010"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "1"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "1111111"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "121212"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "110011"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

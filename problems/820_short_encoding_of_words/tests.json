@@ -1,0 +1,28 @@
+{
+  "problem_id": 820,
+  "title": "Short Encoding of Words",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/short-encoding-of-words/",
+  "test_cases": [
+    {
+      "input": {
+        "words": [
+          "time",
+          "me",
+          "bell"
+        ]
+      },
+      "expected": 10,
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "t"
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    }
+  ]
+}

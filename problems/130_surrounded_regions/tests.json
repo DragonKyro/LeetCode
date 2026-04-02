@@ -1,0 +1,80 @@
+{
+  "problem_id": 130,
+  "title": "Surrounded Regions",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/surrounded-regions/",
+  "test_cases": [
+    {
+      "input": {
+        "board": [
+          [
+            "X",
+            "X",
+            "X",
+            "X"
+          ],
+          [
+            "X",
+            "O",
+            "O",
+            "X"
+          ],
+          [
+            "X",
+            "X",
+            "O",
+            "X"
+          ],
+          [
+            "X",
+            "O",
+            "X",
+            "X"
+          ]
+        ]
+      },
+      "expected": [
+        [
+          "X",
+          "X",
+          "X",
+          "X"
+        ],
+        [
+          "X",
+          "X",
+          "X",
+          "X"
+        ],
+        [
+          "X",
+          "X",
+          "X",
+          "X"
+        ],
+        [
+          "X",
+          "O",
+          "X",
+          "X"
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "board": [
+          [
+            "X"
+          ]
+        ]
+      },
+      "expected": [
+        [
+          "X"
+        ]
+      ],
+      "source": "example"
+    }
+  ]
+}

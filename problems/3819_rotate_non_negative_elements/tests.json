@@ -1,0 +1,181 @@
+{
+  "problem_id": 3819,
+  "title": "Rotate Non Negative Elements",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/rotate-non-negative-elements/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          1,
+          -2,
+          3,
+          -4
+        ],
+        "k": 3
+      },
+      "expected": [
+        3,
+        -2,
+        1,
+        -4
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          -3,
+          -2,
+          7
+        ],
+        "k": 1
+      },
+      "expected": [
+        -3,
+        -2,
+        7
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          5,
+          4,
+          -9,
+          6
+        ],
+        "k": 2
+      },
+      "expected": [
+        6,
+        5,
+        -9,
+        4
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          1
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -100000,
+          100000
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -100000,
+          -100000
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          100000,
+          100000
+        ],
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          -2,
+          3,
+          -4
+        ],
+        "k": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          -2,
+          3,
+          -4
+        ],
+        "k": 100000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          -2,
+          3,
+          -4
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": 2309,
+  "title": "Greatest English Letter in Upper and Lower Case",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "lEeTcOdE"
+      },
+      "expected": "E",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "arRAzFif"
+      },
+      "expected": "R",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "AbCdEfGhIjK"
+      },
+      "expected": "",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "l"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "llllllll"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "lmlmlmlm"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "lEeTTeEl"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

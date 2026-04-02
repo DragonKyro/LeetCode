@@ -1,0 +1,35 @@
+{
+  "problem_id": 878,
+  "title": "Nth Magical Number",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/nth-magical-number/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 1,
+        "a": 2,
+        "b": 3
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 4,
+        "a": 2,
+        "b": 3
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1000000000,
+        "a": 2,
+        "b": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

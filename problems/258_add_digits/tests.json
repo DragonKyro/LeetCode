@@ -1,0 +1,36 @@
+{
+  "problem_id": 258,
+  "title": "Add Digits",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/add-digits/",
+  "test_cases": [
+    {
+      "input": {
+        "num": 38
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 0
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 2147483648
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

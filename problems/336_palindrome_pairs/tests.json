@@ -1,0 +1,77 @@
+{
+  "problem_id": 336,
+  "title": "Palindrome Pairs",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/palindrome-pairs/",
+  "test_cases": [
+    {
+      "input": {
+        "words": [
+          "abcd",
+          "dcba",
+          "lls",
+          "s",
+          "sssll"
+        ]
+      },
+      "expected": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "bat",
+          "tab",
+          "cat"
+        ]
+      },
+      "expected": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "a",
+          ""
+        ]
+      },
+      "expected": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "source": "example"
+    }
+  ]
+}

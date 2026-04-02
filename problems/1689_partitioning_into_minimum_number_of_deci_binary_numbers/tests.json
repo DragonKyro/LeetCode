@@ -1,0 +1,50 @@
+{
+  "problem_id": 1689,
+  "title": "Partitioning Into Minimum Number Of Deci-Binary Numbers",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/",
+  "test_cases": [
+    {
+      "input": {
+        "n": "32"
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": "82734"
+      },
+      "expected": 8,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": "27346209830709182346"
+      },
+      "expected": 9,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": "3"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": "33"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": "3434"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

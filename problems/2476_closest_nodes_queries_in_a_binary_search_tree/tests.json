@@ -1,0 +1,391 @@
+{
+  "problem_id": 2476,
+  "title": "Closest Nodes Queries in a Binary Search Tree",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/closest-nodes-queries-in-a-binary-search-tree/",
+  "test_cases": [
+    {
+      "input": {
+        "root": [
+          6,
+          2,
+          13,
+          1,
+          4,
+          9,
+          15,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          14
+        ],
+        "queries": [
+          2,
+          5,
+          16
+        ]
+      },
+      "expected": [
+        [
+          2,
+          2
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          15,
+          -1
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "root": [
+          4,
+          null,
+          9
+        ],
+        "queries": [
+          3
+        ]
+      },
+      "expected": [
+        [
+          -1,
+          4
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "root": [
+          6
+        ],
+        "queries": [
+          2,
+          5,
+          16
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          -100,
+          100
+        ],
+        "queries": [
+          2,
+          5,
+          16
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
+        "queries": [
+          2,
+          5,
+          16
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "queries": [
+          2,
+          5,
+          16
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          14,
+          13,
+          12,
+          11,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "queries": [
+          2,
+          5,
+          16
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          -100,
+          -100
+        ],
+        "queries": [
+          2,
+          5,
+          16
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          100,
+          100
+        ],
+        "queries": [
+          2,
+          5,
+          16
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          6,
+          2,
+          13,
+          1,
+          4,
+          9,
+          15,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          14
+        ],
+        "queries": [
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          6,
+          2,
+          13,
+          1,
+          4,
+          9,
+          15,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          14
+        ],
+        "queries": [
+          1,
+          1000000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          6,
+          2,
+          13,
+          1,
+          4,
+          9,
+          15,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          14
+        ],
+        "queries": [
+          2,
+          2,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          6,
+          2,
+          13,
+          1,
+          4,
+          9,
+          15,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          14
+        ],
+        "queries": [
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          6,
+          2,
+          13,
+          1,
+          4,
+          9,
+          15,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          14
+        ],
+        "queries": [
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          6,
+          2,
+          13,
+          1,
+          4,
+          9,
+          15,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          14
+        ],
+        "queries": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          6,
+          2,
+          13,
+          1,
+          4,
+          9,
+          15,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          14
+        ],
+        "queries": [
+          1000000,
+          1000000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

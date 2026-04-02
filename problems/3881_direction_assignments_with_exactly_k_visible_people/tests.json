@@ -1,0 +1,53 @@
+{
+  "problem_id": 3881,
+  "title": "Direction Assignments with Exactly K Visible People",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/direction-assignments-with-exactly-k-visible-people/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 3,
+        "pos": 1,
+        "k": 0
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 3,
+        "pos": 2,
+        "k": 1
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "pos": 0,
+        "k": 0
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "pos": 1,
+        "k": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 100000,
+        "pos": 1,
+        "k": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

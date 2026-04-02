@@ -1,0 +1,40 @@
+{
+  "problem_id": 43,
+  "title": "Multiply Strings",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/multiply-strings/",
+  "test_cases": [
+    {
+      "input": {
+        "num1": "2",
+        "num2": "3"
+      },
+      "expected": "6",
+      "source": "example"
+    },
+    {
+      "input": {
+        "num1": "123",
+        "num2": "456"
+      },
+      "expected": "56088",
+      "source": "example"
+    },
+    {
+      "input": {
+        "num1": "2323",
+        "num2": "3"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num1": "2",
+        "num2": "3434"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

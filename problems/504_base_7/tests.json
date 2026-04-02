@@ -1,0 +1,50 @@
+{
+  "problem_id": 504,
+  "title": "Base 7",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/base-7/",
+  "test_cases": [
+    {
+      "input": {
+        "num": 100
+      },
+      "expected": "202",
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": -7
+      },
+      "expected": "-10",
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": -10000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": 10000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

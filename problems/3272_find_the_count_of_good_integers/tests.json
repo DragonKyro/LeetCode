@@ -1,0 +1,64 @@
+{
+  "problem_id": 3272,
+  "title": "Find the Count of Good Integers",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/find-the-count-of-good-integers/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 3,
+        "k": 5
+      },
+      "expected": 27,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "k": 4
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 5,
+        "k": 6
+      },
+      "expected": 2468,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "k": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 10,
+        "k": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 3,
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 3,
+        "k": 9
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

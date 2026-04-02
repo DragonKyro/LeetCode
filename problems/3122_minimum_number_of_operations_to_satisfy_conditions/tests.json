@@ -1,0 +1,61 @@
+{
+  "problem_id": 3122,
+  "title": "Minimum Number of Operations to Satisfy Conditions",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-number-of-operations-to-satisfy-conditions/",
+  "test_cases": [
+    {
+      "input": {
+        "grid": [
+          [
+            1,
+            0,
+            2
+          ],
+          [
+            1,
+            0,
+            2
+          ]
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    }
+  ]
+}

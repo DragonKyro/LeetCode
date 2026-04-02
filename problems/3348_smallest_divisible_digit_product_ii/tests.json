@@ -1,0 +1,72 @@
+{
+  "problem_id": 3348,
+  "title": "Smallest Divisible Digit Product II",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/smallest-divisible-digit-product-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "num": "1234",
+        "t": 256
+      },
+      "expected": "1488",
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": "12355",
+        "t": 50
+      },
+      "expected": "12355",
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": "11111",
+        "t": 26
+      },
+      "expected": "-1",
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": "1111",
+        "t": 256
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "1212",
+        "t": 256
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "1221",
+        "t": 256
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "1234",
+        "t": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "1234",
+        "t": 100000000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

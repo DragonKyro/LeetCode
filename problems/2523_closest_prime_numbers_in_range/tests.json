@@ -1,0 +1,30 @@
+{
+  "problem_id": 2523,
+  "title": "Closest Prime Numbers in Range",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/closest-prime-numbers-in-range/",
+  "test_cases": [
+    {
+      "input": {
+        "left": 10,
+        "right": 19
+      },
+      "expected": [
+        11,
+        13
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "left": 4,
+        "right": 6
+      },
+      "expected": [
+        -1,
+        -1
+      ],
+      "source": "example"
+    }
+  ]
+}

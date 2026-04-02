@@ -1,0 +1,43 @@
+{
+  "problem_id": 1323,
+  "title": "Maximum 69 Number",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/maximum-69-number/",
+  "test_cases": [
+    {
+      "input": {
+        "num": 9669
+      },
+      "expected": 9969,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 9996
+      },
+      "expected": 9999,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 9999
+      },
+      "expected": 9999,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": 10000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

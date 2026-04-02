@@ -1,0 +1,57 @@
+{
+  "problem_id": 131,
+  "title": "Palindrome Partitioning",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/palindrome-partitioning/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "aab"
+      },
+      "expected": [
+        [
+          "a",
+          "a",
+          "b"
+        ],
+        [
+          "aa",
+          "b"
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a"
+      },
+      "expected": [
+        [
+          "a"
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "aaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "problem_id": 668,
+  "title": "Kth Smallest Number in Multiplication Table",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/",
+  "test_cases": [
+    {
+      "input": {
+        "m": 3,
+        "n": 3,
+        "k": 5
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "m": 2,
+        "n": 3,
+        "k": 6
+      },
+      "expected": 6,
+      "source": "example"
+    }
+  ]
+}

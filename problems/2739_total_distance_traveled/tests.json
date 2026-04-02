@@ -1,0 +1,24 @@
+{
+  "problem_id": 2739,
+  "title": "Total Distance Traveled",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/total-distance-traveled/",
+  "test_cases": [
+    {
+      "input": {
+        "mainTank": 5,
+        "additionalTank": 10
+      },
+      "expected": 60,
+      "source": "example"
+    },
+    {
+      "input": {
+        "mainTank": 1,
+        "additionalTank": 2
+      },
+      "expected": 10,
+      "source": "example"
+    }
+  ]
+}

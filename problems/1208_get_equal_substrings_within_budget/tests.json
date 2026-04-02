@@ -1,0 +1,134 @@
+{
+  "problem_id": 1208,
+  "title": "Get Equal Substrings Within Budget",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/get-equal-substrings-within-budget/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "abcd",
+        "t": "bcdf",
+        "maxCost": 3
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abcd",
+        "t": "cdef",
+        "maxCost": 3
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abcd",
+        "t": "acde",
+        "maxCost": 0
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a",
+        "t": "bcdf",
+        "maxCost": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaa",
+        "t": "bcdf",
+        "maxCost": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abab",
+        "t": "bcdf",
+        "maxCost": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abba",
+        "t": "bcdf",
+        "maxCost": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abcd",
+        "t": "b",
+        "maxCost": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abcd",
+        "t": "bbbb",
+        "maxCost": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abcd",
+        "t": "bcbc",
+        "maxCost": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abcd",
+        "t": "bccb",
+        "maxCost": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abcd",
+        "t": "bcdf",
+        "maxCost": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abcd",
+        "t": "bcdf",
+        "maxCost": 1000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abcd",
+        "t": "bcdf",
+        "maxCost": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

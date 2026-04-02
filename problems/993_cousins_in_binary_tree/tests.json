@@ -1,0 +1,129 @@
+{
+  "problem_id": 993,
+  "title": "Cousins in Binary Tree",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/cousins-in-binary-tree/",
+  "test_cases": [
+    {
+      "input": {
+        "root": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "x": 4,
+        "y": 3
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "root": [
+          1,
+          2,
+          3,
+          null,
+          4,
+          null,
+          5
+        ],
+        "x": 5,
+        "y": 4
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "root": [
+          1,
+          2,
+          3,
+          null,
+          4
+        ],
+        "x": 2,
+        "y": 3
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "root": [
+          1
+        ],
+        "x": 4,
+        "y": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          -100,
+          100
+        ],
+        "x": 4,
+        "y": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "x": 4,
+        "y": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "x": 4,
+        "y": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          -100,
+          -100
+        ],
+        "x": 4,
+        "y": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "root": [
+          100,
+          100
+        ],
+        "x": 4,
+        "y": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

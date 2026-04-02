@@ -1,0 +1,336 @@
+{
+  "problem_id": 2622,
+  "title": "Cache With Time Limit",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/cache-with-time-limit/",
+  "test_cases": [
+    {
+      "input": {
+        "actions": [
+          "TimeLimitedCache",
+          "set",
+          "get",
+          "count",
+          "get"
+        ],
+        "values": [
+          [],
+          [
+            1,
+            42,
+            100
+          ],
+          [
+            1
+          ],
+          [],
+          [
+            1
+          ]
+        ],
+        "timeDelays": [
+          0,
+          0,
+          50,
+          50,
+          150
+        ]
+      },
+      "expected": [
+        null,
+        false,
+        42,
+        1,
+        -1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "actions": [
+          "TimeLimitedCache",
+          "set",
+          "set",
+          "get",
+          "get",
+          "get",
+          "count"
+        ],
+        "values": [
+          [],
+          [
+            1,
+            42,
+            50
+          ],
+          [
+            1,
+            50,
+            100
+          ],
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            1
+          ],
+          []
+        ],
+        "timeDelays": [
+          0,
+          0,
+          40,
+          50,
+          120,
+          200,
+          250
+        ]
+      },
+      "expected": [
+        null,
+        false,
+        true,
+        50,
+        50,
+        -1,
+        0
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "actions": [
+          "TimeLimitedCache",
+          "set",
+          "get",
+          "count",
+          "get"
+        ],
+        "values": [
+          [],
+          [
+            1,
+            42,
+            100
+          ],
+          [
+            1
+          ],
+          [],
+          [
+            1
+          ]
+        ],
+        "timeDelays": [
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "actions": [
+          "TimeLimitedCache",
+          "set",
+          "get",
+          "count",
+          "get"
+        ],
+        "values": [
+          [],
+          [
+            1,
+            42,
+            100
+          ],
+          [
+            1
+          ],
+          [],
+          [
+            1
+          ]
+        ],
+        "timeDelays": [
+          0,
+          1450
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "actions": [
+          "TimeLimitedCache",
+          "set",
+          "get",
+          "count",
+          "get"
+        ],
+        "values": [
+          [],
+          [
+            1,
+            42,
+            100
+          ],
+          [
+            1
+          ],
+          [],
+          [
+            1
+          ]
+        ],
+        "timeDelays": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "actions": [
+          "TimeLimitedCache",
+          "set",
+          "get",
+          "count",
+          "get"
+        ],
+        "values": [
+          [],
+          [
+            1,
+            42,
+            100
+          ],
+          [
+            1
+          ],
+          [],
+          [
+            1
+          ]
+        ],
+        "timeDelays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "actions": [
+          "TimeLimitedCache",
+          "set",
+          "get",
+          "count",
+          "get"
+        ],
+        "values": [
+          [],
+          [
+            1,
+            42,
+            100
+          ],
+          [
+            1
+          ],
+          [],
+          [
+            1
+          ]
+        ],
+        "timeDelays": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "actions": [
+          "TimeLimitedCache",
+          "set",
+          "get",
+          "count",
+          "get"
+        ],
+        "values": [
+          [],
+          [
+            1,
+            42,
+            100
+          ],
+          [
+            1
+          ],
+          [],
+          [
+            1
+          ]
+        ],
+        "timeDelays": [
+          0,
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "actions": [
+          "TimeLimitedCache",
+          "set",
+          "get",
+          "count",
+          "get"
+        ],
+        "values": [
+          [],
+          [
+            1,
+            42,
+            100
+          ],
+          [
+            1
+          ],
+          [],
+          [
+            1
+          ]
+        ],
+        "timeDelays": [
+          1450,
+          1450
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

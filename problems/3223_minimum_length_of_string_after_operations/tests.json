@@ -1,0 +1,50 @@
+{
+  "problem_id": 3223,
+  "title": "Minimum Length of String After Operations",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-length-of-string-after-operations/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "abaacbcbb"
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "aa"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaaaaaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abababab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abaaaaba"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

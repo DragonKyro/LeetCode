@@ -1,0 +1,64 @@
+{
+  "problem_id": 2834,
+  "title": "Find the Minimum Possible Sum of a Beautiful Array",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-the-minimum-possible-sum-of-a-beautiful-array/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 2,
+        "target": 3
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 3,
+        "target": 3
+      },
+      "expected": 8,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "target": 1
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "target": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 1000000000,
+        "target": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 2,
+        "target": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 2,
+        "target": 1000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

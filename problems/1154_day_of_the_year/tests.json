@@ -1,0 +1,50 @@
+{
+  "problem_id": 1154,
+  "title": "Day of the Year",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/day-of-the-year/",
+  "test_cases": [
+    {
+      "input": {
+        "date": "2019-01-09"
+      },
+      "expected": 9,
+      "source": "example"
+    },
+    {
+      "input": {
+        "date": "2019-02-10"
+      },
+      "expected": 41,
+      "source": "example"
+    },
+    {
+      "input": {
+        "date": "2"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "date": "2222222222"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "date": "2323232323"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "date": "2019--9102"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

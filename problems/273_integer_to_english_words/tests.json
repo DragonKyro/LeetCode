@@ -1,0 +1,50 @@
+{
+  "problem_id": 273,
+  "title": "Integer to English Words",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/integer-to-english-words/",
+  "test_cases": [
+    {
+      "input": {
+        "num": 123
+      },
+      "expected": "One Hundred Twenty Three",
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 12345
+      },
+      "expected": "Twelve Thousand Three Hundred Forty Five",
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 1234567
+      },
+      "expected": "One Million Two Hundred Thirty Four Thousand Five Hundred Sixty Seven",
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": 2147483648
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

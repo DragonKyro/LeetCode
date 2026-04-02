@@ -1,0 +1,124 @@
+{
+  "problem_id": 2149,
+  "title": "Rearrange Array Elements by Sign",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/rearrange-array-elements-by-sign/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          3,
+          1,
+          -2,
+          -5,
+          2,
+          -4
+        ]
+      },
+      "expected": [
+        3,
+        -2,
+        1,
+        -5,
+        2,
+        -4
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          -1,
+          1
+        ]
+      },
+      "expected": [
+        1,
+        -1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          3,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "problem_id": 3261,
+  "title": "Count Substrings That Satisfy K-Constraint II",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/count-substrings-that-satisfy-k-constraint-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "0001111",
+        "k": 2,
+        "queries": [
+          [
+            0,
+            6
+          ]
+        ]
+      },
+      "expected": [
+        26
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "010101",
+        "k": 1,
+        "queries": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      "expected": [
+        15,
+        9,
+        3
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "0",
+        "k": 2,
+        "queries": [
+          [
+            0,
+            6
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "0000000",
+        "k": 2,
+        "queries": [
+          [
+            0,
+            6
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "010101",
+        "k": 2,
+        "queries": [
+          [
+            0,
+            6
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "000000",
+        "k": 2,
+        "queries": [
+          [
+            0,
+            6
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

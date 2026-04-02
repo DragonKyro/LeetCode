@@ -1,0 +1,250 @@
+{
+  "problem_id": 2301,
+  "title": "Match Substring After Replacement",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/match-substring-after-replacement/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "fool3e7bar",
+        "sub": "leet",
+        "mappings": [
+          [
+            "e",
+            "3"
+          ],
+          [
+            "t",
+            "7"
+          ],
+          [
+            "t",
+            "8"
+          ]
+        ]
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "fooleetbar",
+        "sub": "f00l",
+        "mappings": [
+          [
+            "o",
+            "0"
+          ]
+        ]
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "Fool33tbaR",
+        "sub": "leetd",
+        "mappings": [
+          [
+            "e",
+            "3"
+          ],
+          [
+            "t",
+            "7"
+          ],
+          [
+            "t",
+            "8"
+          ],
+          [
+            "d",
+            "b"
+          ],
+          [
+            "p",
+            "b"
+          ]
+        ]
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "f",
+        "sub": "leet",
+        "mappings": [
+          [
+            "e",
+            "3"
+          ],
+          [
+            "t",
+            "7"
+          ],
+          [
+            "t",
+            "8"
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ffffffffff",
+        "sub": "leet",
+        "mappings": [
+          [
+            "e",
+            "3"
+          ],
+          [
+            "t",
+            "7"
+          ],
+          [
+            "t",
+            "8"
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "fgfgfgfgfg",
+        "sub": "leet",
+        "mappings": [
+          [
+            "e",
+            "3"
+          ],
+          [
+            "t",
+            "7"
+          ],
+          [
+            "t",
+            "8"
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "fool33loof",
+        "sub": "leet",
+        "mappings": [
+          [
+            "e",
+            "3"
+          ],
+          [
+            "t",
+            "7"
+          ],
+          [
+            "t",
+            "8"
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "fool3e7bar",
+        "sub": "l",
+        "mappings": [
+          [
+            "e",
+            "3"
+          ],
+          [
+            "t",
+            "7"
+          ],
+          [
+            "t",
+            "8"
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "fool3e7bar",
+        "sub": "llll",
+        "mappings": [
+          [
+            "e",
+            "3"
+          ],
+          [
+            "t",
+            "7"
+          ],
+          [
+            "t",
+            "8"
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "fool3e7bar",
+        "sub": "lmlm",
+        "mappings": [
+          [
+            "e",
+            "3"
+          ],
+          [
+            "t",
+            "7"
+          ],
+          [
+            "t",
+            "8"
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "fool3e7bar",
+        "sub": "leel",
+        "mappings": [
+          [
+            "e",
+            "3"
+          ],
+          [
+            "t",
+            "7"
+          ],
+          [
+            "t",
+            "8"
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "problem_id": 28,
+  "title": "Find the Index of the First Occurrence in a String",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/",
+  "test_cases": [
+    {
+      "input": {
+        "haystack": "sadbutsad",
+        "needle": "sad"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "haystack": "leetcode",
+        "needle": "leeto"
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "haystack": "s",
+        "needle": "sad"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "haystack": "sssssssss",
+        "needle": "sad"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "haystack": "stststst",
+        "needle": "sad"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "haystack": "sadbbdas",
+        "needle": "sad"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "haystack": "sadbutsad",
+        "needle": "s"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "haystack": "sadbutsad",
+        "needle": "sss"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "haystack": "sadbutsad",
+        "needle": "stst"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "haystack": "sadbutsad",
+        "needle": "ss"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "problem_id": 3821,
+  "title": "Find Nth Smallest Integer With K One Bits",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/find-nth-smallest-integer-with-k-one-bits/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 4,
+        "k": 2
+      },
+      "expected": 9,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 3,
+        "k": 1
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 1125899906842624,
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 4,
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 4,
+        "k": 50
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

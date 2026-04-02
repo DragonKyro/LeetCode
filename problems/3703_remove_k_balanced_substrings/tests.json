@@ -1,0 +1,48 @@
+{
+  "problem_id": 3703,
+  "title": "Remove K-Balanced Substrings",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/remove-k-balanced-substrings/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "(())",
+        "k": 1
+      },
+      "expected": "",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "(()(",
+        "k": 1
+      },
+      "expected": "((",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "((()))()()()",
+        "k": 3
+      },
+      "expected": "()()()",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "((((",
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "()()",
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

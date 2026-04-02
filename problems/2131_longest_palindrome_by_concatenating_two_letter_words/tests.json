@@ -1,0 +1,44 @@
+{
+  "problem_id": 2131,
+  "title": "Longest Palindrome by Concatenating Two Letter Words",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/",
+  "test_cases": [
+    {
+      "input": {
+        "words": [
+          "lc",
+          "cl",
+          "gg"
+        ]
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "ab",
+          "ty",
+          "yt",
+          "lc",
+          "cl",
+          "ab"
+        ]
+      },
+      "expected": 8,
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "cc",
+          "ll",
+          "xx"
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    }
+  ]
+}

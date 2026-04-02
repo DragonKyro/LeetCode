@@ -1,0 +1,43 @@
+{
+  "problem_id": 1137,
+  "title": "N-th Tribonacci Number",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/n-th-tribonacci-number/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 4
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 25
+      },
+      "expected": 1389537,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 37
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

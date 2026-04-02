@@ -1,0 +1,175 @@
+{
+  "problem_id": 985,
+  "title": "Sum of Even Numbers After Queries",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/sum-of-even-numbers-after-queries/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "queries": [
+          [
+            1,
+            0
+          ],
+          [
+            -3,
+            1
+          ],
+          [
+            -4,
+            0
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      "expected": [
+        8,
+        6,
+        2,
+        4
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          1
+        ],
+        "queries": [
+          [
+            4,
+            0
+          ]
+        ]
+      },
+      "expected": [
+        0
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          1
+        ],
+        "queries": [
+          [
+            1,
+            0
+          ],
+          [
+            -3,
+            1
+          ],
+          [
+            -4,
+            0
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          10000,
+          10000
+        ],
+        "queries": [
+          [
+            1,
+            0
+          ],
+          [
+            -3,
+            1
+          ],
+          [
+            -4,
+            0
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "queries": [
+          [
+            1,
+            0
+          ],
+          [
+            -3,
+            1
+          ],
+          [
+            -4,
+            0
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "queries": [
+          [
+            1,
+            0
+          ],
+          [
+            -3,
+            1
+          ],
+          [
+            -4,
+            0
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

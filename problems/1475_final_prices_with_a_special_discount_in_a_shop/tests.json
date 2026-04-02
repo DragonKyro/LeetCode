@@ -1,0 +1,108 @@
+{
+  "problem_id": 1475,
+  "title": "Final Prices With a Special Discount in a Shop",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/",
+  "test_cases": [
+    {
+      "input": {
+        "prices": [
+          8,
+          4,
+          6,
+          2,
+          3
+        ]
+      },
+      "expected": [
+        4,
+        2,
+        4,
+        2,
+        3
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "prices": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "expected": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "prices": [
+          10,
+          1,
+          1,
+          6
+        ]
+      },
+      "expected": [
+        9,
+        0,
+        1,
+        6
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "prices": [
+          8
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "prices": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "prices": [
+          8,
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "prices": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

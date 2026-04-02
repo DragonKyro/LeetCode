@@ -1,0 +1,557 @@
+{
+  "problem_id": 1235,
+  "title": "Maximum Profit in Job Scheduling",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/maximum-profit-in-job-scheduling/",
+  "test_cases": [
+    {
+      "input": {
+        "startTime": [
+          1,
+          2,
+          3,
+          3
+        ],
+        "endTime": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "profit": [
+          50,
+          10,
+          40,
+          70
+        ]
+      },
+      "expected": 120,
+      "source": "example"
+    },
+    {
+      "input": {
+        "startTime": [
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        "endTime": [
+          3,
+          5,
+          10,
+          6,
+          9
+        ],
+        "profit": [
+          20,
+          20,
+          100,
+          70,
+          60
+        ]
+      },
+      "expected": 150,
+      "source": "example"
+    },
+    {
+      "input": {
+        "startTime": [
+          1,
+          1,
+          1
+        ],
+        "endTime": [
+          2,
+          3,
+          4
+        ],
+        "profit": [
+          5,
+          6,
+          4
+        ]
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "startTime": [
+          1
+        ],
+        "endTime": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "profit": [
+          50,
+          10,
+          40,
+          70
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startTime": [
+          -100,
+          100
+        ],
+        "endTime": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "profit": [
+          50,
+          10,
+          40,
+          70
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startTime": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "endTime": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "profit": [
+          50,
+          10,
+          40,
+          70
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startTime": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "endTime": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "profit": [
+          50,
+          10,
+          40,
+          70
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startTime": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "endTime": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "profit": [
+          50,
+          10,
+          40,
+          70
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startTime": [
+          -100,
+          -100
+        ],
+        "endTime": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "profit": [
+          50,
+          10,
+          40,
+          70
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startTime": [
+          100,
+          100
+        ],
+        "endTime": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "profit": [
+          50,
+          10,
+          40,
+          70
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startTime": [
+          1,
+          2,
+          3,
+          3
+        ],
+        "endTime": [
+          3
+        ],
+        "profit": [
+          50,
+          10,
+          40,
+          70
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startTime": [
+          1,
+          2,
+          3,
+          3
+        ],
+        "endTime": [
+          -100,
+          100
+        ],
+        "profit": [
+          50,
+          10,
+          40,
+          70
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startTime": [
+          1,
+          2,
+          3,
+          3
+        ],
+        "endTime": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "profit": [
+          50,
+          10,
+          40,
+          70
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startTime": [
+          1,
+          2,
+          3,
+          3
+        ],
+        "endTime": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "profit": [
+          50,
+          10,
+          40,
+          70
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startTime": [
+          1,
+          2,
+          3,
+          3
+        ],
+        "endTime": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "profit": [
+          50,
+          10,
+          40,
+          70
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startTime": [
+          1,
+          2,
+          3,
+          3
+        ],
+        "endTime": [
+          -100,
+          -100
+        ],
+        "profit": [
+          50,
+          10,
+          40,
+          70
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startTime": [
+          1,
+          2,
+          3,
+          3
+        ],
+        "endTime": [
+          100,
+          100
+        ],
+        "profit": [
+          50,
+          10,
+          40,
+          70
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startTime": [
+          1,
+          2,
+          3,
+          3
+        ],
+        "endTime": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "profit": [
+          50
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startTime": [
+          1,
+          2,
+          3,
+          3
+        ],
+        "endTime": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "profit": [
+          1,
+          10000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startTime": [
+          1,
+          2,
+          3,
+          3
+        ],
+        "endTime": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "profit": [
+          50,
+          50,
+          50,
+          50
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startTime": [
+          1,
+          2,
+          3,
+          3
+        ],
+        "endTime": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "profit": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startTime": [
+          1,
+          2,
+          3,
+          3
+        ],
+        "endTime": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "profit": [
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startTime": [
+          1,
+          2,
+          3,
+          3
+        ],
+        "endTime": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "profit": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "startTime": [
+          1,
+          2,
+          3,
+          3
+        ],
+        "endTime": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "profit": [
+          10000,
+          10000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "problem_id": 1556,
+  "title": "Thousand Separator",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/thousand-separator/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 987
+      },
+      "expected": "987",
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1234
+      },
+      "expected": "1.234",
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 2147483648
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

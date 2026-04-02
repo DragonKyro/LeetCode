@@ -1,0 +1,47 @@
+{
+  "problem_id": 931,
+  "title": "Minimum Falling Path Sum",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-falling-path-sum/",
+  "test_cases": [
+    {
+      "input": {
+        "matrix": [
+          [
+            2,
+            1,
+            3
+          ],
+          [
+            6,
+            5,
+            4
+          ],
+          [
+            7,
+            8,
+            9
+          ]
+        ]
+      },
+      "expected": 13,
+      "source": "example"
+    },
+    {
+      "input": {
+        "matrix": [
+          [
+            -19,
+            57
+          ],
+          [
+            -40,
+            -5
+          ]
+        ]
+      },
+      "expected": -59,
+      "source": "example"
+    }
+  ]
+}

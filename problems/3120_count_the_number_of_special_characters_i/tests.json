@@ -1,0 +1,57 @@
+{
+  "problem_id": 3120,
+  "title": "Count the Number of Special Characters I",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/count-the-number-of-special-characters-i/",
+  "test_cases": [
+    {
+      "input": {
+        "word": "aaAbcBC"
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word": "abc"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word": "abBCab"
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word": "aaaaaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word": "ababab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word": "aaAAaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

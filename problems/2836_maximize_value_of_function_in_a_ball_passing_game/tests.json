@@ -1,0 +1,137 @@
+{
+  "problem_id": 2836,
+  "title": "Maximize Value of Function in a Ball Passing Game",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/maximize-value-of-function-in-a-ball-passing-game/",
+  "test_cases": [
+    {
+      "input": {
+        "receiver": [
+          2,
+          0,
+          1
+        ],
+        "k": 4
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "receiver": [
+          1,
+          1,
+          1,
+          2,
+          3
+        ],
+        "k": 3
+      },
+      "expected": 10,
+      "source": "example"
+    },
+    {
+      "input": {
+        "receiver": [
+          2
+        ],
+        "k": 4
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "receiver": [
+          -100,
+          100
+        ],
+        "k": 4
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "receiver": [
+          2,
+          2,
+          2
+        ],
+        "k": 4
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "receiver": [
+          1,
+          2,
+          3
+        ],
+        "k": 4
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "receiver": [
+          3,
+          2,
+          1
+        ],
+        "k": 4
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "receiver": [
+          -100,
+          -100
+        ],
+        "k": 4
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "receiver": [
+          100,
+          100
+        ],
+        "k": 4
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "receiver": [
+          2,
+          0,
+          1
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "receiver": [
+          2,
+          0,
+          1
+        ],
+        "k": 10000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

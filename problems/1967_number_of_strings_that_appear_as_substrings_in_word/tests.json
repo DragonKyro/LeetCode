@@ -1,0 +1,97 @@
+{
+  "problem_id": 1967,
+  "title": "Number of Strings That Appear as Substrings in Word",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/",
+  "test_cases": [
+    {
+      "input": {
+        "patterns": [
+          "a",
+          "abc",
+          "bc",
+          "d"
+        ],
+        "word": "abc"
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "patterns": [
+          "a",
+          "b",
+          "c"
+        ],
+        "word": "aaaaabbbbb"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "patterns": [
+          "a",
+          "a",
+          "a"
+        ],
+        "word": "ab"
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "patterns": [
+          "a",
+          "abc",
+          "bc",
+          "d"
+        ],
+        "word": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "patterns": [
+          "a",
+          "abc",
+          "bc",
+          "d"
+        ],
+        "word": "aaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "patterns": [
+          "a",
+          "abc",
+          "bc",
+          "d"
+        ],
+        "word": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "patterns": [
+          "a",
+          "abc",
+          "bc",
+          "d"
+        ],
+        "word": "aa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

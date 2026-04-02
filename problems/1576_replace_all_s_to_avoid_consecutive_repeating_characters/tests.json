@@ -1,0 +1,50 @@
+{
+  "problem_id": 1576,
+  "title": "Replace All ?'s to Avoid Consecutive Repeating Characters",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "?zs"
+      },
+      "expected": "azs",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "ubv?w"
+      },
+      "expected": "ubvaw",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "?"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "???"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "?@?@"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "??"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

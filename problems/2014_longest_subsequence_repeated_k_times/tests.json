@@ -1,0 +1,72 @@
+{
+  "problem_id": 2014,
+  "title": "Longest Subsequence Repeated k Times",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/longest-subsequence-repeated-k-times/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "letsleetcode",
+        "k": 2
+      },
+      "expected": "let",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "bb",
+        "k": 2
+      },
+      "expected": "b",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "ab",
+        "k": 2
+      },
+      "expected": "",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "l",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "llllllllllll",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "lmlmlmlmlmlm",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "letsleelstel",
+        "k": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "letsleetcode",
+        "k": 2000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

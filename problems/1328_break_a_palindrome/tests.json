@@ -1,0 +1,36 @@
+{
+  "problem_id": 1328,
+  "title": "Break a Palindrome",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/break-a-palindrome/",
+  "test_cases": [
+    {
+      "input": {
+        "palindrome": "abccba"
+      },
+      "expected": "aaccba",
+      "source": "example"
+    },
+    {
+      "input": {
+        "palindrome": "a"
+      },
+      "expected": "",
+      "source": "example"
+    },
+    {
+      "input": {
+        "palindrome": "aaaaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "palindrome": "ababab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

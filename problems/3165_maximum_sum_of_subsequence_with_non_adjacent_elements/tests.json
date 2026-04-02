@@ -1,0 +1,187 @@
+{
+  "problem_id": 3165,
+  "title": "Maximum Sum of Subsequence With Non-adjacent Elements",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/maximum-sum-of-subsequence-with-non-adjacent-elements/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          3,
+          5,
+          9
+        ],
+        "queries": [
+          [
+            1,
+            -2
+          ],
+          [
+            0,
+            -3
+          ]
+        ]
+      },
+      "expected": 21,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          0,
+          -1
+        ],
+        "queries": [
+          [
+            0,
+            -5
+          ]
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          3
+        ],
+        "queries": [
+          [
+            1,
+            -2
+          ],
+          [
+            0,
+            -3
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -100000,
+          100000
+        ],
+        "queries": [
+          [
+            1,
+            -2
+          ],
+          [
+            0,
+            -3
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          3,
+          3,
+          3
+        ],
+        "queries": [
+          [
+            1,
+            -2
+          ],
+          [
+            0,
+            -3
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3
+        ],
+        "queries": [
+          [
+            1,
+            -2
+          ],
+          [
+            0,
+            -3
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          3,
+          2,
+          1
+        ],
+        "queries": [
+          [
+            1,
+            -2
+          ],
+          [
+            0,
+            -3
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -100000,
+          -100000
+        ],
+        "queries": [
+          [
+            1,
+            -2
+          ],
+          [
+            0,
+            -3
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          100000,
+          100000
+        ],
+        "queries": [
+          [
+            1,
+            -2
+          ],
+          [
+            0,
+            -3
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

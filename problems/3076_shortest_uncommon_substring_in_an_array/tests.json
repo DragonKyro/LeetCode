@@ -1,0 +1,40 @@
+{
+  "problem_id": 3076,
+  "title": "Shortest Uncommon Substring in an Array",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/shortest-uncommon-substring-in-an-array/",
+  "test_cases": [
+    {
+      "input": {
+        "arr": [
+          "cab",
+          "ad",
+          "bad",
+          "c"
+        ]
+      },
+      "expected": [
+        "ab",
+        "",
+        "ba",
+        ""
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "arr": [
+          "abc",
+          "bcd",
+          "abcd"
+        ]
+      },
+      "expected": [
+        "",
+        "",
+        "abcd"
+      ],
+      "source": "example"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "problem_id": 770,
+  "title": "Basic Calculator IV",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/basic-calculator-iv/",
+  "test_cases": [
+    {
+      "input": {
+        "expression": "e + 8 - a + 5",
+        "evalvars": [
+          "e"
+        ],
+        "evalints": [
+          1
+        ]
+      },
+      "expected": [
+        "-1*a",
+        "14"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "expression": "e - 8 + temperature - pressure",
+        "evalvars": [
+          "e",
+          "temperature"
+        ],
+        "evalints": [
+          1,
+          12
+        ]
+      },
+      "expected": [
+        "-1*pressure",
+        "5"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "expression": "(e + 8) * (e - 8)",
+        "evalvars": [],
+        "evalints": []
+      },
+      "expected": [
+        "1*e*e",
+        "-64"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "expression": "e",
+        "evalvars": [
+          "e"
+        ],
+        "evalints": [
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "expression": "eeeeeeeeeeeee",
+        "evalvars": [
+          "e"
+        ],
+        "evalints": [
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "expression": "efefefefefef",
+        "evalvars": [
+          "e"
+        ],
+        "evalints": [
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "expression": "e + 8  8 + e",
+        "evalvars": [
+          "e"
+        ],
+        "evalints": [
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "expression": "e + 8 - a + 5",
+        "evalvars": [
+          "e"
+        ],
+        "evalints": [
+          -100,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "expression": "e + 8 - a + 5",
+        "evalvars": [
+          "e"
+        ],
+        "evalints": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "expression": "e + 8 - a + 5",
+        "evalvars": [
+          "e"
+        ],
+        "evalints": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "problem_id": 3106,
+  "title": "Lexicographically Smallest String After Operations With Constraint",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/lexicographically-smallest-string-after-operations-with-constraint/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "zbbz",
+        "k": 3
+      },
+      "expected": "aaaz",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "xaxcd",
+        "k": 4
+      },
+      "expected": "aawcd",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "lol",
+        "k": 0
+      },
+      "expected": "lol",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "z",
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "zzzz",
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "zaza",
+        "k": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "zbbz",
+        "k": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "zbbz",
+        "k": 2000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "zbbz",
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

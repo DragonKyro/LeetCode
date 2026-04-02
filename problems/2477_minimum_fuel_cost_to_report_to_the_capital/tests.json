@@ -1,0 +1,112 @@
+{
+  "problem_id": 2477,
+  "title": "Minimum Fuel Cost to Report to the Capital",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-fuel-cost-to-report-to-the-capital/",
+  "test_cases": [
+    {
+      "input": {
+        "roads": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        "seats": 5
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "roads": [
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            4,
+            6
+          ]
+        ],
+        "seats": 2
+      },
+      "expected": 7,
+      "source": "example"
+    },
+    {
+      "input": {
+        "roads": [],
+        "seats": 1
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "roads": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        "seats": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "roads": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        "seats": 100000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

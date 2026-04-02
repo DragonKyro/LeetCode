@@ -1,0 +1,41 @@
+{
+  "problem_id": 2452,
+  "title": "Words Within Two Edits of Dictionary",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/words-within-two-edits-of-dictionary/",
+  "test_cases": [
+    {
+      "input": {
+        "queries": [
+          "word",
+          "note",
+          "ants",
+          "wood"
+        ],
+        "dictionary": [
+          "wood",
+          "joke",
+          "moat"
+        ]
+      },
+      "expected": [
+        "word",
+        "note",
+        "wood"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "queries": [
+          "yes"
+        ],
+        "dictionary": [
+          "not"
+        ]
+      },
+      "expected": [],
+      "source": "example"
+    }
+  ]
+}

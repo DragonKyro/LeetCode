@@ -1,0 +1,24 @@
+{
+  "problem_id": 2543,
+  "title": "Check if Point Is Reachable",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/check-if-point-is-reachable/",
+  "test_cases": [
+    {
+      "input": {
+        "targetX": 6,
+        "targetY": 9
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "targetX": 4,
+        "targetY": 7
+      },
+      "expected": true,
+      "source": "example"
+    }
+  ]
+}

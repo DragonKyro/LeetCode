@@ -1,0 +1,211 @@
+{
+  "problem_id": 2731,
+  "title": "Movement of Robots",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/movement-of-robots/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          -2,
+          0,
+          2
+        ],
+        "s": "RLL",
+        "d": 3
+      },
+      "expected": 8,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          0
+        ],
+        "s": "RL",
+        "d": 2
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          -2,
+          -2
+        ],
+        "s": "RLL",
+        "d": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1000000000,
+          2
+        ],
+        "s": "RLL",
+        "d": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -2,
+          -2,
+          -2
+        ],
+        "s": "RLL",
+        "d": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3
+        ],
+        "s": "RLL",
+        "d": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          3,
+          2,
+          1
+        ],
+        "s": "RLL",
+        "d": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1000000000,
+          1000000000
+        ],
+        "s": "RLL",
+        "d": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          2
+        ],
+        "s": "RLL",
+        "d": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -2,
+          0,
+          2
+        ],
+        "s": "R",
+        "d": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -2,
+          0,
+          2
+        ],
+        "s": "RRR",
+        "d": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -2,
+          0,
+          2
+        ],
+        "s": "RSRS",
+        "d": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -2,
+          0,
+          2
+        ],
+        "s": "RR",
+        "d": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -2,
+          0,
+          2
+        ],
+        "s": "RLL",
+        "d": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -2,
+          0,
+          2
+        ],
+        "s": "RLL",
+        "d": 1000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          -2,
+          0,
+          2
+        ],
+        "s": "RLL",
+        "d": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

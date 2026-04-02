@@ -1,0 +1,57 @@
+{
+  "problem_id": 2844,
+  "title": "Minimum Operations to Make a Special Number",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-operations-to-make-a-special-number/",
+  "test_cases": [
+    {
+      "input": {
+        "num": "2245047"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": "2908305"
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": "10"
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": "2"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "2222222"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "232323"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "224422"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

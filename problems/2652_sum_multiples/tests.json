@@ -1,0 +1,43 @@
+{
+  "problem_id": 2652,
+  "title": "Sum Multiples",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/sum-multiples/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 7
+      },
+      "expected": 21,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 10
+      },
+      "expected": 40,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 9
+      },
+      "expected": 30,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 1000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

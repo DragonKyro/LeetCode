@@ -1,0 +1,96 @@
+{
+  "problem_id": 1790,
+  "title": "Check if One String Swap Can Make Strings Equal",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/",
+  "test_cases": [
+    {
+      "input": {
+        "s1": "bank",
+        "s2": "kanb"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s1": "attack",
+        "s2": "defend"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s1": "kelb",
+        "s2": "kelb"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s1": "b",
+        "s2": "kanb"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "bbbb",
+        "s2": "kanb"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "bcbc",
+        "s2": "kanb"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "baab",
+        "s2": "kanb"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "bank",
+        "s2": "k"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "bank",
+        "s2": "kkkk"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "bank",
+        "s2": "klkl"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s1": "bank",
+        "s2": "kaak"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

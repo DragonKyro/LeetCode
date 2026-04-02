@@ -1,0 +1,30 @@
+{
+  "problem_id": 839,
+  "title": "Similar String Groups",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/similar-string-groups/",
+  "test_cases": [
+    {
+      "input": {
+        "strs": [
+          "tars",
+          "rats",
+          "arts",
+          "star"
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "strs": [
+          "omv",
+          "ovm"
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    }
+  ]
+}

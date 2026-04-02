@@ -1,0 +1,43 @@
+{
+  "problem_id": 793,
+  "title": "Preimage Size of Factorial Zeroes Function",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/preimage-size-of-factorial-zeroes-function/",
+  "test_cases": [
+    {
+      "input": {
+        "k": 0
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "k": 5
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "k": 3
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "k": 1000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

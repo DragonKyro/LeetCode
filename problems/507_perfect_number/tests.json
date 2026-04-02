@@ -1,0 +1,36 @@
+{
+  "problem_id": 507,
+  "title": "Perfect Number",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/perfect-number/",
+  "test_cases": [
+    {
+      "input": {
+        "num": 28
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 7
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": 100000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "problem_id": 1234,
+  "title": "Replace the Substring for Balanced String",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/replace-the-substring-for-balanced-string/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "QWER"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "QQWE"
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "QQQW"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "Q"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "QQQQ"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "QRQR"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "QWWQ"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

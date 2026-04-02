@@ -1,0 +1,116 @@
+{
+  "problem_id": 2672,
+  "title": "Number of Adjacent Elements With the Same Color",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/number-of-adjacent-elements-with-the-same-color/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 4,
+        "queries": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ]
+      },
+      "expected": [
+        0,
+        1,
+        1,
+        0,
+        2
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "queries": [
+          [
+            0,
+            100000
+          ]
+        ]
+      },
+      "expected": [
+        0
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "queries": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 100000,
+        "queries": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

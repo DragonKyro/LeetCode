@@ -1,0 +1,43 @@
+{
+  "problem_id": 1358,
+  "title": "Number of Substrings Containing All Three Characters",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "abcabc"
+      },
+      "expected": 10,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "aaacb"
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abc"
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "aaaaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abccba"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

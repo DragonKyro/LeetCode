@@ -1,0 +1,63 @@
+{
+  "problem_id": 2788,
+  "title": "Split Strings by Separator",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/split-strings-by-separator/",
+  "test_cases": [
+    {
+      "input": {
+        "words": [
+          "one.two.three",
+          "four.five",
+          "six"
+        ],
+        "separator": "."
+      },
+      "expected": [
+        "one",
+        "two",
+        "three",
+        "four",
+        "five",
+        "six"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "$easy$",
+          "$problem$"
+        ],
+        "separator": "$"
+      },
+      "expected": [
+        "easy",
+        "problem"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "|||"
+        ],
+        "separator": "|"
+      },
+      "expected": [],
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "one.two.three",
+          "four.five",
+          "six"
+        ],
+        "separator": "././"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

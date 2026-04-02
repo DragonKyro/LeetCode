@@ -1,0 +1,29 @@
+{
+  "problem_id": 2621,
+  "title": "Sleep",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/sleep/",
+  "test_cases": [
+    {
+      "input": {
+        "millis": 100
+      },
+      "expected": 100,
+      "source": "example"
+    },
+    {
+      "input": {
+        "millis": 200
+      },
+      "expected": 200,
+      "source": "example"
+    },
+    {
+      "input": {
+        "millis": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

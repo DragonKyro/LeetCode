@@ -1,0 +1,62 @@
+{
+  "problem_id": 1096,
+  "title": "Brace Expansion II",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/brace-expansion-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "expression": "{a,b}{c,{d,e}}"
+      },
+      "expected": [
+        "ac",
+        "ad",
+        "ae",
+        "bc",
+        "bd",
+        "be"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "expression": "{{a,z},a{b,c},{ab,z}}"
+      },
+      "expected": [
+        "a",
+        "ab",
+        "ac",
+        "z"
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "expression": "{"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "expression": "{{{{{{{{{{{{{{"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "expression": "{a{a{a{a{a{a{a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "expression": "{a,b}{cc{}b,a{"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

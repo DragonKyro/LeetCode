@@ -1,0 +1,105 @@
+{
+  "problem_id": 2303,
+  "title": "Calculate Amount Paid in Taxes",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/calculate-amount-paid-in-taxes/",
+  "test_cases": [
+    {
+      "input": {
+        "brackets": [
+          [
+            3,
+            50
+          ],
+          [
+            7,
+            10
+          ],
+          [
+            12,
+            25
+          ]
+        ],
+        "income": 10
+      },
+      "expected": 2.65,
+      "source": "example"
+    },
+    {
+      "input": {
+        "brackets": [
+          [
+            1,
+            0
+          ],
+          [
+            4,
+            25
+          ],
+          [
+            5,
+            50
+          ]
+        ],
+        "income": 2
+      },
+      "expected": 0.25,
+      "source": "example"
+    },
+    {
+      "input": {
+        "brackets": [
+          [
+            2,
+            50
+          ]
+        ],
+        "income": 0
+      },
+      "expected": 0.0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "brackets": [
+          [
+            3,
+            50
+          ],
+          [
+            7,
+            10
+          ],
+          [
+            12,
+            25
+          ]
+        ],
+        "income": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "brackets": [
+          [
+            3,
+            50
+          ],
+          [
+            7,
+            10
+          ],
+          [
+            12,
+            25
+          ]
+        ],
+        "income": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "problem_id": 2948,
+  "title": "Make Lexicographically Smallest Array by Swapping Elements",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          1,
+          5,
+          3,
+          9,
+          8
+        ],
+        "limit": 2
+      },
+      "expected": [
+        1,
+        3,
+        5,
+        8,
+        9
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          7,
+          6,
+          18,
+          2,
+          1
+        ],
+        "limit": 3
+      },
+      "expected": [
+        1,
+        6,
+        7,
+        18,
+        1,
+        2
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          7,
+          28,
+          19,
+          10
+        ],
+        "limit": 3
+      },
+      "expected": [
+        1,
+        7,
+        28,
+        19,
+        10
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          1
+        ],
+        "limit": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1000000000
+        ],
+        "limit": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "limit": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "limit": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "limit": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1
+        ],
+        "limit": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1000000000,
+          1000000000
+        ],
+        "limit": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          5,
+          3,
+          9,
+          8
+        ],
+        "limit": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          5,
+          3,
+          9,
+          8
+        ],
+        "limit": 1000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

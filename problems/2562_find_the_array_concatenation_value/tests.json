@@ -1,0 +1,108 @@
+{
+  "problem_id": 2562,
+  "title": "Find the Array Concatenation Value",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/find-the-array-concatenation-value/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          7,
+          52,
+          2,
+          4
+        ]
+      },
+      "expected": 596,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          5,
+          14,
+          13,
+          8,
+          12
+        ]
+      },
+      "expected": 673,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          7
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          10000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          7,
+          7,
+          7,
+          7
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          10000,
+          10000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

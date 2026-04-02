@@ -1,0 +1,104 @@
+{
+  "problem_id": 3303,
+  "title": "Find the Occurrence of First Almost Equal Substring",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/find-the-occurrence-of-first-almost-equal-substring/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "abcdefg",
+        "pattern": "bcdffg"
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "ababbababa",
+        "pattern": "bacaba"
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abcd",
+        "pattern": "dba"
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "dde",
+        "pattern": "d"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a",
+        "pattern": "bcdffg"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaaaaa",
+        "pattern": "bcdffg"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ababab",
+        "pattern": "bcdffg"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abccba",
+        "pattern": "bcdffg"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abcdefg",
+        "pattern": "b"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abcdefg",
+        "pattern": "bbbbbb"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abcdefg",
+        "pattern": "bcbcbc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abcdefg",
+        "pattern": "bcddcb"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

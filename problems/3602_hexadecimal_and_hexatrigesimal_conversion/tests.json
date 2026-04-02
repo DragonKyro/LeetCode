@@ -1,0 +1,29 @@
+{
+  "problem_id": 3602,
+  "title": "Hexadecimal and Hexatrigesimal Conversion",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/hexadecimal-and-hexatrigesimal-conversion/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 13
+      },
+      "expected": "A91P1",
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 36
+      },
+      "expected": "5101000",
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

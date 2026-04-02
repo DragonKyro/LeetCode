@@ -1,0 +1,64 @@
+{
+  "problem_id": 1996,
+  "title": "The Number of Weak Characters in the Game",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/the-number-of-weak-characters-in-the-game/",
+  "test_cases": [
+    {
+      "input": {
+        "properties": [
+          [
+            5,
+            5
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            3,
+            6
+          ]
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "properties": [
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "properties": [
+          [
+            1,
+            5
+          ],
+          [
+            10,
+            4
+          ],
+          [
+            4,
+            3
+          ]
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    }
+  ]
+}

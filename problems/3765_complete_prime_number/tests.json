@@ -1,0 +1,43 @@
+{
+  "problem_id": 3765,
+  "title": "Complete Prime Number",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/complete-prime-number/",
+  "test_cases": [
+    {
+      "input": {
+        "num": 23
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 39
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 7
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": 1000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

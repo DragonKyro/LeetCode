@@ -1,0 +1,57 @@
+{
+  "problem_id": 2833,
+  "title": "Furthest Point From Origin",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/furthest-point-from-origin/",
+  "test_cases": [
+    {
+      "input": {
+        "moves": "L_RL__R"
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "moves": "_R__LL_"
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "moves": "_______"
+      },
+      "expected": 7,
+      "source": "example"
+    },
+    {
+      "input": {
+        "moves": "L"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "moves": "LLLLLLL"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "moves": "LMLMLM"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "moves": "L_RR_L"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

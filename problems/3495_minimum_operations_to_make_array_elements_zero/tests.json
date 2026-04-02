@@ -1,0 +1,36 @@
+{
+  "problem_id": 3495,
+  "title": "Minimum Operations to Make Array Elements Zero",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-operations-to-make-array-elements-zero/",
+  "test_cases": [
+    {
+      "input": {
+        "queries": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            4
+          ]
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "queries": [
+          [
+            2,
+            6
+          ]
+        ]
+      },
+      "expected": 4,
+      "source": "example"
+    }
+  ]
+}

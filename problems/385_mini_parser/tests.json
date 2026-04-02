@@ -1,0 +1,58 @@
+{
+  "problem_id": 385,
+  "title": "Mini Parser",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/mini-parser/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "324"
+      },
+      "expected": 324,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "[123,[456,[789]]]"
+      },
+      "expected": [
+        123,
+        [
+          456,
+          [
+            789
+          ]
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "3"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "333"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "3434"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "33"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

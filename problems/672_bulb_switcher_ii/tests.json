@@ -1,0 +1,40 @@
+{
+  "problem_id": 672,
+  "title": "Bulb Switcher II",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/bulb-switcher-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 1,
+        "presses": 1
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 2,
+        "presses": 1
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 3,
+        "presses": 1
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "presses": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

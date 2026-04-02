@@ -1,0 +1,107 @@
+{
+  "problem_id": 2530,
+  "title": "Maximal Score After Applying K Operations",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximal-score-after-applying-k-operations/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "k": 5
+      },
+      "expected": 50,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          10,
+          3,
+          3,
+          3
+        ],
+        "k": 3
+      },
+      "expected": 17,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          10
+        ],
+        "k": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1000000000
+        ],
+        "k": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "k": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "k": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1
+        ],
+        "k": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1000000000,
+          1000000000
+        ],
+        "k": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

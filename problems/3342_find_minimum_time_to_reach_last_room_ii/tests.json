@@ -1,0 +1,60 @@
+{
+  "problem_id": 3342,
+  "title": "Find Minimum Time to Reach Last Room II",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-minimum-time-to-reach-last-room-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "moveTime": [
+          [
+            0,
+            4
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      },
+      "expected": 7,
+      "source": "example"
+    },
+    {
+      "input": {
+        "moveTime": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "moveTime": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      },
+      "expected": 4,
+      "source": "example"
+    }
+  ]
+}

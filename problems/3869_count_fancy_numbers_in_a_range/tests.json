@@ -1,0 +1,32 @@
+{
+  "problem_id": 3869,
+  "title": "Count Fancy Numbers in a Range",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/count-fancy-numbers-in-a-range/",
+  "test_cases": [
+    {
+      "input": {
+        "l": 8,
+        "r": 10
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "l": 12340,
+        "r": 12341
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "l": 123456788,
+        "r": 123456788
+      },
+      "expected": 0,
+      "source": "example"
+    }
+  ]
+}

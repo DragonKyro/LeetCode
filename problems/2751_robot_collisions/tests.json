@@ -1,0 +1,385 @@
+{
+  "problem_id": 2751,
+  "title": "Robot Collisions",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/robot-collisions/",
+  "test_cases": [
+    {
+      "input": {
+        "positions": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "healths": [
+          2,
+          17,
+          9,
+          15,
+          10
+        ],
+        "directions": "RRRRR"
+      },
+      "expected": [
+        2,
+        17,
+        9,
+        15,
+        10
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "positions": [
+          3,
+          5,
+          2,
+          6
+        ],
+        "healths": [
+          10,
+          10,
+          15,
+          12
+        ],
+        "directions": "RLRL"
+      },
+      "expected": [
+        14
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "positions": [
+          1,
+          2,
+          5,
+          6
+        ],
+        "healths": [
+          10,
+          10,
+          11,
+          11
+        ],
+        "directions": "RLRL"
+      },
+      "expected": [],
+      "source": "example"
+    },
+    {
+      "input": {
+        "positions": [
+          5
+        ],
+        "healths": [
+          2,
+          17,
+          9,
+          15,
+          10
+        ],
+        "directions": "RRRRR"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "positions": [
+          -100,
+          100
+        ],
+        "healths": [
+          2,
+          17,
+          9,
+          15,
+          10
+        ],
+        "directions": "RRRRR"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "positions": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "healths": [
+          2,
+          17,
+          9,
+          15,
+          10
+        ],
+        "directions": "RRRRR"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "positions": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "healths": [
+          2,
+          17,
+          9,
+          15,
+          10
+        ],
+        "directions": "RRRRR"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "positions": [
+          -100,
+          -100
+        ],
+        "healths": [
+          2,
+          17,
+          9,
+          15,
+          10
+        ],
+        "directions": "RRRRR"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "positions": [
+          100,
+          100
+        ],
+        "healths": [
+          2,
+          17,
+          9,
+          15,
+          10
+        ],
+        "directions": "RRRRR"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "positions": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "healths": [
+          2
+        ],
+        "directions": "RRRRR"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "positions": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "healths": [
+          -100,
+          100
+        ],
+        "directions": "RRRRR"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "positions": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "healths": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "directions": "RRRRR"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "positions": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "healths": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "directions": "RRRRR"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "positions": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "healths": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "directions": "RRRRR"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "positions": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "healths": [
+          -100,
+          -100
+        ],
+        "directions": "RRRRR"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "positions": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "healths": [
+          100,
+          100
+        ],
+        "directions": "RRRRR"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "positions": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "healths": [
+          2,
+          17,
+          9,
+          15,
+          10
+        ],
+        "directions": "R"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "positions": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "healths": [
+          2,
+          17,
+          9,
+          15,
+          10
+        ],
+        "directions": "RSRS"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "positions": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "healths": [
+          2,
+          17,
+          9,
+          15,
+          10
+        ],
+        "directions": "RRRR"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

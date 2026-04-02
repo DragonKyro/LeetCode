@@ -1,0 +1,57 @@
+{
+  "problem_id": 1504,
+  "title": "Count Submatrices With All Ones",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-submatrices-with-all-ones/",
+  "test_cases": [
+    {
+      "input": {
+        "mat": [
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ]
+      },
+      "expected": 13,
+      "source": "example"
+    },
+    {
+      "input": {
+        "mat": [
+          [
+            0,
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            0
+          ]
+        ]
+      },
+      "expected": 24,
+      "source": "example"
+    }
+  ]
+}

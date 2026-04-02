@@ -1,0 +1,185 @@
+{
+  "problem_id": 2791,
+  "title": "Count Paths That Can Form a Palindrome in a Tree",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/count-paths-that-can-form-a-palindrome-in-a-tree/",
+  "test_cases": [
+    {
+      "input": {
+        "parent": [
+          -1,
+          0,
+          0,
+          1,
+          1,
+          2
+        ],
+        "s": "acaabc"
+      },
+      "expected": 8,
+      "source": "example"
+    },
+    {
+      "input": {
+        "parent": [
+          -1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "s": "aaaaa"
+      },
+      "expected": 10,
+      "source": "example"
+    },
+    {
+      "input": {
+        "parent": [
+          -1
+        ],
+        "s": "acaabc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "parent": [
+          -100,
+          100
+        ],
+        "s": "acaabc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "parent": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "s": "acaabc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "parent": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "s": "acaabc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "parent": [
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "s": "acaabc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "parent": [
+          -100,
+          -100
+        ],
+        "s": "acaabc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "parent": [
+          100,
+          100
+        ],
+        "s": "acaabc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "parent": [
+          -1,
+          0,
+          0,
+          1,
+          1,
+          2
+        ],
+        "s": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "parent": [
+          -1,
+          0,
+          0,
+          1,
+          1,
+          2
+        ],
+        "s": "aaaaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "parent": [
+          -1,
+          0,
+          0,
+          1,
+          1,
+          2
+        ],
+        "s": "ababab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "parent": [
+          -1,
+          0,
+          0,
+          1,
+          1,
+          2
+        ],
+        "s": "acaaca"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

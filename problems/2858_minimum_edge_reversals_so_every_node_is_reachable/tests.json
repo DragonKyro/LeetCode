@@ -1,0 +1,97 @@
+{
+  "problem_id": 2858,
+  "title": "Minimum Edge Reversals So Every Node Is Reachable",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-edge-reversals-so-every-node-is-reachable/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 4,
+        "edges": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      "expected": [
+        1,
+        1,
+        0,
+        2
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 3,
+        "edges": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      },
+      "expected": [
+        2,
+        0,
+        1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 2,
+        "edges": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 100000,
+        "edges": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

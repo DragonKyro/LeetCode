@@ -1,0 +1,241 @@
+{
+  "problem_id": 1946,
+  "title": "Largest Number After Mutating Substring",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/largest-number-after-mutating-substring/",
+  "test_cases": [
+    {
+      "input": {
+        "num": "132",
+        "change": [
+          9,
+          8,
+          5,
+          0,
+          3,
+          6,
+          4,
+          2,
+          6,
+          8
+        ]
+      },
+      "expected": "832",
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": "021",
+        "change": [
+          9,
+          4,
+          3,
+          5,
+          7,
+          2,
+          1,
+          9,
+          0,
+          6
+        ]
+      },
+      "expected": "934",
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": "5",
+        "change": [
+          1,
+          4,
+          7,
+          5,
+          3,
+          2,
+          5,
+          6,
+          9,
+          4
+        ]
+      },
+      "expected": "5",
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": "1",
+        "change": [
+          9,
+          8,
+          5,
+          0,
+          3,
+          6,
+          4,
+          2,
+          6,
+          8
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "111",
+        "change": [
+          9,
+          8,
+          5,
+          0,
+          3,
+          6,
+          4,
+          2,
+          6,
+          8
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "1212",
+        "change": [
+          9,
+          8,
+          5,
+          0,
+          3,
+          6,
+          4,
+          2,
+          6,
+          8
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "11",
+        "change": [
+          9,
+          8,
+          5,
+          0,
+          3,
+          6,
+          4,
+          2,
+          6,
+          8
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "132",
+        "change": [
+          9
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "132",
+        "change": [
+          0,
+          9
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "132",
+        "change": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "132",
+        "change": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "132",
+        "change": [
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "132",
+        "change": [
+          0,
+          0
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": "132",
+        "change": [
+          9,
+          9
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

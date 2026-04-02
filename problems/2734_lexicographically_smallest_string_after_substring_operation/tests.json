@@ -1,0 +1,64 @@
+{
+  "problem_id": 2734,
+  "title": "Lexicographically Smallest String After Substring Operation",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/lexicographically-smallest-string-after-substring-operation/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "cbabc"
+      },
+      "expected": "baabc",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "aa"
+      },
+      "expected": "az",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "acbbc"
+      },
+      "expected": "abaab",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "leetcode"
+      },
+      "expected": "kddsbncd",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "c"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ccccc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "cdcd"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "cbbc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

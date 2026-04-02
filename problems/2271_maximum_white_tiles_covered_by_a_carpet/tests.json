@@ -1,0 +1,112 @@
+{
+  "problem_id": 2271,
+  "title": "Maximum White Tiles Covered by a Carpet",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-white-tiles-covered-by-a-carpet/",
+  "test_cases": [
+    {
+      "input": {
+        "tiles": [
+          [
+            1,
+            5
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            12,
+            18
+          ],
+          [
+            20,
+            25
+          ],
+          [
+            30,
+            32
+          ]
+        ],
+        "carpetLen": 10
+      },
+      "expected": 9,
+      "source": "example"
+    },
+    {
+      "input": {
+        "tiles": [
+          [
+            10,
+            11
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "carpetLen": 2
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "tiles": [
+          [
+            1,
+            5
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            12,
+            18
+          ],
+          [
+            20,
+            25
+          ],
+          [
+            30,
+            32
+          ]
+        ],
+        "carpetLen": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "tiles": [
+          [
+            1,
+            5
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            12,
+            18
+          ],
+          [
+            20,
+            25
+          ],
+          [
+            30,
+            32
+          ]
+        ],
+        "carpetLen": 1000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

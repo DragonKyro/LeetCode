@@ -1,0 +1,96 @@
+{
+  "problem_id": 3849,
+  "title": "Maximum Bitwise XOR After Rearrangement",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-bitwise-xor-after-rearrangement/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "101",
+        "t": "011"
+      },
+      "expected": "110",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "0110",
+        "t": "1110"
+      },
+      "expected": "1101",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "0101",
+        "t": "1001"
+      },
+      "expected": "1111",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "1",
+        "t": "011"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "111",
+        "t": "011"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "1212",
+        "t": "011"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "11",
+        "t": "011"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "101",
+        "t": "0"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "101",
+        "t": "000"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "101",
+        "t": "0101"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "101",
+        "t": "00"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

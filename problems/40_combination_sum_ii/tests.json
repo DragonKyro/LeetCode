@@ -1,0 +1,189 @@
+{
+  "problem_id": 40,
+  "title": "Combination Sum II",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/combination-sum-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "candidates": [
+          10,
+          1,
+          2,
+          7,
+          6,
+          1,
+          5
+        ],
+        "target": 8
+      },
+      "expected": [
+        [
+          1,
+          1,
+          6
+        ],
+        [
+          1,
+          2,
+          5
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "candidates": [
+          2,
+          5,
+          2,
+          1,
+          2
+        ],
+        "target": 5
+      },
+      "expected": [
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          5
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "candidates": [
+          10
+        ],
+        "target": 8
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "candidates": [
+          1,
+          50
+        ],
+        "target": 8
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "candidates": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "target": 8
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "candidates": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "target": 8
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "candidates": [
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "target": 8
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "candidates": [
+          1,
+          1
+        ],
+        "target": 8
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "candidates": [
+          50,
+          50
+        ],
+        "target": 8
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "candidates": [
+          10,
+          1,
+          2,
+          7,
+          6,
+          1,
+          5
+        ],
+        "target": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "candidates": [
+          10,
+          1,
+          2,
+          7,
+          6,
+          1,
+          5
+        ],
+        "target": 30
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

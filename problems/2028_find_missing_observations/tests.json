@@ -1,0 +1,146 @@
+{
+  "problem_id": 2028,
+  "title": "Find Missing Observations",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-missing-observations/",
+  "test_cases": [
+    {
+      "input": {
+        "rolls": [
+          3,
+          2,
+          4,
+          3
+        ],
+        "mean": 4,
+        "n": 2
+      },
+      "expected": [
+        6,
+        6
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "rolls": [
+          1,
+          5,
+          6
+        ],
+        "mean": 3,
+        "n": 4
+      },
+      "expected": [
+        2,
+        3,
+        2,
+        2
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "rolls": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "mean": 6,
+        "n": 4
+      },
+      "expected": [],
+      "source": "example"
+    },
+    {
+      "input": {
+        "rolls": [
+          3
+        ],
+        "mean": 4,
+        "n": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "rolls": [
+          -100,
+          100
+        ],
+        "mean": 4,
+        "n": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "rolls": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "mean": 4,
+        "n": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "rolls": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "mean": 4,
+        "n": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "rolls": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "mean": 4,
+        "n": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "rolls": [
+          -100,
+          -100
+        ],
+        "mean": 4,
+        "n": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "rolls": [
+          100,
+          100
+        ],
+        "mean": 4,
+        "n": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

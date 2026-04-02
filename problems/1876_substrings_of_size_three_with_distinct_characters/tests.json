@@ -1,0 +1,50 @@
+{
+  "problem_id": 1876,
+  "title": "Substrings of Size Three with Distinct Characters",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "xyzzaz"
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "aababcabc"
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "x"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "xxxxxx"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "xyxyxy"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "xyzzyx"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

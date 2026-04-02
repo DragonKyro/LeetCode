@@ -1,0 +1,63 @@
+{
+  "problem_id": 2849,
+  "title": "Determine if a Cell Is Reachable at a Given Time",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time/",
+  "test_cases": [
+    {
+      "input": {
+        "sx": 2,
+        "sy": 4,
+        "fx": 7,
+        "fy": 7,
+        "t": 6
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "sx": 3,
+        "sy": 1,
+        "fx": 7,
+        "fy": 3,
+        "t": 3
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "sx": 2,
+        "sy": 4,
+        "fx": 7,
+        "fy": 7,
+        "t": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "sx": 2,
+        "sy": 4,
+        "fx": 7,
+        "fy": 7,
+        "t": 1000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "sx": 2,
+        "sy": 4,
+        "fx": 7,
+        "fy": 7,
+        "t": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

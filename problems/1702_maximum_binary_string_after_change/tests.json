@@ -1,0 +1,43 @@
+{
+  "problem_id": 1702,
+  "title": "Maximum Binary String After Change",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-binary-string-after-change/",
+  "test_cases": [
+    {
+      "input": {
+        "binary": "000110"
+      },
+      "expected": "111011",
+      "source": "example"
+    },
+    {
+      "input": {
+        "binary": "01"
+      },
+      "expected": "01",
+      "source": "example"
+    },
+    {
+      "input": {
+        "binary": "0"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "binary": "000000"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "binary": "010101"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

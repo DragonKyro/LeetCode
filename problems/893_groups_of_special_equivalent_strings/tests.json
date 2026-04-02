@@ -1,0 +1,36 @@
+{
+  "problem_id": 893,
+  "title": "Groups of Special-Equivalent Strings",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/groups-of-special-equivalent-strings/",
+  "test_cases": [
+    {
+      "input": {
+        "words": [
+          "abcd",
+          "cdab",
+          "cbad",
+          "xyzz",
+          "zzxy",
+          "zzyx"
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "abc",
+          "acb",
+          "bac",
+          "bca",
+          "cab",
+          "cba"
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    }
+  ]
+}

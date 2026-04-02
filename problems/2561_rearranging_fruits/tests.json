@@ -1,0 +1,278 @@
+{
+  "problem_id": 2561,
+  "title": "Rearranging Fruits",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/rearranging-fruits/",
+  "test_cases": [
+    {
+      "input": {
+        "basket1": [
+          4,
+          2,
+          2,
+          2
+        ],
+        "basket2": [
+          1,
+          4,
+          1,
+          2
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "basket1": [
+          2,
+          3,
+          4,
+          1
+        ],
+        "basket2": [
+          3,
+          2,
+          5,
+          1
+        ]
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "basket1": [
+          4
+        ],
+        "basket2": [
+          1,
+          4,
+          1,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "basket1": [
+          -100,
+          100
+        ],
+        "basket2": [
+          1,
+          4,
+          1,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "basket1": [
+          4,
+          4,
+          4,
+          4
+        ],
+        "basket2": [
+          1,
+          4,
+          1,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "basket1": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "basket2": [
+          1,
+          4,
+          1,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "basket1": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "basket2": [
+          1,
+          4,
+          1,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "basket1": [
+          -100,
+          -100
+        ],
+        "basket2": [
+          1,
+          4,
+          1,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "basket1": [
+          100,
+          100
+        ],
+        "basket2": [
+          1,
+          4,
+          1,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "basket1": [
+          4,
+          2,
+          2,
+          2
+        ],
+        "basket2": [
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "basket1": [
+          4,
+          2,
+          2,
+          2
+        ],
+        "basket2": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "basket1": [
+          4,
+          2,
+          2,
+          2
+        ],
+        "basket2": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "basket1": [
+          4,
+          2,
+          2,
+          2
+        ],
+        "basket2": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "basket1": [
+          4,
+          2,
+          2,
+          2
+        ],
+        "basket2": [
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "basket1": [
+          4,
+          2,
+          2,
+          2
+        ],
+        "basket2": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "basket1": [
+          4,
+          2,
+          2,
+          2
+        ],
+        "basket2": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

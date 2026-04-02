@@ -1,0 +1,95 @@
+{
+  "problem_id": 2064,
+  "title": "Minimized Maximum of Products Distributed to Any Store",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 6,
+        "quantities": [
+          11,
+          6
+        ]
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 7,
+        "quantities": [
+          15,
+          10,
+          10
+        ]
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1,
+        "quantities": [
+          100000
+        ]
+      },
+      "expected": 100000,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 6,
+        "quantities": [
+          11
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 6,
+        "quantities": [
+          1,
+          100000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 6,
+        "quantities": [
+          11,
+          11
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 6,
+        "quantities": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 6,
+        "quantities": [
+          100000,
+          100000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "problem_id": 1521,
+  "title": "Find a Value of a Mysterious Function Closest to Target",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/find-a-value-of-a-mysterious-function-closest-to-target/",
+  "test_cases": [
+    {
+      "input": {
+        "arr": [
+          9,
+          12,
+          3,
+          7,
+          15
+        ],
+        "target": 5
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "arr": [
+          1000000,
+          1000000,
+          1000000
+        ],
+        "target": 1
+      },
+      "expected": 999999,
+      "source": "example"
+    },
+    {
+      "input": {
+        "arr": [
+          1,
+          2,
+          4,
+          8,
+          16
+        ],
+        "target": 0
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "arr": [
+          9
+        ],
+        "target": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          1,
+          1000000
+        ],
+        "target": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "target": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "target": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "target": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          1,
+          1
+        ],
+        "target": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          1000000,
+          1000000
+        ],
+        "target": 5
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          9,
+          12,
+          3,
+          7,
+          15
+        ],
+        "target": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          9,
+          12,
+          3,
+          7,
+          15
+        ],
+        "target": 10000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          9,
+          12,
+          3,
+          7,
+          15
+        ],
+        "target": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

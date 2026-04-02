@@ -1,0 +1,32 @@
+{
+  "problem_id": 1492,
+  "title": "The kth Factor of n",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/the-kth-factor-of-n/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 12,
+        "k": 3
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 7,
+        "k": 2
+      },
+      "expected": 7,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 4,
+        "k": 4
+      },
+      "expected": -1,
+      "source": "example"
+    }
+  ]
+}

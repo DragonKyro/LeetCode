@@ -1,0 +1,71 @@
+{
+  "problem_id": 3864,
+  "title": "Minimum Cost to Partition a Binary String",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-cost-to-partition-a-binary-string/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "1010",
+        "encCost": 2,
+        "flatCost": 1
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "1010",
+        "encCost": 3,
+        "flatCost": 10
+      },
+      "expected": 12,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "00",
+        "encCost": 1,
+        "flatCost": 2
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "1",
+        "encCost": 2,
+        "flatCost": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "1111",
+        "encCost": 2,
+        "flatCost": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "1212",
+        "encCost": 2,
+        "flatCost": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "1001",
+        "encCost": 2,
+        "flatCost": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

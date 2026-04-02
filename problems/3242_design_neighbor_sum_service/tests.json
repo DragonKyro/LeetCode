@@ -1,0 +1,60 @@
+{
+  "problem_id": 3242,
+  "title": "Design Neighbor Sum Service",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/design-neighbor-sum-service/",
+  "test_cases": [
+    {
+      "input": {
+        "arg0": "[\"NeighborSum\", \"adjacentSum\", \"adjacentSum\", \"diagonalSum\", \"diagonalSum\"]\n\n[[[[0, 1, 2], [3, 4, 5], [6, 7, 8]]], [1], [4], [4], [8]]"
+      },
+      "expected": [
+        null,
+        6,
+        16,
+        16,
+        4
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "arg0": "[\"NeighborSum\", \"adjacentSum\", \"diagonalSum\"]\n\n[[[[1, 2, 0, 3], [4, 7, 15, 6], [8, 9, 10, 11], [12, 13, 14, 5]]], [15], [9]]"
+      },
+      "expected": [
+        null,
+        23,
+        45
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "arg0": "["
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arg0": "[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[["
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arg0": "[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arg0": "[\"NeighborSum\", \"adjacentSum\", \"adjacentSum\", \"diagonalSum\", \"diagoogaid\" ,\"muSlanogaid\" ,\"muStnecajda\" ,\"muStnecajda\" ,\"muSrobhgieN\"["
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "problem_id": 2931,
+  "title": "Maximum Spending After Buying Items",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/maximum-spending-after-buying-items/",
+  "test_cases": [
+    {
+      "input": {
+        "values": [
+          [
+            8,
+            5,
+            2
+          ],
+          [
+            6,
+            4,
+            1
+          ],
+          [
+            9,
+            7,
+            3
+          ]
+        ]
+      },
+      "expected": 285,
+      "source": "example"
+    },
+    {
+      "input": {
+        "values": [
+          [
+            10,
+            8,
+            6,
+            4,
+            2
+          ],
+          [
+            9,
+            7,
+            5,
+            3,
+            2
+          ]
+        ]
+      },
+      "expected": 386,
+      "source": "example"
+    }
+  ]
+}

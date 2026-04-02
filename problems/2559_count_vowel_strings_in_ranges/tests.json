@@ -1,0 +1,68 @@
+{
+  "problem_id": 2559,
+  "title": "Count Vowel Strings in Ranges",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-vowel-strings-in-ranges/",
+  "test_cases": [
+    {
+      "input": {
+        "words": [
+          "aba",
+          "bcb",
+          "ece",
+          "aa",
+          "e"
+        ],
+        "queries": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      "expected": [
+        2,
+        3,
+        0
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "a",
+          "e",
+          "i"
+        ],
+        "queries": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      },
+      "expected": [
+        3,
+        2,
+        1
+      ],
+      "source": "example"
+    }
+  ]
+}

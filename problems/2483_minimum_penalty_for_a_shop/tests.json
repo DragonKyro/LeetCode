@@ -1,0 +1,43 @@
+{
+  "problem_id": 2483,
+  "title": "Minimum Penalty for a Shop",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-penalty-for-a-shop/",
+  "test_cases": [
+    {
+      "input": {
+        "customers": "YYNY"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "customers": "NNNNN"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "customers": "YYYY"
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "customers": "Y"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "customers": "YZYZ"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

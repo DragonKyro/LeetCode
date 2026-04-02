@@ -1,0 +1,80 @@
+{
+  "problem_id": 1125,
+  "title": "Smallest Sufficient Team",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/smallest-sufficient-team/",
+  "test_cases": [
+    {
+      "input": {
+        "req_skills": [
+          "java",
+          "nodejs",
+          "reactjs"
+        ],
+        "people": [
+          [
+            "java"
+          ],
+          [
+            "nodejs"
+          ],
+          [
+            "nodejs",
+            "reactjs"
+          ]
+        ]
+      },
+      "expected": [
+        0,
+        2
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "req_skills": [
+          "algorithms",
+          "math",
+          "java",
+          "reactjs",
+          "csharp",
+          "aws"
+        ],
+        "people": [
+          [
+            "algorithms",
+            "math",
+            "java"
+          ],
+          [
+            "algorithms",
+            "math",
+            "reactjs"
+          ],
+          [
+            "java",
+            "csharp",
+            "aws"
+          ],
+          [
+            "reactjs",
+            "csharp"
+          ],
+          [
+            "csharp",
+            "math"
+          ],
+          [
+            "aws",
+            "java"
+          ]
+        ]
+      },
+      "expected": [
+        1,
+        2
+      ],
+      "source": "example"
+    }
+  ]
+}

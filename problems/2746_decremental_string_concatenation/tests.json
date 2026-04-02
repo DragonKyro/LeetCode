@@ -1,0 +1,40 @@
+{
+  "problem_id": 2746,
+  "title": "Decremental String Concatenation",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/decremental-string-concatenation/",
+  "test_cases": [
+    {
+      "input": {
+        "words": [
+          "aa",
+          "ab",
+          "bc"
+        ]
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "ab",
+          "b"
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "aaa",
+          "c",
+          "aba"
+        ]
+      },
+      "expected": 6,
+      "source": "example"
+    }
+  ]
+}

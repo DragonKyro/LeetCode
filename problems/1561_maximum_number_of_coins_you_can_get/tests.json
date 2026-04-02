@@ -1,0 +1,114 @@
+{
+  "problem_id": 1561,
+  "title": "Maximum Number of Coins You Can Get",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-number-of-coins-you-can-get/",
+  "test_cases": [
+    {
+      "input": {
+        "piles": [
+          2,
+          4,
+          1,
+          2,
+          7,
+          8
+        ]
+      },
+      "expected": 9,
+      "source": "example"
+    },
+    {
+      "input": {
+        "piles": [
+          2,
+          4,
+          5
+        ]
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "piles": [
+          9,
+          8,
+          7,
+          6,
+          5,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "expected": 18,
+      "source": "example"
+    },
+    {
+      "input": {
+        "piles": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "piles": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "piles": [
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "piles": [
+          1,
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "piles": [
+          10000,
+          10000,
+          10000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

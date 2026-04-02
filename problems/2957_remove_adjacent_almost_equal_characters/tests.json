@@ -1,0 +1,50 @@
+{
+  "problem_id": 2957,
+  "title": "Remove Adjacent Almost-Equal Characters",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/remove-adjacent-almost-equal-characters/",
+  "test_cases": [
+    {
+      "input": {
+        "word": "aaaaa"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word": "abddez"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word": "zyxyxyz"
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word": "aaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "problem_id": 2658,
+  "title": "Maximum Number of Fish in a Grid",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-number-of-fish-in-a-grid/",
+  "test_cases": [
+    {
+      "input": {
+        "grid": [
+          [
+            0,
+            2,
+            1,
+            0
+          ],
+          [
+            4,
+            0,
+            0,
+            3
+          ],
+          [
+            1,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            3,
+            2,
+            0
+          ]
+        ]
+      },
+      "expected": 7,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ]
+      },
+      "expected": 1,
+      "source": "example"
+    }
+  ]
+}

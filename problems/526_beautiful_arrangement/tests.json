@@ -1,0 +1,29 @@
+{
+  "problem_id": 526,
+  "title": "Beautiful Arrangement",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/beautiful-arrangement/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 2
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 15
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

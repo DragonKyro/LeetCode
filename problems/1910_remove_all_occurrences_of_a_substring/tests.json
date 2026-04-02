@@ -1,0 +1,88 @@
+{
+  "problem_id": 1910,
+  "title": "Remove All Occurrences of a Substring",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/remove-all-occurrences-of-a-substring/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "daabcbaabcbc",
+        "part": "abc"
+      },
+      "expected": "dab",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "axxxxyyyyb",
+        "part": "xy"
+      },
+      "expected": "ab",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "d",
+        "part": "abc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "dddddddddddd",
+        "part": "abc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "dededededede",
+        "part": "abc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "daabcbbcbaad",
+        "part": "abc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "daabcbaabcbc",
+        "part": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "daabcbaabcbc",
+        "part": "aaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "daabcbaabcbc",
+        "part": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "daabcbaabcbc",
+        "part": "aa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

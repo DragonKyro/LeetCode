@@ -1,0 +1,88 @@
+{
+  "problem_id": 3842,
+  "title": "Toggle Light Bulbs",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/toggle-light-bulbs/",
+  "test_cases": [
+    {
+      "input": {
+        "bulbs": [
+          10,
+          30,
+          20,
+          10
+        ]
+      },
+      "expected": [
+        20,
+        30
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "bulbs": [
+          100,
+          100
+        ]
+      },
+      "expected": [],
+      "source": "example"
+    },
+    {
+      "input": {
+        "bulbs": [
+          10
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "bulbs": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "bulbs": [
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "bulbs": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "bulbs": [
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

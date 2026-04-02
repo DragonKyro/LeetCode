@@ -1,0 +1,57 @@
+{
+  "problem_id": 224,
+  "title": "Basic Calculator",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/basic-calculator/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "1 + 1"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": " 2-1 + 2 "
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "(1+(4+5+2)-3)+(6+8)"
+      },
+      "expected": 23,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "1"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "11111"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "1212"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "1  1"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

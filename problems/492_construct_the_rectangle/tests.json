@@ -1,0 +1,52 @@
+{
+  "problem_id": 492,
+  "title": "Construct the Rectangle",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/construct-the-rectangle/",
+  "test_cases": [
+    {
+      "input": {
+        "area": 4
+      },
+      "expected": [
+        2,
+        2
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "area": 37
+      },
+      "expected": [
+        37,
+        1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "area": 122122
+      },
+      "expected": [
+        427,
+        286
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "area": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "area": 10000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "problem_id": 3241,
+  "title": "Time Taken to Mark All Nodes",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/time-taken-to-mark-all-nodes/",
+  "test_cases": [
+    {
+      "input": {
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      "expected": [
+        2,
+        4,
+        3
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "edges": [
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      "expected": [
+        1,
+        2
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "edges": [
+          [
+            2,
+            4
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      "expected": [
+        4,
+        6,
+        3,
+        5,
+        5
+      ],
+      "source": "example"
+    }
+  ]
+}

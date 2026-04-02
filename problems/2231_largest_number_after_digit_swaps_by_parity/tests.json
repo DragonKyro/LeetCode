@@ -1,0 +1,36 @@
+{
+  "problem_id": 2231,
+  "title": "Largest Number After Digit Swaps by Parity",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/",
+  "test_cases": [
+    {
+      "input": {
+        "num": 1234
+      },
+      "expected": 3412,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 65875
+      },
+      "expected": 87655,
+      "source": "example"
+    },
+    {
+      "input": {
+        "num": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "num": 1000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

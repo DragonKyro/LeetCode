@@ -1,0 +1,56 @@
+{
+  "problem_id": 1945,
+  "title": "Sum of Digits of String After Convert",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/sum-of-digits-of-string-after-convert/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "iiii",
+        "k": 1
+      },
+      "expected": 36,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "leetcode",
+        "k": 2
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "zbax",
+        "k": 2
+      },
+      "expected": 8,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "i",
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ijij",
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "iiii",
+        "k": 10
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

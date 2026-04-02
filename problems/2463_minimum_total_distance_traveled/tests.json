@@ -1,0 +1,191 @@
+{
+  "problem_id": 2463,
+  "title": "Minimum Total Distance Traveled",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-total-distance-traveled/",
+  "test_cases": [
+    {
+      "input": {
+        "robot": [
+          0,
+          4,
+          6
+        ],
+        "factory": [
+          [
+            2,
+            2
+          ],
+          [
+            6,
+            2
+          ]
+        ]
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "robot": [
+          1,
+          -1
+        ],
+        "factory": [
+          [
+            -2,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "robot": [
+          0
+        ],
+        "factory": [
+          [
+            2,
+            2
+          ],
+          [
+            6,
+            2
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "robot": [
+          -100,
+          100
+        ],
+        "factory": [
+          [
+            2,
+            2
+          ],
+          [
+            6,
+            2
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "robot": [
+          0,
+          0,
+          0
+        ],
+        "factory": [
+          [
+            2,
+            2
+          ],
+          [
+            6,
+            2
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "robot": [
+          1,
+          2,
+          3
+        ],
+        "factory": [
+          [
+            2,
+            2
+          ],
+          [
+            6,
+            2
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "robot": [
+          3,
+          2,
+          1
+        ],
+        "factory": [
+          [
+            2,
+            2
+          ],
+          [
+            6,
+            2
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "robot": [
+          -100,
+          -100
+        ],
+        "factory": [
+          [
+            2,
+            2
+          ],
+          [
+            6,
+            2
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "robot": [
+          100,
+          100
+        ],
+        "factory": [
+          [
+            2,
+            2
+          ],
+          [
+            6,
+            2
+          ]
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

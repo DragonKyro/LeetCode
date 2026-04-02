@@ -1,0 +1,117 @@
+{
+  "problem_id": 3566,
+  "title": "Partition Array into Two Equal Product Subsets",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/partition-array-into-two-equal-product-subsets/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          3,
+          1,
+          6,
+          8,
+          4
+        ],
+        "target": 24
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          2,
+          5,
+          3,
+          7
+        ],
+        "target": 15
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "target": 24
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "target": 24
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "target": 24
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1,
+          1
+        ],
+        "target": 24
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          3,
+          1,
+          6,
+          8,
+          4
+        ],
+        "target": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          3,
+          1,
+          6,
+          8,
+          4
+        ],
+        "target": 1000000000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

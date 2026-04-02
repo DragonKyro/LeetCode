@@ -1,0 +1,119 @@
+{
+  "problem_id": 2695,
+  "title": "Array Wrapper",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/array-wrapper/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "operation": "Add"
+      },
+      "expected": 10,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          [
+            23,
+            98,
+            42,
+            70
+          ]
+        ],
+        "operation": "String"
+      },
+      "expected": "[23,98,42,70]",
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          [],
+          []
+        ],
+        "operation": "Add"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "operation": "A"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "operation": "AAA"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "operation": "ABAB"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "operation": "AA"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

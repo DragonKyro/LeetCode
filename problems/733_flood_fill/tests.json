@@ -1,0 +1,82 @@
+{
+  "problem_id": 733,
+  "title": "Flood Fill",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/flood-fill/",
+  "test_cases": [
+    {
+      "input": {
+        "image": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            1
+          ]
+        ],
+        "sr": 1,
+        "sc": 1,
+        "color": 2
+      },
+      "expected": [
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          2,
+          0
+        ],
+        [
+          2,
+          0,
+          1
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "image": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "sr": 0,
+        "sc": 0,
+        "color": 0
+      },
+      "expected": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "source": "example"
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "problem_id": 3784,
+  "title": "Minimum Deletion Cost to Make All Characters Equal",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-deletion-cost-to-make-all-characters-equal/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "aabaac",
+        "cost": [
+          1,
+          2,
+          3,
+          4,
+          1,
+          10
+        ]
+      },
+      "expected": 11,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abc",
+        "cost": [
+          10,
+          5,
+          8
+        ]
+      },
+      "expected": 13,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "zzzzz",
+        "cost": [
+          67,
+          67,
+          67,
+          67,
+          67
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a",
+        "cost": [
+          1,
+          2,
+          3,
+          4,
+          1,
+          10
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaaaa",
+        "cost": [
+          1,
+          2,
+          3,
+          4,
+          1,
+          10
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ababab",
+        "cost": [
+          1,
+          2,
+          3,
+          4,
+          1,
+          10
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aabbaa",
+        "cost": [
+          1,
+          2,
+          3,
+          4,
+          1,
+          10
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aabaac",
+        "cost": [
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aabaac",
+        "cost": [
+          1,
+          1000000000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aabaac",
+        "cost": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aabaac",
+        "cost": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aabaac",
+        "cost": [
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aabaac",
+        "cost": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aabaac",
+        "cost": [
+          1000000000,
+          1000000000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

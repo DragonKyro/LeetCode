@@ -1,0 +1,94 @@
+{
+  "problem_id": 2828,
+  "title": "Check if a String Is an Acronym of Words",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words/",
+  "test_cases": [
+    {
+      "input": {
+        "words": [
+          "alice",
+          "bob",
+          "charlie"
+        ],
+        "s": "abc"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "an",
+          "apple"
+        ],
+        "s": "a"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "never",
+          "gonna",
+          "give",
+          "up",
+          "on",
+          "you"
+        ],
+        "s": "ngguoy"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "alice",
+          "bob",
+          "charlie"
+        ],
+        "s": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "words": [
+          "alice",
+          "bob",
+          "charlie"
+        ],
+        "s": "aaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "words": [
+          "alice",
+          "bob",
+          "charlie"
+        ],
+        "s": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "words": [
+          "alice",
+          "bob",
+          "charlie"
+        ],
+        "s": "aa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

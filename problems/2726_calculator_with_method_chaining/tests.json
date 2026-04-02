@@ -1,0 +1,171 @@
+{
+  "problem_id": 2726,
+  "title": "Calculator with Method Chaining",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/calculator-with-method-chaining/",
+  "test_cases": [
+    {
+      "input": {
+        "actions": [
+          "Calculator",
+          "add",
+          "subtract",
+          "getResult"
+        ],
+        "values": [
+          10,
+          5,
+          7
+        ]
+      },
+      "expected": 8,
+      "source": "example"
+    },
+    {
+      "input": {
+        "actions": [
+          "Calculator",
+          "multiply",
+          "power",
+          "getResult"
+        ],
+        "values": [
+          2,
+          5,
+          2
+        ]
+      },
+      "expected": 100,
+      "source": "example"
+    },
+    {
+      "input": {
+        "actions": [
+          "Calculator",
+          "divide",
+          "getResult"
+        ],
+        "values": [
+          20,
+          0
+        ]
+      },
+      "expected": "Division by zero is not allowed",
+      "source": "example"
+    },
+    {
+      "input": {
+        "actions": [
+          "Calculator",
+          "add",
+          "subtract",
+          "getResult"
+        ],
+        "values": [
+          10
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "actions": [
+          "Calculator",
+          "add",
+          "subtract",
+          "getResult"
+        ],
+        "values": [
+          -100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "actions": [
+          "Calculator",
+          "add",
+          "subtract",
+          "getResult"
+        ],
+        "values": [
+          10,
+          10,
+          10
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "actions": [
+          "Calculator",
+          "add",
+          "subtract",
+          "getResult"
+        ],
+        "values": [
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "actions": [
+          "Calculator",
+          "add",
+          "subtract",
+          "getResult"
+        ],
+        "values": [
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "actions": [
+          "Calculator",
+          "add",
+          "subtract",
+          "getResult"
+        ],
+        "values": [
+          -100,
+          -100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "actions": [
+          "Calculator",
+          "add",
+          "subtract",
+          "getResult"
+        ],
+        "values": [
+          100,
+          100
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

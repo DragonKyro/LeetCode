@@ -1,0 +1,36 @@
+{
+  "problem_id": 3463,
+  "title": "Check If Digits Are Equal in String After Operations II",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-ii/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "3902"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "34789"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "3333"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "3993"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

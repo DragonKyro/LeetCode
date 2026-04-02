@@ -1,0 +1,80 @@
+{
+  "problem_id": 514,
+  "title": "Freedom Trail",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/freedom-trail/",
+  "test_cases": [
+    {
+      "input": {
+        "ring": "godding",
+        "key": "gd"
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "ring": "godding",
+        "key": "godding"
+      },
+      "expected": 13,
+      "source": "example"
+    },
+    {
+      "input": {
+        "ring": "g",
+        "key": "gd"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "ring": "ggggggg",
+        "key": "gd"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "ring": "ghghgh",
+        "key": "gd"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "ring": "goddog",
+        "key": "gd"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "ring": "godding",
+        "key": "g"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "ring": "godding",
+        "key": "gg"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "ring": "godding",
+        "key": "ghgh"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

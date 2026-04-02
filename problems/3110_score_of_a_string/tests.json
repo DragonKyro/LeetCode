@@ -1,0 +1,43 @@
+{
+  "problem_id": 3110,
+  "title": "Score of a String",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/score-of-a-string/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "hello"
+      },
+      "expected": 13,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "zaz"
+      },
+      "expected": 50,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "hhhhh"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "hihi"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "heeh"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

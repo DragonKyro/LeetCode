@@ -1,0 +1,240 @@
+{
+  "problem_id": 2694,
+  "title": "Event Emitter",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/event-emitter/",
+  "test_cases": [
+    {
+      "input": {
+        "actions": [
+          "EventEmitter",
+          "emit",
+          "subscribe",
+          "subscribe",
+          "emit"
+        ],
+        "values": "[[], [\"firstEvent\"], [\"firstEvent\", \"function cb1() { return 5; }\"],  [\"firstEvent\", \"function cb1() { return 6; }\"], [\"firstEvent\"]]"
+      },
+      "expected": [
+        [],
+        [
+          "emitted",
+          []
+        ],
+        [
+          "subscribed"
+        ],
+        [
+          "subscribed"
+        ],
+        [
+          "emitted",
+          [
+            5,
+            6
+          ]
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "actions": [
+          "EventEmitter",
+          "subscribe",
+          "emit",
+          "emit"
+        ],
+        "values": [
+          [],
+          [
+            "firstEvent",
+            "function cb1(...args) { return args.join(','); }"
+          ],
+          [
+            "firstEvent",
+            [
+              1,
+              2,
+              3
+            ]
+          ],
+          [
+            "firstEvent",
+            [
+              3,
+              4,
+              6
+            ]
+          ]
+        ]
+      },
+      "expected": [
+        [],
+        [
+          "subscribed"
+        ],
+        [
+          "emitted",
+          [
+            "1,2,3"
+          ]
+        ],
+        [
+          "emitted",
+          [
+            "3,4,6"
+          ]
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "actions": [
+          "EventEmitter",
+          "subscribe",
+          "emit",
+          "unsubscribe",
+          "emit"
+        ],
+        "values": [
+          [],
+          [
+            "firstEvent",
+            "(...args) => args.join(',')"
+          ],
+          [
+            "firstEvent",
+            [
+              1,
+              2,
+              3
+            ]
+          ],
+          [
+            0
+          ],
+          [
+            "firstEvent",
+            [
+              4,
+              5,
+              6
+            ]
+          ]
+        ]
+      },
+      "expected": [
+        [],
+        [
+          "subscribed"
+        ],
+        [
+          "emitted",
+          [
+            "1,2,3"
+          ]
+        ],
+        [
+          "unsubscribed",
+          0
+        ],
+        [
+          "emitted",
+          []
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "actions": [
+          "EventEmitter",
+          "subscribe",
+          "subscribe",
+          "unsubscribe",
+          "emit"
+        ],
+        "values": "[[], [\"firstEvent\", \"",
+        "x": "> x + 2\"], [0], [\"firstEvent\", [5]]]"
+      },
+      "expected": [
+        [],
+        [
+          "subscribed"
+        ],
+        [
+          "subscribed"
+        ],
+        [
+          "unsubscribed",
+          0
+        ],
+        [
+          "emitted",
+          [
+            7
+          ]
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "actions": [
+          "EventEmitter",
+          "emit",
+          "subscribe",
+          "subscribe",
+          "emit"
+        ],
+        "values": "["
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "actions": [
+          "EventEmitter",
+          "emit",
+          "subscribe",
+          "subscribe",
+          "emit"
+        ],
+        "values": "[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[["
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "actions": [
+          "EventEmitter",
+          "emit",
+          "subscribe",
+          "subscribe",
+          "emit"
+        ],
+        "values": "[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\[\\"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "actions": [
+          "EventEmitter",
+          "emit",
+          "subscribe",
+          "subscribe",
+          "emit"
+        ],
+        "values": "[[], [\"firstEvent\"], [\"firstEvent\", \"function cb1() { return 5; }\"\"} ;5 nruter { )(1bc noitcnuf\" ,\"tnevEtsrif\"[ ,]\"tnevEtsrif\"[ ,][["
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

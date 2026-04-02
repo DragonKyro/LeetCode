@@ -1,0 +1,225 @@
+{
+  "problem_id": 3030,
+  "title": "Find the Grid of Region Average",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-the-grid-of-region-average/",
+  "test_cases": [
+    {
+      "input": {
+        "image": [
+          [
+            5,
+            6,
+            7,
+            10
+          ],
+          [
+            8,
+            9,
+            10,
+            10
+          ],
+          [
+            11,
+            12,
+            13,
+            10
+          ]
+        ],
+        "threshold": 3
+      },
+      "expected": [
+        [
+          9,
+          9,
+          9,
+          9
+        ],
+        [
+          9,
+          9,
+          9,
+          9
+        ],
+        [
+          9,
+          9,
+          9,
+          9
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "image": [
+          [
+            10,
+            20,
+            30
+          ],
+          [
+            15,
+            25,
+            35
+          ],
+          [
+            20,
+            30,
+            40
+          ],
+          [
+            25,
+            35,
+            45
+          ]
+        ],
+        "threshold": 12
+      },
+      "expected": [
+        [
+          25,
+          25,
+          25
+        ],
+        [
+          27,
+          27,
+          27
+        ],
+        [
+          27,
+          27,
+          27
+        ],
+        [
+          30,
+          30,
+          30
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "image": [
+          [
+            5,
+            6,
+            7
+          ],
+          [
+            8,
+            9,
+            10
+          ],
+          [
+            11,
+            12,
+            13
+          ]
+        ],
+        "threshold": 1
+      },
+      "expected": [
+        [
+          5,
+          6,
+          7
+        ],
+        [
+          8,
+          9,
+          10
+        ],
+        [
+          11,
+          12,
+          13
+        ]
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "image": [
+          [
+            5,
+            6,
+            7,
+            10
+          ],
+          [
+            8,
+            9,
+            10,
+            10
+          ],
+          [
+            11,
+            12,
+            13,
+            10
+          ]
+        ],
+        "threshold": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "image": [
+          [
+            5,
+            6,
+            7,
+            10
+          ],
+          [
+            8,
+            9,
+            10,
+            10
+          ],
+          [
+            11,
+            12,
+            13,
+            10
+          ]
+        ],
+        "threshold": 255
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "image": [
+          [
+            5,
+            6,
+            7,
+            10
+          ],
+          [
+            8,
+            9,
+            10,
+            10
+          ],
+          [
+            11,
+            12,
+            13,
+            10
+          ]
+        ],
+        "threshold": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

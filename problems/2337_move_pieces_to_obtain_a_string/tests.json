@@ -1,0 +1,96 @@
+{
+  "problem_id": 2337,
+  "title": "Move Pieces to Obtain a String",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/move-pieces-to-obtain-a-string/",
+  "test_cases": [
+    {
+      "input": {
+        "start": "_L__R__R_",
+        "target": "L______RR"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "start": "R_L_",
+        "target": "__LR"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "start": "_R",
+        "target": "R_"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "start": "_",
+        "target": "L______RR"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "start": "_________",
+        "target": "L______RR"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "start": "_`_`_`_`",
+        "target": "L______RR"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "start": "_L____L_",
+        "target": "L______RR"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "start": "_L__R__R_",
+        "target": "L"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "start": "_L__R__R_",
+        "target": "LLLLLLLLL"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "start": "_L__R__R_",
+        "target": "LMLMLMLM"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "start": "_L__R__R_",
+        "target": "L______L"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

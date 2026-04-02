@@ -1,0 +1,50 @@
+{
+  "problem_id": 231,
+  "title": "Power of Two",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/power-of-two/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 1
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 16
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 3
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": -2147483648
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 2147483648
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "n": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "problem_id": 3007,
+  "title": "Maximum Number That Sum of the Prices Is Less Than or Equal to K",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-number-that-sum-of-the-prices-is-less-than-or-equal-to-k/",
+  "test_cases": [
+    {
+      "input": {
+        "k": 9,
+        "x": 1
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "k": 7,
+        "x": 2
+      },
+      "expected": 9,
+      "source": "example"
+    },
+    {
+      "input": {
+        "k": 1,
+        "x": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "k": 1000000000000000,
+        "x": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "k": 9,
+        "x": 8
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

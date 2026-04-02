@@ -1,0 +1,52 @@
+{
+  "problem_id": 3102,
+  "title": "Minimize Manhattan Distances",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimize-manhattan-distances/",
+  "test_cases": [
+    {
+      "input": {
+        "points": [
+          [
+            3,
+            10
+          ],
+          [
+            5,
+            15
+          ],
+          [
+            10,
+            2
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      },
+      "expected": 12,
+      "source": "example"
+    },
+    {
+      "input": {
+        "points": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    }
+  ]
+}

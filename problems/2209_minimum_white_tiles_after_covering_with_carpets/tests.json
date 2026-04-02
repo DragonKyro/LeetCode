@@ -1,0 +1,71 @@
+{
+  "problem_id": 2209,
+  "title": "Minimum White Tiles After Covering With Carpets",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-white-tiles-after-covering-with-carpets/",
+  "test_cases": [
+    {
+      "input": {
+        "floor": "10110101",
+        "numCarpets": 2,
+        "carpetLen": 2
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "floor": "11111",
+        "numCarpets": 2,
+        "carpetLen": 3
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "floor": "1",
+        "numCarpets": 2,
+        "carpetLen": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "floor": "11111111",
+        "numCarpets": 2,
+        "carpetLen": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "floor": "12121212",
+        "numCarpets": 2,
+        "carpetLen": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "floor": "10111101",
+        "numCarpets": 2,
+        "carpetLen": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "floor": "10110101",
+        "numCarpets": 1,
+        "carpetLen": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

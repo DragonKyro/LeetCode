@@ -1,0 +1,50 @@
+{
+  "problem_id": 2380,
+  "title": "Time Needed to Rearrange a Binary String",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/time-needed-to-rearrange-a-binary-string/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "0110101"
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "11100"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "0"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "0000000"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "010101"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "011110"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "problem_id": 1904,
+  "title": "The Number of Full Rounds You Have Played",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/the-number-of-full-rounds-you-have-played/",
+  "test_cases": [
+    {
+      "input": {
+        "loginTime": "09:31",
+        "logoutTime": "10:14"
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "loginTime": "21:30",
+        "logoutTime": "03:00"
+      },
+      "expected": 22,
+      "source": "example"
+    },
+    {
+      "input": {
+        "loginTime": "0",
+        "logoutTime": "10:14"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "loginTime": "00000",
+        "logoutTime": "10:14"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "loginTime": "0101",
+        "logoutTime": "10:14"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "loginTime": "0990",
+        "logoutTime": "10:14"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "loginTime": "09:31",
+        "logoutTime": "1"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "loginTime": "09:31",
+        "logoutTime": "11111"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "loginTime": "09:31",
+        "logoutTime": "1212"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "loginTime": "09:31",
+        "logoutTime": "1001"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

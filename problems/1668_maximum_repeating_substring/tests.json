@@ -1,0 +1,88 @@
+{
+  "problem_id": 1668,
+  "title": "Maximum Repeating Substring",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/maximum-repeating-substring/",
+  "test_cases": [
+    {
+      "input": {
+        "sequence": "ababc",
+        "word": "ab"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "sequence": "ababc",
+        "word": "ba"
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "sequence": "ababc",
+        "word": "ac"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "sequence": "a",
+        "word": "ab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "sequence": "aaaaa",
+        "word": "ab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "sequence": "abab",
+        "word": "ab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "sequence": "abba",
+        "word": "ab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "sequence": "ababc",
+        "word": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "sequence": "ababc",
+        "word": "aa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "sequence": "ababc",
+        "word": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

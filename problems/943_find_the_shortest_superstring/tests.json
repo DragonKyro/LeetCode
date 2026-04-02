@@ -1,0 +1,32 @@
+{
+  "problem_id": 943,
+  "title": "Find the Shortest Superstring",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/find-the-shortest-superstring/",
+  "test_cases": [
+    {
+      "input": {
+        "words": [
+          "alex",
+          "loves",
+          "leetcode"
+        ]
+      },
+      "expected": "alexlovesleetcode",
+      "source": "example"
+    },
+    {
+      "input": {
+        "words": [
+          "catg",
+          "ctaagt",
+          "gcta",
+          "ttca",
+          "atgcatc"
+        ]
+      },
+      "expected": "gctaagttcatgcatc",
+      "source": "example"
+    }
+  ]
+}

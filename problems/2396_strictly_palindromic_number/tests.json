@@ -1,0 +1,29 @@
+{
+  "problem_id": 2396,
+  "title": "Strictly Palindromic Number",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/strictly-palindromic-number/",
+  "test_cases": [
+    {
+      "input": {
+        "n": 9
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 4
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "n": 100000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

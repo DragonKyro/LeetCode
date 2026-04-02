@@ -1,0 +1,141 @@
+{
+  "problem_id": 3473,
+  "title": "Sum of K Subarrays With Length at Least M",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/sum-of-k-subarrays-with-length-at-least-m/",
+  "test_cases": [
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          -1,
+          3,
+          3,
+          4
+        ],
+        "k": 2,
+        "m": 2
+      },
+      "expected": 13,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          -10,
+          3,
+          -1,
+          -2
+        ],
+        "k": 4,
+        "m": 1
+      },
+      "expected": -10,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums": [
+          1
+        ],
+        "k": 2,
+        "m": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          10000,
+          10000
+        ],
+        "k": 2,
+        "m": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "k": 2,
+        "m": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "k": 2,
+        "m": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "k": 2,
+        "m": 2
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          -1,
+          3,
+          3,
+          4
+        ],
+        "k": 2,
+        "m": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums": [
+          1,
+          2,
+          -1,
+          3,
+          3,
+          4
+        ],
+        "k": 2,
+        "m": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

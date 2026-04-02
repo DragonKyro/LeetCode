@@ -1,0 +1,88 @@
+{
+  "problem_id": 299,
+  "title": "Bulls and Cows",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/bulls-and-cows/",
+  "test_cases": [
+    {
+      "input": {
+        "secret": "1807",
+        "guess": "7810"
+      },
+      "expected": "1A3B",
+      "source": "example"
+    },
+    {
+      "input": {
+        "secret": "1123",
+        "guess": "0111"
+      },
+      "expected": "1A1B",
+      "source": "example"
+    },
+    {
+      "input": {
+        "secret": "1",
+        "guess": "7810"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "secret": "1111",
+        "guess": "7810"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "secret": "1212",
+        "guess": "7810"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "secret": "1881",
+        "guess": "7810"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "secret": "1807",
+        "guess": "7"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "secret": "1807",
+        "guess": "7777"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "secret": "1807",
+        "guess": "7878"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "secret": "1807",
+        "guess": "7887"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

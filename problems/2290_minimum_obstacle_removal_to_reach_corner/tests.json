@@ -1,0 +1,60 @@
+{
+  "problem_id": 2290,
+  "title": "Minimum Obstacle Removal to Reach Corner",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/",
+  "test_cases": [
+    {
+      "input": {
+        "grid": [
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ]
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        ]
+      },
+      "expected": 0,
+      "source": "example"
+    }
+  ]
+}

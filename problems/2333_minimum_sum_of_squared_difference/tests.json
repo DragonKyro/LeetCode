@@ -1,0 +1,290 @@
+{
+  "problem_id": 2333,
+  "title": "Minimum Sum of Squared Difference",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-sum-of-squared-difference/",
+  "test_cases": [
+    {
+      "input": {
+        "nums1": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "nums2": [
+          2,
+          10,
+          20,
+          19
+        ],
+        "k1": 0,
+        "k2": 0
+      },
+      "expected": 579,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          4,
+          10,
+          12
+        ],
+        "nums2": [
+          5,
+          8,
+          6,
+          9
+        ],
+        "k1": 1,
+        "k2": 1
+      },
+      "expected": 43,
+      "source": "example"
+    },
+    {
+      "input": {
+        "nums1": [
+          1
+        ],
+        "nums2": [
+          2,
+          10,
+          20,
+          19
+        ],
+        "k1": 0,
+        "k2": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          -100,
+          100
+        ],
+        "nums2": [
+          2,
+          10,
+          20,
+          19
+        ],
+        "k1": 0,
+        "k2": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "nums2": [
+          2,
+          10,
+          20,
+          19
+        ],
+        "k1": 0,
+        "k2": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "nums2": [
+          2,
+          10,
+          20,
+          19
+        ],
+        "k1": 0,
+        "k2": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          -100,
+          -100
+        ],
+        "nums2": [
+          2,
+          10,
+          20,
+          19
+        ],
+        "k1": 0,
+        "k2": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          100,
+          100
+        ],
+        "nums2": [
+          2,
+          10,
+          20,
+          19
+        ],
+        "k1": 0,
+        "k2": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "nums2": [
+          2
+        ],
+        "k1": 0,
+        "k2": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "nums2": [
+          -100,
+          100
+        ],
+        "k1": 0,
+        "k2": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "nums2": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "k1": 0,
+        "k2": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "nums2": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "k1": 0,
+        "k2": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "nums2": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "k1": 0,
+        "k2": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "nums2": [
+          -100,
+          -100
+        ],
+        "k1": 0,
+        "k2": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "nums1": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "nums2": [
+          100,
+          100
+        ],
+        "k1": 0,
+        "k2": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

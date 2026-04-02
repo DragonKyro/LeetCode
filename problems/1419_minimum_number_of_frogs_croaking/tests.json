@@ -1,0 +1,57 @@
+{
+  "problem_id": 1419,
+  "title": "Minimum Number of Frogs Croaking",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-number-of-frogs-croaking/",
+  "test_cases": [
+    {
+      "input": {
+        "croakOfFrogs": "croakcroak"
+      },
+      "expected": 1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "croakOfFrogs": "crcoakroak"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "croakOfFrogs": "croakcrook"
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "croakOfFrogs": "c"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "croakOfFrogs": "cccccccccc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "croakOfFrogs": "cdcdcdcdcd"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "croakOfFrogs": "croakkaorc"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

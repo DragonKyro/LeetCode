@@ -1,0 +1,43 @@
+{
+  "problem_id": 3675,
+  "title": "Minimum Operations to Transform String",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-operations-to-transform-string/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "yz"
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "y"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "yy"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "yzyz"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

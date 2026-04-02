@@ -1,0 +1,50 @@
+{
+  "problem_id": 1839,
+  "title": "Longest Substring Of All Vowels in Order",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/longest-substring-of-all-vowels-in-order/",
+  "test_cases": [
+    {
+      "input": {
+        "word": "aeiaaioaaaaeiiiiouuuooaauuaeiu"
+      },
+      "expected": 13,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word": "aeeeiiiioooauuuaeiou"
+      },
+      "expected": 5,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word": "a"
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word": "ababababababababababababababab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word": "aeiaaioaaaaeiiiiiieaaaaoiaaiea"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

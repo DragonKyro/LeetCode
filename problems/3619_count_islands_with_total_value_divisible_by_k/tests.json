@@ -1,0 +1,167 @@
+{
+  "problem_id": 3619,
+  "title": "Count Islands With Total Value Divisible by K",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/",
+  "test_cases": [
+    {
+      "input": {
+        "grid": [
+          [
+            0,
+            2,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            5,
+            0,
+            0,
+            5
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            4,
+            7,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            8
+          ]
+        ],
+        "k": 5
+      },
+      "expected": 2,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            3,
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            3,
+            0,
+            3
+          ],
+          [
+            3,
+            0,
+            3,
+            0
+          ]
+        ],
+        "k": 3
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            0,
+            2,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            5,
+            0,
+            0,
+            5
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            4,
+            7,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            8
+          ]
+        ],
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "grid": [
+          [
+            0,
+            2,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            5,
+            0,
+            0,
+            5
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            4,
+            7,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            8
+          ]
+        ],
+        "k": 1000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

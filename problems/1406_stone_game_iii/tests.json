@@ -1,0 +1,119 @@
+{
+  "problem_id": 1406,
+  "title": "Stone Game III",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/stone-game-iii/",
+  "test_cases": [
+    {
+      "input": {
+        "stoneValue": [
+          1,
+          2,
+          3,
+          7
+        ]
+      },
+      "expected": "Bob",
+      "source": "example"
+    },
+    {
+      "input": {
+        "stoneValue": [
+          1,
+          2,
+          3,
+          -9
+        ]
+      },
+      "expected": "Alice",
+      "source": "example"
+    },
+    {
+      "input": {
+        "stoneValue": [
+          1,
+          2,
+          3,
+          6
+        ]
+      },
+      "expected": "Tie",
+      "source": "example"
+    },
+    {
+      "input": {
+        "stoneValue": [
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "stoneValue": [
+          -1000,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "stoneValue": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "stoneValue": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "stoneValue": [
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "stoneValue": [
+          -1000,
+          -1000
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "stoneValue": [
+          1,
+          1
+        ]
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

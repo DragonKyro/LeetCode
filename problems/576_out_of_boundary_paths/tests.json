@@ -1,0 +1,63 @@
+{
+  "problem_id": 576,
+  "title": "Out of Boundary Paths",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/out-of-boundary-paths/",
+  "test_cases": [
+    {
+      "input": {
+        "m": 2,
+        "n": 2,
+        "maxMove": 2,
+        "startRow": 0,
+        "startColumn": 0
+      },
+      "expected": 6,
+      "source": "example"
+    },
+    {
+      "input": {
+        "m": 1,
+        "n": 3,
+        "maxMove": 3,
+        "startRow": 0,
+        "startColumn": 1
+      },
+      "expected": 12,
+      "source": "example"
+    },
+    {
+      "input": {
+        "m": 2,
+        "n": 2,
+        "maxMove": 0,
+        "startRow": 0,
+        "startColumn": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "m": 2,
+        "n": 2,
+        "maxMove": 50,
+        "startRow": 0,
+        "startColumn": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "m": 2,
+        "n": 2,
+        "maxMove": 1,
+        "startRow": 0,
+        "startColumn": 0
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

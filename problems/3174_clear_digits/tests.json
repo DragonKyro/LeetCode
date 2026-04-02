@@ -1,0 +1,50 @@
+{
+  "problem_id": 3174,
+  "title": "Clear Digits",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/clear-digits/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "abc"
+      },
+      "expected": "abc",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "cb34"
+      },
+      "expected": "",
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

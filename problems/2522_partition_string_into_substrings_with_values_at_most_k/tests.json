@@ -1,0 +1,72 @@
+{
+  "problem_id": 2522,
+  "title": "Partition String Into Substrings With Values at Most K",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/partition-string-into-substrings-with-values-at-most-k/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "165462",
+        "k": 60
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "238182",
+        "k": 5
+      },
+      "expected": -1,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "1",
+        "k": 60
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "111111",
+        "k": 60
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "121212",
+        "k": 60
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "165561",
+        "k": 60
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "165462",
+        "k": 1
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "165462",
+        "k": 1000000000
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

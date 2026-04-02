@@ -1,0 +1,48 @@
+{
+  "problem_id": 3093,
+  "title": "Longest Common Suffix Queries",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/longest-common-suffix-queries/",
+  "test_cases": [
+    {
+      "input": {
+        "wordsContainer": [
+          "abcd",
+          "bcd",
+          "xbcd"
+        ],
+        "wordsQuery": [
+          "cd",
+          "bcd",
+          "xyz"
+        ]
+      },
+      "expected": [
+        1,
+        1,
+        1
+      ],
+      "source": "example"
+    },
+    {
+      "input": {
+        "wordsContainer": [
+          "abcdefgh",
+          "poiuygh",
+          "ghghgh"
+        ],
+        "wordsQuery": [
+          "gh",
+          "acbfgh",
+          "acbfegh"
+        ]
+      },
+      "expected": [
+        2,
+        0,
+        2
+      ],
+      "source": "example"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "problem_id": 2124,
+  "title": "Check if All A's Appears Before All B's",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "aaabbb"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "abab"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "bbb"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "a"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "aaaaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "ababab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "problem_id": 3320,
+  "title": "Count The Number of Winning Sequences",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/count-the-number-of-winning-sequences/",
+  "test_cases": [
+    {
+      "input": {
+        "s": "FFF"
+      },
+      "expected": 3,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "FWEFW"
+      },
+      "expected": 18,
+      "source": "example"
+    },
+    {
+      "input": {
+        "s": "F"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "FGFG"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "s": "FF"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

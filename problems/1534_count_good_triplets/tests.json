@@ -1,0 +1,120 @@
+{
+  "problem_id": 1534,
+  "title": "Count Good Triplets",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/count-good-triplets/",
+  "test_cases": [
+    {
+      "input": {
+        "arr": [
+          3,
+          0,
+          1,
+          1,
+          9,
+          7
+        ],
+        "a": 7,
+        "b": 2,
+        "c": 3
+      },
+      "expected": 4,
+      "source": "example"
+    },
+    {
+      "input": {
+        "arr": [
+          1,
+          1,
+          2,
+          2,
+          3
+        ],
+        "a": 0,
+        "b": 0,
+        "c": 1
+      },
+      "expected": 0,
+      "source": "example"
+    },
+    {
+      "input": {
+        "arr": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "a": 7,
+        "b": 2,
+        "c": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "a": 7,
+        "b": 2,
+        "c": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "a": 7,
+        "b": 2,
+        "c": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          0,
+          0,
+          0
+        ],
+        "a": 7,
+        "b": 2,
+        "c": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "arr": [
+          1,
+          1,
+          1
+        ],
+        "a": 7,
+        "b": 2,
+        "c": 3
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}

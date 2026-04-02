@@ -1,0 +1,35 @@
+{
+  "problem_id": 365,
+  "title": "Water and Jug Problem",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/water-and-jug-problem/",
+  "test_cases": [
+    {
+      "input": {
+        "x": 3,
+        "y": 5,
+        "target": 4
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "x": 2,
+        "y": 6,
+        "target": 5
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "x": 1,
+        "y": 2,
+        "target": 3
+      },
+      "expected": true,
+      "source": "example"
+    }
+  ]
+}

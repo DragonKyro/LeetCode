@@ -1,0 +1,43 @@
+{
+  "problem_id": 2423,
+  "title": "Remove Letter To Equalize Frequency",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/remove-letter-to-equalize-frequency/",
+  "test_cases": [
+    {
+      "input": {
+        "word": "abcc"
+      },
+      "expected": true,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word": "aazz"
+      },
+      "expected": false,
+      "source": "example"
+    },
+    {
+      "input": {
+        "word": "aaaa"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word": "abab"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    },
+    {
+      "input": {
+        "word": "abba"
+      },
+      "expected": "__VERIFY__",
+      "source": "edge_case"
+    }
+  ]
+}
